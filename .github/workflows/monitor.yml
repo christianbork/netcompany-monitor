@@ -1,0 +1,67 @@
+name: Netcompany TED monitor
+
+on:
+  schedule:
+    # GitHub schedules run in UTC. Denmark is UTC+1 in winter and UTC+2 in summer,
+    # so we wake up at both candidate hours on weekdays (TED publishes Mon-Fri) and
+    # monitor.py only acts when it is 08:00 in Copenhagen.
+    - cron: "0 6,7 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      since:
+        description: "Also list every win published since (YYYY-MM-DD), e.g. to catch up. Leave blank for new only."
+        required: false
+        default: ""
+
+permissions:
+  contents: write           # commit state/seen.json and data/netcompany_wins.xlsx
+  issues: write             # open an issue when there is something new
+
+concurrency:
+  group: netcompany-monitor
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Check TED
+        id: check
+        env:
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          SINCE: ${{ github.event.inputs.since }}
+        run: |
+          if [ -n "$SINCE" ]; then python monitor.py --since "$SINCE"; else python monitor.py; fi
+
+      - name: Open GitHub issue
+        if: steps.check.outputs.alert == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: ${{ steps.check.outputs.title }}
+        run: |
+          gh label create netcompany --color 1F4E78 --force >/dev/null 2>&1 || true
+          gh issue create --title "$TITLE" --body-file alert.md --label netcompany --assignee "${{ github.repository_owner }}"
+
+      - name: Save state and spreadsheet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/seen.json data/netcompany_wins.xlsx 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "State unchanged."
+          else
+            git commit -m "Update Netcompany wins $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
