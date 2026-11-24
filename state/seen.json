@@ -7,127 +7,373 @@
  ],
  "failures": 0,
  "fingerprints": {
-  "agency for support for berec (berec office)|600000|EUR": "27226-2026",
-  "atp|193201477|DKK": "92683-2025",
-  "atp|197860202|DKK": "233714-2025",
-  "avinor as|1200000000|NOK": "116542-2024",
-  "banedanmark|9302300|DKK": "766738-2025",
-  "brugerklubben sbsys|61135574|DKK": "687100-2024",
-  "civilstyrelsen|137470720|DKK": "436312-2025",
-  "court of justice of the european union|180000000|EUR": "785610-2024",
-  "coöperatie mbo voorzieningen u.a.|1|EUR": "34301-2025",
-  "danmarks fængsler v. styrelsen for danmarks fængsler|148000000|DKK": "749910-2026",
-  "digitaliseringsstyrelsen|185000000|DKK": "453112-2026",
-  "digitaliseringsstyrelsen|283495888|DKK": "162659-2025",
-  "erhvervsstyrelsen|1142000000|DKK": "427263-2024",
-  "espon egtc|1000000|EUR": "463422-2026",
-  "eu-lisa|74000000|EUR": "601963-2026",
-  "european border and coast guard agency (frontex)|186500000|EUR": "214583-2026",
-  "european border and coast guard agency (frontex)|2300000|EUR": "92566-2026",
-  "european border and coast guard agency (frontex)|75000000|EUR": "76456-2026",
-  "european central bank|27000000|EUR": "511509-2025",
-  "european centre for the development of vocational training, cedefop - european centre for the development of vocational training|244000|EUR": "670345-2026",
-  "european commission, dg comm - communication|240000000|EUR": "740910-2024",
-  "european commission, dg digit - digital services|10000000|EUR": "503529-2024",
-  "european commission, dg digit - digital services|243317267|EUR": "354593-2026",
-  "european commission, dg digit - digital services|290371157|EUR": "37183-2026",
-  "european commission, dg digit - digital services|3971638879|EUR": "545219-2026",
-  "european commission, dg digit - digital services|693018670|EUR": "466443-2025",
-  "european commission, dg estat - eurostat|17957500|EUR": "478198-2026",
-  "european commission, dg estat - eurostat|34798088|EUR": "430337-2026",
-  "european commission, dg estat - eurostat|5266250|EUR": "430614-2026",
-  "european commission, dg rtd - research and innovation|7000000|EUR": "652841-2025",
-  "european commission, publications office|10600000|EUR": "533962-2025",
-  "european commission, publications office|1507800|EUR": "396254-2026",
-  "european commission, publications office|27000000|EUR": "401729-2025",
-  "european commission, publications office|400000|EUR": "562411-2026",
-  "european commission|168000000|EUR": "143176-2025",
-  "european education and culture executive agency (eacea) , eacea - european education and culture executive agency|8000000|EUR": "725014-2024",
-  "european external action service (eeas)|145220000|EUR": "11988-2025",
-  "european food safety authority|25000000|EUR": "128087-2026",
-  "european food safety authority|38000000|EUR": "550946-2026",
-  "european investment bank|130000000|EUR": "173831-2026",
-  "european investment bank|160000000|EUR": "169959-2026",
-  "european investment bank|35000000|EUR": "145943-2026",
-  "european parliament, itec - directorate-general for innovation and technological support|42488000|EUR": "72792-2026",
-  "european parliament, sg - directorate-general for information technologies and cybersecurity|115378000|EUR": "513756-2026",
-  "european public prosecutor's office|7500000|EUR": "455121-2025",
-  "european union agency for cybersecurity (enisa)|11000000|EUR": "617339-2025",
-  "european union agency for the operational management of large-scale it systems in the area of freedom, security and justice (eu-lisa)|75669478|EUR": "144045-2024",
-  "european union agency for the operational management of large-scale it systems in the area of freedom, security and justice (eu-lisa)|93000000|EUR": "248525-2026",
-  "european union agency for the space programme|6300000|EUR": "393141-2026",
-  "european union aviation safety agency|1800000|EUR": "580050-2025",
-  "european union intellectual property office|70000000|EUR": "448695-2025",
-  "european union intellectual property office|77840000|EUR": "721788-2024",
-  "european union, represented by the european commission on behalf of and for the account of north macedonia|1900000|EUR": "800290-2024",
-  "færdselsstyrelsen|56689200|DKK": "380471-2025",
-  "gjøvikregionen - anskaffelser|1200000|NOK": "59588-2025",
-  "ikt nordhordland kommunalt oppgåvefellesskap|18977000|NOK": "555981-2024",
-  "inkoop uitvoeringscentrum dienst justitiële inrichtingen (iuc dji)|7500000|EUR": "146685-2025",
-  "kredsløb genbrug p/s|26229600|DKK": "784912-2023",
-  "københavns kommune - børne- og ungdomsforvaltningen|21988600|DKK": "142801-2026",
-  "landbrugsstyrelsen|130000000|DKK": "100805-2024",
-  "landbruksdirektoratet|180000000|NOK": "753444-2026",
-  "landsbyggefonden|11239284|DKK": "332582-2025",
-  "landsbyggefonden|24000000|DKK": "564909-2025",
-  "landsbyggefonden|2600000|DKK": "198941-2024",
-  "ministerie van buitenlandse zaken|204000000|EUR": "645179-2025",
-  "ministerie van volksgezondheid, welzijn en sport|18000000|EUR": "234500-2025",
-  "muitinės departamentas prie lietuvos respublikos finansų ministerijos|1420191|EUR": "799939-2026",
-  "myndigheten för digital förvaltning - digg|650000000|SEK": "599640-2026",
-  "nordre follo kommune|2618794|NOK": "741840-2024",
-  "norwegian accreditation|19000000|NOK": "730196-2025",
-  "oslo kommune v/ utviklings- og kompetanseetaten|360000000|NOK": "173799-2026",
-  "reclassering nederland|31000000|EUR": "613049-2025",
-  "skatteforvaltningen|151967745|DKK": "130732-2026",
-  "skatteverket|36305910|SEK": "369369-2024",
-  "staten og kommunernes indkøbsservice a/s|125705996|DKK": "261017-2025",
-  "staten og kommunernes indkøbsservice a/s|1358386833|DKK": "294230-2024",
-  "staten og kommunernes indkøbsservice a/s|1605806936|DKK": "681926-2024",
-  "staten og kommunernes indkøbsservice a/s|1796789682|DKK": "452934-2025",
-  "staten og kommunernes indkøbsservice a/s|1799349017|DKK": "807050-2025",
-  "staten og kommunernes indkøbsservice a/s|2347000000|DKK": "348748-2025",
-  "staten og kommunernes indkøbsservice a/s|3617507930|DKK": "504876-2024",
-  "staten og kommunernes indkøbsservice a/s|4193000000|DKK": "349254-2025",
-  "staten og kommunernes indkøbsservice a/s|69485759|DKK": "184460-2024",
-  "statens vegvesen|800000000|NOK": "310973-2025",
-  "stichting studielink|25400000|EUR": "843522-2025",
-  "styrelsen for it og læring|220000000|DKK": "59252-2026",
-  "styrelsen for it og læring|365000000|DKK": "39239-2026",
-  "styrelsen for it og læring|80000000|DKK": "218832-2025",
-  "surf b.v.|37000000|EUR": "120474-2026",
-  "trafikstyrelsen|40000000|DKK": "275325-2024",
-  "udenrigsministeriet|128878000|DKK": "578698-2024",
-  "udviklings- og forenklingsstyrelsen på vegne af skatteministeriets koncern|2100000000|DKK": "503389-2024",
-  "utdanningsdirektoratet|900000000|NOK": "387041-2025",
-  "utenriksdepartementet|33888373|NOK": "650605-2024",
-  "valstybinė mokesčių inspekcija prie lietuvos respublikos finansų ministerijos|17121500|EUR": "704276-2024",
-  "volda kommune|14000000|NOK": "353249-2024",
-  "všį centrinė projektų valdymo agentūra|1160000|EUR": "482824-2025",
-  "«κοινωνια της πληροφοριας μ.α.ε.»|78349773|EUR": "170903-2024",
-  "ανεξάρτητη αρχή δημοσίων εσόδων (α.α.δ.ε.)|6399000|EUR": "871014-2025",
-  "ανεξάρτητη αρχή δημοσίων εσόδων (α.α.δ.ε.)|995315|EUR": "307679-2024",
-  "ανεξαρτητη αρχη \"επιθεωρηση εργασιας\"|2332900|EUR": "404671-2025",
-  "ανεξαρτητη αρχη δημοσιων εσοδων|1023100|EUR": "430658-2025",
-  "ανεξαρτητη αρχη δημοσιων εσοδων|69501233|EUR": "794950-2024",
-  "εθνικος οργανισμος παροχης υπηρεσιων υγειας (εοπυυ)|1485000|EUR": "608477-2026",
-  "εθνικος οργανισμος παροχης υπηρεσιων υγειας (εοπυυ)|6799932|EUR": "148859-2025",
-  "εθνικος οργανισμος παροχης υπηρεσιων υγειας (εοπυυ)|9538949|EUR": "262902-2025",
-  "εταιρια υδρευσεως και αποχετευσεως πρωτευουσης α.ε. (ε.υδ.α.π. α.ε.)|7153650|EUR": "227556-2025",
-  "ηδικα α.ε|2490394|EUR": "43458-2025",
-  "ηδικα α.ε|44500000|EUR": "84429-2025",
-  "ηλεκτρονικη διακυβερνηση κοινωνικης ασφαλισης (ηδικα) αε|11067184|EUR": "499583-2025",
-  "ηλεκτρονικος εθνικος φορεας κοινωνικης ασφαλισης|7567800|EUR": "305677-2025",
-  "κοινωνια της πληροφοριας μ.α.ε. (κτπ μαε)|2762658|EUR": "608365-2024",
-  "κοινωνια της πληροφοριας μ.α.ε. (κτπ μαε)|52939772|EUR": "812802-2025",
-  "κοινωνια της πληροφοριας μ.α.ε. (κτπ μαε)|6100000|EUR": "264328-2024",
-  "κοινωνια της πληροφοριας μ.α.ε. (κτπ μαε)|95000000|EUR": "187894-2024",
-  "πανεπιστήμιο πατρών|170000|EUR": "389389-2024",
-  "πανεπιστήμιο πατρών|217800|EUR": "157865-2025",
-  "πανεπιστήμιο πατρών|266773|EUR": "57870-2026",
-  "τεχνικο επιμελητηριο ελλαδας|63000097|EUR": "452616-2025",
-  "τεχνικο επιμελητηριο ελλαδας|93022266|EUR": "432522-2026",
-  "τμήμα υπηρεσιών πληροφορικής|250050|EUR": "54336-2024"
+  "b|agency for support for berec (berec office)|600000|EUR": "27226-2026",
+  "b|atp|193201477|DKK": "92683-2025",
+  "b|atp|197860202|DKK": "233714-2025",
+  "b|avinor as|1200000000|NOK": "116542-2024",
+  "b|banedanmark|9302300|DKK": "766738-2025",
+  "b|brugerklubben sbsys|61135574|DKK": "687100-2024",
+  "b|civilstyrelsen|137470720|DKK": "436312-2025",
+  "b|court of justice of the european union|180000000|EUR": "785610-2024",
+  "b|coöperatie mbo voorzieningen u.a.|1|EUR": "34301-2025",
+  "b|danmarks fængsler v. styrelsen for danmarks fængsler|148000000|DKK": "749910-2026",
+  "b|digitaliseringsstyrelsen|185000000|DKK": "453112-2026",
+  "b|digitaliseringsstyrelsen|283495888|DKK": "162659-2025",
+  "b|erhvervsstyrelsen|1142000000|DKK": "427263-2024",
+  "b|espon egtc|1000000|EUR": "463422-2026",
+  "b|eu-lisa|74000000|EUR": "601963-2026",
+  "b|european border and coast guard agency (frontex)|186500000|EUR": "214583-2026",
+  "b|european border and coast guard agency (frontex)|2300000|EUR": "92566-2026",
+  "b|european border and coast guard agency (frontex)|75000000|EUR": "76456-2026",
+  "b|european central bank|27000000|EUR": "511509-2025",
+  "b|european centre for the development of vocational training, cedefop - european centre for the development of vocational training|244000|EUR": "670345-2026",
+  "b|european commission, dg comm - communication|240000000|EUR": "740910-2024",
+  "b|european commission, dg digit - digital services|10000000|EUR": "503529-2024",
+  "b|european commission, dg digit - digital services|243317267|EUR": "354593-2026",
+  "b|european commission, dg digit - digital services|290371157|EUR": "37183-2026",
+  "b|european commission, dg digit - digital services|3971638879|EUR": "545219-2026",
+  "b|european commission, dg digit - digital services|693018670|EUR": "466443-2025",
+  "b|european commission, dg estat - eurostat|17957500|EUR": "478198-2026",
+  "b|european commission, dg estat - eurostat|34798088|EUR": "430337-2026",
+  "b|european commission, dg estat - eurostat|5266250|EUR": "430614-2026",
+  "b|european commission, dg rtd - research and innovation|7000000|EUR": "652841-2025",
+  "b|european commission, publications office|10600000|EUR": "533962-2025",
+  "b|european commission, publications office|1507800|EUR": "396254-2026",
+  "b|european commission, publications office|27000000|EUR": "401729-2025",
+  "b|european commission, publications office|400000|EUR": "562411-2026",
+  "b|european commission|168000000|EUR": "143176-2025",
+  "b|european education and culture executive agency (eacea) , eacea - european education and culture executive agency|8000000|EUR": "725014-2024",
+  "b|european external action service (eeas)|145220000|EUR": "11988-2025",
+  "b|european food safety authority|25000000|EUR": "128087-2026",
+  "b|european food safety authority|38000000|EUR": "550946-2026",
+  "b|european investment bank|130000000|EUR": "173831-2026",
+  "b|european investment bank|160000000|EUR": "169959-2026",
+  "b|european investment bank|35000000|EUR": "145943-2026",
+  "b|european parliament, itec - directorate-general for innovation and technological support|42488000|EUR": "72792-2026",
+  "b|european parliament, sg - directorate-general for information technologies and cybersecurity|115378000|EUR": "513756-2026",
+  "b|european public prosecutor's office|7500000|EUR": "455121-2025",
+  "b|european union agency for cybersecurity (enisa)|11000000|EUR": "617339-2025",
+  "b|european union agency for the operational management of large-scale it systems in the area of freedom, security and justice (eu-lisa)|75669478|EUR": "144045-2024",
+  "b|european union agency for the operational management of large-scale it systems in the area of freedom, security and justice (eu-lisa)|93000000|EUR": "248525-2026",
+  "b|european union agency for the space programme|6300000|EUR": "393141-2026",
+  "b|european union aviation safety agency|1800000|EUR": "580050-2025",
+  "b|european union intellectual property office|70000000|EUR": "448695-2025",
+  "b|european union intellectual property office|77840000|EUR": "721788-2024",
+  "b|european union, represented by the european commission on behalf of and for the account of north macedonia|1900000|EUR": "800290-2024",
+  "b|færdselsstyrelsen|56689200|DKK": "380471-2025",
+  "b|gjøvikregionen - anskaffelser|1200000|NOK": "59588-2025",
+  "b|ikt nordhordland kommunalt oppgåvefellesskap|18977000|NOK": "555981-2024",
+  "b|inkoop uitvoeringscentrum dienst justitiële inrichtingen (iuc dji)|7500000|EUR": "146685-2025",
+  "b|kredsløb genbrug p/s|26229600|DKK": "784912-2023",
+  "b|københavns kommune - børne- og ungdomsforvaltningen|21988600|DKK": "142801-2026",
+  "b|landbrugsstyrelsen|130000000|DKK": "100805-2024",
+  "b|landbruksdirektoratet|180000000|NOK": "753444-2026",
+  "b|landsbyggefonden|11239284|DKK": "332582-2025",
+  "b|landsbyggefonden|24000000|DKK": "564909-2025",
+  "b|landsbyggefonden|2600000|DKK": "198941-2024",
+  "b|ministerie van buitenlandse zaken|204000000|EUR": "645179-2025",
+  "b|ministerie van volksgezondheid, welzijn en sport|18000000|EUR": "234500-2025",
+  "b|muitinės departamentas prie lietuvos respublikos finansų ministerijos|1420191|EUR": "799939-2026",
+  "b|myndigheten för digital förvaltning - digg|650000000|SEK": "599640-2026",
+  "b|nordre follo kommune|2618794|NOK": "741840-2024",
+  "b|norwegian accreditation|19000000|NOK": "730196-2025",
+  "b|oslo kommune v/ utviklings- og kompetanseetaten|360000000|NOK": "173799-2026",
+  "b|reclassering nederland|31000000|EUR": "613049-2025",
+  "b|skatteforvaltningen|151967745|DKK": "130732-2026",
+  "b|skatteverket|36305910|SEK": "369369-2024",
+  "b|staten og kommunernes indkøbsservice a/s|125705996|DKK": "261017-2025",
+  "b|staten og kommunernes indkøbsservice a/s|1358386833|DKK": "294230-2024",
+  "b|staten og kommunernes indkøbsservice a/s|1605806936|DKK": "681926-2024",
+  "b|staten og kommunernes indkøbsservice a/s|1796789682|DKK": "452934-2025",
+  "b|staten og kommunernes indkøbsservice a/s|1799349017|DKK": "807050-2025",
+  "b|staten og kommunernes indkøbsservice a/s|2347000000|DKK": "348748-2025",
+  "b|staten og kommunernes indkøbsservice a/s|3617507930|DKK": "504876-2024",
+  "b|staten og kommunernes indkøbsservice a/s|4193000000|DKK": "349254-2025",
+  "b|staten og kommunernes indkøbsservice a/s|69485759|DKK": "184460-2024",
+  "b|statens vegvesen|800000000|NOK": "310973-2025",
+  "b|stichting studielink|25400000|EUR": "843522-2025",
+  "b|styrelsen for it og læring|220000000|DKK": "59252-2026",
+  "b|styrelsen for it og læring|365000000|DKK": "39239-2026",
+  "b|styrelsen for it og læring|80000000|DKK": "218832-2025",
+  "b|surf b.v.|37000000|EUR": "120474-2026",
+  "b|trafikstyrelsen|40000000|DKK": "275325-2024",
+  "b|udenrigsministeriet|128878000|DKK": "578698-2024",
+  "b|udviklings- og forenklingsstyrelsen på vegne af skatteministeriets koncern|2100000000|DKK": "503389-2024",
+  "b|utdanningsdirektoratet|900000000|NOK": "387041-2025",
+  "b|utenriksdepartementet|33888373|NOK": "650605-2024",
+  "b|valstybinė mokesčių inspekcija prie lietuvos respublikos finansų ministerijos|17121500|EUR": "704276-2024",
+  "b|volda kommune|14000000|NOK": "353249-2024",
+  "b|všį centrinė projektų valdymo agentūra|1160000|EUR": "482824-2025",
+  "b|«κοινωνια της πληροφοριας μ.α.ε.»|78349773|EUR": "170903-2024",
+  "b|ανεξάρτητη αρχή δημοσίων εσόδων (α.α.δ.ε.)|6399000|EUR": "871014-2025",
+  "b|ανεξάρτητη αρχή δημοσίων εσόδων (α.α.δ.ε.)|995315|EUR": "307679-2024",
+  "b|ανεξαρτητη αρχη \"επιθεωρηση εργασιας\"|2332900|EUR": "404671-2025",
+  "b|ανεξαρτητη αρχη δημοσιων εσοδων|1023100|EUR": "430658-2025",
+  "b|ανεξαρτητη αρχη δημοσιων εσοδων|69501233|EUR": "794950-2024",
+  "b|εθνικος οργανισμος παροχης υπηρεσιων υγειας (εοπυυ)|1485000|EUR": "608477-2026",
+  "b|εθνικος οργανισμος παροχης υπηρεσιων υγειας (εοπυυ)|6799932|EUR": "148859-2025",
+  "b|εθνικος οργανισμος παροχης υπηρεσιων υγειας (εοπυυ)|9538949|EUR": "262902-2025",
+  "b|εταιρια υδρευσεως και αποχετευσεως πρωτευουσης α.ε. (ε.υδ.α.π. α.ε.)|7153650|EUR": "227556-2025",
+  "b|ηδικα α.ε|2490394|EUR": "43458-2025",
+  "b|ηδικα α.ε|44500000|EUR": "84429-2025",
+  "b|ηλεκτρονικη διακυβερνηση κοινωνικης ασφαλισης (ηδικα) αε|11067184|EUR": "499583-2025",
+  "b|ηλεκτρονικος εθνικος φορεας κοινωνικης ασφαλισης|7567800|EUR": "305677-2025",
+  "b|κοινωνια της πληροφοριας μ.α.ε. (κτπ μαε)|2762658|EUR": "608365-2024",
+  "b|κοινωνια της πληροφοριας μ.α.ε. (κτπ μαε)|52939772|EUR": "812802-2025",
+  "b|κοινωνια της πληροφοριας μ.α.ε. (κτπ μαε)|6100000|EUR": "264328-2024",
+  "b|κοινωνια της πληροφοριας μ.α.ε. (κτπ μαε)|95000000|EUR": "187894-2024",
+  "b|πανεπιστήμιο πατρών|170000|EUR": "389389-2024",
+  "b|πανεπιστήμιο πατρών|217800|EUR": "157865-2025",
+  "b|πανεπιστήμιο πατρών|266773|EUR": "57870-2026",
+  "b|τεχνικο επιμελητηριο ελλαδας|63000097|EUR": "452616-2025",
+  "b|τεχνικο επιμελητηριο ελλαδας|93022266|EUR": "432522-2026",
+  "b|τμήμα υπηρεσιών πληροφορικής|250050|EUR": "54336-2024",
+  "p|0069591e-098b-4b97-85cb-dc93d90aa2b8|130000000|EUR": "173831-2026",
+  "p|01d8cf40-19d5-4ac0-b397-54e8bb62d342|2762658|EUR": "608365-2024",
+  "p|063dce55-9b89-4be2-befa-a4afa1af31e1|35000000|EUR": "145943-2026",
+  "p|080912e6-371c-4059-a297-d2e670269131|36305910|SEK": "369369-2024",
+  "p|08af05ad-bd42-41b0-bac4-0211a7d45131|11239284|DKK": "332582-2025",
+  "p|0a8a9c03-a2ce-454d-8322-b1578a79d9e1|70000000|EUR": "448695-2025",
+  "p|0a970106-d240-40bb-8637-157ed4ebf7ba|3617507930|DKK": "504876-2024",
+  "p|0bd01907-9342-4b6c-8888-063737649648|250050|EUR": "54336-2024",
+  "p|0ede98a5-c346-44b8-b11a-aefe9202033b|1200000|NOK": "59588-2025",
+  "p|10c4ce8e-c8e1-4e20-a997-4b6c1e6ab369|17121500|EUR": "704276-2024",
+  "p|11b1e950-9eee-440a-a4d7-a5cc8a247311|1|EUR": "34301-2025",
+  "p|14f81692-5810-4f8c-9706-d34bc5646fc6|19000000|NOK": "730196-2025",
+  "p|1504660c-5517-488a-bb90-ae7686e19493|52939772|EUR": "812802-2025",
+  "p|1569efb1-47bd-4f8b-bfe8-c07798e8a50e|27000000|EUR": "511509-2025",
+  "p|199df707-6e17-406b-b4ba-433f6a75f4a1|63000097|EUR": "452616-2025",
+  "p|199df707-6e17-406b-b4ba-433f6a75f4a1|93022266|EUR": "432522-2026",
+  "p|1a52bc22-d5b2-40df-b37b-26d609dc67d6|17957500|EUR": "478198-2026",
+  "p|1a52bc22-d5b2-40df-b37b-26d609dc67d6|34798088|EUR": "430337-2026",
+  "p|1a52bc22-d5b2-40df-b37b-26d609dc67d6|5266250|EUR": "430614-2026",
+  "p|1d53fbd7-f9ad-44d2-813a-198ffb19a99d|33888373|NOK": "650605-2024",
+  "p|1e9ee827-b78f-4e6a-9c89-f12aa9ac9600|80000000|DKK": "218832-2025",
+  "p|1f4d3920-4967-4159-b70a-53aaa4c9bea2|69501233|EUR": "794950-2024",
+  "p|20420409-3391-4abd-93ea-9c257ac66185|27000000|EUR": "401729-2025",
+  "p|20bf7c5d-bffe-46d2-90f0-35498d21eeb9|7567800|EUR": "305677-2025",
+  "p|23d6a768-b548-4639-899b-2f89abd09fb4|1605806936|DKK": "681926-2024",
+  "p|274aa56a-6d52-41b8-87ae-0ae4b30b7ac7|1142000000|DKK": "427263-2024",
+  "p|2a0ded0f-1713-4feb-99ef-ceabc2e81b92|180000000|EUR": "785610-2024",
+  "p|2c4a8991-c9bc-4a6f-9571-cad05dfe4898|800000000|NOK": "310973-2025",
+  "p|2d92e45d-5d20-4091-8b74-2ac230106289|7500000|EUR": "146685-2025",
+  "p|31cb0e20-0d75-4d2f-b58e-e070ac0b19c6|56689200|DKK": "380471-2025",
+  "p|35105472-92ff-4009-86bf-231104adb193|1160000|EUR": "482824-2025",
+  "p|360c7f3a-3d1b-4432-ae96-64ad603e8003|4193000000|DKK": "349254-2025",
+  "p|393268f4-db67-4095-9046-79aab32767ec|2600000|DKK": "198941-2024",
+  "p|3abce1a1-d8bb-4d51-8ec0-01e880379af6|160000000|EUR": "169959-2026",
+  "p|3af2f70f-afae-4c76-883c-cd7572024513|6100000|EUR": "264328-2024",
+  "p|3b62d907-6005-4cd6-a18e-05d02c00f5b1|7000000|EUR": "652841-2025",
+  "p|3fe17404-1b29-452f-ba28-9dfc460358f7|9302300|DKK": "766738-2025",
+  "p|40817335-58a0-4a65-a893-ad967e6e072d|2300000|EUR": "92566-2026",
+  "p|44bb93a3-4130-44e4-9e97-9b6e253cc53f|93000000|EUR": "248525-2026",
+  "p|450c1c5c-de51-4c8f-a0a5-ad2d9da2d2c6|1420191|EUR": "799939-2026",
+  "p|46439658-5635-4465-ae7d-0a40e6e8e546|11000000|EUR": "617339-2025",
+  "p|48c787db-68a1-444b-9de8-fb1f672eb432|37000000|EUR": "120474-2026",
+  "p|4d47d900-ad81-4419-a335-c2e3f1e978ee|10000000|EUR": "503529-2024",
+  "p|50308e3b-34b0-4fb3-aced-01fb09d84ee6|600000|EUR": "27226-2026",
+  "p|50f550fa-f7a2-4be6-a828-7cc29b4f803b|204000000|EUR": "645179-2025",
+  "p|5342ef83-e3c8-4f04-85af-a32282f47636|25400000|EUR": "843522-2025",
+  "p|553355d5-c984-452c-8810-070c9ee32ccf|74000000|EUR": "601963-2026",
+  "p|5613dc91-5348-4d25-b0bd-070cdec2c79f|1900000|EUR": "800290-2024",
+  "p|56e67675-a1c4-41bc-a280-afcc5f76ca6a|2100000000|DKK": "503389-2024",
+  "p|5a4b7919-d1bd-494e-afeb-43b19f8a042d|168000000|EUR": "143176-2025",
+  "p|5c7658e1-c115-4a77-ae48-217432577b1b|693018670|EUR": "466443-2025",
+  "p|5e0b382c-59d9-445c-a5f3-48135c4a97c0|26229600|DKK": "784912-2023",
+  "p|5e4a3bd9-ab1e-42c0-bb7b-0c8830d72fbf|21988600|DKK": "142801-2026",
+  "p|5e785372-4601-46cb-bdeb-c6f07db98bfd|244000|EUR": "670345-2026",
+  "p|623fbf51-86a5-46f6-a403-40b48c87c14c|283495888|DKK": "162659-2025",
+  "p|62f833bd-76c4-4cf7-9a30-71240f297991|1507800|EUR": "396254-2026",
+  "p|63509be7-be0d-4859-81a2-ef6e31c40460|400000|EUR": "562411-2026",
+  "p|6574c7c0-a3a7-4187-a634-09399da19537|1023100|EUR": "430658-2025",
+  "p|676a6db9-e12a-4856-822c-b336c3c2dd55|995315|EUR": "307679-2024",
+  "p|68f75b0e-02b8-4345-a7e9-9f340c0bd576|1200000000|NOK": "116542-2024",
+  "p|69fead04-b89e-4f4e-ba38-95b1634c6178|3971638879|EUR": "545219-2026",
+  "p|6acc65d8-c702-4046-9e6c-8afdff958dac|25000000|EUR": "128087-2026",
+  "p|6d603a77-c881-41d2-92d6-fab1838a58c9|75000000|EUR": "76456-2026",
+  "p|6e5241ef-bfa6-491e-a0da-3da48ccc7478|2490394|EUR": "43458-2025",
+  "p|7095253a-bb7b-4fad-8caa-50dc4e0ea4bf|900000000|NOK": "387041-2025",
+  "p|710d429a-80ed-428f-bc5a-8d1900402316|128878000|DKK": "578698-2024",
+  "p|7387fb7c-5f2d-4161-a89e-409b00521f65|1796789682|DKK": "452934-2025",
+  "p|76a63579-903a-4a18-8def-56cf390f658e|290371157|EUR": "37183-2026",
+  "p|79b1ea1f-ca34-40fc-a4d6-4cc39ff0337b|217800|EUR": "157865-2025",
+  "p|7dd7beb8-0784-47eb-8b4e-7eb7b11f7613|360000000|NOK": "173799-2026",
+  "p|8281aabd-4422-4ff1-b4b7-e4bc5a3b2e94|243317267|EUR": "354593-2026",
+  "p|830cefc4-9534-4acc-9924-b46ef22d71b2|1358386833|DKK": "294230-2024",
+  "p|9061b66d-2a6d-488e-a528-76f592170a7b|18000000|EUR": "234500-2025",
+  "p|90a6bd27-68b3-439b-a39c-bab53cd22f8e|1800000|EUR": "580050-2025",
+  "p|9379701f-7961-459e-ad24-6e1c35276a91|69485759|DKK": "184460-2024",
+  "p|937f1694-cda6-48bf-97c6-40025009ddbd|137470720|DKK": "436312-2025",
+  "p|945e2f16-de07-4465-8d99-9c93713d6ad3|7153650|EUR": "227556-2025",
+  "p|96d849c2-3858-4f58-bfe0-39594100b461|61135574|DKK": "687100-2024",
+  "p|99c4bbbe-9f21-4048-bb4c-5a1dbcae9b79|1485000|EUR": "608477-2026",
+  "p|9b5bd3d8-0004-4273-8716-a781ffad029f|77840000|EUR": "721788-2024",
+  "p|9bd31111-52c2-4b6e-b466-28c040113a9d|185000000|DKK": "453112-2026",
+  "p|9beff761-cd50-4c1b-ae96-7756aba55419|42488000|EUR": "72792-2026",
+  "p|a17f3701-a977-45d7-a600-ef8b204362a6|151967745|DKK": "130732-2026",
+  "p|a2ff8f74-80f4-4918-b635-ef558170429a|115378000|EUR": "513756-2026",
+  "p|a3cec840-0e85-49a5-a2de-fe8b43337da4|2332900|EUR": "404671-2025",
+  "p|a539daf4-e04e-49d3-a666-4b25b0ac7b07|170000|EUR": "389389-2024",
+  "p|a665114d-7bd2-4876-87e0-881a81bdba62|220000000|DKK": "59252-2026",
+  "p|a8321597-7c4e-4062-af8a-6b6e341c1984|24000000|DKK": "564909-2025",
+  "p|ab80907d-3b8b-4ab7-b0ec-7f5194ec1646|365000000|DKK": "39239-2026",
+  "p|ae8dde8a-949f-43e4-b749-5c453bc1e92e|40000000|DKK": "275325-2024",
+  "p|aec834bf-ff20-4db9-82a8-b5e1f0b27c16|6399000|EUR": "871014-2025",
+  "p|b14db0d2-d801-45de-88ac-8b0cc83fd81d|197860202|DKK": "233714-2025",
+  "p|b1bd8305-e68e-437a-aa79-44b36ef491a1|130000000|DKK": "100805-2024",
+  "p|b4542e47-eec3-4def-b8a5-d2efd8a7eb83|8000000|EUR": "725014-2024",
+  "p|b6a1837b-7e8f-485b-80c3-57da2f47bd04|18977000|NOK": "555981-2024",
+  "p|ba9f4721-ba9c-42ea-87b2-e3096473af53|38000000|EUR": "550946-2026",
+  "p|c30a7c2d-c04e-4591-9f14-f4a1c9f6d77e|75669478|EUR": "144045-2024",
+  "p|c31e32c1-b763-451a-816c-7557c491a9e2|266773|EUR": "57870-2026",
+  "p|c4a0479a-6af6-4deb-aee2-8e7c8249d0da|2618794|NOK": "741840-2024",
+  "p|c541879b-283d-47fb-bc5f-24452b2fc94c|95000000|EUR": "187894-2024",
+  "p|cc6401a1-8ec7-4e3b-8982-af09174a5bbe|6300000|EUR": "393141-2026",
+  "p|ccdd63b6-d005-4886-8199-ba0b68182fa5|2347000000|DKK": "348748-2025",
+  "p|ce047bcd-a288-4c5d-b2e6-a3727abeb06a|180000000|NOK": "753444-2026",
+  "p|d1ee0590-85aa-4779-bb5c-4cfdccd2485d|14000000|NOK": "353249-2024",
+  "p|d32a0ae3-b91f-4163-be6a-de8e2a826d8f|193201477|DKK": "92683-2025",
+  "p|d9597dba-d3c1-46a4-b94d-ce3b16c9a95a|31000000|EUR": "613049-2025",
+  "p|de615313-d0d1-4f9a-a419-5f9d71f57a7b|240000000|EUR": "740910-2024",
+  "p|df5db022-9ce7-4911-a97c-160357b26276|650000000|SEK": "599640-2026",
+  "p|e1b566d6-f462-416e-b740-62598c1a40e2|7500000|EUR": "455121-2025",
+  "p|e1ede6ce-0e10-41d0-9af9-90e11b018516|44500000|EUR": "84429-2025",
+  "p|e2201ccb-5e44-4c5a-bfc0-6b76f1947127|125705996|DKK": "261017-2025",
+  "p|e2477b16-bb38-4ce5-9496-80e05b3496f0|9538949|EUR": "262902-2025",
+  "p|e48cc483-b1cb-4f7f-8044-e66b0cea3377|145220000|EUR": "11988-2025",
+  "p|ebcc0138-444f-4889-a982-f608c21fd4b8|148000000|DKK": "749910-2026",
+  "p|ee89af85-7832-4bb8-8c95-8e8e65964e19|10600000|EUR": "533962-2025",
+  "p|f1ca13ca-dc89-44f4-9ba0-286ff54461ce|1000000|EUR": "463422-2026",
+  "p|f3cc1f97-abfb-422b-ad54-317ef6afdc5f|1799349017|DKK": "807050-2025",
+  "p|f8f198f7-fac8-400c-9690-f3ef7525185e|11067184|EUR": "499583-2025",
+  "p|fa6c7e60-3694-4f1b-a062-7f9f96ac2314|6799932|EUR": "148859-2025",
+  "p|fbbd0894-c98a-4af4-89cd-f05c85ad5121|78349773|EUR": "170903-2024",
+  "p|ffaff872-ae9c-42eb-bac6-ba94a7a5d288|186500000|EUR": "214583-2026",
+  "x|0069591e-098b-4b97-85cb-dc93d90aa2b8|CFT-1764-ARHS/CFT-1764-Deloitte/CFT-1764-FACE/CFT-1764-SNO2W/CFT-1764-UniC|130000000|EUR": "173831-2026",
+  "x|01d8cf40-19d5-4ac0-b397-54e8bb62d342|2472|2762658|EUR": "608365-2024",
+  "x|063dce55-9b89-4be2-befa-a4afa1af31e1|CFT-1772-Lot 1-(1st in cascade)/CFT-1772-Lot 1-(2nd in cascade)/CFT-1772-Lot 1-(3rd in cascade)/CFT-1772-Lot 1-(4th in cascade)/CFT-1772-Lot 1-(5th in cascade)|35000000|EUR": "145943-2026",
+  "x|080912e6-371c-4059-a297-d2e670269131|-/8-1662134/81662134-3/81662134-4/81662134-5/Avtal och ramavtal81662134/ID81662134-1/ID81662134-2|36305910|SEK": "369369-2024",
+  "x|08af05ad-bd42-41b0-bac4-0211a7d45131|Udbud af kontrakt om levering og drift af Huslejeregistersystemet, levering af Stamdatasystem og ESDH-system samt vedligeholdelse og videreudvikling af alle tre systemer - Netcompany A/S|11239284|DKK": "332582-2025",
+  "x|0a8a9c03-a2ce-454d-8322-b1578a79d9e1|4020250046/4020250047/4020250048|70000000|EUR": "448695-2025",
+  "x|0a970106-d240-40bb-8637-157ed4ebf7ba|\"1. Firewalls licenser, support, vedligehold og tilhørende hardware\" - Sundheds- og Ældreministeriet/(Genudbud) Standardsoftware til digital administration af statslige tilskudsordninger - Københavns Kommune/(NY) Indkøb af Content Service Software - Statens It/02.06 - J.nr. 2023-1328 - SNOW licenser - Statens It/02.06 - Other Infrastructure Software - J.nr.2023-1450 - Statens It/02.06 - Zoom licenser til Statens It - J. nr. 2023-1408 - Statens It/02.06 Citrix funktionalitet - Region Nordjylland/02.06 Gentegning af licenser Adobe Analytics og Target Premium - Tv2/Danmark A/S/02.06 Genudbud af Standardsoftware, installation/implementering og konfiguration samt drift af løsning til OS2udoglær - Aarhus Kommune/02.06 Indkøb af kø-funktionalitet (9 IT Operations - 9.3 Performance Analysis) - Digitaliseringsstyrelsen/50.49 (2022) Standardsoftware kompatibelt med software produceret af Microsoft - Staten og Kommunernes Indkøbsservice A/S/AdminByRequest eller lignende Privileged Access Management system - Region Sjælland/Alto Palto 2023 genudbud - Gladsaxe Kommune/Anskaffelse af licenser til Adobe Realtime Customer Data Platform (CDP) - kat. 1 - Tv2/Danmark A/S/Anskaffelse af standard software indenfor området Analytics and Business Intelligence - BI Platform - Aarhus Kommune/Anskaffelse vedr. standard software til ERP - Energinet.dk/Application Infrastructure and Middleware - Rejsekort & Rejseplan A/S/Applikation og Adgangskort til Region Syddanmark/Atlassian Licenser - Genudbud - Ministeriet For Børn, Undervisning Og Ligestilling/Atlassian Licenser 2023 - Ministeriet For Børn, Undervisning Og Ligestilling/Backup licenser til Office 365 - Odense Kommune/Bentley EPS365 - Vejdirektoratet/Budgetsystem til GEUS - De Nationale Geologiske Undersøgelser For Danmark Og Grønland/CAD applicationsoftware and support - Banedanmark/Canonical Ubuntu Serviceaftale 38 noder - Ministeriet For Børn, Undervisning Og Ligestilling/Citrix 2023 - Rigspolitiet/Citrix licenser - Vejle Kommune/Cloud sikkerhedssoftware - Region Hovedstaden/Crypto analyse værktøj. SW414 - Skatteministeriet/Data Integration Tools-licenser med dertilhørende support og vedligeholdelse til udvidelse af Rigspolitiets eksisterende kapacitet - Rigspolitiet/ERP løsning til Kolding Kommunes plejehjem - Kolding Kommune/ERP-anskaffelse for ARGO - ARGO/Endpoint-, cloudbeskyttelse og SOAR - Region Hovedstaden/Endpoint-beskyttelse - Region Hovedstaden/Facility Management System - Beskæftigelsesministeriet/Fornyelse af Cisco Enterprise Agreement licenser 2024 - Horsens Kommune/Fornyelse af Cisco Enterprise Agreement licenser 2024 - Region Midtjylland/Fornyelse af Cisco Ironport 2024 - Region Midtjylland/Fornyelse af Cisco licenser - Vejle Kommune/Fornyelse af Elasticsearch Enterprise 2024 - Region Midtjylland/Fornyelse af Tenable software til sikkerhedstest af OT - Energinet.dk/GENUDBUD - Canonical Ubuntu licens 38 noder - Ministeriet For Børn, Undervisning Og Ligestilling/Genanskaffelse - Email and Authering DSS MEKK - Domstolsstyrelsen/Genanskaffelse af eksisterende software funktionalitet - DSB/Genanskaffelse af eksisterende softwarefunktionalitet indenfor Project & Portfolio Management; Jira & Confluence el. tilsvarende - Erhvervsstyrelsen/Genanskaffelse af licensaftalen (ELA) for Server Virtualization Infrastructure - Region Hovedstaden/Genanskaffelse for software og support- og vedligehold for Backup and recovery - Region Hovedstaden/Gentegne af SolarWinds licenser - Danmarks Tekniske Universitet/Gentegne educational licens til Jamf Pro, Jamf Connect og Onbording serviceses. - Danmarks Tekniske Universitet/Gentegning af Secure Web Gateways softwarefunktionalitet og support og vedligeholdelse heraf - Kriminalforsorgen/Gentegning af licenser for administrations- og datastyringssoftware - Ørsted Services A/S/Gentegning af software assurance og support- og vedligeholdelsesaftale for Projektporteføljestyringsværktøj - Landbrugsstyrelsen/Gentegning og udvidelse af VEEAM licenser - Danske Spil A/S/Genudbud - Customer Service and Support MEKK - Domstolsstyrelsen/Genudbud - Firewall med dertilhørende Cisco Software - Aarhus Universitet/Genudbud af DNA center- og security licenser - Aarhus Universitet/Genudbud af Linux - Sundheds- og Ældreministeriet/Genudbud af serverlicenser og licenser til dokumenthåndterings- og redigeringsprogrammer, som er kompatible med microsoftprodukter til Københavns Kommune/Genudbud af serverlicenser til dokumenthåndtering- og redigeringsprogrammer, som er kompatible med Microsoft til Børne- og Ungdomsforvaltning. - Københavns Kommune/Genudbud vedr. Samlet sikkerhedsløsning. - Skatteministeriet/GeoDataplatform 2023 - Rigspolitiet/GripMatix MetrixInsight-licenser eller tilsvarende med dertilhørende support og vedligeholdelse - Rigspolitiet/HCL - Region Hovedstaden/IBM support og vedligeholdelsesaftale - Region Hovedstaden/IT Operations Management Software - Nordic RCC A/S/IT Service Management System - Beskæftigelsesministeriet/Identity Governance Administration (IGA) - Genudbud - Arbejdsmarkedets Tillægspension/Indkøb Palo alto licenser og vedligeholdelse - Region Syddanmark/Indkøb af Citrix-licenser - Vejle Kommune/Indkøb af Data Science softwarelicens (standardsoftware) - Erhvervsstyrelsen/Indkøb af EA-værktøj - Sundheds- og Ældreministeriet/Indkøb af Email Security Software - Statens It/Indkøb af ISMS system - Banedanmark/Indkøb af PDF-håndteringsværktøj (SW250) - Skatteministeriet/Indkøb af Support og vedligehold af eksisterende Licenser - Skatteministeriet/Indkøb af dagsordensystem samt support og vedligehold af eksisterende software - Færdselsstyrelsen/Indkøb af datacenterlicenser og server licenser - Skatteministeriet/Indkøb af dataklassifikationssoftware - Ministry of Foreign Affairs of Denmark/Indkøb af helpdesk-system - Ankestyrelsen/Indkøb af komponenter til forøgelse af infrastrukturkapacitet - Skatteministeriet/Indkøb af licenser til at afvikle og skalere containeriserede applikationer (SW249) - Skatteministeriet/Indkøb af licenser til et virtuelt samarbejdsværktøj - Skatteministeriet/Indkøb af licenser til redigering af billeder og videoer, samt grafisk design, illustrationer og brugerflader (SW229) - Skatteministeriet/Indkøb af on-premise keyvault løsning - Skatteministeriet/Indkøb af opgavestyringssystem - Skatteministeriet/Indkøb af productivity Suite, der både er tilgængelig via installerede applikationer og online - IFU-Investeringsfonden For Udviklingslande/Indkøb af spørgeskemaværktøj (SW431) - Skatteministeriet/Indkøb af standard office software - Professionshøjskolen UCN/Indkøb af standardsoftware til monitorering af netværksflow hos Region Syddanmark - Region Syddanmark/Indkøb af tidsregistreringssystem - Ankestyrelsen/Indkøb af vedligeholdes af Red hat. Inklusivt Linux support. SW 297 - Skatteministeriet/Indkøb af videoplatform - Skatteministeriet/Indkøb og vedligeholdelse af licenser - Forsvarsministeriet/Ivanti DesktopNow fornyelse - Region Midtjylland/JAKV - Designværktøj - Domstolsstyrelsen/Jira DC - Udlændinge- og Integrationsministeriet/Køb af Firewall - Kolding Kommune/Køb af performance management system - Erhvervsstyrelsen/Ledelsesinformation - Mariagerfjord Kommune/Ledelsesinformationsløsning til omsorgssystem i Ballerup Kommune - Ballerup Kommune/Leveringskontrakt om Standardsoftware til national trafikanalyse og trafikplanlægning - Vejdirektoratet/License Management Tool - Region Hovedstaden/Licenser til Filkassen - Statens It/Licenser til analyseværktøj - Sundheds- og Ældreministeriet/Licenser til back-up til Statens It/Licenser til tidsregistreringssystem - Beskæftigelsesministeriet/Licenspartner Microsoftprodukter - Øresundsbro Konsortiet I/S/Linux - Sundheds- og Ældreministeriet/MEKK - Straffe-Skifte - Applikation developement - genudbud - Domstolsstyrelsen/MEKK - Testværktøj 2022-2024 - Domstolsstyrelsen/MS (Azure) Licensindkøb - Danmarks Miljøportal Digital Miljøforvaltning/Microsoft D365 licenser til Extended support - Rejsekort & Rejseplan A/S/Microsoft SKI EA aftale 2024-2027 - Staten og Kommunernes Indkøbsservice A/S/Middleware-licenser 2023 - Sundheds- og Ældreministeriet/Miniudbud - Indkøb af software til decentral brugeradministration - Forsvarsministeriet/Miniudbud - gentegning af licens på Endpoint Protection - Gladsaxe Kommune/Miniudbud 02.06 vedr. standardsoftware Operating Systems - Aarhus Kommune/Miniudbud SKI 02.06 - Workzone - Rigspolitiet/Miniudbud på anskaffelse af software til kvalitetsledelsessystem, servicedesk og projektstyringsværktøj - Finanstilsynet/Monitoreringsværktøj til slutbrugerenheder - Danske Spil A/S/NESSUS pro licens - Banedanmark/Naviko Licenser - Sundheds- og Ældreministeriet/Other Application Software (Collaboration Services, Enterprise IM og Web Conferencing) - Statens It/Overvågningsværktøj - Region Hovedstaden/Prisma Cloud - Rigspolitiet/Robotic Process Automation (genudbud) - Statens It/SAP SuccessFactor 2024 - Rigspolitiet/SAS licenser til Finanstilsynet/SKI 02.06 Customer Experience & Relationship Management and IT Operations - Arbejdsmarkedets Tillægspension/SKI 02.06 Dynamisk Indkøb Content Services - Arbejdsmarkedets Tillægspension/SKI 02.06 Køb af licenser - Sundheds- og Ældreministeriet/SKI 02.06 Leveringskontrakt vedr. Platform as a Service - Arbejdsmarkedets Tillægspension/SKI 02.06 Master Data Management 2022 - 2025 version 2 - Arbejdsmarkedets Tillægspension/SKI 02.06 Project & Portfolio Management Seniorpension 2022-2024 - Arbejdsmarkedets Tillægspension/SKI 02.06 Project and Portfolio Management 2022 - Arbejdsmarkedets Tillægspension/SKI 02.06 Standardsoftware - ACI værktøj til Statens It/SKI 0206 Leveringskontrakt vedrørende Security Information and Event Management Software - Arbejdsmarkedets Tillægspension/Scheduler - Skatteministeriet/Security Information Event Management (SIEM) Software - Ørsted Services A/S/ServiceNow licenser samt support og vedligeholdelse - Region Syddanmark/Softwarepakke kompatibel med windows (Enterprise) - Rigsrevisionen/Softwareprodukter til opgradering - Forsvarsministeriet/Softwarerobot til indsamling af informationer samt strukturering af data mv. - Skatteministeriet/Solarwinds - Region Sjælland/Standard Software kompatibelt med Microsoft software - Evida Service Nord A/S/Standard software relating to Web Analytics System - Danmarks Radio/Standardsoftware Business Process Management Suites - Ministry of Foreign Affairs of Denmark/Standardsoftware kompatibelt med SAS-software og konsulentydelser i forbindelse med softwaresupport, herunder rådgivning, installation og konfiguration - Fiskeristyrelsen/Standardsoftware kompatibelt med software produceret af Microsoft - Folketinget/Standardsoftware og hertil relaterede support ydelser indenfor virtualisering - Sundheds- og Ældreministeriet/Standardsoftware vedr. ERP (Enterprise resource planning) - Energinet.dk/Standardsoftware vedrørende Attack Surface Mapper - Sundheds- og Ældreministeriet/Standardsoftware, support- og vedligeholdsaftaler til standardsoftware, vedrørende en Data Science R-platform - Finanstilsynet/Studieadministrativt system - godkendt til AVU, FVU og OBU - Kriminalforsorgen/Support og vedligehold af Application Management (genudbud 2) - Domstolsstyrelsen/Support og vedligehold af Eskort Clearance Risk Analysis - Skatteministeriet/Support og vedligehold til ESDH-system. - Region Hovedstaden/Support- og vedligeholdelse - ESDH - 360 - Danmarks Statistik/Support- og vedligeholdelsesaftale for F2 i Udenrigsministeriet - Udenrigsministeriet/Talegenkendelsessoftware - Region Hovedstaden/Technical Architecture Management (TAM) - til driften - Region Sjælland/Templafy - Ministeriet For Børn, Undervisning Og Ligestilling/Tender for Network Security Analysis Dec 2023 - Ørsted Services A/S/Tilkøb af Security Policy Management licenser (Tufin SecureTrack) - Ørsted Services A/S/Udbud af Ledelsesinformationsværktøj - Hvidovre Kommune/Udbud af RPA Software - Aarhus Kommune/Udskiftning (life-cycle) af Cohesity backup kapacitet - Ørsted Services A/S/Uipath Orchestrator - I/S Vestforbrænding/Umbrella - Aarhus Universitet/Undervisningsevalueringssystem - Aarhus Universitet/Virtualiseringssoftware - Aalborg Universitet/artefaktstyringssystem til styring af softwareaktiver/artefakter - Jfrog - Energinet.dk/onPrem DATA LOSS PREVENTION (DLP) solution - Sundheds- og Ældreministeriet/standardsoftware vedr. licenser til opgave- og projektstyrering samt licenser til dokumentation og samarbejdsplatform - DSB|3617507930|DKK": "504876-2024",
+  "x|0bd01907-9342-4b6c-8888-063737649648|76866|250050|EUR": "54336-2024",
+  "x|0ede98a5-c346-44b8-b11a-aefe9202033b|SSA-L|1200000|NOK": "59588-2025",
+  "x|10c4ce8e-c8e1-4e20-a997-4b6c1e6ab369|(1.10-04-2 E) 22-152|17121500|EUR": "704276-2024",
+  "x|11b1e950-9eee-440a-a4d7-a5cc8a247311|CON-0001|1|EUR": "34301-2025",
+  "x|14f81692-5810-4f8c-9706-d34bc5646fc6|Anskaffelse av fagsystem - Netcompany|19000000|NOK": "730196-2025",
+  "x|1504660c-5517-488a-bb90-ae7686e19493|2089|52939772|EUR": "812802-2025",
+  "x|1569efb1-47bd-4f8b-bfe8-c07798e8a50e|Framework Agreement 1/Framework Agreement 2|27000000|EUR": "511509-2025",
+  "x|199df707-6e17-406b-b4ba-433f6a75f4a1|13767/12-03-2026|93022266|EUR": "432522-2026",
+  "x|199df707-6e17-406b-b4ba-433f6a75f4a1|30782/07-07-2025|63000097|EUR": "452616-2025",
+  "x|199df707-6e17-406b-b4ba-433f6a75f4a1|36250/30-06-2026|93022266|EUR": "500651-2026",
+  "x|199df707-6e17-406b-b4ba-433f6a75f4a1|42653/31-07-2026|93022266|EUR": "608973-2026",
+  "x|199df707-6e17-406b-b4ba-433f6a75f4a1|46326/31-08-2026|93022266|EUR": "622541-2026",
+  "x|199df707-6e17-406b-b4ba-433f6a75f4a1|Αρ. πρωτ. 56872|93022266|EUR": "764865-2026",
+  "x|1a52bc22-d5b2-40df-b37b-26d609dc67d6|2026.0046/2026.0047/2026.0048|5266250|EUR": "430614-2026",
+  "x|1a52bc22-d5b2-40df-b37b-26d609dc67d6|2026.0049/2026.0050/2026.0051|17957500|EUR": "478198-2026",
+  "x|1a52bc22-d5b2-40df-b37b-26d609dc67d6|2026.0052/2026.0053/2026.0054|34798088|EUR": "430337-2026",
+  "x|1d53fbd7-f9ad-44d2-813a-198ffb19a99d|SaaS-tjeneste for eksportkontroll og sanksjoner - Netcompany|33888373|NOK": "650605-2024",
+  "x|1e9ee827-b78f-4e6a-9c89-f12aa9ac9600|Rammeaftale|80000000|DKK": "218832-2025",
+  "x|1f4d3920-4967-4159-b70a-53aaa4c9bea2|890/2024 Σύμβαση για την «Ανάπτυξη Νέου Ενοποιημένου Ολοκληρωμένου Πληροφοριακού Συστήματος Φορολογίας της Α.Α.Δ.Ε. (TAXIS - TAXISNET- ELENXIS)»|69501233|EUR": "794950-2024",
+  "x|20420409-3391-4abd-93ea-9c257ac66185|Provision of software development services related to Publications Office IT Systems|27000000|EUR": "401729-2025",
+  "x|20bf7c5d-bffe-46d2-90f0-35498d21eeb9|ΦΠΥ 51/24|7567800|EUR": "305677-2025",
+  "x|23d6a768-b548-4639-899b-2f89abd09fb4|\"Cisco enterprise agreement - eller lignende\" - Professionshøjskolen Via University College/-Other Infrastructure Software - Randers Kommune/02.06 - Indkøb af licenser - Statens It/02.06 Standardsoftware - Organisations og personale datasoftware - Vejle Kommune/02.06 Standardsoftware vedr. Collaboration Services - Aarhus Kommune/02.06 Support og vedligehold Red Hat - Region Nordjylland/02.06 Søgemaskineoptimerings-, analyse- og kvalitetssikringsværktøj til hjemmesider - ny fremsendelse - Digitaliseringsstyrelsen/02.06_Enterprise Arkitekt Software - Forsvarsministeriet/2024/10 Reference- og kildestyringssoftware - Region Hovedstaden/2024/11-4 Genudbud skabelonstandardsoftware - Region Hovedstaden/2024/13 Genanskaffelse af support og vedligehold for eksisterende IBM softwarefunktionalitet - Region Hovedstaden/2024/14 Genanskaffelse af support og vedligehold for eksisterende Oracle softwarefunktionalitet - Region Hovedstaden/2024/15 Access Management Software - Region Hovedstaden/2024/16 Genudbud af Extended support og vedligeholdelse af eksisterende Windows Server 2012 softwarefunktionalitet - Region Hovedstaden/2024/17 DDI/IPAM Standardsoftware - Region Hovedstaden/2024/18 Standardsoftware vedrørende Virtualization Infrastructure og tilknyttede ydelser - Region Hovedstaden/2024/19 Videoplatform Standardsoftware - Region Hovedstaden/2024/20 Standardsoftware vedrørende Storage Management samt support og vedligeholdelse heraf - Region Hovedstaden/2024/23 Genudbud af Standardsoftware til hjælpemiddelsystem - Region Hovedstaden/2024/25 Service og vedligeholdelse af backup og Recovery licenser - Region Hovedstaden/2024/26-2 Support og vedligeholdelse af UEM licenser (Distributed Application Platforms samt Other Infrastructure - Region Hovedstaden/2024/27 Leveringskontrakt vedr. Security og Other Infrastructure Software (ADC) - Region Hovedstaden/2024/28 Testautomatiseringsværktøj - Region Hovedstaden/2024/29 Standardsoftware vedrørende Storage Management og Backup and Recovery - Region Hovedstaden/2024/32-2 Genudbud af Power BI modelleringssoftware - Region Hovedstaden/2024/33 Support og vedligeholdelse til IBM SPSS licenser - Region Hovedstaden/2024/8 - Standardsoftware vedrørende Access Management, Priviliged Access Management og/eller User Authentication samt tilknyttede ydelser (Lokal IdP) - Region Hovedstaden/2024/9 Standardsoftware til ISMS - Region Hovedstaden/24-001 Sikker post til Region Hovedstaden - Region Hovedstaden/Access Manager - Københavns Universitet/Adobe / Renewal of Standard Software - compatible with the Customers existing software based on Adobe - DSB/Anskaffelse af E-mail skanningssystem - Kriminalforsorgen/Anskaffelse af Server Virtulization Infrastructure Standardsoftware licenser, samt teknisk support af dette - Kriminalforsorgen/Anskaffelse af Software Assurance og Premium Support - Forsvarsministeriet/Attack Surface Management funktionalitet til endepunkter 2024 - Region Syddanmark/Automation licenser - DSB - DSB/Automatisering af manuelle arbejdsprocesser i SharePoint-applikationer - Ministry of Foreign Affairs of Denmark/Budgetopfølgningssystem - Roskilde Kommune/CNTR0016977 Leveringskontrakt om Support og vedligeholdelse af og rådgivning vedrørende Operating Systems (Linux) samt Other Infrastructure Software - Region Hovedstaden/CTRN0017011 SIEM løsning til Region H - Region Hovedstaden/Canonical Ubuntu 56 Licenser - Support 2024 - Børne- og Undervisningsministeriet/Citrix 2024-2025 - Region Sjælland/Citrix Licenser 2024 - 2028 (Ny Citrix-kontrakt) U414DYIPBA24 - Region Nordjylland/Client Management System VIA 2024 - Professionshøjskolen Via University College/ControlUp licenser 2024 - Region Midtjylland/Cookiemodal - Skatteministeriet/DNS og DHCP løsning (Infoblox DDI) - Region Midtjylland/DSB TOOL - Workforce management - DSB/Data Protection Suite Socket licenser 2024 - Region Midtjylland/Digital læringsplatform til jobcenteret - Aalborg Kommune/Dokumenthåndtering og -udvekslingsløsning til Oracle-ERP - Region Sjælland/Dokumentstyringssystem til retningsgivende dokumentation i Region Syddanmark - Region Syddanmark/EA-tool - Justitsministeriet/ELM-licenser - Banedanmark/Elasticsearch Enterprise licenser - Danmarks Radio/Endpoint protection - Banedanmark/Fornyelse af IBM-licenser - Region Midtjylland/Fornyelse af Microsoft Enterprise Agreement, EES Licens- og School aftale til Skanderborg Kommune, marts 2024 - Skanderborg Kommune/Fornyelse af Palo Alto ELA og ESA - Energinet.dk/Fornyelse af dele af Region Syddanmarks Infoblox-installation til styring af DNS og DHCP - Region Syddanmark/Fornyelse af licens og support - Forsvarsministeriet/Fornyelse og anskaffelse af nye Tenable licenser ITR0006358 - Energinet.dk/Fællesudbud flere software anskaffelser - Beskæftigelsesministeriet/GRC systemunderstøttelse - Sundheds- og Ældreministeriet/Genanskaffelse af Alteryx eller lignende - Erhvervsstyrelsen/Genanskaffelse af Azul Prime Platform (eller tilsvarende) - Erhvervsstyrelsen/Genanskaffelse af Vedligeholdelses- og Supportaftale (33983) - Forsvarsministeriet/Genanskaffelse af dataklassifikationssoftware - Ministry of Foreign Affairs of Denmark/Genanskaffelse af eksisterende softwarefunktionalitet ’Service Platform' - Sundhed.dk/Gentegning af Cisco EA aftale - Faxe Kommune/Gentegning af VMWare Horizon licenser - Lyngby-Taarbæk Kommune/Gentegning af diverse licenser - Kredsløb-koncernen/Genudbud Endpoint protection software - Sundheds- og Ældreministeriet/Genudbud Licenser og hardware til fjernadgang 24-1029603 - Skatteministeriet/Genudbud af Cisco licenser - Roskilde Kommune/Genudbud af Cisco licenser til Access Points - Københavns Kommune/Genudbud af Citrix support og vedligehold - Sundheds- og Ældreministeriet/Genudbud af ESMS system af 11-10-2023 - Danmarks Tekniske Universitet/Genudbud af Site Licens til On Prem installation og tilhørende Director Modul - Sundheds- og Ældreministeriet/Genudbud af indkøb af værktøj til håndtering af infrastrukturel sikkerhed og performance (IaaS) - Erhvervsstyrelsen/Genudbud, Standardsoftware til logistikinfrastruktur samt tilknyttede ydelser - Region Hovedstaden/Globally comprehensive company database - Erhvervsstyrelsen/Google Workspace for Education Plus samt Chrome Education Upgrade - Aarhus Kommune/HR Lønforhandlingssystem - Ministry of Foreign Affairs of Denmark/Hjælpemiddelsystem: Levering, drift og vedligehold - Region Sjælland/IBM - Region Nordjylland/IT Service Management - Region Midtjylland/Implementering af nuværende software funktionalitet vedr. styresystemer - Skatteministeriet/Indkøb UX/UI Design værktøj. - Skatteministeriet/Indkøb af API Management platform til Rigsarkivet - Kulturministeriet/Indkøb af Automated Network Assurance Platform - Region Syddanmark/Indkøb af Automated Network Assurance Platform - Syddanmark/Indkøb af Facility Management Løsning - Aalborg Kommune/Indkøb af Firewall - 2024 - Bornholms Regionskommune/Indkøb af Interessentdatabase system 23-1526750 (2. Genudbud) - Skatteministeriet/Indkøb af Mainframe analyseværktøj - Skatteministeriet/Indkøb af Microsoft licenser (EA) - Danmarks Eksport- og Investeringsfond/Indkøb af Multi-Factor Authentication (MFA) Solutions - Region Syddanmark/Indkøb af Security Incidident og Event Management løsning - Klima-, Energi- og Forsyningsministeriet/Indkøb af Support og vedligehold af Rancher Management samt Rancher Kubernetes Engine Clusters (genudbud) - Skatteministeriet/Indkøb af Tenable One Enterprise (TONE-ENT) eller tilsvarende - Trafikselskabet Movia/Indkøb af Virtualization Infrastucture Software - Region Syddanmark/Indkøb af data management licenser - Statens It/Indkøb af et enterprise password administrationsværktøj - Skatteministeriet/Indkøb af fjernprintløsning - Udlændinge- og Integrationsministeriet/Indkøb af licens til statisk kodeanalyse - Skatteministeriet/Indkøb af licenser til virtuelle datacentre (genudbud) - Skatteministeriet/Indkøb af læringsportal til Microsoft 365 - Skatteministeriet/Indkøb af noder til søge- og analysemaskine (24-0495516) - Skatteministeriet/Indkøb af projekt- og opgavestyringsværktøj, dynamisk Wiki samt avanceret test management funktionalitet. - Fødevarestyrelsen/Indkøb af softwareløsning til opsætning af professionelle pressemeddelelser og nyhedsbreve - (genudbud) - Skatteministeriet/Indkøb af standardsoftware til ITSM-integrationsplatform - Skatteministeriet/Indkøb af standardsoftware til måling af kildekodekvalitet - Skatteministeriet/Indkøb af styresystem til virtuelle datacentre, servere og SAP-applikationer (24-0497267) - Skatteministeriet/Indkøb af support og vedligehold af eksisterende software - Skatteministeriet/Indkøb af support og vedligehold, samt tilknyttede ydelser, vedrørende komponent til overførsel af blanketter (23-1565783) - Skatteministeriet/Indkøb af værktøj til styring af privilegerede rettigheder (PAM) (24-0818362) - Skatteministeriet/Indkøb, installation og drift af den digitale platform (DDP) - Bygningsstyrelsen/Indkøbet af tidsregistreringssystemet - Familieretshuset/Installation, drift og Support af ny GIS platform - Landbrugsstyrelsen/Ivanti - Region Nordjylland/Ivanti DesktopNow fornyelse 2024 - Region Midtjylland/Juniper - Sundheds- og Ældreministeriet/Konkret indkøb på 02.06 – Standardsoftware vedrørende Application Development – Create (Low Code) - Københavns Kommune/Konsolidering/sercurity - Region Nordjylland/Køb af Cisco Licenser - Kolding Kommune/Køb af Cisco Security EA Aftale - Kolding Kommune/Køfunktion til hjemmesiden mitgaeldsoverblik.dk - Skatteministeriet/Ledelsesinformationssystem - Hjørring Kommune/Licenser til brug for lønkørsler - Danmarks Radio/Licenser til juridisk opslagsværk/informationssøgning - Socialstyrelsen/Løsning til kvalitetsledelses- og dokumenthåndtering - Region Midtjylland/MDR - Managed Detection and Response - Finanstilsynet/Malware scanning tool for/on servers with internet access. - Sundheds- og Ældreministeriet/Micro Focus licenser 2024 - Region Midtjylland/Microsoft E5 licenser - Kommunernes Landsforening/Microsoft Licenser MSP E3 og Power BI - Metroselskabet I/S/Microsoft licenser - Metroselskabet I/S/Middleware - Sundheds- og Ældreministeriet/Multi-site CMS konfiguration og drift til Danmarks Digitale Dannelsesmål - Peak Consulting Group/Ny licens til PowerFacory ITR0005654 - Energinet.dk/Nyt standard intranet CMS-system til BUVM - Børne- og Undervisningsministeriet/Oracle licenser + support - Banedanmark/PAM - Uddannelses- og Forskningsministeriet/PPM Standard Software (SKI 02.06) - Forsvarsministeriet/Palo Alto Firewall til Energinet ITR0006507-v1 - Energinet.dk/Priority supportaftale til Rancher - Beskæftigelsesministeriet/Region Syddanmarks udbud af VMware NSX licenser - Region Syddanmark/Renewal of XDR and SOAR licenses - Ørsted Services A/S/SAP BW platform erstatning - Licenser, Support og Rådgivning - Naviair/SAS2024 - Danmarks Statistik/SFC - Forsvarsministeriet/SKI 02.06 - Anskaffelse af PAM-løsning - Erhvervsstyrelsen/SKI 02.06 - Virtual Desktop Infrastructure (j.nr.:2024-693) - Statens It/SKI 02.06 12.1 x86 Server Virtualization Infrastructure - Virtualiseringssoftware (J.nr.: 2024-850) - Statens It/SKI 02.06 Email Security Scan - J.nr.: 2024-523 - Statens It/SKI 02.06 Genanskaffelse af Standardsoftware - Forsvarsministeriet/SKI 02.06 Indkøb af backup-licenser - Statens It/SKI 02.06 Leveringskontrakt Om Standardsoftware vedrørende Enterprise Asset Management - Arbejdsmarkedets Tillægspension/SKI 02.06 Leveringskontrakt om Standardsoftware vedrørende Application Integration Suite - Arbejdsmarkedets Tillægspension/SKI 02.06 Leveringskontrakt om Standardsoftware vedrørende Content Services - Arbejdsmarkedets Tillægspension/SKI 02.06 Leveringskontrakt om Standardsoftware vedrørende Master Data Management - Arbejdsmarkedets Tillægspension/SKI 02.06 Leveringskontrakt om Standardsoftware vedrørende Other Infrastructure Software - Arbejdsmarkedets Tillægspension/SKI 02.06 Leveringskontrakt vedr. Enpoint Protection Platforms - Arbejdsmarkedets Tillægspension/SKI 02.06 Leveringskontrakt vedrørende Delivery Automation - Arbejdsmarkedets TIllægspension/SLS Webservice til DeMars - Forsvarsministeriet/SMS til Video - Region Syddanmark/ServiceNow Licens Fornyelse 2024 - Børne- og Undervisningsministeriet/SharePoint Online Add-on, SPFx SharePoint Framework, til Intranet - Familieretshuset/SharePoint ad on - Ministry of Foreign Affairs of Denmark/Software til systemovervågning kompatibel med OneView - Landbrugsstyrelsen/Software-løsning til overvågning, monitorering og afvikling af automatiseringer - Statens Administration/Standard barcode scanner SDK for DataMatix codes - Sundheds- og Ældreministeriet/Standard software vedr. Virtualization Infrastructure og Virtual Desktop Infrastructure - Energinet.dk/Standardindkøb vedr. licenser til loadbalancer - Region Syddanmark/Standardsoftware OS Red Hat Licens fornyelse - DSB Hovedkontor/Standardsoftware VMware Cloud Foundation - CBS-Copenhagen Business School/Standardsoftware mv. kompatibelt med software produceret af Microsoft - Aarhus Kommune/Standardsoftware til automatisk årsagsregistrering og intelligent samtaleanalyse - Erhvervsstyrelsen/Standardsoftware til digital administration af statslige tilskudsordninger - Aalborg Kommune/Standardsoftware til pædagogisk dokumenthåndtering af fortrolige og fælles filer - Københavns Kommune/Standardsoftware til skabelse af automatiseret og videnbaseret dokumentationsproces - Udviklings- og Forenklingsstyrelsen/Standardsoftware til udvikling af machine learnings modeller og andre applikationer - Skatteministeriet/Standardsoftware vedrørende BI, projektstyring, kontorproduktivitet m.fl. - Struer Kommune/Standardsoftware vedrørende ”integrated Develepment Tool” (IDE), med indbygget Visual Studio kompatibilitet - Energinet.dk/Standardsoftware, support og vedligehold vedrørende Access Management - Region Hovedstaden/Standart Software til Projekt og Porteføljestyring inklusive Strateginedbrydning og OKR Styring - Energinet.dk/Support og rådgivning mv. af et Kubernetes – standardsoftware systemkompleks - MEKK - Domstolsstyrelsen/Support og vedligehold af MIM 2016 - Kirkeministeriet/Support og vedligeholdelse af Udenrigsministeriets fagsystem til behandling af passager (UMPAS) - Ministry of Foreign Affairs of Denmark/Support- og vedligeholdelsesaftaler vedrørende Storage Management - Backuplicenser - Energinet.dk/Support- og vedligeholdsaftaler til Standardsoftware, konfiguration, undervisning samt rådgivning af Miljøstyrelsens (MST) GIS-løsninger - Miljøstyrelsen/System til understøttelse af medarbejderudviklingssamtaler og lønforhandlinger - Miljøstyrelsen/Tableau licenser 2024 - Region Midtjylland/Tableau og Alteryx 2024 - Gladsaxe Kommune/Tender for a Liquidity Risk Solution - Ørsted Services A/S/Ticketing system - Danmarks Radio/Tidsregistreringssystem til Statens Museum for Kunst - Kulturministeriet, Departementet/Tilbud vedrørende MDM-løsning til skoleområdet i Rudersdal Kommune - Rudersdal Kommune/Transformation af Business Intelligence - Justitsministeriet/Udbud af Leveringskontrakt om Standardsoftware vedrørende Other Application software (genudbud) - Region Hovedstaden/Udbud af Redhat - Region Sjælland/Udbud af sikkerhedsværktøj - Beskæftigelsesministeriet/Udbud af software til crawling af virksomheders hjemmesider til publicering på Jobnet - Beskæftigelsesministeriet/Udbud af support og vedligeholdelse af SIEM standardsoftware - Kriminalforsorgen/Udbud på Standard software vedr. Cloud ERP, SCM, CRM, Field Service og Project and Portfolio Mgt. - Evida Service Nord A/S/VMware licenser 2024 - Region Midtjylland/VMware vSphere Licens 2024 (24/19562) - Børne- og Undervisningsministeriet/Vedligehold og support - Other Infrastructure Software - MEKK - Domstolsstyrelsen/Vedligholdese og udvidelse af IDE (Integrated Development Environment) værktøj. - Skatteministeriet/Veeam backup 2024 - Professionshøjskolen Via University College/Velafprøvet standard inddrivelsessystem til afregning af Nordværk’s affaldskunder - Nordværk I/S/Veritas Netbackup Licens - Børne- og Undervisningsministeriet/Visualiseringsværktøj til System Center Operation Manager - Forsvarsministeriet/Vmware - Danmarks Statistik/Vulnerability Assesment Software (VAS-løsning) - Statens It/WebGis løsning v2 - Energinet.dk/digital patientovervågning - Region Nordjylland/indkøb af standardsoftware vedrørende Performance Analysis - Skatteministeriet/udvidelse af eksisterende løsning med confirmid - Region Nordjylland/wmware 2024 - Rigspolitiet|1605806936|DKK": "681926-2024",
+  "x|274aa56a-6d52-41b8-87ae-0ae4b30b7ac7|Accentures Kontrakt DA6/Alexandra Instituttet kontrakt DA3/Alexandra Instituttet kontrakt DA5/CGI's kontrakt DA1/Deloitte kontrakt/Deloitte kontrakt DA2/Deloitte kontrakt DA5/Epico-IT kontrakt DA2/Globeteam kontrakt DA2/Institut for Cyber Risk kontrakt/Jakala kontrakt/LBE kontrakt/Netcompany kontrakt/Netcompany kontrakt DA2/Nine kontrakt/Nine kontrakt DA2/Trifork kontrakt DA5/itm8 | Improsec A/S kontrakt|1142000000|DKK": "427263-2024",
+  "x|2a0ded0f-1713-4feb-99ef-ceabc2e81b92|ESN Ecorys-contract/Resonance-contract/SYNCHRO-contract|180000000|EUR": "785610-2024",
+  "x|2c4a8991-c9bc-4a6f-9571-cad05dfe4898|Rammeavtale konsulenttjenester Generell IT bistand - Bekk Consulting AS/Rammeavtale konsulenttjenester Generell IT bistand - Bouvet Norge AS/Rammeavtale konsulenttjenester Generell IT bistand - Computas AS/Rammeavtale konsulenttjenester Generell IT bistand - Experis AS/Rammeavtale konsulenttjenester Generell IT bistand - Knowit AS/Rammeavtale konsulenttjenester Generell IT bistand - Kons AS/Rammeavtale konsulenttjenester Generell IT bistand - Netcompany/Rammeavtale konsulenttjenester Generell IT bistand - Sopra Steria AS|800000000|NOK": "310973-2025",
+  "x|2d92e45d-5d20-4091-8b74-2ac230106289|CON-0001|7500000|EUR": "146685-2025",
+  "x|31cb0e20-0d75-4d2f-b58e-e070ac0b19c6|Aftale om anskaffelse, implementering og vedligeholdelse af Nyt Kørekortregister|56689200|DKK": "380471-2025",
+  "x|35105472-92ff-4009-86bf-231104adb193|Sutartis 2025/4-3-783|1160000|EUR": "482824-2025",
+  "x|360c7f3a-3d1b-4432-ae96-64ad603e8003|7N A/S/Accenture A/S/Atea A/S/CN3/ElevateIT/DBA consult ApS/Deloitte Statsautoriseret Revisionspartnerselskab/EPICO-Schultz-Septima-Sopra Steria-Wingmen (Konsortium)/Edora A/S/Fellowmind-Changegroup (konsortium)/Globeteam A/S/Immeo-Knowledge Cube (Konsortium)/KMD A/S/Netcompany A/S/Right People Group/Solita A/S/Twoday (konsortium)/Venzo A/S/emagine Consulting A/S|4193000000|DKK": "349254-2025",
+  "x|393268f4-db67-4095-9046-79aab32767ec|Rammeaftale om videreudvikling og vedligeholdelse af driftsstøttesystem|2600000|DKK": "198941-2024",
+  "x|3abce1a1-d8bb-4d51-8ec0-01e880379af6|CFT-1773-ArrowTech/CFT-1773-Deloitte/CFT-1773-Expand/CFT-1773-FINCONS/CFT-1773-K.E.T.A/CFT-1773-UniSystem/CFT-1773-W!SDOM|160000000|EUR": "169959-2026",
+  "x|3af2f70f-afae-4c76-883c-cd7572024513|2382|6100000|EUR": "264328-2024",
+  "x|3b62d907-6005-4cd6-a18e-05d02c00f5b1|FW-00181851|7000000|EUR": "652841-2025",
+  "x|3fe17404-1b29-452f-ba28-9dfc460358f7|Udbud af support, vedligehold og udvikling af trafikinformationsværktøjer - Netcompany A/S|9302300|DKK": "766738-2025",
+  "x|40817335-58a0-4a65-a893-ad967e6e072d|FRONTEX/2024/OP/0041 - 1/FRONTEX/2024/OP/0041 - 2/FRONTEX/2024/OP/0041 - 3/FRONTEX/2024/OP/0041 - 4/FRONTEX/2024/OP/0041 - 5|2300000|EUR": "92566-2026",
+  "x|44bb93a3-4130-44e4-9e97-9b6e253cc53f|LISA/2025/DPS/0008/MC01/01/LISA/2025/DPS/0008/MC01/02/LISA/2025/DPS/0008/MC01/03|93000000|EUR": "248525-2026",
+  "x|450c1c5c-de51-4c8f-a0a5-ad2d9da2d2c6|72141|1420191|EUR": "799939-2026",
+  "x|46439658-5635-4465-ae7d-0a40e6e8e546|F-OSA-25-C02_1st/F-OSA-25-C02_2nd/F-OSA-25-C02_3rd|11000000|EUR": "617339-2025",
+  "x|48c787db-68a1-444b-9de8-fb1f672eb432|ROK Studielink - SURF - NetCompany AII|37000000|EUR": "120474-2026",
+  "x|4d47d900-ad81-4419-a335-c2e3f1e978ee|DI/08151|10000000|EUR": "503529-2024",
+  "x|50308e3b-34b0-4fb3-aced-01fb09d84ee6|BEREC/25/169/BEREC/25/170/BEREC/25/171|600000|EUR": "27226-2026",
+  "x|50f550fa-f7a2-4be6-a828-7cc29b4f803b|201865003.001.122 / Capgemini Nederland & Sogeti Nederland/201865003.001.122 / Finalist IT Group & Nimble Institute/201865003.001.122 / Netcompany Netherlands|204000000|EUR": "645179-2025",
+  "x|5342ef83-e3c8-4f04-85af-a32282f47636|CON-0001|25400000|EUR": "843522-2025",
+  "x|553355d5-c984-452c-8810-070c9ee32ccf|LISA/2025/DPS/0008/MC02/01/LISA/2025/DPS/0008/MC02/02/LISA/2025/DPS/0008/MC02/03/LISA/2025/DPS/0008/MC02/04|74000000|EUR": "601963-2026",
+  "x|5613dc91-5348-4d25-b0bd-070cdec2c79f|IPA III/2024/457-903|1900000|EUR": "800290-2024",
+  "x|56e67675-a1c4-41bc-a280-afcc5f76ca6a|Rammeaftale om it-udviklingsydelser - Capgemini Danmark A/S/Rammeaftale om it-udviklingsydelser - Deloitte Statsautoriseret Revisionspartnerselskab/Rammeaftale om it-udviklingsydelser - EPICO-IT A/S/Rammeaftale om it-udviklingsydelser - Netcompany A/S/Rammeaftale om it-udviklingsydelser - Trifork A/S/Rammeaftale om it-udviklingsydelser - twoday A/S|2100000000|DKK": "503389-2024",
+  "x|5a4b7919-d1bd-494e-afeb-43b19f8a042d|00175423/00175482/00175502|168000000|EUR": "143176-2025",
+  "x|5c7658e1-c115-4a77-ae48-217432577b1b|AMD 7948-10/AMD 7949-07/AMD 7950-07/AMD 7951-07/AMD 7952-11/AMD 7953-06/AMD 7955-07/AMD 7956-09/AMD 7958-07/AMD 7959-06/AMD 7960-08/AMD 7961-08/AMD 7962-09|693018670|EUR": "466443-2025",
+  "x|5e0b382c-59d9-445c-a5f3-48135c4a97c0|Tildelingsmeddelelse 281123|26229600|DKK": "784912-2023",
+  "x|5e4a3bd9-ab1e-42c0-bb7b-0c8830d72fbf|Kontrakt om levering af drift, support, vedligeholdelse og videreudvikling af tværfagligt fagsystem (TFS) i Københavns Kommune|21988600|DKK": "142801-2026",
+  "x|5e785372-4601-46cb-bdeb-c6f07db98bfd|No 2026-FWC9/CEDEFOP/2025/OP/0011-GRAPHIC DESIGN|244000|EUR": "670345-2026",
+  "x|623fbf51-86a5-46f6-a403-40b48c87c14c|25-C0005|283495888|DKK": "162659-2025",
+  "x|62f833bd-76c4-4cf7-9a30-71240f297991|12053a/12053b|1507800|EUR": "396254-2026",
+  "x|63509be7-be0d-4859-81a2-ef6e31c40460|12064/12064b/12064c|400000|EUR": "562411-2026",
+  "x|6574c7c0-a3a7-4187-a634-09399da19537|996/2025 Σύμβαση για το «Ψηφιακό σύστημα διαχείρισης ανθρώπινου δυναμικού και μισθοδοσίας της Α.Α.Δ.Ε.»|1023100|EUR": "430658-2025",
+  "x|676a6db9-e12a-4856-822c-b336c3c2dd55|531/2022|995315|EUR": "307679-2024",
+  "x|68f75b0e-02b8-4345-a7e9-9f340c0bd576|-191525/-191526/-191526//191525a|1200000000|NOK": "116542-2024",
+  "x|69fead04-b89e-4f4e-ba38-95b1634c6178|DI-08500/DI-08501/DI-08502/DI-08503/DI-08504/DI-08505/DI-08506/DI-08507/DI-08508/DI-08509/DI-08510/DI-08511/DI-08512/DI-08513/DI-08514/DI-08515/DI-08516/DI-08517/DI-08518/DI-08519/DI-08520/DI-08521/DI-08522/DI-08523/DI-08524/DI-08525/DI-08526/DI-08527/DI-08528/DI-08529/DI-08530/DI-08531/DI-08532/DI-08533/DI-08534/DI-08535/DI-08536/DI-08537/DI-08538/DI-08539|3971638879|EUR": "545219-2026",
+  "x|6acc65d8-c702-4046-9e6c-8afdff958dac|EFSA/2025/OP/0012-CT01/EFSA/2025/OP/0012-CT02/EFSA/2025/OP/0012-CT03|25000000|EUR": "128087-2026",
+  "x|6d603a77-c881-41d2-92d6-fab1838a58c9|Frontex/2024/OP/0002 Lot1/Frontex/2024/OP/0002 Lot2|75000000|EUR": "76456-2026",
+  "x|6e5241ef-bfa6-491e-a0da-3da48ccc7478|ΣΥΜΒΑΣΗ 94/2024|2490394|EUR": "43458-2025",
+  "x|7095253a-bb7b-4fad-8caa-50dc4e0ea4bf|Kontrakt med Bekk Consulting/Kontrakt med Capgemini/Kontrakt med Computas/Kontrakt med Experis/Kontrakt med Netcompany/Kontrakt med Netlight|900000000|NOK": "387041-2025",
+  "x|710d429a-80ed-428f-bc5a-8d1900402316|Delaftale 1/Delaftale 2/Delaftale 3|128878000|DKK": "578698-2024",
+  "x|7387fb7c-5f2d-4161-a89e-409b00521f65|02.06 - Genudbud - J. nr. 2025-182 - Standardsoftware til storage-platform - Statens It/02.06 Content Services software 2025 - j.nr. 2025-939 - Statens It/02.06 Leveringskontrakt om Support, Vedligehold og Videreudvikling af AMPLIO Standardsoftware vedrørende Familieydelser - Arbejdsmarkedets Tillægspension/02.06 Licenser til skoleområdet - Odense Kommune/2025/5-02 Genanskaffelse af support og vedligehold af eksisterende IBM softwarefunktionalitet (partial renewal) - Region Hovedstaden/2025/6 Standardsoftwaren inden for DDI/IPAM og tilknyttede ydelser - Region Hovedstaden/Analysesoftware - Styrelsen for International Rekruttering og Integration/Anskaffelse af standardsoftware vedr. overvågning af Biztalk - Energinet.dk/Autodesk licenser, fornyelse - Forsvarets Efterretningstjeneste/BPM licenser - I/S Vestforbrænding/Bill (Mobile Based Payment Solution) 2025 - DSB/CRM-system til STARs virksomhedsservice - Styrelsen for Arbejdsmarked og Rekruttering/Cisco EA licens - Gentofte Kommune/DSB EA & Cloud - DSB/DSS - CRM Analytics - Genanskaffelse 3 - MEKK - Domstolsstyrelsen/DSS - Email and authoring - MEKK - Domstolsstyrelsen/Danske Universiteter og SEDIRK (DUCM25) Microsoftudbud - Danmarks Tekniske Universitet/Data Domain - Danmarks Statistik/Data Management og Data Integration Tools 2025 - Rigspolitiet/Digital håndtering og styring af statslige tilskudsordninger - revideret - Aarhus Kommune/Digital ruteplanlægningsløsning - Kolding Kommune/Endpoint Detection and Response løsning - Udenrigsministeriet (SKI)/Energimanagementsystem - Aalborg Universitet/Enterprise Resource Planning - HOFOR A/S/Fornyelse af Adobe licenser - Energinet.dk/Fornyelse af IBM-licenser - Region Midtjylland/Fornyelse af licenser vedr. Sikkerhed og Admin til DSB’s End-User platform - DSB/GENUDBUD - Tidsregistrerings- og arbejdstidshåndteringssystem til BUVM - Børne- og Undervisningsministeriet/GIS system - Metroselskabet I/S/Genanskaffelse af Cisco Unified Communication Licenser - Forsvarsministeriet/Genanskaffelse af Microsoft EA-licenser - Danmarks Radio/Genanskaffelse af SCP licens - Forsvarsministeriets Materiel- og Indkøbsstyrelse/Genanskaffelse af eksisterende softwarefunktionalitet - Jira/Confluence eller lignende - Erhvervsstyrelsen/Genanskaffelse af projektledelses- og vidensdelingsværktøj mm. (tidl. Atlassian) - Danmarks Radio/Genudbud - Indkøb af project management-system - Skatteministeriet/Genudbud: Standardsoftware til Miljø- og Ligestillingsministeriets kommende intranet - Miljøstyrelsen/IBM ELM fornyelse - Banedanmark/IBM Software - Region Nordjylland/Identitetshåndteringsbro - Finanstilsynet/Implementeringsværktøj til NemKonto-projekt - Digitaliseringsstyrelsen/Indkøb af ERP som cloudbaseret løsning - IFU-Investeringsfonden For Udviklingslande/Indkøb af ERP-system - Kommunernes Landsforening/Indkøb af Microsoft-licenser - Sundhed.dk/Indkøb af Nintex Licenser med tilhørende software assurance og support - Forsvarsministeriet/Indkøb af PAM-løsning (privileged access management) - Slagelse Kommune/Indkøb af Product Information Management system - Staten og Kommunernes Indkøbsservice A/S/Indkøb af et vagtplanlægningssystem - Skatteministeriet/Indkøb af printere til ID-Kort med tilhørende software samt ID-Kort (genudbud) - Skatteministeriet/Indkøb af standardsoftware til generering af XML-filer, specifikt tilpasset syntaksen for sagsaktiviteter i KMD WorkZone - Skatteministeriet/Kontakt Center as a Service - DSB/Kontorsoftware Reseller udbud - Ørsted Services A/S/Licenser til RPA software - Aarhus Kommune/Licenses for SaaS data platform to obtain access to data on Danish startups. - Erhvervsstyrelsen/MDR-tjeneste - It-Forsyningen I/S/Microsoft EA Aftale 2025 - Øresundsbro Konsortiet I/S/Microsoft licenser 2025 - Professionshøjskolen Via University College/Microsoft licenser el. tilsvarende - Genudbud - Aarhus Vand A/S/Miniudbud på SKI 02.06 - fornyelse af SPLUNK net-kommunikation 2025 ITR0007755 - Energinet.dk/Møde- og ressourcebookingsystem til statslig flerbrugerejendom (KBB-47) - Bygningsstyrelsen/Personcentreret omsorg på plejecentre i Holbæk Kommune - Holbæk Kommune/Red Hat Licenser - Forsvarets Efterretningstjeneste/SKI 02.06 Leveringskontrakt om Standardsoftware vedrørende Application Platforms - Arbejdsmarkedets Tillægspension/SKI 02.06 Leveringskontrakt om Standardsoftware vedrørende Identity Governance and Administration - Arbejdsmarkedets Tillægspension/SKI 02.06 Leveringskontrakt om Standardsoftware vedrørende Windows, Endpoint Protection Platforms (Enterprise) og Threat Intelligence - Arbejdsmarkedets Tillægspension/SKI 02.06 Leveringskontrakt på Standardsoftware vedrørende Master Data Management - Arbejdsmarkedets Tillægspension/SKI 02.06, kat 1 - Standardlicenser til ESDH - Forsvarsministeriets Materiel- og Indkøbsstyrelse/SKI 02.06: Genanskaffelse af CMS løsning - Forsvarsministeriet/ServiceNow - Evida Service Nord A/S/ServiceNow licenser el. tilsvarende - Aarhus Vand A/S/Sikkerhed - Region Nordjylland/Standard Software kompatibelt med Microsoft - Evida Service Nord A/S/Standard software vedr. Operativ system, data management, projekt og portefølje management - Energinet.dk/Standard software vedrørende Prisma Cloud eller tilsvarende - Rigspolitiet/Standardsoftware mv. til erstatning for eksisterende intranetløsning - Aarhus Kommune/Standardsoftware til anonymisering af dokumenter, redigering og komprimering af PDF-filer, billede- og videoredigering mv. - Rigspolitiet/Standardsoftware vedrørende Gartners område 17) Other Infrastructure Software - Trafikselskabet Movia/Standardsoftware vedrørende Message-Oriented Middleware (MQ), Create (WAS), Data science platforms (SPSS) og Business Process Management Suites (Decision manager) - Region Syddanmark/Support og vedligeholdelse af ESDH - Nævnenes Hus/Tableau Creator licenser - Københavns Universitet/Udbud af regional billeddatabase - Region Nordjylland/Udbud vedr. En SQL client - Skatteministeriet/headless CMS til www.DSB.dk - DSB|1796789682|DKK": "452934-2025",
+  "x|76a63579-903a-4a18-8def-56cf390f658e|DI-08380/DI-08381/DI-08382/DI-08383/DI-08384/DI-08385/DI-08386/DI-08387/DI-08388/DI-08389/DI-08390/DI-08391|290371157|EUR": "37183-2026",
+  "x|79b1ea1f-ca34-40fc-a4d6-4cc39ff0337b|ΣΥΜΒΑΣΗ Netcompany - Intrasoft S.A.|217800|EUR": "157865-2025",
+  "x|7dd7beb8-0784-47eb-8b4e-7eb7b11f7613|4027|360000000|NOK": "173799-2026",
+  "x|8281aabd-4422-4ff1-b4b7-e4bc5a3b2e94|DI-08420/DI-08421/DI-08422/DI-08423/DI-08424/DI-08425/DI-08426/DI-08427/DI-08428/DI-08429/DI-08430/DI-08431/DI-08432/DI-08433/DI-08434/DI-08435/DI-08436/DI-08437/DI-08438/DI-08439/DI-08440/DI/08441|243317267|EUR": "354593-2026",
+  "x|830cefc4-9534-4acc-9924-b46ef22d71b2|02.06 - System- og Driftsaftale for ArcGIS Enterprise miljø - Kystdirektoratet/02.06 - Udbud af lønforhandlingsløsning - Erhvervsministeriet/02.06 - Værktøj til at stille fakturering til rådighed J. nr. 2023-1037 - Statens It/02.06 - Værktøj til rapportering af mailflow på domæner J. nr. 2023-814 - Statens It/02.06 - maintenance til Statens It's PAM licenser - J. nr. 2023-1394 - Statens It/02.06 - systemservice af eksisterende ESDH-løsning (WorkZone) - Finanstilsynet/02.06 Imprivata - Region Nordjylland/02.06 Licenser december 2023 - Esbjerg Kommune/02.06 Security - Esbjerg Kommune/02.06 Standard software Microsoft 2022 til 2025 - Naviair/02.06 Standardsoftware - RASP-værktøj til apps i Digitaliseringsstyrelsen - Digitaliseringsstyrelsen/23/08356 - Nye licenser til Power Factory - Energinet.dk/Access Management - Imprivata - Region Sjælland/Access Management - Region Hovedstaden/Access Management - Sundheds- og Ældreministeriet/Acquisition of an Enterprise Architecture tool - Erhvervsstyrelsen/Adobe - Region Nordjylland/Anskaffelse af ERP-løsning til Nordisk RSC (SKI 02.06) - Energinet.dk/Anskaffelse af antivirus software til Københavns Kommune/Anskaffelse af software brugsret vedr. PAM - Energinet.dk/Anskaffelse af standardsoftware inden for business intelligence og analytics samt data management. SW209 - Skatteministeriet/Anskaffelse af standardsoftware kompatibelt med software produceret af Microsoft - Teknologisk Institut/Anskaffelse af standardsoftware til Københavns Kommune - Københavns Kommune/Anskaffelse af standardsoftware til understøttelse af Follow-me printløsning - Banedanmark/Anskaffelse af system til understøttelse af workflows mv. - Aarhus Kommune/Anskaffelse af videoplatform (PaaS-løsning) - Tv2/Danmark A/S/Atlassian udbud 2023 - Rigspolitiet/Bi-System - Randers Kommune/Business intelligence system - Morsø Kommune/CBS - Gentegning af software til SDA - CBS-Copenhagen Business School/CISCO EA aftale - Sønderborg Kommune/Canonical Ubuntu Licens 56 noder - Ministeriet For Børn, Undervisning Og Ligestilling/Cetrea - Region Nordjylland/Check Point 2023 - Rigspolitiet/Clearswift 2023 - Rigspolitiet/DDI-platform - I/S Vestforbrænding/DST - Email security - Danmarks Statistik/Data Loss Prevention 2023 - Rigspolitiet/Data management, analyse og BI software - Odense Kommune/De Danske Universiteter - Microsoft EES aftale 2022-2025 - Danmarks Tekniske Universitet/Digital formularløsning - Region Hovedstaden/Digital signature solution - Aalborg Universitet/Domstolsstyrelsens køb af standardsoftware til NgDP 2021 - Domstolsstyrelsen/Drift, Service m.m. for Den Statslige Kompetencefonds fondssystem - Udviklings- og Forenklingsstyrelsen/ESDH til Fiskeristyrelsen/Endpoint protection software - Sundheds- og Ældreministeriet/Firewalls - I/S Vestforbrænding/Fornyelse Microsoft Enterprise Agreement og EES Licensaftale - Kalundborg Kommune - 2023 - Kalundborg Kommune/Fornyelse af Adobe-licenser - Region Midtjylland/Fornyelse af Citrix licenser 2024 - Vejle Kommune/Fornyelse af Citrix-løsning 2023 - Region Midtjylland/Fornyelse af Micro Focus Solution Support Engineer - Region Midtjylland/Fornyelse af Micro Focus licenser 2023 - Region Midtjylland/Fornyelse af OpenText; Documentum og CTS 2024 - Region Midtjylland/Fornyelse af Red Hat-licenser 2023 - Region Midtjylland/Fornyelse af standard software licenser - Billund Lufthavn A/S/GRC-system - Ministry of Foreign Affairs of Denmark/Genanskaffelse af IT operations management software (ITOM) - Sundheds- og Ældreministeriet/Genanskaffelse af Red Hat Linux licenser - Danmarks Radio/Genanskaffelse af eksisterende softwarefunktionalitet (Orbeon Forms) indenfor content services - Erhvervsstyrelsen/Genanskaffelse af licenser på Microsoft standardsoftware eller tilsvarende - Tv2/Danmark A/S/Genanskaffelse af licenser til ITSM-system (ihlp eller tilsvarende) - Kulturministeriet, Departementet/Genanskaffelse af licenser til eksisterende softwarefunktionalitet (Piwik Pro eller tilsvarende) - Erhvervsstyrelsen/Genanskaffelse af licenser til systemovervågningssoftware (Monsalta Oneview eller tilsvarende) - Erhvervsstyrelsen/Gentegne og anskaffe Standardsoftware licenser, kompatible med software produceret af Microsoft - Danske Spil A/S/Gentegning af licenser til SAS Analytics-server - Ankestyrelsen/Genudbud - Microsoft licenser - Københavns Professionshøjskole S/I/Genudbud af Kræftapp - Region Hovedstaden/Genudbud af Observability Tool - Danmarks Radio/Genudbud af Spamfilter - Region Hovedstaden/Genudbud af Testautomatiseringsværktøj - Region Hovedstaden/Genudbud af indkøb af FinOps as a Service - Skatteministeriet/Genudbud af indkøb af Support og vedligehold af ESDH system - Skatteministeriet/Genudbud vedr. Indkøb af system til opslag af oplysninger vedr. registreringen af domæner. - Skatteministeriet/Genudbud. Indkøb af oplæsningsværktøj. SW325 - Skatteministeriet/Genudbud_Indkøb af økonomisystem - Midttrafik/GeoData 2023 - Rigspolitiet/Gode tavlemøder og styring med software til projket- og porteføljestyring - Energistyrelsen/Google Workspace for Education Standard licenser - Aarhus Kommune/Human Capital Management - tidsregistreringssystem - Sundheds- og Ældreministeriet/ICAP antivirus scanning - Region Hovedstaden/IGA-løsning til Københavns Kommune (041223) - Københavns Kommune/Implementering og konfiguration samt support vedrørende Security - Staten og Kommunernes Indkøbsservice A/S/Indkøb af BI-platform softwarelicens - Erhvervsstyrelsen/Indkøb af CMS-løsning (Genudbud) - Skatteministeriet/Indkøb af Cisco standardsoftware samt support og vedligeholdelsesaftaler vedrørende Security - Ishøj Kommune/Indkøb af DNA- og Security licenser - Professionshøjskolen Lillebælt / University College Lillebælt/Indkøb af Digital signaturløsning - Skatteministeriet/Indkøb af ESDH system - Det Kongelige Teater Og Kapel/Indkøb af ITSM-licenser - Metroselskabet I/S/Indkøb af Identifikationsløsning op imod MitID Erhverv - Skatteministeriet/Indkøb af Konverteringsværktøj - Skatteministeriet/Indkøb af Læse- og skriveteknologiværktøj til Københavns Kommune - Københavns Kommune/Indkøb af Microsoft licenser - Innovasion ApS/Indkøb af ProjectFlow software 02.06 kategori 2 - Aalborg Universitet/Indkøb af Support og vedligehold af Informatica (SW456) - Skatteministeriet/Indkøb af adgangsstyringssoftware - Skatteministeriet/Indkøb af citrix licenser - Politisk koordination og økonomi/Indkøb af cloud-baseret ESDH-løsning - Institut For Menneskerettigheder -Danmarks Nationale Menneskeret/Indkøb af digital krisestyringsplatform - Skatteministeriet/Indkøb af et Cloud-baseret standardværktøj til performance-test - genudbud - Skatteministeriet/Indkøb af et vidensbasesystem - Skatteministeriet/Indkøb af et webtilgængeligheds værktøj - Skatteministeriet/Indkøb af intensiv- og anæstesisystem (RIAS) - Region Syddanmark/Indkøb af kodeanalyseværktøj - Kombit A/S/Indkøb af licenser til ESDH systemet Public 360, eller tilsvarende - Kulturministeriet, Departementet/Indkøb af program til datakonvertering og dataanalyse af interne- og eksterne data (SW213) - Skatteministeriet/Indkøb af server licenser til et artefakt repository manager værktøj (SW412) - Skatteministeriet/Indkøb af sikkert mailsystem - Skatteministeriet/Indkøb af software til webtilgængelighedstjek - Statsministeriet/Indkøb af standard software til metadataplatform - Region Syddanmark/Indkøb af standardsoftware til brugergrænseflade test (SW293) (Genudbud) - Skatteministeriet/Indkøb af support og installation/ implementering og/ eller konfiguration af SAP Sybase ASE og IQ (SW276) - Skatteministeriet/Indkøb af support og vedligeholdes af ALM licenser hos skatteforvaltnign SW292 - Skatteministeriet/Indkøb af survey program til Arbejdstilsynet 2023 - Beskæftigelsesministeriet/Indkøb af søgemaskine. - Skatteministeriet/Indkøb af tidsregistreringssystem til eksterne konsulenter - Skatteministeriet/Indkøb af virtuelt samarbejdsværktøj - Skatteministeriet/Indkøb af webinar software. SW312. - Skatteministeriet/Indkøb vedrørende software samt support og vedligehold af Workflowmotor licenser - Skatteministeriet/Indkøbe licenser til backup af Office365 data - Danmarks Tekniske Universitet/Inputservice - Rigspolitiet/Jira + Confluence Data Center Licenser til Fiskeristyrelsen (Genudbud) - Fiskeristyrelsen/Kemisk risikovurdering - Det Kongelige Teater Og Kapel/Kontaktcenterløsning med integration til Salesforce til Danske Spils kundecenter (genudbud) - Danske Spil A/S/Kontrakt om levering, vedligeholdelse og support af elevadministrationssystem - Københavns Kommune/Køb af vidensbase - Erhvervsstyrelsen/Levering, implementering, support og vedligehold af ITSM-løsning - Folketinget/Licenser og service til Analytics and Business Intelligence - Sundheds- og Ældreministeriet/Licenser og service til Analytics and Business SW for DRG-gruppering - Sundheds- og Ældreministeriet/Licenser til Københavns Professionshøjskole/Logpoint licenser - Sundheds- og Ældreministeriet/Microsoft EA 2022 - TV2 ØST/Microsoft EA og SCE aftaler - Kolding Kommune/Mødebooking- og kantinesystem - I/S Vestforbrænding/Neo4j Enterprise Graph Data Science Bundle licens eller tilsvarende med dertilhørende support og vedligeholdelse - Justitsministeriet/Netværks Dokumentering & Kvalitetssikrings tool - Region Midtjylland/Nutanix 2023 - Professionshøjskolen Via University College/Nutanix add on v2. ITR0004852 - Energinet.dk/Ny formularplatform - Udlændinge- og Integrationsministeriet/Online udstilling af eksamensbeviser fra DTU - Danmarks Tekniske Universitet/Opentext/Micro Focus 2023 - Rigspolitiet/Oracle licenser til SP Integrationsplatformen - Region Hovedstaden/PPM-software til Det Kgl. Bibliotek - Kulturministeriet/Projektstyringsværktøj - Odense Kommune/Purchase of Support and Maintenance for an existing Enterprise Risk Management Software - Sund & Bælt Holding A/S/RPA udbud - Forsvarsministeriet/Red Hat Linux OS - Forsvarsministeriet/Regel og skemaværktøj til Landbrugsstyrelsen - Landbrugsstyrelsen/Region Syddanmarks udbud af SAS software til analytics og Business Intelligence - Region Syddanmark/SKI 02.06 - Mødebookingssoftware - Statens It/SKI 02.06 Antivirus til server infrastruktur - Forsvarsministeriet/SKI 02.06 CMS-løsning til Statens It J.nr. 2023-1118 - Statens It/SKI 02.06 Leveringskontrakt Om Standardsoftware vedrørende Performance Analysis - Arbejdsmarkedets Tillægspension/SKI 02.06 Leveringskontrakt om Standardsoftware vedrørende Application Security Testing - Arbejdsmarkedets Tillægspension/SKI 02.06 Leveringskontrakt om Standardsoftware vedrørende Enterprise Ressource Planning - Arbejdsmarkedets Tillægspension/SKI 02.06 Leveringskontrakt om Standardsoftware vedrørende IBM Passport Advantage S&S 2024 - Arbejdsmarkedets Tillægspension/SKI 02.06 Leveringskontrakt vedr. Content Services - Arbejdsmarkedets Tillægspension/SKI 02.06 Leveringskontrakt vedr. Integrated Risk Management, 24.10.2023 - Arbejdsmarkedets Tillægspension/SKI 02.06 Leveringskontrakt vedr. Vulnerability Assessment - Arbejdsmarkedets Tillægspension/SKI 02.06 Leveringskontrakt vedrørende Secure E-mail Gateways - Arbejdsmarkedets Tillægspension/SKI 02.06 Standard CMS løsning - Forsvarsministeriet/SKI 02.06 Standardsoftware vedrørende Data Integration Tools - Arbejdsmarkedets Tillægspension/SKI 02.06 kat. 2 - standardsoftware formularværktøj - Forsvarsministeriet/SKI 02.06: Indkøb af konsulentbistand til løbende support, udvikling og vedligeholdelse af Forsvarets skabelonløsning WordEngine - Forsvarsministeriet/Samsung Knox 2023 - Rigspolitiet/Security Access Management - Danmarks Tekniske Universitet/ServiceNow licenser til Energinet - Energinet.dk/Sikkerheds software - Hillerød Kommune/Sikkerhedssoftware inkl. server - Fredensborg Kommune/Site Investigation Platform Tender - Ørsted Services A/S/Software til automatisk journalisering af blanketter i ESDH-system med tilhørende support og vedligeholdelsesaftale - Landbrugsstyrelsen/Software til firewalls - It-Forsyningen I/S/Software til håndtering af Software og Hardware Asset Management - Energinet.dk/Softwarelicens til GIS i Kolding Kommune/Softwareløsning til planlægning og kommunikation - Holstebro Kommune/Standardsoftware 2024-2026 - It-Center Fyn/Standardsoftware kompatibelt med Adobe 191023 - Københavns Kommune/Standardsoftware mv. til at udgive og styre Kundens hjemmesider (CMS) - Aarhus Kommune/Standardsoftware til Output Management løsning - Aarhus Kommune/Standardsoftware til content, communications og collaboration - Aarhus Kommune/Standardsoftware vedrørende Endpoint Protection Platforms (Enterprise) - Energinet.dk/Standardsoftware vedrørende Enterprise Asset Management (Integrated Workplace Management System) - Bygningsstyrelsen/Standardsoftware vedrørende PAM - Energinet.dk/Standardsoftware vedrørende Project and Portfolio Management, med de hertil relaterede ydelser SKI 02.06 Finanstilsynet - Finanstilsynet/Standardsoftware, support og vedligeholdelse til standardsoftware, undervisning og rådgivning vedrørende API gateway og authorisation engine - Forsvarsministeriet/Storage Management/Backup and Recovery Standardsoftware - Region Hovedstaden/Support og vedligehold af User Authentication - Region Hovedstaden/Support og vedligeholdelse af IdP-løsning - Vejdirektoratet/Support og vedligeholdelse af Udenrigsministeriets pas-system (UMPAS) - Ministry of Foreign Affairs of Denmark/Support og vedligeholdelse af hjemmesideløsning - Vejdirektoratet/Support og vedligeholdelse af kriminalforsorgens eksisterende SIEM softwarefunktionalitet - Kriminalforsorgen/Support og vedligeholdelse til Rigspolitiets eksisterende softwarefunktionalitet, Workzone - Rigspolitiet/Tender for a Model Management tool - Ørsted Services A/S/Tilgængelighedstjekker - Digitaliseringsstyrelsen/Transportplanlægningssystem - Kriminalforsorgen/Udbud af ESDH-system til Syddansk Universitet - Syddansk Universitet/Udbud af kodevalideringsopgave - Klima-, Energi- og Forsyningsministeriet/Udbud vedr. Collaboration Services - Ørsted Services A/S/Udbuds- og planlægningsløsning til tablets med integration til KMD Nexus - Vejen Kommune/Understøttelse af NemLog-in3 - Sundheds- og Ældreministeriet/VM Ware Credits - Sundheds- og Ældreministeriet/VM Ware Supportydelser - Sundheds- og Ældreministeriet/VMWare licenser til Energinet/Veeam - Professionshøjskolen Via University College/Veeam Licens - Banedanmark/Virtualiseringsplatform - Region Hovedstaden/Windows Server 2022 Remote Desktop Service - Sundheds- og Ældreministeriet/ndkøb af kodeværktøjer og Diagram og Graf værktøj - Skatteministeriet/Årshjul - planlægningsværktøj - Fødevarestyrelsen|1358386833|DKK": "294230-2024",
+  "x|9061b66d-2a6d-488e-a528-76f592170a7b|201865006.004.009|18000000|EUR": "234500-2025",
+  "x|90a6bd27-68b3-439b-a39c-bab53cd22f8e|EASA.2025.FC11/EASA.2025.FC12|1800000|EUR": "580050-2025",
+  "x|9379701f-7961-459e-ad24-6e1c35276a91|SKI0222.2307.0002 - Region Sjælland/SKI0222.2310.0004 - Rejsekort & Rejseplan A/S/SKI0222.2311.0023 - Næstved Kommune|69485759|DKK": "184460-2024",
+  "x|937f1694-cda6-48bf-97c6-40025009ddbd|25-C0024|137470720|DKK": "436312-2025",
+  "x|945e2f16-de07-4465-8d99-9c93713d6ad3|25243381-3|7153650|EUR": "227556-2025",
+  "x|96d849c2-3858-4f58-bfe0-39594100b461|rammeaftale vedr. it-tjenesteydelser i form af udvikling, drift, vedligeholdelse og support af SBSYS ESDH|61135574|DKK": "687100-2024",
+  "x|99c4bbbe-9f21-4048-bb4c-5a1dbcae9b79|75/2026|1485000|EUR": "608477-2026",
+  "x|9b5bd3d8-0004-4273-8716-a781ffad029f|4020240043/4020240044/4020240045/4020240046/4020240055/4020240056/4020240057/4020240058|77840000|EUR": "721788-2024",
+  "x|9bd31111-52c2-4b6e-b466-28c040113a9d|1|185000000|DKK": "453112-2026",
+  "x|9beff761-cd50-4c1b-ae96-7756aba55419|EP-ITEC/LUX/2025/OP/0001-ITOMS25 Lot 2 Rank_1/EP-ITEC/LUX/2025/OP/0001-ITOMS25 Lot 2 Rank_2/EP-ITEC/LUX/2025/OP/0001-ITOMS25 Lot 2 Rank_3|42488000|EUR": "72792-2026",
+  "x|a17f3701-a977-45d7-a600-ef8b204362a6|Udbud af Sagsportalen - etablering, drift, support, vedligeholdelse og videreudvikling - Netcompany A/S|151967745|DKK": "130732-2026",
+  "x|a2ff8f74-80f4-4918-b635-ef558170429a|ITS25-PRODINT-R1/ITS25-PRODINT-R2/ITS25-PRODINT-R3|115378000|EUR": "513756-2026",
+  "x|a3cec840-0e85-49a5-a2de-fe8b43337da4|292177/21-05-2025|2332900|EUR": "404671-2025",
+  "x|a539daf4-e04e-49d3-a666-4b25b0ac7b07|8028/NETCOMPANY INTRASOFT S.A.|170000|EUR": "389389-2024",
+  "x|a665114d-7bd2-4876-87e0-881a81bdba62|Delaftale 1: LOD-rammeaftalen (1)/Delaftale 2: OPA-rammeaftalen|220000000|DKK": "59252-2026",
+  "x|a8321597-7c4e-4062-af8a-6b6e341c1984|Rammeaftale|24000000|DKK": "564909-2025",
+  "x|ab80907d-3b8b-4ab7-b0ec-7f5194ec1646|Delaftale 1: TUK-rammeaftalen - Netcompany A/S/Delaftale 2: BIS-rammeaftalen (1) - NNIT A/S|365000000|DKK": "39239-2026",
+  "x|ae8dde8a-949f-43e4-b749-5c453bc1e92e|1/2/3/4|40000000|DKK": "275325-2024",
+  "x|aec834bf-ff20-4db9-82a8-b5e1f0b27c16|540|6399000|EUR": "871014-2025",
+  "x|b14db0d2-d801-45de-88ac-8b0cc83fd81d|220622823|197860202|DKK": "233714-2025",
+  "x|b1bd8305-e68e-437a-aa79-44b36ef491a1|23-0452-000011|130000000|DKK": "100805-2024",
+  "x|b4542e47-eec3-4def-b8a5-d2efd8a7eb83|SI2.4145 - EACEA/2024/OP/0001 - Lot 4|8000000|EUR": "725014-2024",
+  "x|b6a1837b-7e8f-485b-80c3-57da2f47bd04|Fagsystem barnevern - Netcompany|18977000|NOK": "555981-2024",
+  "x|ba9f4721-ba9c-42ea-87b2-e3096473af53|EFSA/2025/OP/0001 Lot 1-CT01/EFSA/2025/OP/0001 Lot 1-CT02/EFSA/2025/OP/0001 Lot 1-CT03|38000000|EUR": "550946-2026",
+  "x|c30a7c2d-c04e-4591-9f14-f4a1c9f6d77e|LISA-2022-OP-04-01-01/LISA-2022-OP-04-01-02/LISA-2022-OP-04-01-03/LISA-2022-OP-04-01-04/LISA-2022-OP-04-01-05|75669478|EUR": "144045-2024",
+  "x|c31e32c1-b763-451a-816c-7557c491a9e2|Σύμβαση Netcompany_473454|266773|EUR": "57870-2026",
+  "x|c4a0479a-6af6-4deb-aee2-8e7c8249d0da|24/10005|2618794|NOK": "741840-2024",
+  "x|c541879b-283d-47fb-bc5f-24452b2fc94c|2260.1/2260.2/2260.3/2260.4/2260.5/2260.6/2260.7/2260.8|95000000|EUR": "187894-2024",
+  "x|cc6401a1-8ec7-4e3b-8982-af09174a5bbe|EUSPA/OP/25/25 - 1st cascade/EUSPA/OP/25/25 - 2nd cascade/EUSPA/OP/25/25 - 3rd cascade|6300000|EUR": "393141-2026",
+  "x|ccdd63b6-d005-4886-8199-ba0b68182fa5|A-2-EPICO-Schultz-Sopra Steria-Wingmen (Konsortium)/Accenture A/S/Capgemini Danmark A/S/Deloitte Statsautoriseret Revisionspartnerselskab/Devoteam-OptimumIT-Trustworks-twoday (Konsortium)/EY godkendt Revisionspartnerselskab/Globeteam A/S/Implement Consulting Group P/S/Netcompany A/S/PA Consulting Group A/S/PricewaterhouseCoopers Statsautoriseret Revisionspartnerselskab/Trifork A/S/VENZO A/S/emagine Consulting A/S|2347000000|DKK": "348748-2025",
+  "x|ce047bcd-a288-4c5d-b2e6-a3727abeb06a|Vedlikeholds- og utviklingstjenester (IKT) - Netcompany|180000000|NOK": "753444-2026",
+  "x|d1ee0590-85aa-4779-bb5c-4cfdccd2485d|Fagsystem for barnevernstenesta - Netcompany|14000000|NOK": "353249-2024",
+  "x|d32a0ae3-b91f-4163-be6a-de8e2a826d8f|219123834|193201477|DKK": "92683-2025",
+  "x|d9597dba-d3c1-46a4-b94d-ce3b16c9a95a|CON-0001|31000000|EUR": "613049-2025",
+  "x|de615313-d0d1-4f9a-a419-5f9d71f57a7b|InLine4ward/Orion|240000000|EUR": "740910-2024",
+  "x|df5db022-9ce7-4911-a97c-160357b26276|3387157/3387161/3387162/3387166/3387169/3387173/3387174/3387176/3387177/3387178/3387179/3387180/3387184/3387185/3387186/3387190/3387195/3387199/3387200/3387201/3387203/3387204/3387205/3387208/3387210/3387213/3387214/3387216/3387218/3387219/3387221/3387222/3387223/3387224/3387226/3387227/3387228/3387232/3387235/3387238/3387241/3387291/3387292/3387293/3387294/3387297/3387299/3387300/3387302/3387303/3387304/3387308/3387310/3387311/3387312/3387314/3387335/3387339/3387341/3387346/3387347/3392289|650000000|SEK": "599640-2026",
+  "x|e1b566d6-f462-416e-b740-62598c1a40e2|EPPO/2021/88 ARHS/EPPO/2021/88 NRB/EPPO/2021/88 Netcompany/EPPO/2021/88 Unisystems|7500000|EUR": "455121-2025",
+  "x|e1ede6ce-0e10-41d0-9af9-90e11b018516|ΣΥΜΒΑΣΗ 3-2025 ΤΜΗΜΑ 1|44500000|EUR": "84429-2025",
+  "x|e2201ccb-5e44-4c5a-bfc0-6b76f1947127|SKI0214.2408.0006 - Økonomistyrelsen/SKI0214.2409.0018 - Vejdirektoratet/SKI0214.2409.0030 - Direktoratet for Kriminalforsorgen/SKI0214.2409.0035 - Ørsted Services A/S/SKI0214.2409.0039 - Aarhus Kommune/SKI0214.2409.0066 - Københavns Kommune/SKI0214.2410.0017 - Nordic RCC A/S/SKI0214.2410.0036 - Udviklings- og Forenklingsstyrelsen/SKI0214.2410.0049 - Region Sjælland/SKI0214.2411.0007 - Nordic RCC A/S/SKI0214.2411.0008 - Nordic RCC A/S/SKI0214.2411.0010 - Region Nordjylland/SKI0214.2411.0014 - Rigsarkivet/SKI0214.2411.0032 - Erhvervsstyrelsen/SKI0214.2411.0037 - Nordic RCC A/S/SKI0214.2411.0040 - Vejdirektoratet/SKI0214.2412.0008 - Nordic RCC A/S/SKI0214.2412.0009 - Region Nordjylland/SKI0214.2412.0010 - Region Nordjylland/SKI0214.2412.0016 - Udviklings- og Forenklingsstyrelsen/SKI0214.2412.0030 - Vejdirektoratet/SKI0214.2501.0004 - Nordic RCC A/S/SSKI0214.2410.0052 - Politi|125705996|DKK": "261017-2025",
+  "x|e2477b16-bb38-4ce5-9496-80e05b3496f0|32/2025|9538949|EUR": "262902-2025",
+  "x|e48cc483-b1cb-4f7f-8044-e66b0cea3377|EEAS/2023/RP/0326 -2024|145220000|EUR": "11988-2025",
+  "x|ebcc0138-444f-4889-a982-f608c21fd4b8|25-15-0450|148000000|DKK": "749910-2026",
+  "x|ee89af85-7832-4bb8-8c95-8e8e65964e19|NETCOMPANY S.A./infeurope S.A.|10600000|EUR": "533962-2025",
+  "x|f1ca13ca-dc89-44f4-9ba0-286ff54461ce|029/2024|1000000|EUR": "463422-2026",
+  "x|f3cc1f97-abfb-422b-ad54-317ef6afdc5f|(re-tender) Contract regarding a Certificate Lifecycle Mangement-solution - DSB/02.06 - Antivirus - Hillerød Kommune/02.06 Standardsoftware vedrørende Security - J.nr. 2025-1244 - Statens It/2024/14 Virtualiseringssoftware - Region Hovedstaden/2024/45-1 Cloud Sikkerhedssoftware - Region Hovedstaden/2025/10-1 Orkestrerings- og automatiseringssoftware - Region Hovedstaden/2025/11-01 AI tolkningsløsning - Region Hovedstaden/2025/17 Standardsoftware vedr. Security og Other Infrastructure Software (ADC) - Region Hovedstaden/2025/7 Standardsoftware vedr. Analytics and Business Intelligence - Region Hovedstaden/2025/9 Reference- og kildestyringssoftware - Region Hovedstaden/2025_12 Standardsoftware til at understøtte fysiske firewalls og cloud firewalls - Region Hovedstaden/2025_13 Sikkerhedsplatform til SOC - Region Hovedstaden/2025_18 Standardsoftware til beskyttelse af Internet of Things (IoT) og IoMT/Medico udstyr - Region Hovedstaden/2025_19 Supportsoftware til overtagelse af supporterede enheder - Region Hovedstaden/2025_24 Standardsoftware til digital diagnostik af øvrige dermatologiske tilstande - Region Hovedstaden/2025_25 Support og vedligeholdelse af IBM SPSS ejelicenser - Region Hovedstaden/25-2128147, Chatløsning - Skatteministeriet/25-3118967, Sybase IQ Support - Skatteministeriet/50.49 (2025) Fællesregional anskaffelse af standardsoftware kompatibelt med software produceret af Microsoft - Staten og Kommunernes Indkøbsservice A/S/6.1 Project and Portfolio Management - Udlændingestyrelsen/Account Reconciliation Solution (renewal) - Ørsted Services A/S/Adobe licenser eller tilsvarende softwarelicenser - Aalborg Kommune/Adobe licenser mm. - Naviair/Alarm- / Udkalds-anlæg for Kystredningstjeneste - genudbud - Forsvarsministeriets Materiel- og Indkøbsstyrelse/Anskaffelse af CMS system - Rejsekort & Rejseplan A/S/Anskaffelse af PowerFactory licenser vedr. analytics and business intelligence - Energinet.dk/Anskaffelse af kontrolrumsløsning til SINE-beredskab - Skatteministeriet/Anskaffelse af licenser til arkiveringsløsning (WZ) - Landbrugsstyrelsen/Anskaffelse af standardsoftware og support/vedligehold vedr. network load balancer og WAF - Energinet.dk/Anskaffelse af standardsoftware vedr. ID baggrundstjek - Energinet.dk/Anskaffelse vedrørende standardsoftware til Virtualization Infrastructure - Energinet.dk/Automatiseret Tredjeparts Patch Management_Genudbud - Region Sjælland/Billetsystem - Det Kongelige Teater og Kapel/Borger- og takstopkrævning - Slagelse Kommune/CPR EntireX A - Digitaliserings- og Ligestillingsministeriet/Canonical 95 - Børne- og Undervisningsministeriet/Creative Software - Region Sjælland/DSS - Secure Web Gateways 2 - MEKK - Domstolsstyrelsen/Data Management 2025 - Odense Kommune/Databeskyttelse- og AI compliance system - Fødevarestyrelsen/Documentum og CTS-licenser - Region Midtjylland/Drift og support af Nationalbankens hjemmesideløsning - Danmarks Nationalbank/EDMS (re-tender) - DSB/Energistyringssystem til Region Hovedstaden - Region Hovedstaden/Enterprise Open Source Serverlicenser til eksisterende Linux-miljø - DSB/Fornyelse af EA aftale samt tilføjelse af Wireless, ISE, Umbrella og Stealthwatch licenser (eller tilsvarende). - Københavns Universitet/Fornyelse af Region Syddanmarks Solarwinds-installation til monitorering af netværksflow - Region Syddanmark/Fornyelse af dele af Region Syddanmarks Infoblox-installation - Region Syddanmark/Fælles Virtuelt Kontaktcenter for flere Trafikselskaber (PTO’er) - DSB/Genanskaffelse af BI-licenser - Tableau eller tilsvarende - Erhvervsstyrelsen/Genanskaffelse af eksisterende softwarefunktionalitet (logplatform) - Region Syddanmark/Genanskaffelse af licenser til administration af videokonferenceløsning - Forsvarsministeriets Materiel- og Indkøbsstyrelse/Genanskaffelse af licenser til native graph database - Erhvervsstyrelsen/Gentegning af Alteryx licenser - Gladsaxe Kommune/Gentegning af Atlassian licenser eller tilsvarende - Familieretshuset/Gentegning af Tableau licenser - Gladsaxe Kommune/Genudbud - SKI 02.06, kat. 1 - Standardværktøj - Forsvarsministeriets Materiel- og Indkøbsstyrelse/Genudbud af Trivselsmålingsværktøj - Skatteministeriet/Genudbud vedr. en Webscrapper - Skatteministeriet/Genudbud_2 - Anskaffelse af BPM-software - Skatteministeriet/HCM subscription based (leje licenser) til cloud moduler til DSB ERP-system - DSB/Hosting af WordPress hjemmeside - Rigspolitiet/Hosting-platform (re-tender 2) - DSB/Indkøb af Data Science-platform til sundheds- og ældreområdet i Struer Kommune - Struer Kommune/Indkøb af Database Management Systems (Oracle eller tilsvarende) - genudbud - Region Syddanmark/Indkøb af ERP-standardsoftware til MULS m.v. - Digitaliseringsstyrelsen/Indkøb af FinOps-værktøj - Danmarks Radio/Indkøb af Løsning til skabelon- og signaturhåndtering - Klima-, Energi- og Forsyningsministeriet/Indkøb af Microsoft licenser - BizApps SCE aftale - Sund & Bælt Holding A/S/Indkøb af SEO-værktøj til NFA, September 2025 - Det Nationale Forskningscenter for Arbejdsmiljø/Indkøb af awareness/phishing-software, juni 2025 - Det Nationale Forskningscenter for Arbejdsmiljø/Indkøb af dataintegrationsplatform (24-1495709) Genudbud - Skatteministeriet/Indkøb af dataplatform til udstilling af ladestanderdata - Klima-, Energi- og Forsyningsministeriet/Indkøb af et BI selvbetjeningsværktøj - Skatteministeriet/Indkøb af standardsoftware (CMS) og support- og vedligeholdelsesaftale - Social- og Boligstyrelsen/Indkøb af standardsoftware til Content Services - Trafikstyrelsen/Indkøb af udkaldesystem - Region Syddanmark/Indkøb af virtualiseringsværktøj (02.06) - Københavns Kommune/Ivanti DesktopNow fornyelse 2025 - Region Midtjylland/Konkret indkøb på 02.06 – Standardsoftware vedrørende Customer Experience and Relationship Management (CRM) - Customer Service and Support” (Voice/Chatbot) ((Genudbud)) - Københavns Kommune/Levering af ledelsesinformationssystem til Bornholms Regionskommune - 2025 - Bornholms Regionskommune/Leveringskontrakt om Standardsoftware vedr. Backup and Recovery - Evida Service Nord A/S/Licenser til ITSM og platformsunderstøttelse 2025 - Odense Kommune/Licenser til bl.a. projekt management og IT Operations - Danske Spil A/S/Microsoft EES aftale - fornyelse + tilpasning - Professionshøjskolen Absalon/Mini-udbud vedr. Service Management System - Syddansk Universitet/NFA - Transskribering/programmering, Oktober 2025 - Det Nationale Forskningscenter for Arbejdsmiljø/Opgradering af ERP-system til DanPilot - Danpilot - Lodseriet Danmark/PPM-system - I/S Vestforbrænding/Plagiarism software - Københavns Universitet/Process Mining løsning til Holbæk Kommune - Holbæk Kommune/Renewal - Standard SW compatible w. existing SW based on Kong - DSB/SKI 02.006 Leveringskontrakt til Standardsoftware vedr. Encryption - Arbejdsmarkedets Tillægspension/SKI 02.06 - 11. Storage Management - Support på eksisterende software til Netbackup - Statens It/SKI 02.06 - Licenser til M365 Back-up - Statens It/SKI 02.06 Leveringskontrakt om Standardsoftware vedrørende Application Platform as a Service - Arbejdsmarkedets Tillægspension/SKI 02.06 Leveringskontrakt om Standardsoftware vedrørende Content Services - Arbejdsmarkedets Tillægspension/SKI 02.06 Leveringskontrakt om Standardsoftware vedrørende Project and Portfolio Management - Arbejdsmarkedets Tillægspension/SKI 02.06 Leveringskontrakt om Standardsoftware vedrørende Virtual Desktop Infrastructure - Arbejdsmarkedets Tillægspension/SKI 02.06, kat. 1 - Standardsoftware, licenser til Identity and Access Management - Forsvarsministeriets Materiel- og Indkøbsstyrelse/SKI 02.06, kat. 2 - Anskaffelse af standardsoftware vedr. Applikations- og BI-platform - Forsvarsministeriets Materiel- og Indkøbsstyrelse/Serverbaseret løsning til OCR-behandling - Rigspolitiet/Servere til udvidelse af kapaciteten i driftsmiljøet - Region Syddanmark/Sikker kommunikations system - Skatteministeriet/Skærmløsning - Aalborg Kommune/Standard software for Travel document reading and validation - Digitaliseringsstyrelsen/Standard software til beboeroverblik for sundhedspersonale på plejehjem - Gladsaxe Kommune/Standard software vedr. Enterprise service management - Energinet.dk/Standardsoftware Juni 2025 - Professionshøjskolen UCN/Standardsoftware som understøtter klient Software portal og udrulning fra SCCM - Region Syddanmark/Standardsoftware til håndtering af økonomi og indsatser tildelt borgere på det socialfaglige område - Aarhus Kommune/Standardsoftware vedr. Other Application Software - Region Syddanmark/Standardsoftware vedrørende Analytics and Business Intelligence - Middelfart Kommune/Standardsoftware vedrørende Financial Management Systems - Rigspolitiet/Standardsoftware vedrørende Virtualization Infrastructure til Nationalt Genom Center - Sundheds- og Ældreministeriet/Support og vedligeholdelse til Kundens eksisterende videovægs-løsning. - Rigspolitiet/System for plagiarism check - Aarhus Universitet/TITSAM fællesindkøb af økonomiløsning - Nordjyllands Trafikselskab/Testværktøj til rekruttering - DSB/Tilkøb af yderligere Tenable licenser 2025 ITR0008089 - Energinet.dk/Tillægsmoduler til inddrivelsessystem - Nordværk I/S/VANS til Region Syddanmark - Region Syddanmark/VMware-VxRail - Danmarks Statistik/Veeam backup 2025 - Professionshøjskolen Via University College/Videovejledninger til kompenserende læse-skriveteknologi - Børne- og Undervisningsministeriet/Virtualization Infrastucture Software - Region Syddanmark/Webtilgængeliggørelse af PDF-filer - Region Sjælland/eDiscovery Standard Software - Rigspolitiet|1799349017|DKK": "807050-2025",
+  "x|f8f198f7-fac8-400c-9690-f3ef7525185e|59/2025|11067184|EUR": "499583-2025",
+  "x|fa6c7e60-3694-4f1b-a062-7f9f96ac2314|26/2025|6799932|EUR": "148859-2025",
+  "x|fbbd0894-c98a-4af4-89cd-f05c85ad5121|2284.1/2284.2/2284.3/2284.4/2284.5/2284.6/2284.7/2284.8|78349773|EUR": "170903-2024",
+  "x|ffaff872-ae9c-42eb-bac6-ba94a7a5d288|Frontex/2024/OP/0029-1/Frontex/2024/OP/0029-10/Frontex/2024/OP/0029-2/Frontex/2024/OP/0029-3/Frontex/2024/OP/0029-4/Frontex/2024/OP/0029-5/Frontex/2024/OP/0029-6/Frontex/2024/OP/0029-7/Frontex/2024/OP/0029-8/Frontex/2024/OP/0029-9|186500000|EUR": "214583-2026"
  },
  "rows": {
   "100805-2024": {
@@ -149,9 +395,10 @@
     "Customers": "Landbrugsstyrelsen"
    },
    "_pub": "2024-02-19",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "116542-2024": {
    "Contract": "Avinor AS - K-191525/K-191526 - Framework agreement - TEK consultant, strategic partner and consultancy broker. - framework agreement",
@@ -172,9 +419,10 @@
     "Customers": "AVINOR AS"
    },
    "_pub": "2024-02-26",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "11988-2025": {
    "Contract": "EEAS ICT Projects, Support and Operations Services (EIPSOS 2) - framework agreement",
@@ -195,9 +443,10 @@
     "Customers": "European External Action Service (EEAS)"
    },
    "_pub": "2025-01-09",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "120474-2026": {
    "Contract": "Joint implementation of a national sector facility for Registration, Enrollment and Subscription (AII) for education. - framework agreement",
@@ -218,9 +467,10 @@
     "Customers": "SURF B.V."
    },
    "_pub": "2026-02-19",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "128087-2026": {
    "Contract": "Support to EFSA’s communication activities - framework agreement",
@@ -241,9 +491,10 @@
     "Customers": "European Food Safety Authority"
    },
    "_pub": "2026-02-24",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "128577-2026": {
    "Contract": "31166457 Dubocalc software",
@@ -264,9 +515,10 @@
     "Customers": "Rijkswaterstaat Grote Projecten en Onderhoud"
    },
    "_pub": "2026-02-24",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "130732-2026": {
    "Contract": "Tender for the implementation, operation, maintenance, support and further development of a case management system (Case Portal)",
@@ -287,9 +539,10 @@
     "Customers": "Skatteforvaltningen"
    },
    "_pub": "2026-02-24",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "134218-2022": {
    "Contract": "Belgium-Brussels: External Service Provision in Time and Means for Development, Consultancy and Support in the Field of Information Systems (DIGIT-TM)",
@@ -310,9 +563,10 @@
     "Customers": "European Commission, Directorate-General for Informatics (DIGIT), Directorate for Strategy and Resources, ICT Procurement and Contracts Unit"
    },
    "_pub": "2022-03-15",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "134224-2022": {
    "Contract": "Belgium-Brussels: External Service Provision in Time and Means for Development, Consultancy and Support in the Field of Information Systems (DIGIT-TM)",
@@ -333,9 +587,10 @@
     "Customers": "European Commission, Directorate-General for Informatics (DIGIT), Directorate for Strategy and Resources, ICT Procurement and Contracts Unit"
    },
    "_pub": "2022-03-15",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "134895-2026": {
    "Contract": "31166457 Dubocalc software",
@@ -356,9 +611,10 @@
     "Customers": "Rijkswaterstaat Grote Projecten en Onderhoud"
    },
    "_pub": "2026-02-26",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "138681-2026": {
    "Contract": "31166457 Dubocalc software",
@@ -379,9 +635,10 @@
     "Customers": "Rijkswaterstaat Grote Projecten en Onderhoud"
    },
    "_pub": "2026-02-27",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "142801-2026": {
    "Contract": "Contract for the provision of operation, support, maintenance and further development of the Interdisciplinary Subject System (TFS) in the City of Copenhagen",
@@ -402,9 +659,10 @@
     "Customers": "Københavns Kommune - Børne- og Ungdomsforvaltningen"
    },
    "_pub": "2026-03-02",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "143176-2025": {
    "Contract": "Event Management and Related Communication Services - framework agreement",
@@ -425,9 +683,10 @@
     "Customers": "European Commission"
    },
    "_pub": "2025-03-05",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "144045-2024": {
    "Contract": "Provision of External Consultancy Services (EXTRA-NG) - framework agreement",
@@ -448,9 +707,10 @@
     "Customers": "European Union Agency for the Operational Management of Large-Scale IT Systems in the Area of Freedom, Security and Justice (eu-LISA)"
    },
    "_pub": "2024-03-08",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "145943-2026": {
    "Contract": "CFT-1772 - Data & Analytics Platform Strategy, Implementation and Support Services - framework agreement",
@@ -471,9 +731,10 @@
     "Customers": "European Investment Bank"
    },
    "_pub": "2026-03-03",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "146685-2025": {
    "Contract": "Software development for the new screening process for the IND",
@@ -494,9 +755,10 @@
     "Customers": "Inkoop Uitvoeringscentrum Dienst Justitiële Inrichtingen (IUC DJI)"
    },
    "_pub": "2025-03-06",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "146941-2026": {
    "Contract": "31166457 Dubocalc software",
@@ -517,9 +779,10 @@
     "Customers": "Rijkswaterstaat Grote Projecten en Onderhoud"
    },
    "_pub": "2026-03-03",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "148859-2025": {
    "Contract": "\"Provision of software development/modification services, support for the productive operation and maintenance of information systems and migration of data and applications to the existing Information Systems and online services of EOPYY\"",
@@ -540,9 +803,10 @@
     "Customers": "ΕΘΝΙΚΟΣ ΟΡΓΑΝΙΣΜΟΣ ΠΑΡΟΧΗΣ ΥΠΗΡΕΣΙΩΝ ΥΓΕΙΑΣ (ΕΟΠΥΥ)"
    },
    "_pub": "2025-03-06",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "149250-2025": {
    "Contract": "2023-1003870_Munich Airport_CHIMP – Collaboration & Insights Airport Management Platform",
@@ -563,9 +827,10 @@
     "Customers": "Flughafen München GmbH"
    },
    "_pub": "2025-03-07",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "150334-2022": {
    "Contract": "Denmark-Hillerød: Custom software development services",
@@ -586,9 +851,10 @@
     "Customers": "ATP"
    },
    "_pub": "2022-03-22",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "150447-2024": {
    "Contract": "Framework Agreement byte: Digital Products - framework agreement",
@@ -609,9 +875,10 @@
     "Customers": "byte - Bayerische Agentur für Digitales GmbH"
    },
    "_pub": "2024-03-12",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "157865-2025": {
    "Contract": "Provision of Maintenance Services for the Unified System of Academic Administration Services of the University of Patras",
@@ -632,9 +899,10 @@
     "Customers": "Πανεπιστήμιο Πατρών"
    },
    "_pub": "2025-03-11",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "162659-2025": {
    "Contract": "Public tender for a Contract for the development, operation, maintenance, support and further development of a new NemKonto system",
@@ -655,9 +923,10 @@
     "Customers": "Digitaliseringsstyrelsen"
    },
    "_pub": "2025-03-13",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "163354-2019": {
    "Contract": "Denmark-Randbøl: Document creation, drawing, imaging, scheduling and productivity software development services",
@@ -678,9 +947,10 @@
     "Customers": "Naturstyrelsen"
    },
    "_pub": "2019-04-08",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "169959-2026": {
    "Contract": "CFT-1773 - IT Consultancy Services for Project Management, Business Analysis and Testing (Arrow) - framework agreement",
@@ -701,9 +971,10 @@
     "Customers": "European Investment Bank"
    },
    "_pub": "2026-03-11",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "170903-2024": {
    "Contract": "Digitization of Data Files of the Ministry of Justice, OPS TA Code 5150259 - framework agreement",
@@ -724,9 +995,10 @@
     "Customers": "«ΚΟΙΝΩΝΙΑ ΤΗΣ ΠΛΗΡΟΦΟΡΙΑΣ Μ.Α.Ε.»"
    },
    "_pub": "2024-03-21",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "173799-2026": {
    "Contract": "Procurement of development and management of digital services in Oslo municipality, 2nd publication - framework agreement",
@@ -747,9 +1019,10 @@
     "Customers": "Oslo kommune v/ Utviklings- og kompetanseetaten"
    },
    "_pub": "2026-03-12",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "173831-2026": {
    "Contract": "CFT-1764 - IT CONSULTANCY FOR CONTENT MANAGEMENT - framework agreement",
@@ -770,9 +1043,10 @@
     "Customers": "European Investment Bank"
    },
    "_pub": "2026-03-12",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "184460-2024": {
    "Contract": "IT operations",
@@ -793,9 +1067,10 @@
     "Customers": "Staten og Kommunernes Indkøbsservice A/S"
    },
    "_pub": "2024-03-27",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "187894-2024": {
    "Contract": "Digitization of Public Health System Records, IS No. 5174874 - framework agreement",
@@ -816,9 +1091,10 @@
     "Customers": "ΚΟΙΝΩΝΙΑ ΤΗΣ ΠΛΗΡΟΦΟΡΙΑΣ Μ.Α.Ε. (ΚτΠ ΜΑΕ)"
    },
    "_pub": "2024-03-28",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "198941-2024": {
    "Contract": "Tender for a framework agreement for an operational support system - framework agreement",
@@ -839,9 +1115,10 @@
     "Customers": "Landsbyggefonden"
    },
    "_pub": "2024-04-04",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "203837-2021": {
    "Contract": "Denmark-Copenhagen: Custom software development services",
@@ -862,9 +1139,10 @@
     "Customers": "Rigsarkivet"
    },
    "_pub": "2021-04-23",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "213613-2022": {
    "Contract": "Greece-Athens: IT services: consulting, software development, Internet and support",
@@ -885,9 +1163,10 @@
     "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ (Α.Α.Δ.Ε.)"
    },
    "_pub": "2022-04-22",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "214583-2026": {
    "Contract": "Multiple Framework Contract for the Provision of the Services for Designing, Implementing, Managing, Operating and Supporting Information Systems under Time and Means Conditions (DESOPS) - framework agreement",
@@ -908,9 +1187,10 @@
     "Customers": "European Border and Coast Guard Agency (FRONTEX)"
    },
    "_pub": "2026-03-27",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "21819-2025": {
    "Contract": "2023-1003856_Munich Airport_Apps@MUC",
@@ -931,9 +1211,10 @@
     "Customers": "Flughafen München GmbH"
    },
    "_pub": "2025-01-13",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "218832-2025": {
    "Contract": "Tender for a framework agreement for consultancy services for STIL's data warehouse and other data systems - framework agreement",
@@ -954,9 +1235,10 @@
     "Customers": "Styrelsen for It og Læring"
    },
    "_pub": "2025-04-04",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "222122-2024": {
    "Contract": "Luxembourg-Luxembourg: Provision of External Staff and Services for Maintenance, Support, Development and Implementation of Packages and Specific Information Systems at the EIB Group",
@@ -977,9 +1259,10 @@
     "Customers": "European Investment Bank"
    },
    "_pub": "2024-04-16",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "227556-2025": {
    "Contract": "PROVISION OF SERVICES FOR THE QUALITATIVE RECORDING OF WASTEWATER AND DETECTION OF POTENTIAL SOURCES OF POLLUTION IN SELECTED AREAS OF THE SEWERAGE NETWORK THROUGH CONTINUOUS MONITORING AND SAMPLING IN THE NETWORK FROM",
@@ -1000,9 +1283,10 @@
     "Customers": "ΕΤΑΙΡΙΑ ΥΔΡΕΥΣΕΩΣ ΚΑΙ ΑΠΟΧΕΤΕΥΣΕΩΣ ΠΡΩΤΕΥΟΥΣΗΣ Α.Ε. (Ε.ΥΔ.Α.Π. Α.Ε.)"
    },
    "_pub": "2025-04-08",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "233714-2025": {
    "Contract": "Notice of contract award: Contract for the provision of operation, maintenance and further development, etc., of the Family Benefits System",
@@ -1023,9 +1307,10 @@
     "Customers": "ATP"
    },
    "_pub": "2025-04-10",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "234500-2025": {
    "Contract": "VWS CDP Medicine Registration & Evaluation System (MRES)",
@@ -1046,9 +1331,10 @@
     "Customers": "Ministerie van Volksgezondheid, Welzijn en Sport"
    },
    "_pub": "2025-04-10",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "248525-2026": {
    "Contract": "Competition No 1 under Dynamic Purchasing System LISA/2025/DPS/0008 - framework agreement",
@@ -1069,9 +1355,10 @@
     "Customers": "European Union Agency for the Operational Management of Large-Scale IT Systems in the Area of Freedom, Security and Justice (eu-LISA)"
    },
    "_pub": "2026-04-13",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "258138-2022": {
    "Contract": "Norway-Oslo: Custom software development services",
@@ -1092,9 +1379,10 @@
     "Customers": "Arkivverket"
    },
    "_pub": "2022-05-13",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "261017-2025": {
    "Contract": "02.14 IT Consultants (DIS)",
@@ -1115,16 +1403,17 @@
     "Customers": "Staten og Kommunernes Indkøbsservice A/S"
    },
    "_pub": "2025-04-23",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "261630-2025": {
    "Contract": "\"Provision of software development/modification services, support for the productive operation and maintenance of information systems and migration of data and applications to the existing Information Systems and online services of EOPYY\"",
    "Country": "Greece",
    "Customers": "NATIONAL ORGANIZATION FOR THE PROVISION OF HEALTH SERVICES",
    "Link": "https://ted.europa.eu/en/notice/-/detail/261630-2025",
-   "Note": "Possible repeat of 148859-2025",
+   "Note": "Republished, same contract as 148859-2025",
    "Original date": "2025April",
    "Size (DKKm)": 51,
    "_id": "261630-2025",
@@ -1138,9 +1427,10 @@
     "Customers": "ΕΘΝΙΚΟΣ ΟΡΓΑΝΙΣΜΟΣ ΠΑΡΟΧΗΣ ΥΠΗΡΕΣΙΩΝ ΥΓΕΙΑΣ (ΕΟΠΥΥ)"
    },
    "_pub": "2025-04-23",
+   "_repeat": "exact",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "262902-2025": {
    "Contract": "\"1. Renewal of the Database Services (DBAAS) provided and 2. Provision of services for the supply and installation of IT infrastructure (servers, storage, networking, System SW, Backup SW) on-premise as a Service (IAAS)\"",
@@ -1161,9 +1451,10 @@
     "Customers": "ΕΘΝΙΚΟΣ ΟΡΓΑΝΙΣΜΟΣ ΠΑΡΟΧΗΣ ΥΠΗΡΕΣΙΩΝ ΥΓΕΙΑΣ (ΕΟΠΥΥ)"
    },
    "_pub": "2025-04-23",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "264328-2024": {
    "Contract": "\"Design and Implementation of a new Electronic Public Procurement System to support a full Public Procurement cycle\" with OPS TA Code 5158515",
@@ -1184,9 +1475,10 @@
     "Customers": "ΚΟΙΝΩΝΙΑ ΤΗΣ ΠΛΗΡΟΦΟΡΙΑΣ Μ.Α.Ε. (ΚτΠ ΜΑΕ)"
    },
    "_pub": "2024-05-03",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "27226-2026": {
    "Contract": "Provision of services in support of communications activities - framework agreement",
@@ -1207,9 +1499,10 @@
     "Customers": "Agency for Support for BEREC (BEREC Office)"
    },
    "_pub": "2026-01-15",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "275325-2024": {
    "Contract": "Tender for Framework Agreement for IT Consulting Services - framework agreement",
@@ -1230,9 +1523,10 @@
     "Customers": "Trafikstyrelsen"
    },
    "_pub": "2024-05-10",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "294230-2024": {
    "Contract": "Standard software",
@@ -1253,9 +1547,10 @@
     "Customers": "Staten og Kommunernes Indkøbsservice A/S"
    },
    "_pub": "2024-05-17",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "305677-2025": {
    "Contract": "Provision of software development/modification services, and/or data transfer of 1,500 man-hours, to the existing Integrated Information System and to the online services of e-EFKA.",
@@ -1276,9 +1571,10 @@
     "Customers": "ΗΛΕΚΤΡΟΝΙΚΟΣ ΕΘΝΙΚΟΣ ΦΟΡΕΑΣ ΚΟΙΝΩΝΙΚΗΣ ΑΣΦΑΛΙΣΗΣ"
    },
    "_pub": "2025-05-13",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "307679-2024": {
    "Contract": "AWARD OF CONTRACT FOR THE IMPLEMENTATION OF A SYSTEM FOR THE UTILIZATION OF DATA RECEIVED FROM THE INPUT/OUTPUT SYSTEMS",
@@ -1299,9 +1595,10 @@
     "Customers": "Ανεξάρτητη Αρχή Δημοσίων Εσόδων (Α.Α.Δ.Ε.)"
    },
    "_pub": "2024-05-24",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "310973-2025": {
    "Contract": "Framework agreement consultancy services, general IT assistance. - framework agreement",
@@ -1322,9 +1619,10 @@
     "Customers": "Statens vegvesen"
    },
    "_pub": "2025-05-14",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "316614-2022": {
    "Contract": "Denmark-Frederiksberg: IT services: consulting, software development, Internet and support",
@@ -1345,16 +1643,17 @@
     "Customers": "Udviklings- og Forenklingsstyrelsen"
    },
    "_pub": "2022-06-13",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "31766-2026": {
    "Contract": "\"DEVELOPMENT OF A NEW UNIFIED INTEGRATED TAX INFORMATION SYSTEM FOR THE INDEPENDENT AUTHORITY FOR PUBLIC REVENUE (IAPR)\"",
    "Country": "Greece",
    "Customers": "INDEPENDENT AUTHORITY FOR PUBLIC REVENUE",
    "Link": "https://ted.europa.eu/en/notice/-/detail/31766-2026",
-   "Note": "Three vendors (Net the lead) - possible repeat of 794950-2024",
+   "Note": "Republished, same contract as 794950-2024",
    "Original date": "2026January",
    "Size (DKKm)": 519,
    "_id": "31766-2026",
@@ -1368,9 +1667,10 @@
     "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ"
    },
    "_pub": "2026-01-16",
+   "_repeat": "exact",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "332582-2025": {
    "Contract": "Tender for a contract for the supply and operation of the Rent Register System, the supply of the Master Data System and the Electronic Document and Records Management System (EDRMS), as well as the maintenance and further development of all three systems",
@@ -1391,9 +1691,10 @@
     "Customers": "Landsbyggefonden"
    },
    "_pub": "2025-05-23",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "34301-2025": {
    "Contract": "Hosting and management of MboVoorzieningen",
@@ -1414,9 +1715,10 @@
     "Customers": "Coöperatie Mbo Voorzieningen U.A."
    },
    "_pub": "2025-01-17",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "348748-2025": {
    "Contract": "IT consulting (2025) - framework agreement",
@@ -1437,9 +1739,10 @@
     "Customers": "Staten og Kommunernes Indkøbsservice A/S"
    },
    "_pub": "2025-05-30",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "349254-2025": {
    "Contract": "IT Consultants (2025) - framework agreement",
@@ -1460,16 +1763,17 @@
     "Customers": "Staten og Kommunernes Indkøbsservice A/S"
    },
    "_pub": "2025-05-30",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "349402-2026": {
    "Contract": "\"Digital Human Resources and Payroll Management System of the Independent Authority for Public Revenue (IAPR)\"",
    "Country": "Greece",
    "Customers": "INDEPENDENT AUTHORITY FOR PUBLIC REVENUE",
    "Link": "https://ted.europa.eu/en/notice/-/detail/349402-2026",
-   "Note": "Possible repeat of 430658-2025",
+   "Note": "Republished, same contract as 430658-2025",
    "Original date": "2026May",
    "Size (DKKm)": 8,
    "_id": "349402-2026",
@@ -1483,9 +1787,10 @@
     "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ"
    },
    "_pub": "2026-05-21",
+   "_repeat": "exact",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "353249-2024": {
    "Contract": "Professional system for the child welfare service",
@@ -1506,9 +1811,10 @@
     "Customers": "Volda Kommune"
    },
    "_pub": "2024-06-14",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "354593-2026": {
    "Contract": "High-level advice and consultancy services (HACS) - framework agreement",
@@ -1529,9 +1835,10 @@
     "Customers": "European Commission, DG DIGIT - Digital Services"
    },
    "_pub": "2026-05-26",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "366404-2022": {
    "Contract": "Luxembourg-Luxembourg: AO 10659 - CORDIS",
@@ -1552,9 +1859,10 @@
     "Customers": "Publications Office of the European Union (OP)"
    },
    "_pub": "2022-07-07",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "366406-2022": {
    "Contract": "Luxembourg-Luxembourg: AO 10659 - CORDIS",
@@ -1575,9 +1883,10 @@
     "Customers": "Publications Office of the European Union (OP)"
    },
    "_pub": "2022-07-07",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "366408-2022": {
    "Contract": "Luxembourg-Luxembourg: AO 10659 - CORDIS",
@@ -1598,9 +1907,10 @@
     "Customers": "Publications Office of the European Union (OP)"
    },
    "_pub": "2022-07-07",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "369369-2024": {
    "Contract": "IT solution for cash management - framework agreement",
@@ -1621,9 +1931,10 @@
     "Customers": "Skatteverket"
    },
    "_pub": "2024-06-21",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "37183-2026": {
    "Contract": "EC-DIGIT/2024/OP/0019 MAIA - framework agreement",
@@ -1644,9 +1955,10 @@
     "Customers": "European Commission, DG DIGIT - Digital Services"
    },
    "_pub": "2026-01-19",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "37387-2021": {
    "Contract": "Denmark-Copenhagen: IT services: consulting, software development, Internet and support",
@@ -1667,9 +1979,10 @@
     "Customers": "Digitaliseringsstyrelsen"
    },
    "_pub": "2021-01-25",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "380471-2025": {
    "Contract": "Tender for a contract for the procurement, implementation and maintenance of a New Driver's License Register",
@@ -1690,9 +2003,10 @@
     "Customers": "Færdselsstyrelsen"
    },
    "_pub": "2025-06-12",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "387041-2025": {
    "Contract": "Framework agreement IT consultancy services 2025 - 2029 - framework agreement",
@@ -1713,9 +2027,10 @@
     "Customers": "Utdanningsdirektoratet"
    },
    "_pub": "2025-06-16",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "389389-2024": {
    "Contract": "Provision of Maintenance Services for the Unified Academic Administration Services System of the University of Patras",
@@ -1736,9 +2051,10 @@
     "Customers": "Πανεπιστήμιο Πατρών"
    },
    "_pub": "2024-07-01",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "39239-2026": {
    "Contract": "Tender for Framework Agreements for the Development and Maintenance of Applications (TUK Framework Agreement and BIS Framework Agreement) - framework agreement",
@@ -1759,9 +2075,10 @@
     "Customers": "Styrelsen for It og Læring"
    },
    "_pub": "2026-01-20",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "393141-2026": {
    "Contract": "EUSPA-OP-25-25 EUSPA Communication Services - framework agreement",
@@ -1782,9 +2099,10 @@
     "Customers": "European Union Agency for the Space Programme"
    },
    "_pub": "2026-06-09",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "396254-2026": {
    "Contract": "Helpdesk for users of electronic services and other products of the Publications Office of the European Union - framework agreement",
@@ -1805,9 +2123,10 @@
     "Customers": "European Commission, Publications Office"
    },
    "_pub": "2026-06-10",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "401729-2025": {
    "Contract": "Provision of software development services related to the Publications Office Information Technology (‘IT’) Systems - framework agreement",
@@ -1828,9 +2147,10 @@
     "Customers": "European Commission, Publications Office"
    },
    "_pub": "2025-06-20",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "404671-2025": {
    "Contract": "Notice of International Open Electronic Tender with the award criterion being the most economically advantageous tender based on the best value for money and with the subject being the provision of maintenance services for equipment, system software and application software of the NIS-AAMS for a period of three (3) years (+1 year as an option).",
@@ -1851,9 +2171,10 @@
     "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ \"ΕΠΙΘΕΩΡΗΣΗ ΕΡΓΑΣΙΑΣ\""
    },
    "_pub": "2025-06-24",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "426081-2026": {
    "Contract": "Software development for the new screening process for the IND",
@@ -1874,9 +2195,10 @@
     "Customers": "Inkoop Uitvoeringscentrum Dienst Justitiële Inrichtingen (IUC DJI)"
    },
    "_pub": "2026-06-22",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "426217-2024": {
    "Contract": "CUS-116-2022 - Change Request to extend the Risk Management for MTCA ESKORT Systems for the Automated Export Systems (AES)",
@@ -1897,9 +2219,10 @@
     "Customers": "Malta Tax and Customs Administration"
    },
    "_pub": "2024-07-16",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "427263-2024": {
    "Contract": "Tender for the Danish Business Authority's IT Framework Agreement 2024–2028 (1) - framework agreement",
@@ -1920,9 +2243,10 @@
     "Customers": "Erhvervsstyrelsen"
    },
    "_pub": "2024-07-17",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "430337-2026": {
    "Contract": "IT services for standardisation, statistical production and dissemination - framework agreement",
@@ -1943,9 +2267,10 @@
     "Customers": "European Commission, DG ESTAT - Eurostat"
    },
    "_pub": "2026-06-24",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "430614-2026": {
    "Contract": "IT services for standardisation, statistical production and dissemination - framework agreement",
@@ -1966,9 +2291,10 @@
     "Customers": "European Commission, DG ESTAT - Eurostat"
    },
    "_pub": "2026-06-24",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "430658-2025": {
    "Contract": "\"Digital Human Resources and Payroll Management System of the Independent Authority for Public Revenue (IAPR)\"",
@@ -1989,9 +2315,10 @@
     "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ"
    },
    "_pub": "2025-07-03",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "432522-2026": {
    "Contract": "Detection of illegal construction using modern technological means",
@@ -2012,9 +2339,10 @@
     "Customers": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ"
    },
    "_pub": "2026-06-25",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "43458-2025": {
    "Contract": "\"Horizontal digital transformation interventions in supervised entities of the Ministry of Health\"",
@@ -2035,9 +2363,10 @@
     "Customers": "ΗΔΙΚΑ Α.Ε"
    },
    "_pub": "2025-01-22",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "436312-2025": {
    "Contract": "Tender for a contract for the operation, maintenance and further development of Lex Dania production, retsinformation.dk, lovtidende.dk and statstidende.dk",
@@ -2058,16 +2387,17 @@
     "Customers": "Civilstyrelsen"
    },
    "_pub": "2025-07-04",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "438955-2026": {
    "Contract": "HADEA/2023/OP/0005 Service Contract to Design, Develop, Deliver and Maintain of HERA’s Advanced Technology for Health INtelligence and Action IT System (ATHINA)",
    "Country": "Belgium",
    "Customers": "European Health and Digital Executive Agency (HaDEA), HADEA.A.2 – EU4Health/SMP Food",
    "Link": "https://ted.europa.eu/en/notice/-/detail/438955-2026",
-   "Note": "Extension",
+   "Note": "5 vendors - extension",
    "Original date": "2026June",
    "Size (DKKm)": 130,
    "_id": "438955-2026",
@@ -2081,9 +2411,10 @@
     "Customers": "European Health and Digital Executive Agency (HaDEA), HADEA.A.2 – EU4Health/SMP Food"
    },
    "_pub": "2026-06-26",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "448695-2025": {
    "Contract": "Provisioning and Maintenance Support of End Users, Digital Workplace, IT Infrastructure and Operations Services. - framework agreement",
@@ -2104,9 +2435,10 @@
     "Customers": "European Union Intellectual Property Office"
    },
    "_pub": "2025-07-10",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "452188-2016": {
    "Contract": "Denmark-Holstebro: Miscellaneous software package and computer systems",
@@ -2127,9 +2459,10 @@
     "Customers": "Jysk Energi Teknik A/S"
    },
    "_pub": "2016-12-22",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "452616-2025": {
    "Contract": "Detection of illegal construction using modern technological means",
@@ -2150,9 +2483,10 @@
     "Customers": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ"
    },
    "_pub": "2025-07-11",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "452934-2025": {
    "Contract": "Standard software",
@@ -2173,9 +2507,10 @@
     "Customers": "Staten og Kommunernes Indkøbsservice A/S"
    },
    "_pub": "2025-07-11",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "453112-2026": {
    "Contract": "Maintenance and further development as well as operation of borger.dk - framework agreement",
@@ -2196,9 +2531,10 @@
     "Customers": "Digitaliseringsstyrelsen"
    },
    "_pub": "2026-07-02",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "455121-2025": {
    "Contract": "Negotiated procedure for the increase of ceiling of framework contract EPPO/2021/88 - framework agreement",
@@ -2219,9 +2555,10 @@
     "Customers": "European Public Prosecutor's Office"
    },
    "_pub": "2025-07-11",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "463422-2026": {
    "Contract": "Provision of promotional products and services",
@@ -2242,9 +2579,10 @@
     "Customers": "ESPON EGTC"
    },
    "_pub": "2026-07-06",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "466443-2025": {
    "Contract": "DIGIT-TM II Lot 2 and 3 Ceiling increase - framework agreement",
@@ -2265,9 +2603,10 @@
     "Customers": "European Commission, DG DIGIT - Digital Services"
    },
    "_pub": "2025-07-17",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "469885-2022": {
    "Contract": "Greece-Rio Patron: Computer training services",
@@ -2288,9 +2627,10 @@
     "Customers": "ΜΟΔΥ ΕΛΚΕ ΠΑΝΕΠΙΣΤΗΜΙΟΥ ΠΑΤΡΩΝ"
    },
    "_pub": "2022-08-29",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "478198-2026": {
    "Contract": "IT services for standardisation, statistical production and dissemination - framework agreement",
@@ -2311,9 +2651,10 @@
     "Customers": "European Commission, DG ESTAT - Eurostat"
    },
    "_pub": "2026-07-10",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "482824-2025": {
    "Contract": "Services for the development of a Ukrainian national transit system compatible with NCTS Phase 6",
@@ -2334,9 +2675,10 @@
     "Customers": "VšĮ Centrinė projektų valdymo agentūra"
    },
    "_pub": "2025-07-23",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "486646-2025": {
    "Contract": "Services for the development of a Ukrainian national transit system compatible with NCTS Phase 6",
@@ -2357,16 +2699,17 @@
     "Customers": "VšĮ Centrinė projektų valdymo agentūra"
    },
    "_pub": "2025-07-25",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "496977-2026": {
    "Contract": "ITUSS21 - User Support in Information Technologies",
    "Country": "Luxembourg",
    "Customers": "European Parliament, ITEC - Directorate-General for Information Technologies and Cybersecurity",
    "Link": "https://ted.europa.eu/en/notice/-/detail/496977-2026",
-   "Note": "Extension",
+   "Note": "13 vendors - extension",
    "Original date": "2026July",
    "Size (DKKm)": 21,
    "_id": "496977-2026",
@@ -2380,9 +2723,10 @@
     "Customers": "European Parliament, ITEC - Directorate-General for Information Technologies and Cybersecurity"
    },
    "_pub": "2026-07-17",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "499583-2025": {
    "Contract": "Support for the Unified Information System for Operational Functions of Health Units of the National Health System (NHS) - framework agreement",
@@ -2403,9 +2747,10 @@
     "Customers": "ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΑΚΥΒΕΡΝΗΣΗ ΚΟΙΝΩΝΙΚΗΣ ΑΣΦΑΛΙΣΗΣ (ΗΔΙΚΑ) ΑΕ"
    },
    "_pub": "2025-07-30",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "500651-2026": {
    "Contract": "Detection of illegal construction using modern technological means",
@@ -2426,9 +2771,10 @@
     "Customers": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ"
    },
    "_pub": "2026-07-20",
+   "_repeat": "possible",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "503389-2024": {
    "Contract": "Framework Agreement for IT Development Services - framework agreement",
@@ -2449,9 +2795,10 @@
     "Customers": "Udviklings- og Forenklingsstyrelsen på vegne af Skatteministeriets koncern"
    },
    "_pub": "2024-08-22",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "503529-2024": {
    "Contract": "Specialized IT Consultancy Services II - framework agreement",
@@ -2472,9 +2819,10 @@
     "Customers": "European Commission, DG DIGIT - Digital Services"
    },
    "_pub": "2024-08-22",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "504876-2024": {
    "Contract": "Standard software",
@@ -2495,9 +2843,10 @@
     "Customers": "Staten og Kommunernes Indkøbsservice A/S"
    },
    "_pub": "2024-08-22",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "511509-2025": {
    "Contract": "Audiovisual Communications & Multi-channel Campaigns - framework agreement",
@@ -2518,9 +2867,10 @@
     "Customers": "European Central Bank"
    },
    "_pub": "2025-08-05",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "513756-2026": {
    "Contract": "Product integration, customization, design, maintenance, evaluation and quality control services - framework agreement",
@@ -2541,16 +2891,17 @@
     "Customers": "European Parliament, SG - Directorate-General for Information Technologies and Cybersecurity"
    },
    "_pub": "2026-07-24",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "517487-2024": {
    "Contract": "Mixed Multiple Framework Contract for Digital Communication Services and Social Media (DCOMM1)",
    "Country": "Belgium",
    "Customers": "European Commission, Directorate-General for Communication (COMM), COMM.B.3 — Europa Web Communication",
    "Link": "https://ted.europa.eu/en/notice/-/detail/517487-2024",
-   "Note": "Extension",
+   "Note": "7 vendors - extension",
    "Original date": "2024August",
    "Size (DKKm)": 1009,
    "_id": "517487-2024",
@@ -2564,9 +2915,10 @@
     "Customers": "European Commission, Directorate-General for Communication (COMM), COMM.B.3 — Europa Web Communication"
    },
    "_pub": "2024-08-29",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "519678-2025": {
    "Contract": "Notice of Amendment to the Contract for the Development, Operation, Maintenance and Further Development of an IT System for the Administration of Social Pensions",
@@ -2587,9 +2939,10 @@
     "Customers": "ATP"
    },
    "_pub": "2025-08-08",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "533962-2025": {
    "Contract": "Managed services for the operation of the Publications Office Information Systems - framework agreement",
@@ -2610,9 +2963,10 @@
     "Customers": "European Commission, Publications Office"
    },
    "_pub": "2025-08-14",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "535917-2022": {
    "Contract": "Netherlands-The Hague: IT services: consulting, software development, Internet and support",
@@ -2633,9 +2987,10 @@
     "Customers": "Vereniging van Nederlandse Gemeenten"
    },
    "_pub": "2022-09-30",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "54336-2024": {
    "Contract": "TYP2023/042/D/A - Negotiated Procedure Tender for the Upgrade and Support of the Electronic Tax Return Submission System (Taxisnet) of the Tax Department",
@@ -2656,16 +3011,17 @@
     "Customers": "Τμήμα Υπηρεσιών Πληροφορικής"
    },
    "_pub": "2024-01-26",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "543522-2024": {
    "Contract": "Mixed Multiple Framework Contract for Digital Communication Services and Social Media (DCOMM1)",
    "Country": "Belgium",
    "Customers": "European Commission, Directorate-General for Communication (COMM), COMM.B.3 — Europa Web Communication",
    "Link": "https://ted.europa.eu/en/notice/-/detail/543522-2024",
-   "Note": "Extension",
+   "Note": "12 vendors - extension",
    "Original date": "2024September",
    "Size (DKKm)": 1545,
    "_id": "543522-2024",
@@ -2679,9 +3035,10 @@
     "Customers": "European Commission, Directorate-General for Communication (COMM), COMM.B.3 — Europa Web Communication"
    },
    "_pub": "2024-09-10",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "545219-2026": {
    "Contract": "Open call for tenders for external service provision in time & means in the field of digital solution lifecycle management (DIGIT-TM III) - framework agreement",
@@ -2702,9 +3059,10 @@
     "Customers": "European Commission, DG DIGIT - Digital Services"
    },
    "_pub": "2026-08-06",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "550946-2026": {
    "Contract": "SPOC, IT RUN and IT Development, Managed and Corporate Services - framework agreement",
@@ -2725,9 +3083,10 @@
     "Customers": "European Food Safety Authority"
    },
    "_pub": "2026-08-10",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "551551-2020": {
    "Contract": "Denmark-Viborg: IT services: consulting, software development, Internet and support",
@@ -2748,9 +3107,10 @@
     "Customers": "Evida Service Nord A/S"
    },
    "_pub": "2020-11-17",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "555981-2024": {
    "Contract": "Professional system for the child protection service",
@@ -2771,9 +3131,10 @@
     "Customers": "IKT Nordhordland kommunalt oppgåvefellesskap"
    },
    "_pub": "2024-09-17",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "562411-2026": {
    "Contract": "Provision of graphic design services including static infographics and other design-related services - framework agreement",
@@ -2794,9 +3155,10 @@
     "Customers": "European Commission, Publications Office"
    },
    "_pub": "2026-08-13",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "564909-2025": {
    "Contract": "Framework Agreement for the Further Development and Maintenance of the Danish Central Building Register (DCAB) 2025 - framework agreement",
@@ -2817,9 +3179,10 @@
     "Customers": "Landsbyggefonden"
    },
    "_pub": "2025-08-29",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "566498-2019": {
    "Contract": "Denmark-Skive: IT services: consulting, software development, Internet and support",
@@ -2840,9 +3203,10 @@
     "Customers": "Skive Kommune"
    },
    "_pub": "2019-11-29",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "578698-2024": {
    "Contract": "Framework agreement for consulting and analysis, development, support and maintenance of a selected IT system portfolio - framework agreement",
@@ -2863,9 +3227,10 @@
     "Customers": "Udenrigsministeriet"
    },
    "_pub": "2024-09-26",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "57870-2026": {
    "Contract": "Provision of Maintenance Services for the Unified Academic Administration Services System of the University of Patras SAP for the period 01/01/2026 - 31/12/2026",
@@ -2886,9 +3251,10 @@
     "Customers": "Πανεπιστήμιο Πατρών"
    },
    "_pub": "2026-01-27",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "580050-2025": {
    "Contract": "Communication Services – Video production, printed & electronic publications and promotional corporate items - framework agreement",
@@ -2909,16 +3275,17 @@
     "Customers": "European Union Aviation Safety Agency"
    },
    "_pub": "2025-09-05",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "586113-2026": {
    "Contract": "SPOC, IT RUN and IT Development, Managed and Corporate Services - framework agreement",
    "Country": "Italy",
    "Customers": "European Food Safety Authority",
    "Link": "https://ted.europa.eu/en/notice/-/detail/586113-2026",
-   "Note": "15 vendors - possible repeat of 550946-2026",
+   "Note": "Republished, same contract as 550946-2026",
    "Original date": "2026August",
    "Size (DKKm)": 284,
    "_id": "586113-2026",
@@ -2932,9 +3299,10 @@
     "Customers": "European Food Safety Authority"
    },
    "_pub": "2026-08-25",
+   "_repeat": "exact",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "586759-2020": {
    "Contract": "Norway-Trondheim: Data network management services",
@@ -2955,16 +3323,17 @@
     "Customers": "Norsk Helsenett SF"
    },
    "_pub": "2020-12-04",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "588982-2026": {
    "Contract": "\"DEVELOPMENT OF A NEW UNIFIED INTEGRATED TAX INFORMATION SYSTEM FOR THE INDEPENDENT AUTHORITY FOR PUBLIC REVENUE (IAPR)\"",
    "Country": "Greece",
    "Customers": "INDEPENDENT AUTHORITY FOR PUBLIC REVENUE",
    "Link": "https://ted.europa.eu/en/notice/-/detail/588982-2026",
-   "Note": "Three vendors (Net the lead) - possible repeat of 794950-2024",
+   "Note": "Republished, same contract as 794950-2024",
    "Original date": "2026August",
    "Size (DKKm)": 519,
    "_id": "588982-2026",
@@ -2978,9 +3347,10 @@
     "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ"
    },
    "_pub": "2026-08-26",
+   "_repeat": "exact",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "59252-2026": {
    "Contract": "Tender for Framework Agreements for Consultancy Services (LOD Framework Agreement and OPA Framework Agreement) - framework agreement",
@@ -3001,9 +3371,10 @@
     "Customers": "Styrelsen for It og Læring"
    },
    "_pub": "2026-01-27",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "59588-2025": {
    "Contract": "223024 Child Protection System Gjøvik, Søndre Land, Nordre Land and Østre Toten municipalities.",
@@ -3024,9 +3395,10 @@
     "Customers": "Gjøvikregionen - Anskaffelser"
    },
    "_pub": "2025-01-28",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "599640-2026": {
    "Contract": "FRAMEWORK AGREEMENT FOR CONSULTANCY SERVICES - framework agreement",
@@ -3047,9 +3419,10 @@
     "Customers": "Myndigheten för digital förvaltning - Digg"
    },
    "_pub": "2026-08-31",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "601963-2026": {
    "Contract": "Competition 02 - framework agreement",
@@ -3070,9 +3443,10 @@
     "Customers": "EU-LISA"
    },
    "_pub": "2026-09-01",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "602844-2026": {
    "Contract": "\"Provision of software development/modification services, support for production operation and maintenance of information systems and migration of data and applications, to the existing Information Systems and to the online services of EOPYY\"",
@@ -3093,16 +3467,17 @@
     "Customers": "ΕΘΝΙΚΟΣ ΟΡΓΑΝΙΣΜΟΣ ΠΑΡΟΧΗΣ ΥΠΗΡΕΣΙΩΝ ΥΓΕΙΑΣ (ΕΟΠΥΥ)"
    },
    "_pub": "2026-09-02",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "606065-2026": {
    "Contract": "\"DEVELOPMENT OF A NEW UNIFIED INTEGRATED TAX INFORMATION SYSTEM FOR THE INDEPENDENT AUTHORITY FOR PUBLIC REVENUE (IAPR)\"",
    "Country": "Greece",
    "Customers": "INDEPENDENT AUTHORITY FOR PUBLIC REVENUE",
    "Link": "https://ted.europa.eu/en/notice/-/detail/606065-2026",
-   "Note": "Three vendors (Net the lead) - possible repeat of 794950-2024",
+   "Note": "Republished, same contract as 794950-2024",
    "Original date": "2026September",
    "Size (DKKm)": 519,
    "_id": "606065-2026",
@@ -3116,9 +3491,10 @@
     "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ"
    },
    "_pub": "2026-09-03",
+   "_repeat": "exact",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "608365-2024": {
    "Contract": "Maintenance of projects_National Criminal Records & Integrated Information System for the Management of Personal Data of Offenders",
@@ -3139,9 +3515,10 @@
     "Customers": "ΚΟΙΝΩΝΙΑ ΤΗΣ ΠΛΗΡΟΦΟΡΙΑΣ Μ.Α.Ε. (ΚτΠ ΜΑΕ)"
    },
    "_pub": "2024-10-09",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "608477-2026": {
    "Contract": "\"Procurement of Database Equipment related to Zero Data Loss Recovery Appliance (ZDLRA)\"",
@@ -3162,9 +3539,10 @@
     "Customers": "ΕΘΝΙΚΟΣ ΟΡΓΑΝΙΣΜΟΣ ΠΑΡΟΧΗΣ ΥΠΗΡΕΣΙΩΝ ΥΓΕΙΑΣ (ΕΟΠΥΥ)"
    },
    "_pub": "2026-09-03",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "608973-2026": {
    "Contract": "Detection of illegal construction using modern technological means",
@@ -3185,9 +3563,10 @@
     "Customers": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ"
    },
    "_pub": "2026-09-03",
+   "_repeat": "possible",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "613049-2025": {
    "Contract": "Primary process system 3RO",
@@ -3208,16 +3587,17 @@
     "Customers": "Reclassering Nederland"
    },
    "_pub": "2025-09-19",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "614340-2026": {
    "Contract": "\"Digital Human Resources and Payroll Management System of the Independent Authority for Public Revenue (IAPR)\"",
    "Country": "Greece",
    "Customers": "INDEPENDENT AUTHORITY FOR PUBLIC REVENUE",
    "Link": "https://ted.europa.eu/en/notice/-/detail/614340-2026",
-   "Note": "Possible repeat of 430658-2025",
+   "Note": "Republished, same contract as 430658-2025",
    "Original date": "2026September",
    "Size (DKKm)": 8,
    "_id": "614340-2026",
@@ -3231,9 +3611,10 @@
     "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ"
    },
    "_pub": "2026-09-07",
+   "_repeat": "exact",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "617339-2025": {
    "Contract": "Implementation of the Single Reporting Platform - framework agreement",
@@ -3254,9 +3635,10 @@
     "Customers": "European Union Agency for Cybersecurity (ENISA)"
    },
    "_pub": "2025-09-22",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "622541-2026": {
    "Contract": "Detection of illegal construction using modern technological means",
@@ -3277,9 +3659,10 @@
     "Customers": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ"
    },
    "_pub": "2026-09-09",
+   "_repeat": "possible",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "631340-2026": {
    "Contract": "ESIDIS PUBLIC WORKS: Operation, development, expansion services, etc.",
@@ -3300,16 +3683,17 @@
     "Customers": "ΥΠΟΥΡΓΕΙΟ ΥΠΟΔΟΜΩΝ ΚΑΙ ΜΕΤΑΦΟΡΩΝ/ΓΕΝΙΚΗ ΓΡΑΜΜΑΤΕΙΑ ΥΠΟΔΟΜΩΝ/ΓΕΝΙΚΗ ΔΙΕΥΘΥΝΣΗ ΣΤΡΑΤΗΓΙΚΟΥ ΣΧΕΔΙΑΣΜΟΥ ΥΠΟΔΟΜΩΝ/ΔΙΕΥΘΥΝΣΗ ΔΙΑΓΩΝΣΜΩΝ ΔΗΜΟΣΙΩΝ ΣΥΜΒΑΣΕΩΝ (Δ11)"
    },
    "_pub": "2026-09-14",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "639880-2025": {
    "Contract": "Ceiling increase: Service facility in support of the Global Approach in R&I - framework agreement",
    "Country": "Belgium",
    "Customers": "European Commission",
    "Link": "https://ted.europa.eu/en/notice/-/detail/639880-2025",
-   "Note": "Extension",
+   "Note": "14 vendors - extension",
    "Original date": "2025October",
    "Size (DKKm)": "",
    "_id": "639880-2025",
@@ -3323,9 +3707,10 @@
     "Customers": "European Commission"
    },
    "_pub": "2025-10-01",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "645179-2025": {
    "Contract": "ROVK BZ EA – Application Services P1–P2 2025 - framework agreement",
@@ -3346,9 +3731,10 @@
     "Customers": "Ministerie van Buitenlandse Zaken"
    },
    "_pub": "2025-10-02",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "650605-2024": {
    "Contract": "SaaS export control and sanctions service",
@@ -3369,9 +3755,10 @@
     "Customers": "Utenriksdepartementet"
    },
    "_pub": "2024-10-25",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "652841-2025": {
    "Contract": "Administrative management of the Human Resources HR Excellence in Research process - framework agreement",
@@ -3392,9 +3779,10 @@
     "Customers": "European Commission, DG RTD - Research and Innovation"
    },
    "_pub": "2025-10-06",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "658216-2026": {
    "Contract": "Intention notice - maintenance of an IT system.",
@@ -3415,9 +3803,10 @@
     "Customers": "The National Archives of Norway"
    },
    "_pub": "2026-09-24",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "670345-2026": {
    "Contract": "Graphic design and layout services for Cedefop publications and communication activities - framework agreement",
@@ -3438,9 +3827,10 @@
     "Customers": "European Centre for the Development of Vocational Training, CEDEFOP - European Centre for the Development of Vocational Training"
    },
    "_pub": "2026-09-29",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "680770-2023": {
    "Contract": "Denmark-Aarhus: IT services: consulting, software development, Internet and support",
@@ -3461,9 +3851,10 @@
     "Customers": "Aarhus Kommune"
    },
    "_pub": "2023-11-10",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "681926-2024": {
    "Contract": "Standard software",
@@ -3484,9 +3875,10 @@
     "Customers": "Staten og Kommunernes Indkøbsservice A/S"
    },
    "_pub": "2024-11-08",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "683774-2023": {
    "Contract": "Denmark-Aarhus: IT services: consulting, software development, Internet and support",
@@ -3507,9 +3899,10 @@
     "Customers": "Aarhus Kommune"
    },
    "_pub": "2023-11-10",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "687100-2024": {
    "Contract": "Tender with negotiation of a framework agreement for IT services in the form of development, operation, maintenance and support of SBSYS ESDH - framework agreement",
@@ -3530,16 +3923,17 @@
     "Customers": "Brugerklubben SBSYS"
    },
    "_pub": "2024-11-12",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "70350-2026": {
    "Contract": "Upgrade and expansion of ICT infrastructure in the Justice sector, OPS Code 5162212",
    "Country": "Greece",
    "Customers": "INFORMATION SOCIETY S.A. (IS S.A.)",
    "Link": "https://ted.europa.eu/en/notice/-/detail/70350-2026",
-   "Note": "Extension",
+   "Note": "4 vendors (Net the lead) - extension",
    "Original date": "2026January",
    "Size (DKKm)": 417,
    "_id": "70350-2026",
@@ -3553,9 +3947,10 @@
     "Customers": "ΚΟΙΝΩΝΙΑ ΤΗΣ ΠΛΗΡΟΦΟΡΙΑΣ Μ.Α.Ε. (ΚτΠ ΜΑΕ)"
    },
    "_pub": "2026-01-30",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "704276-2024": {
    "Contract": "Public procurement for the acquisition of a Tax Administration Platform (TAP) license, installation and configuration of TAP components, and implementation of e-services and tax administration processes in TAP",
@@ -3576,9 +3971,10 @@
     "Customers": "Valstybinė mokesčių inspekcija prie Lietuvos Respublikos finansų ministerijos"
    },
    "_pub": "2024-11-19",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "705712-2023": {
    "Contract": "Greece-Rio Patron: Industrial and technical training services",
@@ -3599,16 +3995,17 @@
     "Customers": "ΜΟΔΥ ΕΛΚΕ ΠΑΝΕΠΙΣΤΗΜΙΟΥ ΠΑΤΡΩΝ"
    },
    "_pub": "2023-11-21",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "708393-2026": {
    "Contract": "IMPLEMENTATION OF CHANGES TO THE INFORMATION SYSTEMS OF THE INDEPENDENT AUTHORITY FOR PUBLIC REVENUE (IAPR) (C.R.2)",
    "Country": "Greece",
    "Customers": "Independent Authority for Public Revenue (IAPR)",
    "Link": "https://ted.europa.eu/en/notice/-/detail/708393-2026",
-   "Note": "Two vendors (Net the lead) - possible repeat of 871014-2025",
+   "Note": "Republished, same contract as 871014-2025",
    "Original date": "2026October",
    "Size (DKKm)": 48,
    "_id": "708393-2026",
@@ -3622,9 +4019,10 @@
     "Customers": "Ανεξάρτητη Αρχή Δημοσίων Εσόδων (Α.Α.Δ.Ε.)"
    },
    "_pub": "2026-10-14",
+   "_repeat": "exact",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "721788-2024": {
    "Contract": "Provision of IT Software Development, Maintenance and Requirement Analysis Services - framework agreement",
@@ -3645,9 +4043,10 @@
     "Customers": "European Union Intellectual Property Office"
    },
    "_pub": "2024-11-26",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "725014-2024": {
    "Contract": "Stakeholders engagement and community management - framework agreement",
@@ -3668,9 +4067,10 @@
     "Customers": "European Education and Culture Executive Agency (EACEA) , EACEA - European Education and Culture Executive Agency"
    },
    "_pub": "2024-11-27",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "72792-2026": {
    "Contract": "ITOMS25 - ICT INFRASTRUCTURE AND HOSTING SERVICES - framework agreement",
@@ -3691,9 +4091,10 @@
     "Customers": "European Parliament, ITEC - Directorate-General for Innovation and Technological Support"
    },
    "_pub": "2026-02-02",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "730196-2025": {
    "Contract": "Procurement of a new case management system",
@@ -3714,9 +4115,10 @@
     "Customers": "Norwegian Accreditation"
    },
    "_pub": "2025-11-04",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "740910-2024": {
    "Contract": "Framework Contract for Digital Communication Services and Social Media  - framework agreement",
@@ -3737,9 +4139,10 @@
     "Customers": "European Commission, DG COMM - Communication"
    },
    "_pub": "2024-12-04",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "741840-2024": {
    "Contract": "Professional system, the Child Protection Service.",
@@ -3760,16 +4163,17 @@
     "Customers": "NORDRE FOLLO KOMMUNE"
    },
    "_pub": "2024-12-04",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "742152-2024": {
    "Contract": "AWARD OF CONTRACT FOR THE IMPLEMENTATION OF A SYSTEM FOR THE UTILIZATION OF DATA RECEIVED FROM THE INPUT/OUTPUT SYSTEMS",
    "Country": "Greece",
    "Customers": "Independent Authority for Public Revenue (IAPR)",
    "Link": "https://ted.europa.eu/en/notice/-/detail/742152-2024",
-   "Note": "Two vendors - possible repeat of 307679-2024",
+   "Note": "Republished, same contract as 307679-2024",
    "Original date": "2024December",
    "Size (DKKm)": 7,
    "_id": "742152-2024",
@@ -3783,9 +4187,10 @@
     "Customers": "Ανεξάρτητη Αρχή Δημοσίων Εσόδων (Α.Α.Δ.Ε.)"
    },
    "_pub": "2024-12-05",
+   "_repeat": "exact",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "742519-2023": {
    "Contract": "TYP2023/042/D/A - Negotiated Procedure Tender for the Upgrade and Support of the Electronic Tax Return Submission System (Taxisnet) of the Tax Department",
@@ -3806,9 +4211,10 @@
     "Customers": "Τμήμα Υπηρεσιών Πληροφορικής"
    },
    "_pub": "2023-12-07",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "749910-2026": {
    "Contract": "Tender for a contract for a New Client Solution",
@@ -3829,9 +4235,10 @@
     "Customers": "Danmarks Fængsler v. Styrelsen for Danmarks Fængsler"
    },
    "_pub": "2026-10-29",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "752660-2024": {
    "Contract": "Additional agreement: M-Files interaction and documentation management.",
@@ -3852,9 +4259,10 @@
     "Customers": "Statens vegvesen"
    },
    "_pub": "2024-12-10",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "753444-2026": {
    "Contract": "Maintenance and development services (ICT)",
@@ -3875,16 +4283,17 @@
     "Customers": "Landbruksdirektoratet"
    },
    "_pub": "2026-10-30",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "755674-2026": {
    "Contract": "\"Digital Human Resources and Payroll Management System of the Independent Authority for Public Revenue (IAPR)\"",
    "Country": "Greece",
    "Customers": "INDEPENDENT AUTHORITY FOR PUBLIC REVENUE",
    "Link": "https://ted.europa.eu/en/notice/-/detail/755674-2026",
-   "Note": "Possible repeat of 430658-2025",
+   "Note": "Republished, same contract as 430658-2025",
    "Original date": "2026October",
    "Size (DKKm)": 8,
    "_id": "755674-2026",
@@ -3898,9 +4307,10 @@
     "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ"
    },
    "_pub": "2026-10-30",
+   "_repeat": "exact",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "76456-2026": {
    "Contract": "Provision of services for development and consultancy on information systems under Time and Means conditions - framework agreement",
@@ -3921,9 +4331,10 @@
     "Customers": "European Border and Coast Guard Agency (FRONTEX)"
    },
    "_pub": "2026-02-03",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "764865-2026": {
    "Contract": "Detection of illegal construction using modern technological means",
@@ -3944,9 +4355,10 @@
     "Customers": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ"
    },
    "_pub": "2026-11-04",
+   "_repeat": "possible",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "766738-2025": {
    "Contract": "Provision of support, maintenance and development of traffic information tools",
@@ -3967,16 +4379,17 @@
     "Customers": "Banedanmark"
    },
    "_pub": "2025-11-19",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "772761-2026": {
    "Contract": "Provision of External Services for Software Development, Implementation and Maintenance for all Current and Future IT Capabilities to Enable the Long-term Strategic Portfolio Roadmap of the Agency - framework agreement",
    "Country": "Netherlands",
    "Customers": "European Medicines Agency (EMA)",
    "Link": "https://ted.europa.eu/en/notice/-/detail/772761-2026",
-   "Note": "Extension",
+   "Note": "14 vendors - extension",
    "Original date": "2026November",
    "Size (DKKm)": 1390,
    "_id": "772761-2026",
@@ -3990,9 +4403,10 @@
     "Customers": "European Medicines Agency (EMA)"
    },
    "_pub": "2026-11-06",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "774758-2025": {
    "Contract": "Single Employment and Insurance Data Flow – SEPE Information System Overhaul",
@@ -4013,9 +4427,10 @@
     "Customers": "ΥΠΟΥΡΓΕΙΟ ΕΡΓΑΣΙΑΣ ΚΑΙ ΚΟΙΝΩΝΙΚΩΝ ΥΠΟΘΕΣΕΩΝ"
    },
    "_pub": "2025-11-21",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "784912-2023": {
    "Contract": "Operation, maintenance, further development and optimization of the AROSia Application",
@@ -4036,9 +4451,10 @@
     "Customers": "Kredsløb Genbrug P/S"
    },
    "_pub": "2023-12-22",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "785610-2024": {
    "Contract": "Mixed Multiple Framework Contract for Thematic Communication Services - framework agreement",
@@ -4059,9 +4475,10 @@
     "Customers": "Court of Justice of the European Union"
    },
    "_pub": "2024-12-20",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "794950-2024": {
    "Contract": "\"DEVELOPMENT OF A NEW UNIFIED INTEGRATED TAX INFORMATION SYSTEM FOR THE INDEPENDENT AUTHORITY FOR PUBLIC REVENUE (IAPR)\"",
@@ -4082,9 +4499,10 @@
     "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ"
    },
    "_pub": "2024-12-24",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "799939-2026": {
    "Contract": "National Transit System (hereinafter referred to as \"NTS\") Upgrade (Phase III) and NTS Maintenance and Support Services",
@@ -4105,9 +4523,10 @@
     "Customers": "Muitinės departamentas prie Lietuvos Respublikos finansų ministerijos"
    },
    "_pub": "2026-11-17",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "800290-2024": {
    "Contract": "Development of Economic Operator Registration and Identification (EORI) and Uniform User Management & Digital Signature (UUM&DS) systems",
@@ -4128,9 +4547,10 @@
     "Customers": "European Union, represented by the European Commission on behalf of and for the account of North Macedonia"
    },
    "_pub": "2024-12-31",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "807050-2025": {
    "Contract": "Standard software",
@@ -4151,9 +4571,10 @@
     "Customers": "Staten og Kommunernes Indkøbsservice A/S"
    },
    "_pub": "2025-12-04",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "812802-2025": {
    "Contract": "Upgrade and expansion of ICT infrastructure in the Justice sector, OPS Code 5162212",
@@ -4174,16 +4595,17 @@
     "Customers": "ΚΟΙΝΩΝΙΑ ΤΗΣ ΠΛΗΡΟΦΟΡΙΑΣ Μ.Α.Ε. (ΚτΠ ΜΑΕ)"
    },
    "_pub": "2025-12-08",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "841278-2025": {
    "Contract": "\"Digital Human Resources and Payroll Management System of the Independent Authority for Public Revenue (IAPR)\"",
    "Country": "Greece",
    "Customers": "INDEPENDENT AUTHORITY FOR PUBLIC REVENUE",
    "Link": "https://ted.europa.eu/en/notice/-/detail/841278-2025",
-   "Note": "Possible repeat of 430658-2025",
+   "Note": "Republished, same contract as 430658-2025",
    "Original date": "2025December",
    "Size (DKKm)": 8,
    "_id": "841278-2025",
@@ -4197,9 +4619,10 @@
     "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ"
    },
    "_pub": "2025-12-18",
+   "_repeat": "exact",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "843522-2025": {
    "Contract": "Amendment to the term of the Service Level Agreement (SLA) associated with the Studielink Framework Agreement",
@@ -4220,9 +4643,10 @@
     "Customers": "Stichting Studielink"
    },
    "_pub": "2025-12-18",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "84429-2025": {
    "Contract": "\"Improving the Digital Readiness of Hospitals - Upgrading Hospital Information Systems & Infrastructure\" - framework agreement",
@@ -4243,9 +4667,10 @@
     "Customers": "ΗΔΙΚΑ Α.Ε"
    },
    "_pub": "2025-02-07",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "871014-2025": {
    "Contract": "IMPLEMENTATION OF CHANGES TO THE INFORMATION SYSTEMS OF THE INDEPENDENT AUTHORITY FOR PUBLIC REVENUE (IAPR) (C.R.2)",
@@ -4266,9 +4691,10 @@
     "Customers": "Ανεξάρτητη Αρχή Δημοσίων Εσόδων (Α.Α.Δ.Ε.)"
    },
    "_pub": "2025-12-31",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "90832-2022": {
    "Contract": "Denmark-Charlottenlund: Software programming and consultancy services",
@@ -4289,9 +4715,10 @@
     "Customers": "Gentofte Kommune"
    },
    "_pub": "2022-02-18",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "92566-2026": {
    "Contract": "FWC for audio-visual media production support - framework agreement",
@@ -4312,9 +4739,10 @@
     "Customers": "European Border and Coast Guard Agency (FRONTEX)"
    },
    "_pub": "2026-02-09",
+   "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   },
   "92683-2025": {
    "Contract": "Notice of contract award: Contract for the supply of an IT system for the administration of student debt",
@@ -4335,9 +4763,10 @@
     "Customers": "ATP"
    },
    "_pub": "2025-02-11",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 3
+   "_v": 4
   }
  },
  "seen": [
