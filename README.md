@@ -30,9 +30,18 @@ It runs on GitHub Actions, so it needs no PC, server or local Python.
    - **Note**, in the sheet's style:
      - `Two vendors`, `Three vendors`, `4 vendors`… when several companies won,
        plus `(Net the lead)` when Netcompany leads the winning consortium.
-     - `Extension` (or `Two vendors - extension`) for contract modification notices.
+     - `Extension` (or `Two vendors - extension`) for contract modification notices,
+       counting the contractors on the modified contract. If Netcompany isn't among
+       them, the note says `Net not listed as contractor, check`.
      - `Direct award pre-announcement` for voluntary ex-ante transparency (VEAT) notices.
-     - `possible repeat of …` when the buyer and value match an earlier notice.
+     - Repeats are handled in two ways:
+       - `Republished, same contract as …`: same procedure, same contract number and
+         same value as an earlier notice (the Greek tax authority does this a lot).
+         These are left out of the paste block and kept on a separate
+         "Republished (excluded)" sheet.
+       - `possible repeat of …`: same buyer or procedure and same value, but a
+         different contract number. This can be a new call-off or extra lots, so these
+         stay in for you to judge.
 3. Anything not seen before opens a **GitHub issue** (GitHub emails you, and it
    shows up in the GitHub app). The issue has a block of tab-separated rows you
    can copy and paste straight into Excel, plus a readable table. You can also
@@ -40,7 +49,8 @@ It runs on GitHub Actions, so it needs no PC, server or local Python.
 4. Extensions and direct-award pre-announcements don't name the supplier in a
    structured field, so they are found by searching the notice text for
    "Netcompany". Check that Netcompany is actually the supplier.
-5. Every win found so far is kept in `data/netcompany_wins.xlsx`, newest first.
+5. Every notice found so far is kept in `data/netcompany_wins.xlsx`, newest first,
+   with exact republications on a second sheet.
 6. The first run only records what's already on TED (all of it goes into the
    spreadsheet) and opens no issue.
 

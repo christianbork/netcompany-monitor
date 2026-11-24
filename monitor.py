@@ -54,6 +54,7 @@ FIELDS = [
     "notice-title", "title-proc", "winner-name", "total-value", "total-value-cur",
     "result-value-lot", "result-value-cur-lot", "contract-conclusion-date",
     "framework-agreement-lot", "organisation-name-tenderer", "tendering-party-leader",
+    "procedure-identifier", "contract-identifier",
 ]
 
 COLUMNS = ["Original date", "Country", "Customers", "Contract", "Size (DKKm)", "Note", "Link"]
@@ -316,14 +317,14 @@ def clean_name(name: str) -> str:
 
 
 NUMBER_WORDS = {2: "Two", 3: "Three"}
-FORMAT_VERSION = 3   # bump when row formatting changes; older rows are rebuilt once
+FORMAT_VERSION = 4   # bump when row formatting changes; older rows are rebuilt once
 
 
 def _one_language(field) -> list[str]:
     """Names from a multilingual field, taking one language only (otherwise the
     same company in two languages would count twice)."""
     if isinstance(field, dict) and field:
-        field = field[next(iter(field))]
+        field = field["eng"] if "eng" in field else field[next(iter(field))]
     if isinstance(field, str):
         field = [field]
     return [clean_name(x) for x in (field or [])]
@@ -333,24 +334,28 @@ def _norm(name: str) -> str:
     return re.sub(r"[^\w]", "", name.lower())
 
 
-def vendor_info(n: dict) -> tuple[int, bool]:
-    """(number of distinct winning vendors, Netcompany leads the winning consortium).
+def vendor_info(n: dict, kind: str = "award") -> tuple[int, bool, bool]:
+    """(number of distinct vendors, Netcompany leads the consortium, Netcompany listed).
 
-    Vendors are counted from `winner-name`. `organisation-name-tenderer` also lists
-    losing bidders, so it's only used, with the aligned `tendering-party-leader`
-    flags, to see who leads: Netcompany is "the lead" when it is flagged leader and
-    another *winner* is flagged as a non-leading consortium member."""
-    winners = _one_language(n.get("winner-name"))
+    Award notices: vendors come from `winner-name`. `organisation-name-tenderer`
+    also lists losing bidders there, so it's only used, with the aligned
+    `tendering-party-leader` flags, to see who leads: Netcompany is "the lead" when
+    it is flagged leader and another *winner* is a non-leading consortium member.
+
+    Modification notices have no `winner-name`; their `organisation-name-tenderer`
+    lists the contractors of the modified contract, so that is used instead."""
+    tenderers = _one_language(n.get("organisation-name-tenderer"))
+    winners = _one_language(n.get("winner-name")) or (tenderers if kind == "modif" else [])
     win_keys = {_norm(w) for w in winners}
     vendors = len(win_keys)
-    tenderers = _one_language(n.get("organisation-name-tenderer"))
+    listed = not winners or any(is_netcompany(w) for w in winners)
     leaders = n.get("tendering-party-leader") or []
     net_lead = False
     if vendors > 1 and len(leaders) == len(tenderers):
         flags = [(name, flag) for name, flag in zip(tenderers, leaders) if _norm(name) in win_keys]
         net_lead = (any(flag is True and is_netcompany(nm) for nm, flag in flags)
                     and any(flag is False and not is_netcompany(nm) for nm, flag in flags))
-    return vendors, net_lead
+    return vendors, net_lead, listed
 
 
 def vendor_note(count: int, net_lead: bool) -> str:
@@ -358,6 +363,22 @@ def vendor_note(count: int, net_lead: bool) -> str:
         return ""
     note = f"{NUMBER_WORDS.get(count, count)} vendors"
     return note + (" (Net the lead)" if net_lead else "")
+
+
+def repeat_keys(n: dict, buyer: str, value: float, cur: str) -> tuple[str, list[str]]:
+    """Keys for spotting the same award published more than once.
+
+    exact: same procedure, same contract number(s) and same value. Some buyers
+    (notably the Greek tax authority) republish an identical award several times;
+    these are left out of the paste block.
+    loose: same procedure and value, or same buyer and value. Often a repeat, but
+    can be a new call-off or extra lots, so these stay in and are flagged."""
+    proc = str(n.get("procedure-identifier") or "")
+    contracts = sorted({str(c).strip() for c in (n.get("contract-identifier") or []) if str(c).strip()})
+    v = f"{round(value)}|{cur}"
+    exact = f"x|{proc}|{'/'.join(contracts)}|{v}" if proc and contracts else ""
+    loose = [f"b|{buyer.lower()}|{v}"] + ([f"p|{proc}|{v}"] if proc else [])
+    return exact, loose
 
 
 def is_framework(n: dict) -> bool:
@@ -381,19 +402,28 @@ def to_row(n: dict, rates: dict, translate, fingerprints: dict | None = None,
     if kind == "veat":
         notes.append("Direct award pre-announcement")
     else:
-        v = vendor_note(*vendor_info(n))
+        count, lead, listed = vendor_info(n, kind)
+        v = vendor_note(count, lead)
         if v:
             notes.append(v)
         if kind == "modif":
             notes.append("extension" if notes else "Extension")
+            if not listed:
+                notes.append("Net not listed as contractor, check")
 
+    repeat = ""
     if kind == "award" and fingerprints is not None and value is not None:
-        fp = f"{buyer.lower()}|{round(value)}|{cur}"
-        earlier = fingerprints.get(fp)
-        if earlier and earlier != pub_no:
-            notes.append(f"possible repeat of {earlier}" if notes else f"Possible repeat of {earlier}")
+        exact, loose = repeat_keys(n, buyer, value, cur)
+        if exact and fingerprints.get(exact, pub_no) != pub_no:
+            repeat = "exact"
+            notes = [f"Republished, same contract as {fingerprints[exact]}"]
         else:
-            fingerprints.setdefault(fp, pub_no)
+            earlier = next((fingerprints[k] for k in loose if fingerprints.get(k, pub_no) != pub_no), None)
+            if earlier:
+                repeat = "possible"
+                notes.append(f"possible repeat of {earlier}" if notes else f"Possible repeat of {earlier}")
+        for k in ([exact] if exact else []) + loose:
+            fingerprints.setdefault(k, pub_no)
 
     row = {
         "Original date": month_label(pub_date) if pub_date else "",
@@ -406,6 +436,7 @@ def to_row(n: dict, rates: dict, translate, fingerprints: dict | None = None,
         "_id": pub_no,
         "_pub": pub_date,
         "_kind": kind,
+        "_repeat": repeat,
         "_v": FORMAT_VERSION,
         "_suffix": " - framework agreement" if is_framework(n) else "",
         # originals kept so a failed translation can be retried on a later run
@@ -454,42 +485,53 @@ def tsv_line(row: dict) -> str:
 # --------------------------------------------------------------------------- outputs
 
 def write_xlsx(rows: list[dict], path: Path = XLSX_FILE) -> None:
+    """Main sheet: everything to track. Second sheet: exact republications."""
     from openpyxl import Workbook
     from openpyxl.styles import Font, PatternFill
 
     path.parent.mkdir(parents=True, exist_ok=True)
     wb = Workbook()
-    ws = wb.active
-    ws.title = "Netcompany wins"
-    ws.append(COLUMNS)
-    for cell in ws[1]:
-        cell.font = Font(bold=True, color="FFFFFF")
-        cell.fill = PatternFill("solid", fgColor="1F4E78")
-    for r in sorted(rows, key=lambda r: (r["_pub"], r["_id"]), reverse=True):
-        ws.append([r[c] for c in COLUMNS])
-        link = ws.cell(row=ws.max_row, column=len(COLUMNS))
-        link.hyperlink = r["Link"]
-        link.font = Font(color="0563C1", underline="single")
-    for col, width in zip("ABCDEFG", (16, 14, 45, 70, 12, 45, 50)):
-        ws.column_dimensions[col].width = width
-    ws.freeze_panes = "A2"
-    ws.auto_filter.ref = ws.dimensions
+    sheets = [(wb.active, "Netcompany wins", [r for r in rows if r.get("_repeat") != "exact"]),
+              (wb.create_sheet(), "Republished (excluded)", [r for r in rows if r.get("_repeat") == "exact"])]
+    for ws, title, subset in sheets:
+        ws.title = title
+        ws.append(COLUMNS)
+        for cell in ws[1]:
+            cell.font = Font(bold=True, color="FFFFFF")
+            cell.fill = PatternFill("solid", fgColor="1F4E78")
+        for r in sorted(subset, key=lambda r: (r["_pub"], r["_id"]), reverse=True):
+            ws.append([r[c] for c in COLUMNS])
+            link = ws.cell(row=ws.max_row, column=len(COLUMNS))
+            link.hyperlink = r["Link"]
+            link.font = Font(color="0563C1", underline="single")
+        for col, width in zip("ABCDEFG", (16, 14, 45, 70, 12, 45, 50)):
+            ws.column_dimensions[col].width = width
+        ws.freeze_panes = "A2"
+        ws.auto_filter.ref = ws.dimensions
     wb.save(path)
 
 
 def build_alert(new_rows: list[dict], broken: str | None) -> str:
     now = datetime.now(TZ).strftime("%d %b %Y %H:%M")
     out = [f"Checked {now} (Copenhagen time).", ""]
-    if new_rows:
-        out += [f"### {len(new_rows)} new Netcompany notice(s)", "",
+    keep = [r for r in new_rows if r.get("_repeat") != "exact"]
+    dupes = [r for r in new_rows if r.get("_repeat") == "exact"]
+    if keep:
+        out += [f"### {len(keep)} new Netcompany notice(s)", "",
                 "Copy the block below and paste it into Excel (columns: "
                 + " | ".join(COLUMNS) + "):", "", "```"]
-        out += [tsv_line(r) for r in new_rows]
+        out += [tsv_line(r) for r in keep]
         out += ["```", "", "| " + " | ".join(COLUMNS[:-1]) + " | Notice |",
                 "|" + "---|" * len(COLUMNS)]
-        for r in new_rows:
+        for r in keep:
             cells = [str(r[c]).replace("|", "/") for c in COLUMNS[:-1]]
             out.append("| " + " | ".join(cells) + f" | [{r['_id']}]({r['Link']}) |")
+        out.append("")
+    if dupes:
+        out += ["### Republished awards (left out of the paste block)", "",
+                "Same procedure, same contract number and same value as a notice already seen:", ""]
+        for r in dupes:
+            out.append(f"- [{r['_id']}]({r['Link']}): {r['Customers']} · {r['Contract']} · {r['Note']}")
         out.append("")
     if broken:
         out += ["### TED search failing", "", f"Failed {FAILURES_BEFORE_ALERT} runs in a row: {broken}", ""]
@@ -652,7 +694,9 @@ def main() -> int:
         print("Nothing new.")
         return 0
 
-    title = f"Netcompany: {len(new_rows)} new TED notice(s)"
+    n_keep = sum(1 for r in new_rows if r.get("_repeat") != "exact")
+    title = (f"Netcompany: {n_keep} new TED notice(s)" if n_keep
+             else f"Netcompany: {len(new_rows)} republished award(s), nothing new to add")
     body = build_alert(new_rows, None)
     print("\n" + title + "\n\n" + body)
     if args.dry_run:

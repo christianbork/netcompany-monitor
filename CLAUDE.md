@@ -9,3 +9,5 @@ Weekday 08:00 Copenhagen check of TED for Netcompany contract awards; formats ro
 - GitHub cron is UTC, so the workflow fires at 06/07 UTC and `monitor.py` gates on the Copenhagen hour.
 - Note style follows the manual sheet: "Two vendors", "Three vendors", "4 vendors", "(Net the lead)" (from `tendering-party-leader`, aligned with `organisation-name-tenderer`), "Extension", "Direct award pre-announcement". Contract gets " - framework agreement" when any `framework-agreement-lot` is `fa-*`.
 - Row format is versioned (`FORMAT_VERSION`); bumping it rebuilds all rows from a full fetch on the next run, carrying finished translations over. New notice kinds are baselined silently (`baselined` in state).
+- Repeats: exact = same `procedure-identifier` + `contract-identifier` set + value → `_repeat="exact"`, note "Republished, same contract as X", excluded from paste block and on the xlsx's second sheet. Loose (same buyer+value or procedure+value) → "possible repeat of X", kept.
+- Extensions (can-modif) have no `winner-name`; vendors are counted from `organisation-name-tenderer`, which there lists only the contractors.

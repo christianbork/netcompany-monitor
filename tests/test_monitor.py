@@ -295,3 +295,60 @@ def test_new_kinds_baselined_silently_then_alert(tmp_path, monkeypatch):
     monitor.main()
     alert = (tmp_path / "alert.md").read_text()
     assert "Direct award pre-announcement" in alert and "100-2025" not in alert
+
+
+AADE = {  # real case: 430658-2025 republished as 841278-2025, 349402-2026, ...
+    "publication-number": "430658-2025",
+    "publication-date": "2025-07-03+01:00",
+    "buyer-country": ["GRC"],
+    "buyer-name": {"ell": ["ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ"]},
+    "title-proc": {"ell": "Ψηφιακό σύστημα"},
+    "winner-name": {"ell": ["NETCOMPANY S.A."]},
+    "total-value": 1023100,
+    "total-value-cur": ["EUR"],
+    "procedure-identifier": "6574c7c0",
+    "contract-identifier": ["996/2025"],
+}
+
+
+def test_exact_republication_is_separated():
+    fps = {}
+    first = monitor.to_row(AADE, RATES, NO_TR, fps)
+    again = monitor.to_row(dict(AADE, **{"publication-number": "841278-2025"}), RATES, NO_TR, fps)
+    assert first["_repeat"] == "" and again["_repeat"] == "exact"
+    assert again["Note"] == "Republished, same contract as 430658-2025"
+    body = monitor.build_alert([again], None)
+    assert "```" not in body and "Republished awards" in body
+
+
+def test_same_procedure_new_contract_is_only_flagged():
+    # real case: Technical Chamber of Greece, new contract number each time
+    fps = {}
+    monitor.to_row(AADE, RATES, NO_TR, fps)
+    new_call_off = dict(AADE, **{"publication-number": "500651-2026", "contract-identifier": ["36250"]})
+    row = monitor.to_row(new_call_off, RATES, NO_TR, fps)
+    assert row["_repeat"] == "possible" and row["Note"] == "Possible repeat of 430658-2025"
+    assert "```" in monitor.build_alert([row], None)
+
+
+def test_republished_rows_go_to_second_sheet(tmp_path):
+    from openpyxl import load_workbook
+    fps = {}
+    rows = [monitor.to_row(AADE, RATES, NO_TR, fps),
+            monitor.to_row(dict(AADE, **{"publication-number": "841278-2025"}), RATES, NO_TR, fps)]
+    monitor.write_xlsx(rows, tmp_path / "x.xlsx")
+    wb = load_workbook(tmp_path / "x.xlsx")
+    assert wb.sheetnames == ["Netcompany wins", "Republished (excluded)"]
+    assert wb["Netcompany wins"].max_row == 2 and wb["Republished (excluded)"].max_row == 2
+
+
+def test_extension_counts_contractors():
+    # real case 70350-2026: no winner-name, four contractors on the modified contract
+    mod = {k: v for k, v in AADE.items() if k != "winner-name"}
+    mod["organisation-name-tenderer"] = {"ell": ["Netcompany SA", "Uni Systems", "Quality & Reliability", "Cosmos"]}
+    mod["tendering-party-leader"] = [True, False, False, False]
+    assert monitor.to_row(mod, RATES, NO_TR, kind="modif")["Note"] == "4 vendors (Net the lead) - extension"
+    solo = dict(mod, **{"organisation-name-tenderer": {"dan": ["Netcompany A/S"]}, "tendering-party-leader": []})
+    assert monitor.to_row(solo, RATES, NO_TR, kind="modif")["Note"] == "Extension"
+    other = dict(solo, **{"organisation-name-tenderer": {"eng": ["Someone Else Ltd"]}})
+    assert monitor.to_row(other, RATES, NO_TR, kind="modif")["Note"] == "Extension - Net not listed as contractor, check"
