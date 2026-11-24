@@ -134,7 +134,18 @@
    "Original date": "2024February",
    "Size (DKKm)": 130,
    "_id": "100805-2024",
-   "_pub": "2024-02-19"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Udbud af Kontrakt om Drift, Support, Vedligehold og Udvikling af It-Systemet Internet Markkort (IMK) og tilknyttede systemer (3)",
+    "Customers": "Landbrugsstyrelsen",
+    "Note": ""
+   },
+   "_pub": "2024-02-19",
+   "_translated": false
   },
   "116542-2024": {
    "Contract": "Avinor AS - K-191525/K-191526 - Framework agreement - TEK consultant, strategic partner and consultancy broker.",
@@ -145,7 +156,18 @@
    "Original date": "2024February",
    "Size (DKKm)": 836,
    "_id": "116542-2024",
-   "_pub": "2024-02-26"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Avinor AS - K-191525/K-191526 - Framework agreement - TEK consultant, strategic partner and consultancy broker.",
+    "Customers": "AVINOR AS",
+    "Note": "Shared award with eWork Norge AS - size is total notice value"
+   },
+   "_pub": "2024-02-26",
+   "_translated": false
   },
   "11988-2025": {
    "Contract": "EEAS ICT Projects, Support and Operations Services (EIPSOS 2)",
@@ -156,7 +178,18 @@
    "Original date": "2025January",
    "Size (DKKm)": 1085,
    "_id": "11988-2025",
-   "_pub": "2025-01-09"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "EEAS ICT Projects, Support and Operations Services (EIPSOS 2)",
+    "Customers": "European External Action Service (EEAS)",
+    "Note": "Shared award with FUJITSU TECHNOLOGY SOLUTIONS, COSMOTE GLOBAL SOLUTIONS - size is total notice value"
+   },
+   "_pub": "2025-01-09",
+   "_translated": false
   },
   "120474-2026": {
    "Contract": "Samen realiseren van een landelijke sectorvoorziening voor Aanmelden, Inschrijven en Intekenen (AII) op onderwijs.",
@@ -167,7 +200,18 @@
    "Original date": "2026February",
    "Size (DKKm)": 277,
    "_id": "120474-2026",
-   "_pub": "2026-02-19"
+   "_langs": {
+    "Contract": "nld",
+    "Customers": "nld",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Samen realiseren van een landelijke sectorvoorziening voor Aanmelden, Inschrijven en Intekenen (AII) op onderwijs.",
+    "Customers": "SURF B.V.",
+    "Note": ""
+   },
+   "_pub": "2026-02-19",
+   "_translated": false
   },
   "128087-2026": {
    "Contract": "Support to EFSA’s communication activities",
@@ -178,7 +222,18 @@
    "Original date": "2026February",
    "Size (DKKm)": 187,
    "_id": "128087-2026",
-   "_pub": "2026-02-24"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Support to EFSA’s communication activities",
+    "Customers": "European Food Safety Authority",
+    "Note": "Shared award with Blossom Srl, TIPIK COMMUNICATION AGENCY SA, SOPEXA +2 more - size is total notice value"
+   },
+   "_pub": "2026-02-24",
+   "_translated": false
   },
   "130732-2026": {
    "Contract": "Udbud af implementering, drift, vedligeholdelse, support og videreudvikling af et sagsbehandlingssystem (Sagsportalen)",
@@ -189,7 +244,18 @@
    "Original date": "2026February",
    "Size (DKKm)": 152,
    "_id": "130732-2026",
-   "_pub": "2026-02-24"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Udbud af implementering, drift, vedligeholdelse, support og videreudvikling af et sagsbehandlingssystem (Sagsportalen)",
+    "Customers": "Skatteforvaltningen",
+    "Note": ""
+   },
+   "_pub": "2026-02-24",
+   "_translated": false
   },
   "142801-2026": {
    "Contract": "Kontrakt om levering af drift, support, vedligeholdelse og videreudvikling af tværfagligt fagsystem (TFS) i Københavns Kommune",
@@ -200,7 +266,18 @@
    "Original date": "2026March",
    "Size (DKKm)": 22,
    "_id": "142801-2026",
-   "_pub": "2026-03-02"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Kontrakt om levering af drift, support, vedligeholdelse og videreudvikling af tværfagligt fagsystem (TFS) i Københavns Kommune",
+    "Customers": "Københavns Kommune - Børne- og Ungdomsforvaltningen",
+    "Note": ""
+   },
+   "_pub": "2026-03-02",
+   "_translated": false
   },
   "143176-2025": {
    "Contract": "Event Management and Related Communication Services",
@@ -211,7 +288,18 @@
    "Original date": "2025March",
    "Size (DKKm)": 1256,
    "_id": "143176-2025",
-   "_pub": "2025-03-05"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Event Management and Related Communication Services",
+    "Customers": "European Commission",
+    "Note": "Shared award with ICF NEXT, GL EVENTS LIVE, CECOFORMA +4 more - size is total notice value"
+   },
+   "_pub": "2025-03-05",
+   "_translated": false
   },
   "144045-2024": {
    "Contract": "Provision of External Consultancy Services (EXTRA-NG)",
@@ -222,7 +310,18 @@
    "Original date": "2024March",
    "Size (DKKm)": 566,
    "_id": "144045-2024",
-   "_pub": "2024-03-08"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Provision of External Consultancy Services (EXTRA-NG)",
+    "Customers": "European Union Agency for the Operational Management of Large-Scale IT Systems in the Area of Freedom, Security and Justice (eu-LISA)",
+    "Note": "Shared award with SEIDOR CONSULTING SL, FINCONS S.p.A, ALMAVIVA DE BELGIQUE SA +17 more - size is total notice value"
+   },
+   "_pub": "2024-03-08",
+   "_translated": false
   },
   "145943-2026": {
    "Contract": "CFT-1772 - Data & Analytics Platform Strategy, Implementation and Support Services",
@@ -233,7 +332,18 @@
    "Original date": "2026March",
    "Size (DKKm)": 262,
    "_id": "145943-2026",
-   "_pub": "2026-03-03"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "CFT-1772 - Data & Analytics Platform Strategy, Implementation and Support Services",
+    "Customers": "European Investment Bank",
+    "Note": "Shared award with Orange Business Luxembourg S.A, Bmatix, NTT DATA BELGIQUE +10 more - size is total notice value"
+   },
+   "_pub": "2026-03-03",
+   "_translated": false
   },
   "146685-2025": {
    "Contract": "Softwareontwikkeling voor het nieuwe screeningsproces t.b.v. de IND",
@@ -244,7 +354,18 @@
    "Original date": "2025March",
    "Size (DKKm)": 56,
    "_id": "146685-2025",
-   "_pub": "2025-03-06"
+   "_langs": {
+    "Contract": "nld",
+    "Customers": "nld",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Softwareontwikkeling voor het nieuwe screeningsproces t.b.v. de IND",
+    "Customers": "Inkoop Uitvoeringscentrum Dienst Justitiële Inrichtingen (IUC DJI)",
+    "Note": ""
+   },
+   "_pub": "2025-03-06",
+   "_translated": false
   },
   "148859-2025": {
    "Contract": "«Παροχή υπηρεσιών ανάπτυξης/τροποποίησης λογισμικού, υποστήριξης παραγωγικής λειτουργίας και συντήρησης πληροφοριακών συστημάτων και μετάπτωσης δεδομένων και εφαρμογών, στα υπάρχοντα Πληροφοριακά Συστήματα και στις ηλεκτρονικές υπηρεσίες μέσω διαδικτύου του ΕΟΠΥΥ»",
@@ -255,7 +376,18 @@
    "Original date": "2025March",
    "Size (DKKm)": 51,
    "_id": "148859-2025",
-   "_pub": "2025-03-06"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "«Παροχή υπηρεσιών ανάπτυξης/τροποποίησης λογισμικού, υποστήριξης παραγωγικής λειτουργίας και συντήρησης πληροφοριακών συστημάτων και μετάπτωσης δεδομένων και εφαρμογών, στα υπάρχοντα Πληροφοριακά Συστήματα και στις ηλεκτρονικές υπηρεσίες μέσω διαδικτύου του ΕΟΠΥΥ»",
+    "Customers": "ΕΘΝΙΚΟΣ ΟΡΓΑΝΙΣΜΟΣ ΠΑΡΟΧΗΣ ΥΠΗΡΕΣΙΩΝ ΥΓΕΙΑΣ (ΕΟΠΥΥ)",
+    "Note": ""
+   },
+   "_pub": "2025-03-06",
+   "_translated": false
   },
   "149250-2025": {
    "Contract": "2023-1003870_Flughafen München_CHIMP - Collaboration & Insights Airport Management Platform",
@@ -266,7 +398,18 @@
    "Original date": "2025March",
    "Size (DKKm)": "",
    "_id": "149250-2025",
-   "_pub": "2025-03-07"
+   "_langs": {
+    "Contract": "deu",
+    "Customers": "deu",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "2023-1003870_Flughafen München_CHIMP - Collaboration & Insights Airport Management Platform",
+    "Customers": "Flughafen München GmbH",
+    "Note": "No value published; Contract signed 2024-09-01 (published late)"
+   },
+   "_pub": "2025-03-07",
+   "_translated": false
   },
   "150447-2024": {
    "Contract": "Rahmenvertrag byte: Digitale Produkte",
@@ -277,7 +420,18 @@
    "Original date": "2024March",
    "Size (DKKm)": "",
    "_id": "150447-2024",
-   "_pub": "2024-03-12"
+   "_langs": {
+    "Contract": "deu",
+    "Customers": "deu",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Rahmenvertrag byte: Digitale Produkte",
+    "Customers": "byte - Bayerische Agentur für Digitales GmbH",
+    "Note": "Shared award with intive GmbH, Reply Deutschland SE - size is total notice value; No value published; Contract signed 2023-11-07 (published late)"
+   },
+   "_pub": "2024-03-12",
+   "_translated": false
   },
   "157865-2025": {
    "Contract": "Παροχή Υπηρεσιών Συντήρησης Ενιαίου Συστήματος Υπηρεσιών Ακαδημαϊκής Διοίκησης Πανεπιστημίου Πατρών",
@@ -288,7 +442,18 @@
    "Original date": "2025March",
    "Size (DKKm)": 2,
    "_id": "157865-2025",
-   "_pub": "2025-03-11"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Παροχή Υπηρεσιών Συντήρησης Ενιαίου Συστήματος Υπηρεσιών Ακαδημαϊκής Διοίκησης Πανεπιστημίου Πατρών",
+    "Customers": "Πανεπιστήμιο Πατρών",
+    "Note": ""
+   },
+   "_pub": "2025-03-11",
+   "_translated": false
   },
   "162659-2025": {
    "Contract": "Offentligt udbud af Kontrakt om udvikling, drift, vedligeholdelse, support og videreudvikling af nyt NemKonto-system",
@@ -299,7 +464,18 @@
    "Original date": "2025March",
    "Size (DKKm)": 283,
    "_id": "162659-2025",
-   "_pub": "2025-03-13"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Offentligt udbud af Kontrakt om udvikling, drift, vedligeholdelse, support og videreudvikling af nyt NemKonto-system",
+    "Customers": "Digitaliseringsstyrelsen",
+    "Note": ""
+   },
+   "_pub": "2025-03-13",
+   "_translated": false
   },
   "169959-2026": {
    "Contract": "CFT-1773 - IT Consultancy Services for Project Management, Business Analysis and Testing (Arrow)",
@@ -310,18 +486,40 @@
    "Original date": "2026March",
    "Size (DKKm)": 1196,
    "_id": "169959-2026",
-   "_pub": "2026-03-11"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "CFT-1773 - IT Consultancy Services for Project Management, Business Analysis and Testing (Arrow)",
+    "Customers": "European Investment Bank",
+    "Note": "Shared award with THALERIA, Almaviva de Belgique SA, UNISYS BELGIUM +22 more - size is total notice value"
+   },
+   "_pub": "2026-03-11",
+   "_translated": false
   },
   "170903-2024": {
    "Contract": "Ψηφιοποίηση Αρχείων Δεδομένων του Υπουργείου Δικαιοσύνης, Κωδ ΟΠΣ ΤΑ 5150259",
    "Country": "Greece",
    "Customers": "«ΚΟΙΝΩΝΙΑ ΤΗΣ ΠΛΗΡΟΦΟΡΙΑΣ Μ.Α.Ε.»",
    "Link": "https://ted.europa.eu/en/notice/-/detail/170903-2024",
-   "Note": "Shared award with INTRAKAT ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ ΤΕΧΝΙΚΩΝ ΚΑΙ ΕΝΕΡΓΕΙΑΚΩΝ ΕΡΓΩΝ, Uni Systems συστήματα πληροφορικής μονοπρόσωπη ανώνυμη εμπορική εταιρία, ΑΡΧΕΙΟΘΗΚΗ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ LOGISTICS KAI ΔΙΑΧΕΙΡΙΣΗΣ ΑΡΧΕΙΩΝ +10 more - size is total notice value",
+   "Note": "Shared award with INTRAKAT ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ ΤΕΧΝΙΚΩΝ ΚΑΙ ΕΝΕΡΓ…, Uni Systems συστήματα πληροφορικής μονοπρόσω…, ΑΡΧΕΙΟΘΗΚΗ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ LOGISTICS KAI ΔΙ… +10 more - size is total notice value",
    "Original date": "2024March",
    "Size (DKKm)": 586,
    "_id": "170903-2024",
-   "_pub": "2024-03-21"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "auto"
+   },
+   "_orig": {
+    "Contract": "Ψηφιοποίηση Αρχείων Δεδομένων του Υπουργείου Δικαιοσύνης, Κωδ ΟΠΣ ΤΑ 5150259",
+    "Customers": "«ΚΟΙΝΩΝΙΑ ΤΗΣ ΠΛΗΡΟΦΟΡΙΑΣ Μ.Α.Ε.»",
+    "Note": "Shared award with INTRAKAT ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ ΤΕΧΝΙΚΩΝ ΚΑΙ ΕΝΕΡΓ…, Uni Systems συστήματα πληροφορικής μονοπρόσω…, ΑΡΧΕΙΟΘΗΚΗ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ LOGISTICS KAI ΔΙ… +10 more - size is total notice value"
+   },
+   "_pub": "2024-03-21",
+   "_translated": false
   },
   "173799-2026": {
    "Contract": "Procurement of development and management of digital services in Oslo municipality, 2nd publication",
@@ -332,7 +530,18 @@
    "Original date": "2026March",
    "Size (DKKm)": 251,
    "_id": "173799-2026",
-   "_pub": "2026-03-12"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Procurement of development and management of digital services in Oslo municipality, 2nd publication",
+    "Customers": "Oslo kommune v/ Utviklings- og kompetanseetaten",
+    "Note": ""
+   },
+   "_pub": "2026-03-12",
+   "_translated": false
   },
   "173831-2026": {
    "Contract": "CFT-1764 - IT CONSULTANCY FOR CONTENT MANAGEMENT",
@@ -343,7 +552,18 @@
    "Original date": "2026March",
    "Size (DKKm)": 972,
    "_id": "173831-2026",
-   "_pub": "2026-03-12"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "CFT-1764 - IT CONSULTANCY FOR CONTENT MANAGEMENT",
+    "Customers": "European Investment Bank",
+    "Note": "Shared award with UNISYSTEMS LUXEMBOURG SARL, COMPUTER TASK GROUP IT SOLUTIONS SA, UNISYS BELGIUM +15 more - size is total notice value"
+   },
+   "_pub": "2026-03-12",
+   "_translated": false
   },
   "184460-2024": {
    "Contract": "It-drift",
@@ -354,18 +574,40 @@
    "Original date": "2024March",
    "Size (DKKm)": 69,
    "_id": "184460-2024",
-   "_pub": "2024-03-27"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "It-drift",
+    "Customers": "Staten og Kommunernes Indkøbsservice A/S",
+    "Note": "Shared award with Motus A/S, Progressive A/S - size is total notice value"
+   },
+   "_pub": "2024-03-27",
+   "_translated": false
   },
   "187894-2024": {
    "Contract": "Ψηφιοποίηση Αρχείων του Δημόσιου Συστήματος Υγείας, ΟΠΣ ΤΑ 5174874",
    "Country": "Greece",
    "Customers": "ΚΟΙΝΩΝΙΑ ΤΗΣ ΠΛΗΡΟΦΟΡΙΑΣ Μ.Α.Ε. (ΚτΠ ΜΑΕ)",
    "Link": "https://ted.europa.eu/en/notice/-/detail/187894-2024",
-   "Note": "Shared award with ΟΡΓΑΝΙΣΜΟΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΤΗΣ ΕΛΛΑΔΟΣ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ, Uni Systems συστήματα πληροφορικής μονοπρόσωπη ανώνυμη εμπορική εταιρία, ΑΡΧΕΙΟΘΗΚΗ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ LOGISTICS KAI ΔΙΑΧΕΙΡΙΣΗΣ ΑΡΧΕΙΩΝ +9 more - size is total notice value",
+   "Note": "Shared award with ΟΡΓΑΝΙΣΜΟΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΤΗΣ ΕΛΛΑΔΟΣ ΑΝΩΝΥ…, Uni Systems συστήματα πληροφορικής μονοπρόσω…, ΑΡΧΕΙΟΘΗΚΗ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ LOGISTICS KAI ΔΙ… +9 more - size is total notice value",
    "Original date": "2024March",
    "Size (DKKm)": 710,
    "_id": "187894-2024",
-   "_pub": "2024-03-28"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "auto"
+   },
+   "_orig": {
+    "Contract": "Ψηφιοποίηση Αρχείων του Δημόσιου Συστήματος Υγείας, ΟΠΣ ΤΑ 5174874",
+    "Customers": "ΚΟΙΝΩΝΙΑ ΤΗΣ ΠΛΗΡΟΦΟΡΙΑΣ Μ.Α.Ε. (ΚτΠ ΜΑΕ)",
+    "Note": "Shared award with ΟΡΓΑΝΙΣΜΟΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΤΗΣ ΕΛΛΑΔΟΣ ΑΝΩΝΥ…, Uni Systems συστήματα πληροφορικής μονοπρόσω…, ΑΡΧΕΙΟΘΗΚΗ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ LOGISTICS KAI ΔΙ… +9 more - size is total notice value"
+   },
+   "_pub": "2024-03-28",
+   "_translated": false
   },
   "198941-2024": {
    "Contract": "Udbud af rammeaftale om driftsstøttesystem",
@@ -376,7 +618,18 @@
    "Original date": "2024April",
    "Size (DKKm)": 3,
    "_id": "198941-2024",
-   "_pub": "2024-04-04"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Udbud af rammeaftale om driftsstøttesystem",
+    "Customers": "Landsbyggefonden",
+    "Note": ""
+   },
+   "_pub": "2024-04-04",
+   "_translated": false
   },
   "214583-2026": {
    "Contract": "Multiple Framework Contract for the Provision of the Services for Designing, Implementing, Managing, Operating and Supporting Information Systems under Time and Means Conditions (DESOPS)",
@@ -387,7 +640,18 @@
    "Original date": "2026March",
    "Size (DKKm)": 1394,
    "_id": "214583-2026",
-   "_pub": "2026-03-27"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Multiple Framework Contract for the Provision of the Services for Designing, Implementing, Managing, Operating and Supporting Information Systems under Time and Means Conditions (DESOPS)",
+    "Customers": "European Border and Coast Guard Agency (FRONTEX)",
+    "Note": "Shared award with Atos Polska S.A., NTT DATA BELGIQUE, SWORD +26 more - size is total notice value"
+   },
+   "_pub": "2026-03-27",
+   "_translated": false
   },
   "21819-2025": {
    "Contract": "2023-1003856_Flughafen München_Apps@MUC",
@@ -398,7 +662,18 @@
    "Original date": "2025January",
    "Size (DKKm)": "",
    "_id": "21819-2025",
-   "_pub": "2025-01-13"
+   "_langs": {
+    "Contract": "deu",
+    "Customers": "deu",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "2023-1003856_Flughafen München_Apps@MUC",
+    "Customers": "Flughafen München GmbH",
+    "Note": "Shared award with Lufthansa Industry Solutions AS GmbH - size is total notice value; No value published"
+   },
+   "_pub": "2025-01-13",
+   "_translated": false
   },
   "218832-2025": {
    "Contract": "Udbud af rammeaftale om konsulentbistand til STIL’s datavarehus og øvrige datasystemer",
@@ -409,7 +684,18 @@
    "Original date": "2025April",
    "Size (DKKm)": 80,
    "_id": "218832-2025",
-   "_pub": "2025-04-04"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Udbud af rammeaftale om konsulentbistand til STIL’s datavarehus og øvrige datasystemer",
+    "Customers": "Styrelsen for It og Læring",
+    "Note": ""
+   },
+   "_pub": "2025-04-04",
+   "_translated": false
   },
   "227556-2025": {
    "Contract": "ΠΑΡΟΧΗ ΥΠΗΡΕΣΙΩΝ ΓΙΑ ΤΗΝ ΠΟΙΟΤΙΚΗ ΚΑΤΑΓΡΑΦΗ ΛΥΜΑΤΩΝ ΚΑΙ ΑΝΙΧΝΕΥΣΗ ΠΙΘΑΝΩΝ ΠΗΓΩΝ ΡΥΠΑΝΣΗΣ ΣΕ ΕΠΙΛΕΓΟΜΕΝΕΣ ΠΕΡΙΟΧΕΣ ΤΟΥ ΔΙΚΤΥΟΥ ΑΠΟΧΕΤΕΥΣΗΣ ΜΕΣΩ ΣΥΝΕΧΟΥΣ ΠΑΡΑΚΟΛΟΥΘΗΣΗΣ ΚΑΙ ΔΕΙΓΜΑΤΟΛΗΨΙΑΣ ΣΤΟ ΔΙΚΤΥΟ ΑΠΟ",
@@ -420,7 +706,18 @@
    "Original date": "2025April",
    "Size (DKKm)": 53,
    "_id": "227556-2025",
-   "_pub": "2025-04-08"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "auto"
+   },
+   "_orig": {
+    "Contract": "ΠΑΡΟΧΗ ΥΠΗΡΕΣΙΩΝ ΓΙΑ ΤΗΝ ΠΟΙΟΤΙΚΗ ΚΑΤΑΓΡΑΦΗ ΛΥΜΑΤΩΝ ΚΑΙ ΑΝΙΧΝΕΥΣΗ ΠΙΘΑΝΩΝ ΠΗΓΩΝ ΡΥΠΑΝΣΗΣ ΣΕ ΕΠΙΛΕΓΟΜΕΝΕΣ ΠΕΡΙΟΧΕΣ ΤΟΥ ΔΙΚΤΥΟΥ ΑΠΟΧΕΤΕΥΣΗΣ ΜΕΣΩ ΣΥΝΕΧΟΥΣ ΠΑΡΑΚΟΛΟΥΘΗΣΗΣ ΚΑΙ ΔΕΙΓΜΑΤΟΛΗΨΙΑΣ ΣΤΟ ΔΙΚΤΥΟ ΑΠΟ",
+    "Customers": "ΕΤΑΙΡΙΑ ΥΔΡΕΥΣΕΩΣ ΚΑΙ ΑΠΟΧΕΤΕΥΣΕΩΣ ΠΡΩΤΕΥΟΥΣΗΣ Α.Ε. (Ε.ΥΔ.Α.Π. Α.Ε.)",
+    "Note": "Shared award with TECSERVICES ΙΚΕ - size is total notice value"
+   },
+   "_pub": "2025-04-08",
+   "_translated": false
   },
   "233714-2025": {
    "Contract": "Bekendtgørelse om indgået kontrakt: Kontrakt om levering af drift, vedligehold og videreudvikling mv. af Familieydelsessystemet",
@@ -431,7 +728,18 @@
    "Original date": "2025April",
    "Size (DKKm)": 198,
    "_id": "233714-2025",
-   "_pub": "2025-04-10"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Bekendtgørelse om indgået kontrakt: Kontrakt om levering af drift, vedligehold og videreudvikling mv. af Familieydelsessystemet",
+    "Customers": "ATP",
+    "Note": ""
+   },
+   "_pub": "2025-04-10",
+   "_translated": false
   },
   "234500-2025": {
    "Contract": "VWS CDP Medicine Registration & Evaluation System (MRES)",
@@ -442,7 +750,18 @@
    "Original date": "2025April",
    "Size (DKKm)": 135,
    "_id": "234500-2025",
-   "_pub": "2025-04-10"
+   "_langs": {
+    "Contract": "nld",
+    "Customers": "nld",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "VWS CDP Medicine Registration & Evaluation System (MRES)",
+    "Customers": "Ministerie van Volksgezondheid, Welzijn en Sport",
+    "Note": ""
+   },
+   "_pub": "2025-04-10",
+   "_translated": false
   },
   "248525-2026": {
    "Contract": "Competition No 1 under Dynamic Purchasing System LISA/2025/DPS/0008",
@@ -453,7 +772,18 @@
    "Original date": "2026April",
    "Size (DKKm)": 695,
    "_id": "248525-2026",
-   "_pub": "2026-04-13"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Competition No 1 under Dynamic Purchasing System LISA/2025/DPS/0008",
+    "Customers": "European Union Agency for the Operational Management of Large-Scale IT Systems in the Area of Freedom, Security and Justice (eu-LISA)",
+    "Note": "Shared award with SWORD Services Greece SA, SOPRA STERIA BELGIUM SA/NV, EUROPEAN DYNAMICS LUXEMBOURG SA +4 more - size is total notice value"
+   },
+   "_pub": "2026-04-13",
+   "_translated": false
   },
   "261017-2025": {
    "Contract": "02.14 It-konsulenter (DIS)",
@@ -464,7 +794,18 @@
    "Original date": "2025April",
    "Size (DKKm)": 126,
    "_id": "261017-2025",
-   "_pub": "2025-04-23"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "02.14 It-konsulenter (DIS)",
+    "Customers": "Staten og Kommunernes Indkøbsservice A/S",
+    "Note": "Shared award with Accenture, Another Consulting Firm P/S, Danoffice IT ApS +17 more - size is total notice value; Contract signed 2024-11-29 (published late)"
+   },
+   "_pub": "2025-04-23",
+   "_translated": false
   },
   "261630-2025": {
    "Contract": "«Παροχή υπηρεσιών ανάπτυξης/τροποποίησης λογισμικού, υποστήριξης παραγωγικής λειτουργίας και συντήρησης πληροφοριακών συστημάτων και μετάπτωσης δεδομένων και εφαρμογών, στα υπάρχοντα Πληροφοριακά Συστήματα και στις ηλεκτρονικές υπηρεσίες μέσω διαδικτύου του ΕΟΠΥΥ»",
@@ -475,7 +816,18 @@
    "Original date": "2025April",
    "Size (DKKm)": 51,
    "_id": "261630-2025",
-   "_pub": "2025-04-23"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "«Παροχή υπηρεσιών ανάπτυξης/τροποποίησης λογισμικού, υποστήριξης παραγωγικής λειτουργίας και συντήρησης πληροφοριακών συστημάτων και μετάπτωσης δεδομένων και εφαρμογών, στα υπάρχοντα Πληροφοριακά Συστήματα και στις ηλεκτρονικές υπηρεσίες μέσω διαδικτύου του ΕΟΠΥΥ»",
+    "Customers": "ΕΘΝΙΚΟΣ ΟΡΓΑΝΙΣΜΟΣ ΠΑΡΟΧΗΣ ΥΠΗΡΕΣΙΩΝ ΥΓΕΙΑΣ (ΕΟΠΥΥ)",
+    "Note": "Possible repeat of 148859-2025"
+   },
+   "_pub": "2025-04-23",
+   "_translated": false
   },
   "262902-2025": {
    "Contract": "«1. Ανανέωση των παρεχόμενων Υπηρεσιών Βάσεων Δεδομένων (DBAAS) και 2. Παροχή υπηρεσιών διάθεσης και εγκατάστασης υποδομών πληροφορικής (servers, storage, networking, System SW, Backup SW) on premise ως Υπηρεσία (IAAS)»",
@@ -486,18 +838,40 @@
    "Original date": "2025April",
    "Size (DKKm)": 71,
    "_id": "262902-2025",
-   "_pub": "2025-04-23"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "«1. Ανανέωση των παρεχόμενων Υπηρεσιών Βάσεων Δεδομένων (DBAAS) και 2. Παροχή υπηρεσιών διάθεσης και εγκατάστασης υποδομών πληροφορικής (servers, storage, networking, System SW, Backup SW) on premise ως Υπηρεσία (IAAS)»",
+    "Customers": "ΕΘΝΙΚΟΣ ΟΡΓΑΝΙΣΜΟΣ ΠΑΡΟΧΗΣ ΥΠΗΡΕΣΙΩΝ ΥΓΕΙΑΣ (ΕΟΠΥΥ)",
+    "Note": ""
+   },
+   "_pub": "2025-04-23",
+   "_translated": false
   },
   "264328-2024": {
    "Contract": "«Σχεδιασμός και Υλοποίηση ενός νέου συστήματος Ηλεκτρονικών Δημοσίων Συμβάσεων για την υποστήριξη ενός πλήρους κύκλου Δημοσίων Προμηθειών» με Κωδικό ΟΠΣ ΤΑ 5158515",
    "Country": "Greece",
    "Customers": "ΚΟΙΝΩΝΙΑ ΤΗΣ ΠΛΗΡΟΦΟΡΙΑΣ Μ.Α.Ε. (ΚτΠ ΜΑΕ)",
    "Link": "https://ted.europa.eu/en/notice/-/detail/264328-2024",
-   "Note": "Shared award with DELOITTE BUSINESS SOLUTIONS Ανώνυμη Εταιρία Συμβούλων Επιχειρήσεων, SINGULARLOGIC ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ ΠΛΗΡΟΦΟΡΙΑΚΩΝ ΣΥΣΤΗΜΑΤΩΝ ΚΑΙ ΕΦΑΡΜΟΓΩΝ ΠΛΗΡΟΦΟΡΙΚΗΣ, QUALITY & RELIABILITY ΕΦΑΡΜΟΓΕΣ ΥΨΗΛΗΣ ΤΕΧΝΟΛΟΓΙΑΣ ΑΝΩΝΥΜΗ ΒΙΟΜΗΧΑΝΙΚΗ ΚΑΙ ΕΜΠΟΡΙΚΗ ΕΤΑΙΡΕΙΑ - size is total notice value",
+   "Note": "Shared award with DELOITTE BUSINESS SOLUTIONS Ανώνυμη Εταιρία…, SINGULARLOGIC ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ ΠΛΗΡΟΦΟΡΙΑΚΩΝ…, QUALITY & RELIABILITY ΕΦΑΡΜΟΓΕΣ ΥΨΗΛΗΣ ΤΕΧΝΟ… - size is total notice value",
    "Original date": "2024May",
    "Size (DKKm)": 46,
    "_id": "264328-2024",
-   "_pub": "2024-05-03"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "auto"
+   },
+   "_orig": {
+    "Contract": "«Σχεδιασμός και Υλοποίηση ενός νέου συστήματος Ηλεκτρονικών Δημοσίων Συμβάσεων για την υποστήριξη ενός πλήρους κύκλου Δημοσίων Προμηθειών» με Κωδικό ΟΠΣ ΤΑ 5158515",
+    "Customers": "ΚΟΙΝΩΝΙΑ ΤΗΣ ΠΛΗΡΟΦΟΡΙΑΣ Μ.Α.Ε. (ΚτΠ ΜΑΕ)",
+    "Note": "Shared award with DELOITTE BUSINESS SOLUTIONS Ανώνυμη Εταιρία…, SINGULARLOGIC ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ ΠΛΗΡΟΦΟΡΙΑΚΩΝ…, QUALITY & RELIABILITY ΕΦΑΡΜΟΓΕΣ ΥΨΗΛΗΣ ΤΕΧΝΟ… - size is total notice value"
+   },
+   "_pub": "2024-05-03",
+   "_translated": false
   },
   "27226-2026": {
    "Contract": "Provision of services in support of communications activities",
@@ -508,18 +882,40 @@
    "Original date": "2026January",
    "Size (DKKm)": 4,
    "_id": "27226-2026",
-   "_pub": "2026-01-15"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Provision of services in support of communications activities",
+    "Customers": "Agency for Support for BEREC (BEREC Office)",
+    "Note": "Shared award with SIA PR KVADRATS, FORMATO VERDE LDA - size is total notice value"
+   },
+   "_pub": "2026-01-15",
+   "_translated": false
   },
   "275325-2024": {
    "Contract": "Udbud af Rammeaftale om it-konsulentydelser",
    "Country": "Denmark",
    "Customers": "Trafikstyrelsen",
    "Link": "https://ted.europa.eu/en/notice/-/detail/275325-2024",
-   "Note": "Shared award with Deloitte Statsautoriseret Revisionspartnerselskab, Miracle A/S, Solita A/S - size is total notice value",
+   "Note": "Shared award with Deloitte Statsautoriseret Revisionspartnerse…, Miracle A/S, Solita A/S - size is total notice value",
    "Original date": "2024May",
    "Size (DKKm)": 40,
    "_id": "275325-2024",
-   "_pub": "2024-05-10"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Udbud af Rammeaftale om it-konsulentydelser",
+    "Customers": "Trafikstyrelsen",
+    "Note": "Shared award with Deloitte Statsautoriseret Revisionspartnerse…, Miracle A/S, Solita A/S - size is total notice value"
+   },
+   "_pub": "2024-05-10",
+   "_translated": false
   },
   "294230-2024": {
    "Contract": "Standardsoftware",
@@ -530,29 +926,62 @@
    "Original date": "2024May",
    "Size (DKKm)": 1358,
    "_id": "294230-2024",
-   "_pub": "2024-05-17"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Standardsoftware",
+    "Customers": "Staten og Kommunernes Indkøbsservice A/S",
+    "Note": "Shared award with SoftwareONE, Atea A/S, KMD A/S +73 more - size is total notice value; Contract signed 2023-12-10 (published late)"
+   },
+   "_pub": "2024-05-17",
+   "_translated": false
   },
   "305677-2025": {
    "Contract": "Παροχή υπηρεσιών ανάπτυξης/τροποποίησης λογισμικού, ή/και μεταφοράς δεδομένων 1.500 Ανθρωπομηνών, στο υπάρχον Ολοκληρωμένο Πληροφοριακό Σύστημα και στις ηλεκτρονικές υπηρεσίες μέσω Διαδικτύου του e-ΕΦΚΑ.",
    "Country": "Greece",
    "Customers": "ΗΛΕΚΤΡΟΝΙΚΟΣ ΕΘΝΙΚΟΣ ΦΟΡΕΑΣ ΚΟΙΝΩΝΙΚΗΣ ΑΣΦΑΛΙΣΗΣ",
    "Link": "https://ted.europa.eu/en/notice/-/detail/305677-2025",
-   "Note": "Shared award with PRICEWATERHOUSECOOPERS BUSINESS SOLUTIONS ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ ΠΑΡΟΧΗΣ ΕΠΙΧΕΙΡΗΜΑΤΙΚΩΝ ΚΑΙ ΛΟΓΙΣΤΙΚΩΝ ΥΠΗΡΕΣΙΩΝ - size is total notice value",
+   "Note": "Shared award with PRICEWATERHOUSECOOPERS BUSINESS SOLUTIONS ΑΝ… - size is total notice value",
    "Original date": "2025May",
    "Size (DKKm)": 57,
    "_id": "305677-2025",
-   "_pub": "2025-05-13"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "auto"
+   },
+   "_orig": {
+    "Contract": "Παροχή υπηρεσιών ανάπτυξης/τροποποίησης λογισμικού, ή/και μεταφοράς δεδομένων 1.500 Ανθρωπομηνών, στο υπάρχον Ολοκληρωμένο Πληροφοριακό Σύστημα και στις ηλεκτρονικές υπηρεσίες μέσω Διαδικτύου του e-ΕΦΚΑ.",
+    "Customers": "ΗΛΕΚΤΡΟΝΙΚΟΣ ΕΘΝΙΚΟΣ ΦΟΡΕΑΣ ΚΟΙΝΩΝΙΚΗΣ ΑΣΦΑΛΙΣΗΣ",
+    "Note": "Shared award with PRICEWATERHOUSECOOPERS BUSINESS SOLUTIONS ΑΝ… - size is total notice value"
+   },
+   "_pub": "2025-05-13",
+   "_translated": false
   },
   "307679-2024": {
    "Contract": "ΑΝΑΘΕΣΗ ΣΥΜΒΑΣΗΣ ΓΙΑ ΤΗΝ ΥΛΟΠΟΙΗΣΗ ΣΥΣΤΗΜΑΤΟΣ ΑΞΙΟΠΟΙΗΣΗΣ ΔΕΔΟΜΕΝΩΝ ΠΟΥ ΠΑΡΑΛΑΜΒΑΝΟΝΤΑΙ ΑΠΟ ΤΑ ΣΥΣΤΗΜΑΤΑ ΕΙΣΡΟΩΝ / ΕΚΡΟΩΝ",
    "Country": "Greece",
    "Customers": "Ανεξάρτητη Αρχή Δημοσίων Εσόδων (Α.Α.Δ.Ε.)",
    "Link": "https://ted.europa.eu/en/notice/-/detail/307679-2024",
-   "Note": "Shared award with PRICEWATERHOUSECOOPERS BUSINESS SOLUTIONS ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ ΠΑΡΟΧΗΣ ΕΠΙΧΕΙΡΗΜΑΤΙΚΩΝ ΚΑΙ ΛΟΓΙΣΤΙΚΩΝ ΥΠΗΡΕΣΙΩΝ - size is total notice value; Contract signed 2022-11-30 (published late)",
+   "Note": "Shared award with PRICEWATERHOUSECOOPERS BUSINESS SOLUTIONS ΑΝ… - size is total notice value; Contract signed 2022-11-30 (published late)",
    "Original date": "2024May",
    "Size (DKKm)": 7,
    "_id": "307679-2024",
-   "_pub": "2024-05-24"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "auto"
+   },
+   "_orig": {
+    "Contract": "ΑΝΑΘΕΣΗ ΣΥΜΒΑΣΗΣ ΓΙΑ ΤΗΝ ΥΛΟΠΟΙΗΣΗ ΣΥΣΤΗΜΑΤΟΣ ΑΞΙΟΠΟΙΗΣΗΣ ΔΕΔΟΜΕΝΩΝ ΠΟΥ ΠΑΡΑΛΑΜΒΑΝΟΝΤΑΙ ΑΠΟ ΤΑ ΣΥΣΤΗΜΑΤΑ ΕΙΣΡΟΩΝ / ΕΚΡΟΩΝ",
+    "Customers": "Ανεξάρτητη Αρχή Δημοσίων Εσόδων (Α.Α.Δ.Ε.)",
+    "Note": "Shared award with PRICEWATERHOUSECOOPERS BUSINESS SOLUTIONS ΑΝ… - size is total notice value; Contract signed 2022-11-30 (published late)"
+   },
+   "_pub": "2024-05-24",
+   "_translated": false
   },
   "310973-2025": {
    "Contract": "Framework agreement consultancy services, general IT assistance.",
@@ -563,18 +992,40 @@
    "Original date": "2025May",
    "Size (DKKm)": 557,
    "_id": "310973-2025",
-   "_pub": "2025-05-14"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Framework agreement consultancy services, general IT assistance.",
+    "Customers": "Statens vegvesen",
+    "Note": "Shared award with Knowit AS, Bekk Consulting AS, Sopra Steria AS +4 more - size is total notice value"
+   },
+   "_pub": "2025-05-14",
+   "_translated": false
   },
   "31766-2026": {
    "Contract": "\"ΑΝΑΠΤΥΞΗ ΝΕΟΥ ΕΝΟΠΟΙΗΜΕΝΟΥ ΟΛΟΚΛΗΡΩΜΕΝΟΥ ΠΛΗΡΟΦΟΡΙΑΚΟΥ ΣΥΣΤΗΜΑΤΟΣ ΦΟΡΟΛΟΓΙΑΣ ΤΗΣ Α.Α.Δ.Ε.\"",
    "Country": "Greece",
    "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ",
    "Link": "https://ted.europa.eu/en/notice/-/detail/31766-2026",
-   "Note": "Shared award with Uni Systems M.A.E., PRICEWATERHOUSECOOPERS BUSINESS SOLUTIONS Α.Ε. - size is total notice value; Contract signed 2024-12-20 (published late); Possible repeat of 794950-2024",
+   "Note": "Shared award with Uni Systems M.A.E., PRICEWATERHOUSECOOPERS BUSINESS SOLUTIONS Α.… - size is total notice value; Contract signed 2024-12-20 (published late); Possible repeat of 794950-2024",
    "Original date": "2026January",
    "Size (DKKm)": 519,
    "_id": "31766-2026",
-   "_pub": "2026-01-16"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "auto"
+   },
+   "_orig": {
+    "Contract": "\"ΑΝΑΠΤΥΞΗ ΝΕΟΥ ΕΝΟΠΟΙΗΜΕΝΟΥ ΟΛΟΚΛΗΡΩΜΕΝΟΥ ΠΛΗΡΟΦΟΡΙΑΚΟΥ ΣΥΣΤΗΜΑΤΟΣ ΦΟΡΟΛΟΓΙΑΣ ΤΗΣ Α.Α.Δ.Ε.\"",
+    "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ",
+    "Note": "Shared award with Uni Systems M.A.E., PRICEWATERHOUSECOOPERS BUSINESS SOLUTIONS Α.… - size is total notice value; Contract signed 2024-12-20 (published late); Possible repeat of 794950-2024"
+   },
+   "_pub": "2026-01-16",
+   "_translated": false
   },
   "332582-2025": {
    "Contract": "Udbud af kontrakt om levering og drift af Huslejeregistersystemet, levering af Stamdatasystem og ESDH-system samt vedligeholdelse og videreudvikling af alle tre systemer",
@@ -585,7 +1036,18 @@
    "Original date": "2025May",
    "Size (DKKm)": 11,
    "_id": "332582-2025",
-   "_pub": "2025-05-23"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Udbud af kontrakt om levering og drift af Huslejeregistersystemet, levering af Stamdatasystem og ESDH-system samt vedligeholdelse og videreudvikling af alle tre systemer",
+    "Customers": "Landsbyggefonden",
+    "Note": ""
+   },
+   "_pub": "2025-05-23",
+   "_translated": false
   },
   "34301-2025": {
    "Contract": "Hosting en beheer MboVoorzieningen",
@@ -596,7 +1058,18 @@
    "Original date": "2025January",
    "Size (DKKm)": 0.0,
    "_id": "34301-2025",
-   "_pub": "2025-01-17"
+   "_langs": {
+    "Contract": "nld",
+    "Customers": "nld",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Hosting en beheer MboVoorzieningen",
+    "Customers": "Coöperatie Mbo Voorzieningen U.A.",
+    "Note": ""
+   },
+   "_pub": "2025-01-17",
+   "_translated": false
   },
   "348748-2025": {
    "Contract": "It-rådgivning (2025)",
@@ -607,7 +1080,18 @@
    "Original date": "2025May",
    "Size (DKKm)": 2347,
    "_id": "348748-2025",
-   "_pub": "2025-05-30"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "It-rådgivning (2025)",
+    "Customers": "Staten og Kommunernes Indkøbsservice A/S",
+    "Note": "Shared award with VENZO A/S, Implement Consulting Group P/S, Accenture +17 more - size is total notice value"
+   },
+   "_pub": "2025-05-30",
+   "_translated": false
   },
   "349254-2025": {
    "Contract": "It-konsulenter (2025)",
@@ -618,7 +1102,18 @@
    "Original date": "2025May",
    "Size (DKKm)": 4193,
    "_id": "349254-2025",
-   "_pub": "2025-05-30"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "It-konsulenter (2025)",
+    "Customers": "Staten og Kommunernes Indkøbsservice A/S",
+    "Note": "Shared award with 7N A/S, Accenture, Atea A/S +23 more - size is total notice value"
+   },
+   "_pub": "2025-05-30",
+   "_translated": false
   },
   "349402-2026": {
    "Contract": "«Ψηφιακό σύστημα διαχείρισης ανθρώπινου δυναμικού και μισθοδοσίας της Α.Α.Δ.Ε.»",
@@ -629,7 +1124,18 @@
    "Original date": "2026May",
    "Size (DKKm)": 8,
    "_id": "349402-2026",
-   "_pub": "2026-05-21"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "«Ψηφιακό σύστημα διαχείρισης ανθρώπινου δυναμικού και μισθοδοσίας της Α.Α.Δ.Ε.»",
+    "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ",
+    "Note": "Contract signed 2025-07-01 (published late); Possible repeat of 430658-2025"
+   },
+   "_pub": "2026-05-21",
+   "_translated": false
   },
   "353249-2024": {
    "Contract": "Professional system for the child welfare service",
@@ -640,7 +1146,18 @@
    "Original date": "2024June",
    "Size (DKKm)": 10,
    "_id": "353249-2024",
-   "_pub": "2024-06-14"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Professional system for the child welfare service",
+    "Customers": "Volda Kommune",
+    "Note": ""
+   },
+   "_pub": "2024-06-14",
+   "_translated": false
   },
   "354593-2026": {
    "Contract": "High-level advice and consultancy services (HACS)",
@@ -651,7 +1168,18 @@
    "Original date": "2026May",
    "Size (DKKm)": 1819,
    "_id": "354593-2026",
-   "_pub": "2026-05-26"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "High-level advice and consultancy services (HACS)",
+    "Customers": "European Commission, DG DIGIT - Digital Services",
+    "Note": "Shared award with OESIA Networks, THE BOSTON CONSULTING GROUP, GRANT THORNTON CORPORATE FINANCE LTD +55 more - size is total notice value"
+   },
+   "_pub": "2026-05-26",
+   "_translated": false
   },
   "369369-2024": {
    "Contract": "It-lösning för likvidhantering",
@@ -662,7 +1190,18 @@
    "Original date": "2024June",
    "Size (DKKm)": 24,
    "_id": "369369-2024",
-   "_pub": "2024-06-21"
+   "_langs": {
+    "Contract": "swe",
+    "Customers": "swe",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "It-lösning för likvidhantering",
+    "Customers": "Skatteverket",
+    "Note": ""
+   },
+   "_pub": "2024-06-21",
+   "_translated": false
   },
   "37183-2026": {
    "Contract": "EC-DIGIT/2024/OP/0019 MAIA",
@@ -673,7 +1212,18 @@
    "Original date": "2026January",
    "Size (DKKm)": 2170,
    "_id": "37183-2026",
-   "_pub": "2026-01-19"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "EC-DIGIT/2024/OP/0019 MAIA",
+    "Customers": "European Commission, DG DIGIT - Digital Services",
+    "Note": "Shared award with DELOITTE CONSULTING & ADVISORY BV, INTERNATIONAL BUSINESS MACHINES OF BELGIUM, CEGEKA GROEP +38 more - size is total notice value"
+   },
+   "_pub": "2026-01-19",
+   "_translated": false
   },
   "380471-2025": {
    "Contract": "Udbud af aftale om anskaffelse, implementering og vedligeholdelse af et Nyt Kørekortregister",
@@ -684,7 +1234,18 @@
    "Original date": "2025June",
    "Size (DKKm)": 57,
    "_id": "380471-2025",
-   "_pub": "2025-06-12"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Udbud af aftale om anskaffelse, implementering og vedligeholdelse af et Nyt Kørekortregister",
+    "Customers": "Færdselsstyrelsen",
+    "Note": ""
+   },
+   "_pub": "2025-06-12",
+   "_translated": false
   },
   "387041-2025": {
    "Contract": "Framework agreement IT consultancy services 2025 - 2029",
@@ -695,7 +1256,18 @@
    "Original date": "2025June",
    "Size (DKKm)": 627,
    "_id": "387041-2025",
-   "_pub": "2025-06-16"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Framework agreement IT consultancy services 2025 - 2029",
+    "Customers": "Utdanningsdirektoratet",
+    "Note": "Shared award with Bekk Consulting AS, Capgemini Norge AS (hovedenhet), Computas AS +2 more - size is total notice value"
+   },
+   "_pub": "2025-06-16",
+   "_translated": false
   },
   "389389-2024": {
    "Contract": "Παροχή Υπηρεσιών Συντήρησης για το Ενιαίο Σύστημα Υπηρεσιών Ακαδημαϊκής Διοίκησης Πανεπιστημίου Πατρών",
@@ -706,7 +1278,18 @@
    "Original date": "2024July",
    "Size (DKKm)": 1,
    "_id": "389389-2024",
-   "_pub": "2024-07-01"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Παροχή Υπηρεσιών Συντήρησης για το Ενιαίο Σύστημα Υπηρεσιών Ακαδημαϊκής Διοίκησης Πανεπιστημίου Πατρών",
+    "Customers": "Πανεπιστήμιο Πατρών",
+    "Note": "Contract signed 2024-02-14 (published late)"
+   },
+   "_pub": "2024-07-01",
+   "_translated": false
   },
   "39239-2026": {
    "Contract": "Udbud af Rammeaftaler om udvikling og vedligehold af applikationer (TUK-rammeaftalen og BIS-rammeaftalen)",
@@ -717,7 +1300,18 @@
    "Original date": "2026January",
    "Size (DKKm)": 365,
    "_id": "39239-2026",
-   "_pub": "2026-01-20"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Udbud af Rammeaftaler om udvikling og vedligehold af applikationer (TUK-rammeaftalen og BIS-rammeaftalen)",
+    "Customers": "Styrelsen for It og Læring",
+    "Note": "Shared award with NNIT A/S - size is total notice value"
+   },
+   "_pub": "2026-01-20",
+   "_translated": false
   },
   "393141-2026": {
    "Contract": "EUSPA-OP-25-25 EUSPA Communication Services",
@@ -728,7 +1322,18 @@
    "Original date": "2026June",
    "Size (DKKm)": 47,
    "_id": "393141-2026",
-   "_pub": "2026-06-09"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "EUSPA-OP-25-25 EUSPA Communication Services",
+    "Customers": "European Union Agency for the Space Programme",
+    "Note": "Shared award with EWORX SA, COTECO INTERNACIONAL, NOESIS s.r.o. +3 more - size is total notice value"
+   },
+   "_pub": "2026-06-09",
+   "_translated": false
   },
   "396254-2026": {
    "Contract": "Helpdesk for users of electronic services and other products of the Publications Office of the European Union",
@@ -739,18 +1344,40 @@
    "Original date": "2026June",
    "Size (DKKm)": 11,
    "_id": "396254-2026",
-   "_pub": "2026-06-10"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Helpdesk for users of electronic services and other products of the Publications Office of the European Union",
+    "Customers": "European Commission, Publications Office",
+    "Note": "Shared award with INFEUROPE, HALIAN SARL - size is total notice value"
+   },
+   "_pub": "2026-06-10",
+   "_translated": false
   },
   "401729-2025": {
    "Contract": "Provision of software development services related to the Publications Office Information Technology (‘IT’) Systems",
    "Country": "Luxembourg",
    "Customers": "European Commission, Publications Office",
    "Link": "https://ted.europa.eu/en/notice/-/detail/401729-2025",
-   "Note": "Shared award with Nova Information and Communication Technologies SA, ARHS Developments SA, KNOWLEDGE SA +4 more - size is total notice value",
+   "Note": "Shared award with Nova Information and Communication Technolog…, ARHS Developments SA, KNOWLEDGE SA +4 more - size is total notice value",
    "Original date": "2025June",
    "Size (DKKm)": 202,
    "_id": "401729-2025",
-   "_pub": "2025-06-20"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Provision of software development services related to the Publications Office Information Technology (‘IT’) Systems",
+    "Customers": "European Commission, Publications Office",
+    "Note": "Shared award with Nova Information and Communication Technolog…, ARHS Developments SA, KNOWLEDGE SA +4 more - size is total notice value"
+   },
+   "_pub": "2025-06-20",
+   "_translated": false
   },
   "404671-2025": {
    "Contract": "Διακήρυξη Διεθνούς Ανοικτού Ηλεκτρονικού διαγωνισμού με κριτήριο κατακύρωσης την πλέον συμφέρουσα από οικονομικής άποψης προσφορά βάσει βέλτιστης σχέσης ποιότητας τιμής και αντικείμενο την παροχή υπηρεσιών συντήρησης εξοπλισμού, λογισμικού συστήματος και λογισμικού εφαρμογών του ΟΠΣ-ΑΑΕΕ για χρονικό διάστημα τριών (3) ετών (+1 έτος με προαίρεση).",
@@ -761,40 +1388,84 @@
    "Original date": "2025June",
    "Size (DKKm)": 17,
    "_id": "404671-2025",
-   "_pub": "2025-06-24"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Διακήρυξη Διεθνούς Ανοικτού Ηλεκτρονικού διαγωνισμού με κριτήριο κατακύρωσης την πλέον συμφέρουσα από οικονομικής άποψης προσφορά βάσει βέλτιστης σχέσης ποιότητας τιμής και αντικείμενο την παροχή υπηρεσιών συντήρησης εξοπλισμού, λογισμικού συστήματος και λογισμικού εφαρμογών του ΟΠΣ-ΑΑΕΕ για χρονικό διάστημα τριών (3) ετών (+1 έτος με προαίρεση).",
+    "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ \"ΕΠΙΘΕΩΡΗΣΗ ΕΡΓΑΣΙΑΣ\"",
+    "Note": ""
+   },
+   "_pub": "2025-06-24",
+   "_translated": false
   },
   "427263-2024": {
    "Contract": "Udbud af Erhvervsstyrelsens It-rammeaftale 2024-2028 (1)",
    "Country": "Denmark",
    "Customers": "Erhvervsstyrelsen",
    "Link": "https://ted.europa.eu/en/notice/-/detail/427263-2024",
-   "Note": "Shared award with CGI Danmark A/S, DELOITTE STATSAUTORISERET REVISIONSPARTNERSELSKAB, Nine A/S +9 more - size is total notice value",
+   "Note": "Shared award with CGI Danmark A/S, DELOITTE STATSAUTORISERET REVISIONSPARTNERSE…, Nine A/S +9 more - size is total notice value",
    "Original date": "2024July",
    "Size (DKKm)": 1142,
    "_id": "427263-2024",
-   "_pub": "2024-07-17"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Udbud af Erhvervsstyrelsens It-rammeaftale 2024-2028 (1)",
+    "Customers": "Erhvervsstyrelsen",
+    "Note": "Shared award with CGI Danmark A/S, DELOITTE STATSAUTORISERET REVISIONSPARTNERSE…, Nine A/S +9 more - size is total notice value"
+   },
+   "_pub": "2024-07-17",
+   "_translated": false
   },
   "430337-2026": {
    "Contract": "IT services for standardisation, statistical production and dissemination",
    "Country": "Luxembourg",
    "Customers": "European Commission, DG ESTAT - Eurostat",
    "Link": "https://ted.europa.eu/en/notice/-/detail/430337-2026",
-   "Note": "Shared award with NRB, ENGINEERING INTERNATIONAL BELGIUM S.A., QUALCO Information Systems Single Member Societe Anonyme +5 more - size is total notice value",
+   "Note": "Shared award with NRB, ENGINEERING INTERNATIONAL BELGIUM S.A., QUALCO Information Systems Single Member Soc… +5 more - size is total notice value",
    "Original date": "2026June",
    "Size (DKKm)": 260,
    "_id": "430337-2026",
-   "_pub": "2026-06-24"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "IT services for standardisation, statistical production and dissemination",
+    "Customers": "European Commission, DG ESTAT - Eurostat",
+    "Note": "Shared award with NRB, ENGINEERING INTERNATIONAL BELGIUM S.A., QUALCO Information Systems Single Member Soc… +5 more - size is total notice value"
+   },
+   "_pub": "2026-06-24",
+   "_translated": false
   },
   "430614-2026": {
    "Contract": "IT services for standardisation, statistical production and dissemination",
    "Country": "Luxembourg",
    "Customers": "European Commission, DG ESTAT - Eurostat",
    "Link": "https://ted.europa.eu/en/notice/-/detail/430614-2026",
-   "Note": "Shared award with NRB, ENGINEERING INTERNATIONAL BELGIUM S.A., QUALCO Information Systems Single Member Societe Anonyme +5 more - size is total notice value",
+   "Note": "Shared award with NRB, ENGINEERING INTERNATIONAL BELGIUM S.A., QUALCO Information Systems Single Member Soc… +5 more - size is total notice value",
    "Original date": "2026June",
    "Size (DKKm)": 39,
    "_id": "430614-2026",
-   "_pub": "2026-06-24"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "IT services for standardisation, statistical production and dissemination",
+    "Customers": "European Commission, DG ESTAT - Eurostat",
+    "Note": "Shared award with NRB, ENGINEERING INTERNATIONAL BELGIUM S.A., QUALCO Information Systems Single Member Soc… +5 more - size is total notice value"
+   },
+   "_pub": "2026-06-24",
+   "_translated": false
   },
   "430658-2025": {
    "Contract": "«Ψηφιακό σύστημα διαχείρισης ανθρώπινου δυναμικού και μισθοδοσίας της Α.Α.Δ.Ε.»",
@@ -805,18 +1476,40 @@
    "Original date": "2025July",
    "Size (DKKm)": 8,
    "_id": "430658-2025",
-   "_pub": "2025-07-03"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "«Ψηφιακό σύστημα διαχείρισης ανθρώπινου δυναμικού και μισθοδοσίας της Α.Α.Δ.Ε.»",
+    "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ",
+    "Note": ""
+   },
+   "_pub": "2025-07-03",
+   "_translated": false
   },
   "432522-2026": {
    "Contract": "Εντοπισμός αυθαίρετης δόμησης με σύγχρονα τεχνολογικά μέσα",
    "Country": "Greece",
    "Customers": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ",
    "Link": "https://ted.europa.eu/en/notice/-/detail/432522-2026",
-   "Note": "Shared award with ΟΡΓΑΝΙΣΜΟΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΤΗΣ ΕΛΛΑΔΟΣ Α.Ε. με διακριτικό τίτλο ΟΤΕ Α.Ε. ή ΟΤΕ ή COSMOTE, BRIGHT BUSINESS SOLUTION ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ, με διακριτικό τίτλο BRIGHT BUSINESS SOLUTION Α.E. - size is total notice value",
+   "Note": "Shared award with ΟΡΓΑΝΙΣΜΟΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΤΗΣ ΕΛΛΑΔΟΣ Α.Ε.…, BRIGHT BUSINESS SOLUTION ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ, μ… - size is total notice value",
    "Original date": "2026June",
    "Size (DKKm)": 695,
    "_id": "432522-2026",
-   "_pub": "2026-06-25"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "auto"
+   },
+   "_orig": {
+    "Contract": "Εντοπισμός αυθαίρετης δόμησης με σύγχρονα τεχνολογικά μέσα",
+    "Customers": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ",
+    "Note": "Shared award with ΟΡΓΑΝΙΣΜΟΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΤΗΣ ΕΛΛΑΔΟΣ Α.Ε.…, BRIGHT BUSINESS SOLUTION ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ, μ… - size is total notice value"
+   },
+   "_pub": "2026-06-25",
+   "_translated": false
   },
   "43458-2025": {
    "Contract": "«Οριζόντιες παρεμβάσεις ψηφιακού μετασχηματισμού σε εποπτευόμενους φορείς του Υπουργείου Υγείας»",
@@ -827,7 +1520,18 @@
    "Original date": "2025January",
    "Size (DKKm)": 19,
    "_id": "43458-2025",
-   "_pub": "2025-01-22"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "«Οριζόντιες παρεμβάσεις ψηφιακού μετασχηματισμού σε εποπτευόμενους φορείς του Υπουργείου Υγείας»",
+    "Customers": "ΗΔΙΚΑ Α.Ε",
+    "Note": "Shared award with IKNOWHOW - size is total notice value"
+   },
+   "_pub": "2025-01-22",
+   "_translated": false
   },
   "436312-2025": {
    "Contract": "Udbud af kontrakt om drift, vedligehold og videreudvikling af Lex Dania produktion, retsinformation.dk, lovtidende.dk og statstidende.dk",
@@ -838,7 +1542,18 @@
    "Original date": "2025July",
    "Size (DKKm)": 137,
    "_id": "436312-2025",
-   "_pub": "2025-07-04"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Udbud af kontrakt om drift, vedligehold og videreudvikling af Lex Dania produktion, retsinformation.dk, lovtidende.dk og statstidende.dk",
+    "Customers": "Civilstyrelsen",
+    "Note": ""
+   },
+   "_pub": "2025-07-04",
+   "_translated": false
   },
   "448695-2025": {
    "Contract": "Provisioning and Maintenance Support of End Users, Digital Workplace, IT Infrastructure and Operations Services.",
@@ -849,18 +1564,40 @@
    "Original date": "2025July",
    "Size (DKKm)": 523,
    "_id": "448695-2025",
-   "_pub": "2025-07-10"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Provisioning and Maintenance Support of End Users, Digital Workplace, IT Infrastructure and Operations Services.",
+    "Customers": "European Union Intellectual Property Office",
+    "Note": "Shared award with Fujitsu Technology Solutions NV, Fujitsu Technology Solutions SA, Deloitte Consulting & Advisory BV/SRL +4 more - size is total notice value"
+   },
+   "_pub": "2025-07-10",
+   "_translated": false
   },
   "452616-2025": {
    "Contract": "Εντοπισμός αυθαίρετης δόμησης με σύγχρονα τεχνολογικά μέσα",
    "Country": "Greece",
    "Customers": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ",
    "Link": "https://ted.europa.eu/en/notice/-/detail/452616-2025",
-   "Note": "Shared award with ΟΡΓΑΝΙΣΜΟΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΤΗΣ ΕΛΛΑΔΟΣ Α.Ε. με διακριτικό τίτλο ΟΤΕ Α.Ε. ή ΟΤΕ ή COSMOTE, BRIGHT BUSINESS SOLUTION ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ, με διακριτικό τίτλο BRIGHT BUSINESS SOLUTION Α.E. - size is total notice value",
+   "Note": "Shared award with ΟΡΓΑΝΙΣΜΟΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΤΗΣ ΕΛΛΑΔΟΣ Α.Ε.…, BRIGHT BUSINESS SOLUTION ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ, μ… - size is total notice value",
    "Original date": "2025July",
    "Size (DKKm)": 471,
    "_id": "452616-2025",
-   "_pub": "2025-07-11"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "auto"
+   },
+   "_orig": {
+    "Contract": "Εντοπισμός αυθαίρετης δόμησης με σύγχρονα τεχνολογικά μέσα",
+    "Customers": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ",
+    "Note": "Shared award with ΟΡΓΑΝΙΣΜΟΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΤΗΣ ΕΛΛΑΔΟΣ Α.Ε.…, BRIGHT BUSINESS SOLUTION ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ, μ… - size is total notice value"
+   },
+   "_pub": "2025-07-11",
+   "_translated": false
   },
   "452934-2025": {
    "Contract": "Standardsoftware",
@@ -871,7 +1608,18 @@
    "Original date": "2025July",
    "Size (DKKm)": 1797,
    "_id": "452934-2025",
-   "_pub": "2025-07-11"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Standardsoftware",
+    "Customers": "Staten og Kommunernes Indkøbsservice A/S",
+    "Note": "Shared award with Crayon A/S, Dustin A/S, Atea A/S +37 more - size is total notice value"
+   },
+   "_pub": "2025-07-11",
+   "_translated": false
   },
   "453112-2026": {
    "Contract": "Vedligeholdelse og videreudvikling samt drift af borger.dk",
@@ -882,7 +1630,18 @@
    "Original date": "2026July",
    "Size (DKKm)": 185,
    "_id": "453112-2026",
-   "_pub": "2026-07-02"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Vedligeholdelse og videreudvikling samt drift af borger.dk",
+    "Customers": "Digitaliseringsstyrelsen",
+    "Note": ""
+   },
+   "_pub": "2026-07-02",
+   "_translated": false
   },
   "455121-2025": {
    "Contract": "Negotiated procedure for the increase of ceiling of framework contract EPPO/2021/88",
@@ -893,7 +1652,18 @@
    "Original date": "2025July",
    "Size (DKKm)": 56,
    "_id": "455121-2025",
-   "_pub": "2025-07-11"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Negotiated procedure for the increase of ceiling of framework contract EPPO/2021/88",
+    "Customers": "European Public Prosecutor's Office",
+    "Note": "Shared award with AHRS Developments SA, ARHS Cube S.A., UniSystems Luxembourg S.a.r.l +2 more - size is total notice value"
+   },
+   "_pub": "2025-07-11",
+   "_translated": false
   },
   "463422-2026": {
    "Contract": "Provision of promotional products and services",
@@ -904,7 +1674,18 @@
    "Original date": "2026July",
    "Size (DKKm)": 7,
    "_id": "463422-2026",
-   "_pub": "2026-07-06"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Provision of promotional products and services",
+    "Customers": "ESPON EGTC",
+    "Note": "Contract signed 2024-02-09 (published late)"
+   },
+   "_pub": "2026-07-06",
+   "_translated": false
   },
   "466443-2025": {
    "Contract": "DIGIT-TM II Lot 2 and 3 Ceiling increase",
@@ -915,7 +1696,18 @@
    "Original date": "2025July",
    "Size (DKKm)": 5180,
    "_id": "466443-2025",
-   "_pub": "2025-07-17"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "DIGIT-TM II Lot 2 and 3 Ceiling increase",
+    "Customers": "European Commission, DG DIGIT - Digital Services",
+    "Note": "Shared award with Network Research Belgium (NRB) S.A., Eviden Belgium NV, VASS EU Services SA +38 more - size is total notice value"
+   },
+   "_pub": "2025-07-17",
+   "_translated": false
   },
   "478198-2026": {
    "Contract": "IT services for standardisation, statistical production and dissemination",
@@ -926,7 +1718,18 @@
    "Original date": "2026July",
    "Size (DKKm)": 134,
    "_id": "478198-2026",
-   "_pub": "2026-07-10"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "IT services for standardisation, statistical production and dissemination",
+    "Customers": "European Commission, DG ESTAT - Eurostat",
+    "Note": "Shared award with DUKAT, TREMEND SOFTWARE CONSULTING SRL, RINF OUTSOURCING SOLUTIONS SRL +5 more - size is total notice value"
+   },
+   "_pub": "2026-07-10",
+   "_translated": false
   },
   "482824-2025": {
    "Contract": "Su NCTS 6 faze suderinamos Ukrainos nacionalinės tranzito sistemos sukūrimo paslaugos",
@@ -937,7 +1740,18 @@
    "Original date": "2025July",
    "Size (DKKm)": 9,
    "_id": "482824-2025",
-   "_pub": "2025-07-23"
+   "_langs": {
+    "Contract": "lit",
+    "Customers": "lit",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Su NCTS 6 faze suderinamos Ukrainos nacionalinės tranzito sistemos sukūrimo paslaugos",
+    "Customers": "VšĮ Centrinė projektų valdymo agentūra",
+    "Note": ""
+   },
+   "_pub": "2025-07-23",
+   "_translated": false
   },
   "499583-2025": {
    "Contract": "Υποστήριξη του Ενιαίου Πληροφοριακού Συστήματος Επιχειρησιακών Λειτουργιών Μονάδων Υγείας του ΕΣΥ",
@@ -948,29 +1762,62 @@
    "Original date": "2025July",
    "Size (DKKm)": 83,
    "_id": "499583-2025",
-   "_pub": "2025-07-30"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Υποστήριξη του Ενιαίου Πληροφοριακού Συστήματος Επιχειρησιακών Λειτουργιών Μονάδων Υγείας του ΕΣΥ",
+    "Customers": "ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΑΚΥΒΕΡΝΗΣΗ ΚΟΙΝΩΝΙΚΗΣ ΑΣΦΑΛΙΣΗΣ (ΗΔΙΚΑ) ΑΕ",
+    "Note": "Shared award with CCS, IKNOWHEALTH - size is total notice value"
+   },
+   "_pub": "2025-07-30",
+   "_translated": false
   },
   "500651-2026": {
    "Contract": "Εντοπισμός αυθαίρετης δόμησης με σύγχρονα τεχνολογικά μέσα",
    "Country": "Greece",
    "Customers": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ",
    "Link": "https://ted.europa.eu/en/notice/-/detail/500651-2026",
-   "Note": "Shared award with ΟΡΓΑΝΙΣΜΟΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΤΗΣ ΕΛΛΑΔΟΣ Α.Ε. με διακριτικό τίτλο ΟΤΕ Α.Ε. ή ΟΤΕ ή COSMOTE, BRIGHT BUSINESS SOLUTION ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ, με διακριτικό τίτλο BRIGHT BUSINESS SOLUTION Α.E. - size is total notice value; Possible repeat of 432522-2026",
+   "Note": "Shared award with ΟΡΓΑΝΙΣΜΟΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΤΗΣ ΕΛΛΑΔΟΣ Α.Ε.…, BRIGHT BUSINESS SOLUTION ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ, μ… - size is total notice value; Possible repeat of 432522-2026",
    "Original date": "2026July",
    "Size (DKKm)": 695,
    "_id": "500651-2026",
-   "_pub": "2026-07-20"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "auto"
+   },
+   "_orig": {
+    "Contract": "Εντοπισμός αυθαίρετης δόμησης με σύγχρονα τεχνολογικά μέσα",
+    "Customers": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ",
+    "Note": "Shared award with ΟΡΓΑΝΙΣΜΟΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΤΗΣ ΕΛΛΑΔΟΣ Α.Ε.…, BRIGHT BUSINESS SOLUTION ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ, μ… - size is total notice value; Possible repeat of 432522-2026"
+   },
+   "_pub": "2026-07-20",
+   "_translated": false
   },
   "503389-2024": {
    "Contract": "Rammeaftale om it-udviklingsydelser",
    "Country": "Denmark",
    "Customers": "Udviklings- og Forenklingsstyrelsen på vegne af Skatteministeriets koncern",
    "Link": "https://ted.europa.eu/en/notice/-/detail/503389-2024",
-   "Note": "Shared award with twoday A/S, Deloitte Statsautoriseret Revisionspartnerselskab, EPICO-IT A/S +2 more - size is total notice value",
+   "Note": "Shared award with twoday A/S, Deloitte Statsautoriseret Revisionspartnerse…, EPICO-IT A/S +2 more - size is total notice value",
    "Original date": "2024August",
    "Size (DKKm)": 2100,
    "_id": "503389-2024",
-   "_pub": "2024-08-22"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Rammeaftale om it-udviklingsydelser",
+    "Customers": "Udviklings- og Forenklingsstyrelsen på vegne af Skatteministeriets koncern",
+    "Note": "Shared award with twoday A/S, Deloitte Statsautoriseret Revisionspartnerse…, EPICO-IT A/S +2 more - size is total notice value"
+   },
+   "_pub": "2024-08-22",
+   "_translated": false
   },
   "503529-2024": {
    "Contract": "Specialized IT Consultancy Services II",
@@ -981,7 +1828,18 @@
    "Original date": "2024August",
    "Size (DKKm)": 75,
    "_id": "503529-2024",
-   "_pub": "2024-08-22"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Specialized IT Consultancy Services II",
+    "Customers": "European Commission, DG DIGIT - Digital Services",
+    "Note": "Shared award with CRONOS EUROPA, NTT DATA BELGIQUE, SEIDOR CONSULTING SL +1 more - size is total notice value"
+   },
+   "_pub": "2024-08-22",
+   "_translated": false
   },
   "504876-2024": {
    "Contract": "Standardsoftware",
@@ -992,7 +1850,18 @@
    "Original date": "2024August",
    "Size (DKKm)": 3618,
    "_id": "504876-2024",
-   "_pub": "2024-08-22"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Standardsoftware",
+    "Customers": "Staten og Kommunernes Indkøbsservice A/S",
+    "Note": "Shared award with Atea A/S, KMD A/S, Crayon A/S +44 more - size is total notice value; Contract signed 2024-03-12 (published late)"
+   },
+   "_pub": "2024-08-22",
+   "_translated": false
   },
   "511509-2025": {
    "Contract": "Audiovisual Communications & Multi-channel Campaigns",
@@ -1003,7 +1872,18 @@
    "Original date": "2025August",
    "Size (DKKm)": 202,
    "_id": "511509-2025",
-   "_pub": "2025-08-05"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Audiovisual Communications & Multi-channel Campaigns",
+    "Customers": "European Central Bank",
+    "Note": "Shared award with Zum goldenen Hirschen Holding GmbH, 365 Sherpas GmbH, Scholz & Friends Berlin GmbH - size is total notice value"
+   },
+   "_pub": "2025-08-05",
+   "_translated": false
   },
   "513756-2026": {
    "Contract": "Product integration, customization, design, maintenance, evaluation and quality control services",
@@ -1014,7 +1894,18 @@
    "Original date": "2026July",
    "Size (DKKm)": 862,
    "_id": "513756-2026",
-   "_pub": "2026-07-24"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Product integration, customization, design, maintenance, evaluation and quality control services",
+    "Customers": "European Parliament, SG - Directorate-General for Information Technologies and Cybersecurity",
+    "Note": "Shared award with COSMOTE GS, HELLENIC TELECOMMUNICATIONS ORGANIZATION SA, PWC EU SERVICES +9 more - size is total notice value"
+   },
+   "_pub": "2026-07-24",
+   "_translated": false
   },
   "533962-2025": {
    "Contract": "Managed services for the operation of the Publications Office Information Systems",
@@ -1025,7 +1916,18 @@
    "Original date": "2025August",
    "Size (DKKm)": 79,
    "_id": "533962-2025",
-   "_pub": "2025-08-14"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Managed services for the operation of the Publications Office Information Systems",
+    "Customers": "European Commission, Publications Office",
+    "Note": "Shared award with infeurope S.A., Halian Sàrl, NTT DATA Belgique SRL - size is total notice value"
+   },
+   "_pub": "2025-08-14",
+   "_translated": false
   },
   "54336-2024": {
    "Contract": "ΤΥΠ2023/042/Δ/Α - Διαγωνισμός Διαδικασίας με Διαπραγμάτευση για την Αναβάθμιση και Υποστήριξη του Συστήματος Ηλεκτρονικής Υποβολής Φορολογικών Δηλώσεων (Taxisnet) του Τμήματος Φορολογίας",
@@ -1036,7 +1938,18 @@
    "Original date": "2024January",
    "Size (DKKm)": 2,
    "_id": "54336-2024",
-   "_pub": "2024-01-26"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "ΤΥΠ2023/042/Δ/Α - Διαγωνισμός Διαδικασίας με Διαπραγμάτευση για την Αναβάθμιση και Υποστήριξη του Συστήματος Ηλεκτρονικής Υποβολής Φορολογικών Δηλώσεων (Taxisnet) του Τμήματος Φορολογίας",
+    "Customers": "Τμήμα Υπηρεσιών Πληροφορικής",
+    "Note": ""
+   },
+   "_pub": "2024-01-26",
+   "_translated": false
   },
   "545219-2026": {
    "Contract": "Open call for tenders for external service provision in time & means in the field of digital solution lifecycle management (DIGIT-TM III)",
@@ -1047,18 +1960,40 @@
    "Original date": "2026August",
    "Size (DKKm)": 29686,
    "_id": "545219-2026",
-   "_pub": "2026-08-06"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Open call for tenders for external service provision in time & means in the field of digital solution lifecycle management (DIGIT-TM III)",
+    "Customers": "European Commission, DG DIGIT - Digital Services",
+    "Note": "Shared award with Kyndryl Luxembourg S.à r.l., Kyndryl Belgium BV, Kyndryl Nederland B.V. +72 more - size is total notice value"
+   },
+   "_pub": "2026-08-06",
+   "_translated": false
   },
   "550946-2026": {
    "Contract": "SPOC, IT RUN and IT Development, Managed and Corporate Services",
    "Country": "Italy",
    "Customers": "European Food Safety Authority",
    "Link": "https://ted.europa.eu/en/notice/-/detail/550946-2026",
-   "Note": "Shared award with ENG - DHUB, COSMOTE GS, QUENTO TECHNOLOGIES MONOPROSOPI ANONYMI ETAIREIA +11 more - size is total notice value",
+   "Note": "Shared award with ENG - DHUB, COSMOTE GS, QUENTO TECHNOLOGIES MONOPROSOPI ANONYMI ETAI… +11 more - size is total notice value",
    "Original date": "2026August",
    "Size (DKKm)": 284,
    "_id": "550946-2026",
-   "_pub": "2026-08-10"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "SPOC, IT RUN and IT Development, Managed and Corporate Services",
+    "Customers": "European Food Safety Authority",
+    "Note": "Shared award with ENG - DHUB, COSMOTE GS, QUENTO TECHNOLOGIES MONOPROSOPI ANONYMI ETAI… +11 more - size is total notice value"
+   },
+   "_pub": "2026-08-10",
+   "_translated": false
   },
   "555981-2024": {
    "Contract": "Professional system for the child protection service",
@@ -1069,7 +2004,18 @@
    "Original date": "2024September",
    "Size (DKKm)": 13,
    "_id": "555981-2024",
-   "_pub": "2024-09-17"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Professional system for the child protection service",
+    "Customers": "IKT Nordhordland kommunalt oppgåvefellesskap",
+    "Note": ""
+   },
+   "_pub": "2024-09-17",
+   "_translated": false
   },
   "562411-2026": {
    "Contract": "Provision of graphic design services including static infographics and other design-related services",
@@ -1080,7 +2026,18 @@
    "Original date": "2026August",
    "Size (DKKm)": 3,
    "_id": "562411-2026",
-   "_pub": "2026-08-13"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Provision of graphic design services including static infographics and other design-related services",
+    "Customers": "European Commission, Publications Office",
+    "Note": "Shared award with Quickdata, Umbau BV - size is total notice value"
+   },
+   "_pub": "2026-08-13",
+   "_translated": false
   },
   "564909-2025": {
    "Contract": "Rammeaftale om videreudvikling og vedligeholdelse af Det Centrale Almene Bygningsregister (DCAB) 2025",
@@ -1091,7 +2048,18 @@
    "Original date": "2025August",
    "Size (DKKm)": 24,
    "_id": "564909-2025",
-   "_pub": "2025-08-29"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Rammeaftale om videreudvikling og vedligeholdelse af Det Centrale Almene Bygningsregister (DCAB) 2025",
+    "Customers": "Landsbyggefonden",
+    "Note": ""
+   },
+   "_pub": "2025-08-29",
+   "_translated": false
   },
   "578698-2024": {
    "Contract": "Rammeaftale for rådgivning og analyse, udvikling, support og vedligehold af udvalgt it-systemportefølje",
@@ -1102,7 +2070,18 @@
    "Original date": "2024September",
    "Size (DKKm)": 129,
    "_id": "578698-2024",
-   "_pub": "2024-09-26"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Rammeaftale for rådgivning og analyse, udvikling, support og vedligehold af udvalgt it-systemportefølje",
+    "Customers": "Udenrigsministeriet",
+    "Note": ""
+   },
+   "_pub": "2024-09-26",
+   "_translated": false
   },
   "57870-2026": {
    "Contract": "Παροχή Υπηρεσιών Συντήρησης για το Ενιαίο Σύστημα Υπηρεσιών Ακαδημαϊκής Διοίκησης Πανεπιστημίου Πατρών SAP για το χρονικό διάστημα 01.01.2026 - 31.12.2026",
@@ -1113,7 +2092,18 @@
    "Original date": "2026January",
    "Size (DKKm)": 2,
    "_id": "57870-2026",
-   "_pub": "2026-01-27"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Παροχή Υπηρεσιών Συντήρησης για το Ενιαίο Σύστημα Υπηρεσιών Ακαδημαϊκής Διοίκησης Πανεπιστημίου Πατρών SAP για το χρονικό διάστημα 01.01.2026 - 31.12.2026",
+    "Customers": "Πανεπιστήμιο Πατρών",
+    "Note": ""
+   },
+   "_pub": "2026-01-27",
+   "_translated": false
   },
   "580050-2025": {
    "Contract": "Communication Services – Video production, printed & electronic publications and promotional corporate items",
@@ -1124,29 +2114,62 @@
    "Original date": "2025September",
    "Size (DKKm)": 13,
    "_id": "580050-2025",
-   "_pub": "2025-09-05"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Communication Services – Video production, printed & electronic publications and promotional corporate items",
+    "Customers": "European Union Aviation Safety Agency",
+    "Note": "Shared award with TIPIK COMMUNICATION AGENCY SA - size is total notice value"
+   },
+   "_pub": "2025-09-05",
+   "_translated": false
   },
   "586113-2026": {
    "Contract": "SPOC, IT RUN and IT Development, Managed and Corporate Services",
    "Country": "Italy",
    "Customers": "European Food Safety Authority",
    "Link": "https://ted.europa.eu/en/notice/-/detail/586113-2026",
-   "Note": "Shared award with ENG - DHUB, COSMOTE GS, QUENTO TECHNOLOGIES MONOPROSOPI ANONYMI ETAIREIA +11 more - size is total notice value; Possible repeat of 550946-2026",
+   "Note": "Shared award with ENG - DHUB, COSMOTE GS, QUENTO TECHNOLOGIES MONOPROSOPI ANONYMI ETAI… +11 more - size is total notice value; Possible repeat of 550946-2026",
    "Original date": "2026August",
    "Size (DKKm)": 284,
    "_id": "586113-2026",
-   "_pub": "2026-08-25"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "SPOC, IT RUN and IT Development, Managed and Corporate Services",
+    "Customers": "European Food Safety Authority",
+    "Note": "Shared award with ENG - DHUB, COSMOTE GS, QUENTO TECHNOLOGIES MONOPROSOPI ANONYMI ETAI… +11 more - size is total notice value; Possible repeat of 550946-2026"
+   },
+   "_pub": "2026-08-25",
+   "_translated": false
   },
   "588982-2026": {
    "Contract": "\"ΑΝΑΠΤΥΞΗ ΝΕΟΥ ΕΝΟΠΟΙΗΜΕΝΟΥ ΟΛΟΚΛΗΡΩΜΕΝΟΥ ΠΛΗΡΟΦΟΡΙΑΚΟΥ ΣΥΣΤΗΜΑΤΟΣ ΦΟΡΟΛΟΓΙΑΣ ΤΗΣ Α.Α.Δ.Ε.\"",
    "Country": "Greece",
    "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ",
    "Link": "https://ted.europa.eu/en/notice/-/detail/588982-2026",
-   "Note": "Shared award with Uni Systems M.A.E., PRICEWATERHOUSECOOPERS BUSINESS SOLUTIONS Α.Ε. - size is total notice value; Contract signed 2024-12-20 (published late); Possible repeat of 794950-2024",
+   "Note": "Shared award with Uni Systems M.A.E., PRICEWATERHOUSECOOPERS BUSINESS SOLUTIONS Α.… - size is total notice value; Contract signed 2024-12-20 (published late); Possible repeat of 794950-2024",
    "Original date": "2026August",
    "Size (DKKm)": 519,
    "_id": "588982-2026",
-   "_pub": "2026-08-26"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "auto"
+   },
+   "_orig": {
+    "Contract": "\"ΑΝΑΠΤΥΞΗ ΝΕΟΥ ΕΝΟΠΟΙΗΜΕΝΟΥ ΟΛΟΚΛΗΡΩΜΕΝΟΥ ΠΛΗΡΟΦΟΡΙΑΚΟΥ ΣΥΣΤΗΜΑΤΟΣ ΦΟΡΟΛΟΓΙΑΣ ΤΗΣ Α.Α.Δ.Ε.\"",
+    "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ",
+    "Note": "Shared award with Uni Systems M.A.E., PRICEWATERHOUSECOOPERS BUSINESS SOLUTIONS Α.… - size is total notice value; Contract signed 2024-12-20 (published late); Possible repeat of 794950-2024"
+   },
+   "_pub": "2026-08-26",
+   "_translated": false
   },
   "59252-2026": {
    "Contract": "Udbud af Rammeaftaler om konsulentbistand (LOD-rammeaftalen og OPA-rammeaftalen)",
@@ -1157,7 +2180,18 @@
    "Original date": "2026January",
    "Size (DKKm)": 220,
    "_id": "59252-2026",
-   "_pub": "2026-01-27"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Udbud af Rammeaftaler om konsulentbistand (LOD-rammeaftalen og OPA-rammeaftalen)",
+    "Customers": "Styrelsen for It og Læring",
+    "Note": "Shared award with Nine A/S - size is total notice value"
+   },
+   "_pub": "2026-01-27",
+   "_translated": false
   },
   "59588-2025": {
    "Contract": "223024 Child Protection System Gjøvik, Søndre Land, Nordre Land and Østre Toten municipalities.",
@@ -1168,7 +2202,18 @@
    "Original date": "2025January",
    "Size (DKKm)": 0.8,
    "_id": "59588-2025",
-   "_pub": "2025-01-28"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "223024 Child Protection System Gjøvik, Søndre Land, Nordre Land and Østre Toten municipalities.",
+    "Customers": "Gjøvikregionen - Anskaffelser",
+    "Note": ""
+   },
+   "_pub": "2025-01-28",
+   "_translated": false
   },
   "599640-2026": {
    "Contract": "Ramavtal konsulttjänster",
@@ -1179,7 +2224,18 @@
    "Original date": "2026August",
    "Size (DKKm)": 432,
    "_id": "599640-2026",
-   "_pub": "2026-08-31"
+   "_langs": {
+    "Contract": "swe",
+    "Customers": "swe",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Ramavtal konsulttjänster",
+    "Customers": "Myndigheten för digital förvaltning - Digg",
+    "Note": "Shared award with 2MNordic IT Consulting AB, AFRY Digital Solutions AB, AGIO System och Kompetens i Skandinavien AB +58 more - size is total notice value; Contract signed 2025-11-25 (published late)"
+   },
+   "_pub": "2026-08-31",
+   "_translated": false
   },
   "601963-2026": {
    "Contract": "Competition 02",
@@ -1190,18 +2246,40 @@
    "Original date": "2026September",
    "Size (DKKm)": 553,
    "_id": "601963-2026",
-   "_pub": "2026-09-01"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Competition 02",
+    "Customers": "EU-LISA",
+    "Note": "Shared award with Deloitte Consulting & Advisory BV, Deloitte Consulting, S.L.U., Sopra Steria Belgium SA/NV +6 more - size is total notice value"
+   },
+   "_pub": "2026-09-01",
+   "_translated": false
   },
   "606065-2026": {
    "Contract": "\"ΑΝΑΠΤΥΞΗ ΝΕΟΥ ΕΝΟΠΟΙΗΜΕΝΟΥ ΟΛΟΚΛΗΡΩΜΕΝΟΥ ΠΛΗΡΟΦΟΡΙΑΚΟΥ ΣΥΣΤΗΜΑΤΟΣ ΦΟΡΟΛΟΓΙΑΣ ΤΗΣ Α.Α.Δ.Ε.\"",
    "Country": "Greece",
    "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ",
    "Link": "https://ted.europa.eu/en/notice/-/detail/606065-2026",
-   "Note": "Shared award with Uni Systems M.A.E., PRICEWATERHOUSECOOPERS BUSINESS SOLUTIONS Α.Ε. - size is total notice value; Contract signed 2024-12-20 (published late); Possible repeat of 794950-2024",
+   "Note": "Shared award with Uni Systems M.A.E., PRICEWATERHOUSECOOPERS BUSINESS SOLUTIONS Α.… - size is total notice value; Contract signed 2024-12-20 (published late); Possible repeat of 794950-2024",
    "Original date": "2026September",
    "Size (DKKm)": 519,
    "_id": "606065-2026",
-   "_pub": "2026-09-03"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "auto"
+   },
+   "_orig": {
+    "Contract": "\"ΑΝΑΠΤΥΞΗ ΝΕΟΥ ΕΝΟΠΟΙΗΜΕΝΟΥ ΟΛΟΚΛΗΡΩΜΕΝΟΥ ΠΛΗΡΟΦΟΡΙΑΚΟΥ ΣΥΣΤΗΜΑΤΟΣ ΦΟΡΟΛΟΓΙΑΣ ΤΗΣ Α.Α.Δ.Ε.\"",
+    "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ",
+    "Note": "Shared award with Uni Systems M.A.E., PRICEWATERHOUSECOOPERS BUSINESS SOLUTIONS Α.… - size is total notice value; Contract signed 2024-12-20 (published late); Possible repeat of 794950-2024"
+   },
+   "_pub": "2026-09-03",
+   "_translated": false
   },
   "608365-2024": {
    "Contract": "Συντήρηση έργων_Εθνικού Ποινικού Μητρώου & Ο.Σ.Δ.Δ.Υ.Π.Π.",
@@ -1212,7 +2290,18 @@
    "Original date": "2024October",
    "Size (DKKm)": 21,
    "_id": "608365-2024",
-   "_pub": "2024-10-09"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Συντήρηση έργων_Εθνικού Ποινικού Μητρώου & Ο.Σ.Δ.Δ.Υ.Π.Π.",
+    "Customers": "ΚΟΙΝΩΝΙΑ ΤΗΣ ΠΛΗΡΟΦΟΡΙΑΣ Μ.Α.Ε. (ΚτΠ ΜΑΕ)",
+    "Note": ""
+   },
+   "_pub": "2024-10-09",
+   "_translated": false
   },
   "608477-2026": {
    "Contract": "«Προμήθεια Εξοπλισμού Βάσεων Δεδομένων αναφορικά με συσκευή ανάκτησης μηδενικής απώλειας δεδομένων Zero Data Loss Recovery Appliance (ZDLRA)»",
@@ -1223,18 +2312,40 @@
    "Original date": "2026September",
    "Size (DKKm)": 11,
    "_id": "608477-2026",
-   "_pub": "2026-09-03"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "«Προμήθεια Εξοπλισμού Βάσεων Δεδομένων αναφορικά με συσκευή ανάκτησης μηδενικής απώλειας δεδομένων Zero Data Loss Recovery Appliance (ZDLRA)»",
+    "Customers": "ΕΘΝΙΚΟΣ ΟΡΓΑΝΙΣΜΟΣ ΠΑΡΟΧΗΣ ΥΠΗΡΕΣΙΩΝ ΥΓΕΙΑΣ (ΕΟΠΥΥ)",
+    "Note": ""
+   },
+   "_pub": "2026-09-03",
+   "_translated": false
   },
   "608973-2026": {
    "Contract": "Εντοπισμός αυθαίρετης δόμησης με σύγχρονα τεχνολογικά μέσα",
    "Country": "Greece",
    "Customers": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ",
    "Link": "https://ted.europa.eu/en/notice/-/detail/608973-2026",
-   "Note": "Shared award with ΟΡΓΑΝΙΣΜΟΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΤΗΣ ΕΛΛΑΔΟΣ Α.Ε. με διακριτικό τίτλο ΟΤΕ Α.Ε. ή ΟΤΕ ή COSMOTE, BRIGHT BUSINESS SOLUTION ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ, με διακριτικό τίτλο BRIGHT BUSINESS SOLUTION Α.E. - size is total notice value; Possible repeat of 432522-2026",
+   "Note": "Shared award with ΟΡΓΑΝΙΣΜΟΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΤΗΣ ΕΛΛΑΔΟΣ Α.Ε.…, BRIGHT BUSINESS SOLUTION ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ, μ… - size is total notice value; Possible repeat of 432522-2026",
    "Original date": "2026September",
    "Size (DKKm)": 695,
    "_id": "608973-2026",
-   "_pub": "2026-09-03"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "auto"
+   },
+   "_orig": {
+    "Contract": "Εντοπισμός αυθαίρετης δόμησης με σύγχρονα τεχνολογικά μέσα",
+    "Customers": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ",
+    "Note": "Shared award with ΟΡΓΑΝΙΣΜΟΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΤΗΣ ΕΛΛΑΔΟΣ Α.Ε.…, BRIGHT BUSINESS SOLUTION ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ, μ… - size is total notice value; Possible repeat of 432522-2026"
+   },
+   "_pub": "2026-09-03",
+   "_translated": false
   },
   "613049-2025": {
    "Contract": "Primairprocessysteem 3RO",
@@ -1245,7 +2356,18 @@
    "Original date": "2025September",
    "Size (DKKm)": 232,
    "_id": "613049-2025",
-   "_pub": "2025-09-19"
+   "_langs": {
+    "Contract": "nld",
+    "Customers": "nld",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Primairprocessysteem 3RO",
+    "Customers": "Reclassering Nederland",
+    "Note": ""
+   },
+   "_pub": "2025-09-19",
+   "_translated": false
   },
   "614340-2026": {
    "Contract": "«Ψηφιακό σύστημα διαχείρισης ανθρώπινου δυναμικού και μισθοδοσίας της Α.Α.Δ.Ε.»",
@@ -1256,7 +2378,18 @@
    "Original date": "2026September",
    "Size (DKKm)": 8,
    "_id": "614340-2026",
-   "_pub": "2026-09-07"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "«Ψηφιακό σύστημα διαχείρισης ανθρώπινου δυναμικού και μισθοδοσίας της Α.Α.Δ.Ε.»",
+    "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ",
+    "Note": "Contract signed 2025-07-01 (published late); Possible repeat of 430658-2025"
+   },
+   "_pub": "2026-09-07",
+   "_translated": false
   },
   "617339-2025": {
    "Contract": "Implementation of the Single Reporting Platform",
@@ -1267,18 +2400,40 @@
    "Original date": "2025September",
    "Size (DKKm)": 82,
    "_id": "617339-2025",
-   "_pub": "2025-09-22"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Implementation of the Single Reporting Platform",
+    "Customers": "European Union Agency for Cybersecurity (ENISA)",
+    "Note": "Shared award with UniSystems Luxembourg SARL, Luxembourg House of Cybersecurity, Wavestone SA +2 more - size is total notice value"
+   },
+   "_pub": "2025-09-22",
+   "_translated": false
   },
   "622541-2026": {
    "Contract": "Εντοπισμός αυθαίρετης δόμησης με σύγχρονα τεχνολογικά μέσα",
    "Country": "Greece",
    "Customers": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ",
    "Link": "https://ted.europa.eu/en/notice/-/detail/622541-2026",
-   "Note": "Shared award with ΟΡΓΑΝΙΣΜΟΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΤΗΣ ΕΛΛΑΔΟΣ Α.Ε. με διακριτικό τίτλο ΟΤΕ Α.Ε. ή ΟΤΕ ή COSMOTE, BRIGHT BUSINESS SOLUTION ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ, με διακριτικό τίτλο BRIGHT BUSINESS SOLUTION Α.E. - size is total notice value; Possible repeat of 432522-2026",
+   "Note": "Shared award with ΟΡΓΑΝΙΣΜΟΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΤΗΣ ΕΛΛΑΔΟΣ Α.Ε.…, BRIGHT BUSINESS SOLUTION ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ, μ… - size is total notice value; Possible repeat of 432522-2026",
    "Original date": "2026September",
    "Size (DKKm)": 695,
    "_id": "622541-2026",
-   "_pub": "2026-09-09"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "auto"
+   },
+   "_orig": {
+    "Contract": "Εντοπισμός αυθαίρετης δόμησης με σύγχρονα τεχνολογικά μέσα",
+    "Customers": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ",
+    "Note": "Shared award with ΟΡΓΑΝΙΣΜΟΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΤΗΣ ΕΛΛΑΔΟΣ Α.Ε.…, BRIGHT BUSINESS SOLUTION ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ, μ… - size is total notice value; Possible repeat of 432522-2026"
+   },
+   "_pub": "2026-09-09",
+   "_translated": false
   },
   "645179-2025": {
    "Contract": "ROVK BZ EA - Applicatiediensten P1-P2 2025",
@@ -1289,7 +2444,18 @@
    "Original date": "2025October",
    "Size (DKKm)": 1525,
    "_id": "645179-2025",
-   "_pub": "2025-10-02"
+   "_langs": {
+    "Contract": "nld",
+    "Customers": "nld",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "ROVK BZ EA - Applicatiediensten P1-P2 2025",
+    "Customers": "Ministerie van Buitenlandse Zaken",
+    "Note": "Shared award with Finalist, Capgemini Nederland BV - Overall - size is total notice value"
+   },
+   "_pub": "2025-10-02",
+   "_translated": false
   },
   "650605-2024": {
    "Contract": "SaaS export control and sanctions service",
@@ -1300,7 +2466,18 @@
    "Original date": "2024October",
    "Size (DKKm)": 24,
    "_id": "650605-2024",
-   "_pub": "2024-10-25"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "SaaS export control and sanctions service",
+    "Customers": "Utenriksdepartementet",
+    "Note": ""
+   },
+   "_pub": "2024-10-25",
+   "_translated": false
   },
   "652841-2025": {
    "Contract": "Administrative management of the Human Resources HR Excellence in Research process",
@@ -1311,7 +2488,18 @@
    "Original date": "2025October",
    "Size (DKKm)": 52,
    "_id": "652841-2025",
-   "_pub": "2025-10-06"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Administrative management of the Human Resources HR Excellence in Research process",
+    "Customers": "European Commission, DG RTD - Research and Innovation",
+    "Note": "Shared award with PPMI Group - size is total notice value"
+   },
+   "_pub": "2025-10-06",
+   "_translated": false
   },
   "670345-2026": {
    "Contract": "Graphic design and layout services for Cedefop publications and communication activities",
@@ -1322,7 +2510,18 @@
    "Original date": "2026September",
    "Size (DKKm)": 2,
    "_id": "670345-2026",
-   "_pub": "2026-09-29"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Graphic design and layout services for Cedefop publications and communication activities",
+    "Customers": "European Centre for the Development of Vocational Training, CEDEFOP - European Centre for the Development of Vocational Training",
+    "Note": ""
+   },
+   "_pub": "2026-09-29",
+   "_translated": false
   },
   "681926-2024": {
    "Contract": "Standardsoftware",
@@ -1333,7 +2532,18 @@
    "Original date": "2024November",
    "Size (DKKm)": 1606,
    "_id": "681926-2024",
-   "_pub": "2024-11-08"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Standardsoftware",
+    "Customers": "Staten og Kommunernes Indkøbsservice A/S",
+    "Note": "Shared award with Conscia Danmark A/S, Crayon A/S, Atea A/S +77 more - size is total notice value"
+   },
+   "_pub": "2024-11-08",
+   "_translated": false
   },
   "687100-2024": {
    "Contract": "Udbud med forhandling af rammeaftale vedr. it-tjenesteydelser i form af udvikling, drift, vedligeholdelse og support af SBSYS ESDH",
@@ -1344,7 +2554,18 @@
    "Original date": "2024November",
    "Size (DKKm)": 61,
    "_id": "687100-2024",
-   "_pub": "2024-11-12"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Udbud med forhandling af rammeaftale vedr. it-tjenesteydelser i form af udvikling, drift, vedligeholdelse og support af SBSYS ESDH",
+    "Customers": "Brugerklubben SBSYS",
+    "Note": ""
+   },
+   "_pub": "2024-11-12",
+   "_translated": false
   },
   "704276-2024": {
    "Contract": "Mokesčių administravimo platformos (MAP) licencijos įsigijimo, MAP komponentų įdiegimo, konfigūravimo, elektroninių paslaugų ir mokesčių administravimo procesų įgyvendinimo MAP viešasis pirkimas",
@@ -1355,18 +2576,40 @@
    "Original date": "2024November",
    "Size (DKKm)": 128,
    "_id": "704276-2024",
-   "_pub": "2024-11-19"
+   "_langs": {
+    "Contract": "lit",
+    "Customers": "lit",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Mokesčių administravimo platformos (MAP) licencijos įsigijimo, MAP komponentų įdiegimo, konfigūravimo, elektroninių paslaugų ir mokesčių administravimo procesų įgyvendinimo MAP viešasis pirkimas",
+    "Customers": "Valstybinė mokesčių inspekcija prie Lietuvos Respublikos finansų ministerijos",
+    "Note": ""
+   },
+   "_pub": "2024-11-19",
+   "_translated": false
   },
   "708393-2026": {
    "Contract": "ΥΛΟΠΟΙΗΣΗ ΑΛΛΑΓΩΝ ΣΤΑ ΠΛΗΡΟΦΟΡΙΑΚΑ ΣΥΣΤΗΜΑΤΑ ΤΗΣ Α.Α.Δ.Ε. (C.R.2)",
    "Country": "Greece",
    "Customers": "Ανεξάρτητη Αρχή Δημοσίων Εσόδων (Α.Α.Δ.Ε.)",
    "Link": "https://ted.europa.eu/en/notice/-/detail/708393-2026",
-   "Note": "Shared award with Uni Systems συστήματα πληροφορικής Μονοπρόσωπη Ανώνυμη Εμπορική Εταιρεία - size is total notice value; Contract signed 2022-12-15 (published late); Possible repeat of 871014-2025",
+   "Note": "Shared award with Uni Systems συστήματα πληροφορικής Μονοπρόσω… - size is total notice value; Contract signed 2022-12-15 (published late); Possible repeat of 871014-2025",
    "Original date": "2026October",
    "Size (DKKm)": 48,
    "_id": "708393-2026",
-   "_pub": "2026-10-14"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "auto"
+   },
+   "_orig": {
+    "Contract": "ΥΛΟΠΟΙΗΣΗ ΑΛΛΑΓΩΝ ΣΤΑ ΠΛΗΡΟΦΟΡΙΑΚΑ ΣΥΣΤΗΜΑΤΑ ΤΗΣ Α.Α.Δ.Ε. (C.R.2)",
+    "Customers": "Ανεξάρτητη Αρχή Δημοσίων Εσόδων (Α.Α.Δ.Ε.)",
+    "Note": "Shared award with Uni Systems συστήματα πληροφορικής Μονοπρόσω… - size is total notice value; Contract signed 2022-12-15 (published late); Possible repeat of 871014-2025"
+   },
+   "_pub": "2026-10-14",
+   "_translated": false
   },
   "721788-2024": {
    "Contract": "Provision of IT Software Development, Maintenance and Requirement Analysis Services",
@@ -1377,7 +2620,18 @@
    "Original date": "2024November",
    "Size (DKKm)": 582,
    "_id": "721788-2024",
-   "_pub": "2024-11-26"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Provision of IT Software Development, Maintenance and Requirement Analysis Services",
+    "Customers": "European Union Intellectual Property Office",
+    "Note": "Shared award with NTT DATA SPAIN SLU, NTT DATA Belgique SRL, Sword Services Greece SA +12 more - size is total notice value"
+   },
+   "_pub": "2024-11-26",
+   "_translated": false
   },
   "725014-2024": {
    "Contract": "Stakeholders engagement and community management",
@@ -1388,7 +2642,18 @@
    "Original date": "2024November",
    "Size (DKKm)": 60,
    "_id": "725014-2024",
-   "_pub": "2024-11-27"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Stakeholders engagement and community management",
+    "Customers": "European Education and Culture Executive Agency (EACEA) , EACEA - European Education and Culture Executive Agency",
+    "Note": "Shared award with NTT DATA BELGIQUE - size is total notice value"
+   },
+   "_pub": "2024-11-27",
+   "_translated": false
   },
   "72792-2026": {
    "Contract": "ITOMS25 - ICT INFRASTRUCTURE AND HOSTING SERVICES",
@@ -1399,7 +2664,18 @@
    "Original date": "2026February",
    "Size (DKKm)": 318,
    "_id": "72792-2026",
-   "_pub": "2026-02-02"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "ITOMS25 - ICT INFRASTRUCTURE AND HOSTING SERVICES",
+    "Customers": "European Parliament, ITEC - Directorate-General for Innovation and Technological Support",
+    "Note": "Shared award with PWC EU SERVICES, UNISYSTEMS LUXEMBOURG SARL, EVIDEN LUXEMBOURG SA +6 more - size is total notice value"
+   },
+   "_pub": "2026-02-02",
+   "_translated": false
   },
   "730196-2025": {
    "Contract": "Procurement of a new case management system",
@@ -1410,7 +2686,18 @@
    "Original date": "2025November",
    "Size (DKKm)": 13,
    "_id": "730196-2025",
-   "_pub": "2025-11-04"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Procurement of a new case management system",
+    "Customers": "Norwegian Accreditation",
+    "Note": ""
+   },
+   "_pub": "2025-11-04",
+   "_translated": false
   },
   "740910-2024": {
    "Contract": "Framework Contract for Digital Communication Services and Social Media ",
@@ -1421,7 +2708,18 @@
    "Original date": "2024December",
    "Size (DKKm)": 1794,
    "_id": "740910-2024",
-   "_pub": "2024-12-04"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Framework Contract for Digital Communication Services and Social Media ",
+    "Customers": "European Commission, DG COMM - Communication",
+    "Note": "Shared award with NTT DATA BELGIQUE, CRONOS EUROPA, ICF NEXT S.A. +4 more - size is total notice value"
+   },
+   "_pub": "2024-12-04",
+   "_translated": false
   },
   "741840-2024": {
    "Contract": "Professional system, the Child Protection Service.",
@@ -1432,18 +2730,40 @@
    "Original date": "2024December",
    "Size (DKKm)": 2,
    "_id": "741840-2024",
-   "_pub": "2024-12-04"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Professional system, the Child Protection Service.",
+    "Customers": "NORDRE FOLLO KOMMUNE",
+    "Note": ""
+   },
+   "_pub": "2024-12-04",
+   "_translated": false
   },
   "742152-2024": {
    "Contract": "ΑΝΑΘΕΣΗ ΣΥΜΒΑΣΗΣ ΓΙΑ ΤΗΝ ΥΛΟΠΟΙΗΣΗ ΣΥΣΤΗΜΑΤΟΣ ΑΞΙΟΠΟΙΗΣΗΣ ΔΕΔΟΜΕΝΩΝ ΠΟΥ ΠΑΡΑΛΑΜΒΑΝΟΝΤΑΙ ΑΠΟ ΤΑ ΣΥΣΤΗΜΑΤΑ ΕΙΣΡΟΩΝ / ΕΚΡΟΩΝ",
    "Country": "Greece",
    "Customers": "Ανεξάρτητη Αρχή Δημοσίων Εσόδων (Α.Α.Δ.Ε.)",
    "Link": "https://ted.europa.eu/en/notice/-/detail/742152-2024",
-   "Note": "Shared award with PRICEWATERHOUSECOOPERS BUSINESS SOLUTIONS ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ ΠΑΡΟΧΗΣ ΕΠΙΧΕΙΡΗΜΑΤΙΚΩΝ ΚΑΙ ΛΟΓΙΣΤΙΚΩΝ ΥΠΗΡΕΣΙΩΝ - size is total notice value; Contract signed 2022-11-30 (published late); Possible repeat of 307679-2024",
+   "Note": "Shared award with PRICEWATERHOUSECOOPERS BUSINESS SOLUTIONS ΑΝ… - size is total notice value; Contract signed 2022-11-30 (published late); Possible repeat of 307679-2024",
    "Original date": "2024December",
    "Size (DKKm)": 7,
    "_id": "742152-2024",
-   "_pub": "2024-12-05"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "auto"
+   },
+   "_orig": {
+    "Contract": "ΑΝΑΘΕΣΗ ΣΥΜΒΑΣΗΣ ΓΙΑ ΤΗΝ ΥΛΟΠΟΙΗΣΗ ΣΥΣΤΗΜΑΤΟΣ ΑΞΙΟΠΟΙΗΣΗΣ ΔΕΔΟΜΕΝΩΝ ΠΟΥ ΠΑΡΑΛΑΜΒΑΝΟΝΤΑΙ ΑΠΟ ΤΑ ΣΥΣΤΗΜΑΤΑ ΕΙΣΡΟΩΝ / ΕΚΡΟΩΝ",
+    "Customers": "Ανεξάρτητη Αρχή Δημοσίων Εσόδων (Α.Α.Δ.Ε.)",
+    "Note": "Shared award with PRICEWATERHOUSECOOPERS BUSINESS SOLUTIONS ΑΝ… - size is total notice value; Contract signed 2022-11-30 (published late); Possible repeat of 307679-2024"
+   },
+   "_pub": "2024-12-05",
+   "_translated": false
   },
   "749910-2026": {
    "Contract": "Udbud af kontrakt om Ny Klientløsning",
@@ -1454,7 +2774,18 @@
    "Original date": "2026October",
    "Size (DKKm)": 148,
    "_id": "749910-2026",
-   "_pub": "2026-10-29"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Udbud af kontrakt om Ny Klientløsning",
+    "Customers": "Danmarks Fængsler v. Styrelsen for Danmarks Fængsler",
+    "Note": ""
+   },
+   "_pub": "2026-10-29",
+   "_translated": false
   },
   "753444-2026": {
    "Contract": "Maintenance and development services (ICT)",
@@ -1465,7 +2796,18 @@
    "Original date": "2026October",
    "Size (DKKm)": 125,
    "_id": "753444-2026",
-   "_pub": "2026-10-30"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Maintenance and development services (ICT)",
+    "Customers": "Landbruksdirektoratet",
+    "Note": ""
+   },
+   "_pub": "2026-10-30",
+   "_translated": false
   },
   "755674-2026": {
    "Contract": "«Ψηφιακό σύστημα διαχείρισης ανθρώπινου δυναμικού και μισθοδοσίας της Α.Α.Δ.Ε.»",
@@ -1476,7 +2818,18 @@
    "Original date": "2026October",
    "Size (DKKm)": 8,
    "_id": "755674-2026",
-   "_pub": "2026-10-30"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "«Ψηφιακό σύστημα διαχείρισης ανθρώπινου δυναμικού και μισθοδοσίας της Α.Α.Δ.Ε.»",
+    "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ",
+    "Note": "Contract signed 2025-07-01 (published late); Possible repeat of 430658-2025"
+   },
+   "_pub": "2026-10-30",
+   "_translated": false
   },
   "76456-2026": {
    "Contract": "Provision of services for development and consultancy on information systems under Time and Means conditions",
@@ -1487,18 +2840,40 @@
    "Original date": "2026February",
    "Size (DKKm)": 561,
    "_id": "76456-2026",
-   "_pub": "2026-02-03"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Provision of services for development and consultancy on information systems under Time and Means conditions",
+    "Customers": "European Border and Coast Guard Agency (FRONTEX)",
+    "Note": "Shared award with ARHS DEVELOPMENTS S.A., ARHS DEVELOPMENTS HELLAS SINGLE MEMBER S.A., FUJITSU TECHNOLOGY SOLUTIONS NV/SA +25 more - size is total notice value; Contract signed 2025-06-25 (published late)"
+   },
+   "_pub": "2026-02-03",
+   "_translated": false
   },
   "764865-2026": {
    "Contract": "Εντοπισμός αυθαίρετης δόμησης με σύγχρονα τεχνολογικά μέσα",
    "Country": "Greece",
    "Customers": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ",
    "Link": "https://ted.europa.eu/en/notice/-/detail/764865-2026",
-   "Note": "Shared award with ΟΡΓΑΝΙΣΜΟΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΤΗΣ ΕΛΛΑΔΟΣ Α.Ε. με διακριτικό τίτλο ΟΤΕ Α.Ε. ή ΟΤΕ ή COSMOTE, BRIGHT BUSINESS SOLUTION ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ, με διακριτικό τίτλο BRIGHT BUSINESS SOLUTION Α.E. - size is total notice value; Possible repeat of 432522-2026",
+   "Note": "Shared award with ΟΡΓΑΝΙΣΜΟΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΤΗΣ ΕΛΛΑΔΟΣ Α.Ε.…, BRIGHT BUSINESS SOLUTION ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ, μ… - size is total notice value; Possible repeat of 432522-2026",
    "Original date": "2026November",
    "Size (DKKm)": 695,
    "_id": "764865-2026",
-   "_pub": "2026-11-04"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "auto"
+   },
+   "_orig": {
+    "Contract": "Εντοπισμός αυθαίρετης δόμησης με σύγχρονα τεχνολογικά μέσα",
+    "Customers": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ",
+    "Note": "Shared award with ΟΡΓΑΝΙΣΜΟΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΤΗΣ ΕΛΛΑΔΟΣ Α.Ε.…, BRIGHT BUSINESS SOLUTION ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ, μ… - size is total notice value; Possible repeat of 432522-2026"
+   },
+   "_pub": "2026-11-04",
+   "_translated": false
   },
   "766738-2025": {
    "Contract": "Udbud af support, vedligehold og udvikling af trafikinformationsværktøjer",
@@ -1509,7 +2884,18 @@
    "Original date": "2025November",
    "Size (DKKm)": 9,
    "_id": "766738-2025",
-   "_pub": "2025-11-19"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Udbud af support, vedligehold og udvikling af trafikinformationsværktøjer",
+    "Customers": "Banedanmark",
+    "Note": ""
+   },
+   "_pub": "2025-11-19",
+   "_translated": false
   },
   "784912-2023": {
    "Contract": "Drift, vedligehold, videreudvikling samt optimering af Applikationen AROSia",
@@ -1520,7 +2906,18 @@
    "Original date": "2023December",
    "Size (DKKm)": 26,
    "_id": "784912-2023",
-   "_pub": "2023-12-22"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Drift, vedligehold, videreudvikling samt optimering af Applikationen AROSia",
+    "Customers": "Kredsløb Genbrug P/S",
+    "Note": ""
+   },
+   "_pub": "2023-12-22",
+   "_translated": false
   },
   "785610-2024": {
    "Contract": "Mixed Multiple Framework Contract for Thematic Communication Services",
@@ -1531,18 +2928,40 @@
    "Original date": "2024December",
    "Size (DKKm)": 1345,
    "_id": "785610-2024",
-   "_pub": "2024-12-20"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Mixed Multiple Framework Contract for Thematic Communication Services",
+    "Customers": "Court of Justice of the European Union",
+    "Note": "Shared award with CRONOS EUROPA, NTT DATA BELGIQUE, EUROPEAN SERVICE NETWORK SA +2 more - size is total notice value"
+   },
+   "_pub": "2024-12-20",
+   "_translated": false
   },
   "794950-2024": {
    "Contract": "\"ΑΝΑΠΤΥΞΗ ΝΕΟΥ ΕΝΟΠΟΙΗΜΕΝΟΥ ΟΛΟΚΛΗΡΩΜΕΝΟΥ ΠΛΗΡΟΦΟΡΙΑΚΟΥ ΣΥΣΤΗΜΑΤΟΣ ΦΟΡΟΛΟΓΙΑΣ ΤΗΣ Α.Α.Δ.Ε.\"",
    "Country": "Greece",
    "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ",
    "Link": "https://ted.europa.eu/en/notice/-/detail/794950-2024",
-   "Note": "Shared award with Uni Systems M.A.E., PRICEWATERHOUSECOOPERS BUSINESS SOLUTIONS Α.Ε. - size is total notice value",
+   "Note": "Shared award with Uni Systems M.A.E., PRICEWATERHOUSECOOPERS BUSINESS SOLUTIONS Α.… - size is total notice value",
    "Original date": "2024December",
    "Size (DKKm)": 519,
    "_id": "794950-2024",
-   "_pub": "2024-12-24"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "auto"
+   },
+   "_orig": {
+    "Contract": "\"ΑΝΑΠΤΥΞΗ ΝΕΟΥ ΕΝΟΠΟΙΗΜΕΝΟΥ ΟΛΟΚΛΗΡΩΜΕΝΟΥ ΠΛΗΡΟΦΟΡΙΑΚΟΥ ΣΥΣΤΗΜΑΤΟΣ ΦΟΡΟΛΟΓΙΑΣ ΤΗΣ Α.Α.Δ.Ε.\"",
+    "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ",
+    "Note": "Shared award with Uni Systems M.A.E., PRICEWATERHOUSECOOPERS BUSINESS SOLUTIONS Α.… - size is total notice value"
+   },
+   "_pub": "2024-12-24",
+   "_translated": false
   },
   "799939-2026": {
    "Contract": "Nacionalinės tranzito sistemos (toliau - NTKS) atnaujinimo (III etapas)ir NTKS priežiūros ir palaikymo paslaugos",
@@ -1553,18 +2972,40 @@
    "Original date": "2026November",
    "Size (DKKm)": 11,
    "_id": "799939-2026",
-   "_pub": "2026-11-17"
+   "_langs": {
+    "Contract": "lit",
+    "Customers": "lit",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Nacionalinės tranzito sistemos (toliau - NTKS) atnaujinimo (III etapas)ir NTKS priežiūros ir palaikymo paslaugos",
+    "Customers": "Muitinės departamentas prie Lietuvos Respublikos finansų ministerijos",
+    "Note": ""
+   },
+   "_pub": "2026-11-17",
+   "_translated": false
   },
   "800290-2024": {
    "Contract": "Development of Economic Operator Registration and Identification (EORI) and Uniform User Management & Digital Signature (UUM&DS) systems",
    "Country": "North Macedonia",
    "Customers": "European Union, represented by the European Commission on behalf of and for the account of North Macedonia",
    "Link": "https://ted.europa.eu/en/notice/-/detail/800290-2024",
-   "Note": "Shared award with ZZI SVETOVANJE IN INZENIRING, PROIZVODNJA IN PRODAJA PROGRAMSKE OPREMEDOO - size is total notice value",
+   "Note": "Shared award with ZZI SVETOVANJE IN INZENIRING, PROIZVODNJA IN… - size is total notice value",
    "Original date": "2024December",
    "Size (DKKm)": 14,
    "_id": "800290-2024",
-   "_pub": "2024-12-31"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Development of Economic Operator Registration and Identification (EORI) and Uniform User Management & Digital Signature (UUM&DS) systems",
+    "Customers": "European Union, represented by the European Commission on behalf of and for the account of North Macedonia",
+    "Note": "Shared award with ZZI SVETOVANJE IN INZENIRING, PROIZVODNJA IN… - size is total notice value"
+   },
+   "_pub": "2024-12-31",
+   "_translated": false
   },
   "807050-2025": {
    "Contract": "Standardsoftware",
@@ -1575,7 +3016,18 @@
    "Original date": "2025December",
    "Size (DKKm)": 1799,
    "_id": "807050-2025",
-   "_pub": "2025-12-04"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Standardsoftware",
+    "Customers": "Staten og Kommunernes Indkøbsservice A/S",
+    "Note": "Shared award with Delegate, Inverid Software BV, Twoday Danmark A/S +62 more - size is total notice value"
+   },
+   "_pub": "2025-12-04",
+   "_translated": false
   },
   "812802-2025": {
    "Contract": "Αναβάθμιση και επέκταση υποδομών ΤΠΕ τομέα Δικαιοσύνης, Κωδ. ΟΠΣ 5162212",
@@ -1586,7 +3038,18 @@
    "Original date": "2025December",
    "Size (DKKm)": 396,
    "_id": "812802-2025",
-   "_pub": "2025-12-08"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "auto"
+   },
+   "_orig": {
+    "Contract": "Αναβάθμιση και επέκταση υποδομών ΤΠΕ τομέα Δικαιοσύνης, Κωδ. ΟΠΣ 5162212",
+    "Customers": "ΚΟΙΝΩΝΙΑ ΤΗΣ ΠΛΗΡΟΦΟΡΙΑΣ Μ.Α.Ε. (ΚτΠ ΜΑΕ)",
+    "Note": "Shared award with UNI SYSTEMS Μ.Α.Ε., QUALITY & RELIABILITY S.A, COSMOS COMPUTERS AEBE - size is total notice value; Contract signed 2022-12-20 (published late)"
+   },
+   "_pub": "2025-12-08",
+   "_translated": false
   },
   "841278-2025": {
    "Contract": "«Ψηφιακό σύστημα διαχείρισης ανθρώπινου δυναμικού και μισθοδοσίας της Α.Α.Δ.Ε.»",
@@ -1597,7 +3060,18 @@
    "Original date": "2025December",
    "Size (DKKm)": 8,
    "_id": "841278-2025",
-   "_pub": "2025-12-18"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "«Ψηφιακό σύστημα διαχείρισης ανθρώπινου δυναμικού και μισθοδοσίας της Α.Α.Δ.Ε.»",
+    "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ",
+    "Note": "Contract signed 2025-07-01 (published late); Possible repeat of 430658-2025"
+   },
+   "_pub": "2025-12-18",
+   "_translated": false
   },
   "843522-2025": {
    "Contract": "Wijziging looptijd Uitvoeringsovereenkomst SNO (Service Level Agreement) behorende bij Raamovereenkomst Studielink",
@@ -1608,7 +3082,18 @@
    "Original date": "2025December",
    "Size (DKKm)": 190,
    "_id": "843522-2025",
-   "_pub": "2025-12-18"
+   "_langs": {
+    "Contract": "nld",
+    "Customers": "nld",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Wijziging looptijd Uitvoeringsovereenkomst SNO (Service Level Agreement) behorende bij Raamovereenkomst Studielink",
+    "Customers": "Stichting Studielink",
+    "Note": "Contract signed 2016-09-08 (published late)"
+   },
+   "_pub": "2025-12-18",
+   "_translated": false
   },
   "84429-2025": {
    "Contract": "«Βελτίωση της Ψηφιακής Ετοιμότητας των Νοσοκομείων - Αναβάθμιση πληροφοριακών συστημάτων & υποδομών νοσοκομείων»",
@@ -1619,18 +3104,40 @@
    "Original date": "2025February",
    "Size (DKKm)": 333,
    "_id": "84429-2025",
-   "_pub": "2025-02-07"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "«Βελτίωση της Ψηφιακής Ετοιμότητας των Νοσοκομείων - Αναβάθμιση πληροφοριακών συστημάτων & υποδομών νοσοκομείων»",
+    "Customers": "ΗΔΙΚΑ Α.Ε",
+    "Note": "Shared award with COMPUTER TEAM - size is total notice value"
+   },
+   "_pub": "2025-02-07",
+   "_translated": false
   },
   "871014-2025": {
    "Contract": "ΥΛΟΠΟΙΗΣΗ ΑΛΛΑΓΩΝ ΣΤΑ ΠΛΗΡΟΦΟΡΙΑΚΑ ΣΥΣΤΗΜΑΤΑ ΤΗΣ Α.Α.Δ.Ε. (C.R.2)",
    "Country": "Greece",
    "Customers": "Ανεξάρτητη Αρχή Δημοσίων Εσόδων (Α.Α.Δ.Ε.)",
    "Link": "https://ted.europa.eu/en/notice/-/detail/871014-2025",
-   "Note": "Shared award with Uni Systems συστήματα πληροφορικής Μονοπρόσωπη Ανώνυμη Εμπορική Εταιρεία - size is total notice value; Contract signed 2022-12-15 (published late)",
+   "Note": "Shared award with Uni Systems συστήματα πληροφορικής Μονοπρόσω… - size is total notice value; Contract signed 2022-12-15 (published late)",
    "Original date": "2025December",
    "Size (DKKm)": 48,
    "_id": "871014-2025",
-   "_pub": "2025-12-31"
+   "_langs": {
+    "Contract": "ell",
+    "Customers": "ell",
+    "Note": "auto"
+   },
+   "_orig": {
+    "Contract": "ΥΛΟΠΟΙΗΣΗ ΑΛΛΑΓΩΝ ΣΤΑ ΠΛΗΡΟΦΟΡΙΑΚΑ ΣΥΣΤΗΜΑΤΑ ΤΗΣ Α.Α.Δ.Ε. (C.R.2)",
+    "Customers": "Ανεξάρτητη Αρχή Δημοσίων Εσόδων (Α.Α.Δ.Ε.)",
+    "Note": "Shared award with Uni Systems συστήματα πληροφορικής Μονοπρόσω… - size is total notice value; Contract signed 2022-12-15 (published late)"
+   },
+   "_pub": "2025-12-31",
+   "_translated": false
   },
   "92566-2026": {
    "Contract": "FWC for audio-visual media production support",
@@ -1641,7 +3148,18 @@
    "Original date": "2026February",
    "Size (DKKm)": 17,
    "_id": "92566-2026",
-   "_pub": "2026-02-09"
+   "_langs": {
+    "Contract": "eng",
+    "Customers": "eng",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "FWC for audio-visual media production support",
+    "Customers": "European Border and Coast Guard Agency (FRONTEX)",
+    "Note": "Shared award with Neverest Warsaw, Funwork Tomasz Czenicki, ESN SA +5 more - size is total notice value; Contract signed 2025-09-23 (published late)"
+   },
+   "_pub": "2026-02-09",
+   "_translated": false
   },
   "92683-2025": {
    "Contract": "Bekendtgørelse om indgået kontrakt: Kontrakt om levering af et IT-system til administration af Studiegæld",
@@ -1652,7 +3170,18 @@
    "Original date": "2025February",
    "Size (DKKm)": 193,
    "_id": "92683-2025",
-   "_pub": "2025-02-11"
+   "_langs": {
+    "Contract": "dan",
+    "Customers": "dan",
+    "Note": "eng"
+   },
+   "_orig": {
+    "Contract": "Bekendtgørelse om indgået kontrakt: Kontrakt om levering af et IT-system til administration af Studiegæld",
+    "Customers": "ATP",
+    "Note": ""
+   },
+   "_pub": "2025-02-11",
+   "_translated": false
   }
  },
  "seen": [
