@@ -54,7 +54,7 @@ FIELDS = [
     "notice-title", "title-proc", "winner-name", "total-value", "total-value-cur",
     "result-value-lot", "result-value-cur-lot", "contract-conclusion-date",
     "framework-agreement-lot", "organisation-name-tenderer", "tendering-party-leader",
-    "procedure-identifier", "contract-identifier",
+    "procedure-identifier", "contract-identifier", "change-notice-version-identifier",
 ]
 
 COLUMNS = ["Original date", "Country", "Customers", "Contract", "Size (DKKm)", "Note", "Link"]
@@ -317,7 +317,8 @@ def clean_name(name: str) -> str:
 
 
 NUMBER_WORDS = {2: "Two", 3: "Three"}
-FORMAT_VERSION = 5   # bump when row formatting changes; older rows are rebuilt once
+EXCLUDED = {"exact", "update"}   # left out of the paste block, on the second sheet
+FORMAT_VERSION = 6   # bump when row formatting changes; older rows are rebuilt once
 
 
 def _one_language(field) -> list[str]:
@@ -389,9 +390,11 @@ def is_framework(n: dict) -> bool:
 
 
 def to_row(n: dict, rates: dict, translate, fingerprints: dict | None = None,
-           kind: str = "award") -> dict:
+           kind: str = "award", known: dict | None = None) -> dict:
     """kind: "award" (contract award notice), "modif" (contract modification) or
-    "veat" (voluntary ex-ante transparency notice = direct award pre-announcement)."""
+    "veat" (voluntary ex-ante transparency notice = direct award pre-announcement).
+    known: rows already built, used to compare a change notice with the version it
+    replaces."""
     pub_no = n["publication-number"]
     pub_date = n.get("publication-date", "")[:10]
 
@@ -414,8 +417,28 @@ def to_row(n: dict, rates: dict, translate, fingerprints: dict | None = None,
             if not listed:
                 notes.append("Net not listed as contractor, check")
 
+    winners_key = "|".join(sorted({_norm(w) for w in _one_language(n.get("winner-name"))}))
     repeat = ""
-    if kind == "award" and fingerprints is not None and value is not None:
+    prev_id = str(n.get("change-notice-version-identifier") or "")
+    prev = (known or {}).get(prev_id)
+    if prev_id and prev is not None:
+        # A change notice: TED's "This notice changes the previous version X".
+        changes = []
+        if prev.get("_value") != (round(value) if value is not None else None) or prev.get("_cur") != cur:
+            changes.append(f"value changed from {prev.get('Size (DKKm)') or 'n/a'} DKKm")
+        if prev.get("_winners") != winners_key:
+            changes.append("vendors changed")
+        if changes:
+            notes.append(f"update of {prev_id}, " + " and ".join(changes) if notes
+                         else f"Update of {prev_id}, " + " and ".join(changes))
+        else:
+            repeat = "update"
+            notes = [f"Updated version of {prev_id}, no change in value or vendors"]
+    elif prev_id and kind == "award":
+        # Earlier version isn't one of ours (e.g. Netcompany was only added now): keep it.
+        notes.append(f"update of {prev_id}" if notes else f"Update of {prev_id}")
+
+    if kind == "award" and fingerprints is not None and value is not None and not (prev_id and prev):
         exact, loose = repeat_keys(n, buyer, value, cur)
         if exact and fingerprints.get(exact, pub_no) != pub_no:
             repeat = "exact"
@@ -427,6 +450,10 @@ def to_row(n: dict, rates: dict, translate, fingerprints: dict | None = None,
                 notes.append(f"possible repeat of {earlier}" if notes else f"Possible repeat of {earlier}")
         for k in ([exact] if exact else []) + loose:
             fingerprints.setdefault(k, pub_no)
+    elif kind == "award" and fingerprints is not None and value is not None:
+        exact, loose = repeat_keys(n, buyer, value, cur)
+        for k in ([exact] if exact else []) + loose:
+            fingerprints.setdefault(k, prev.get("_id", pub_no) if prev else pub_no)
 
     row = {
         "Original date": month_label(pub_date) if pub_date else "",
@@ -440,6 +467,9 @@ def to_row(n: dict, rates: dict, translate, fingerprints: dict | None = None,
         "_pub": pub_date,
         "_kind": kind,
         "_repeat": repeat,
+        "_value": round(value) if value is not None else None,
+        "_cur": cur,
+        "_winners": winners_key,
         "_v": FORMAT_VERSION,
         "_suffix": " - framework agreement" if is_framework(n) else "",
         # originals kept so a failed translation can be retried on a later run
@@ -494,8 +524,8 @@ def write_xlsx(rows: list[dict], path: Path = XLSX_FILE) -> None:
 
     path.parent.mkdir(parents=True, exist_ok=True)
     wb = Workbook()
-    sheets = [(wb.active, "Netcompany wins", [r for r in rows if r.get("_repeat") != "exact"]),
-              (wb.create_sheet(), "Republished (excluded)", [r for r in rows if r.get("_repeat") == "exact"])]
+    sheets = [(wb.active, "Netcompany wins", [r for r in rows if r.get("_repeat") not in EXCLUDED]),
+              (wb.create_sheet(), "Updates & republished", [r for r in rows if r.get("_repeat") in EXCLUDED])]
     for ws, title, subset in sheets:
         ws.title = title
         ws.append(COLUMNS)
@@ -517,8 +547,8 @@ def write_xlsx(rows: list[dict], path: Path = XLSX_FILE) -> None:
 def build_alert(new_rows: list[dict], broken: str | None) -> str:
     now = datetime.now(TZ).strftime("%d %b %Y %H:%M")
     out = [f"Checked {now} (Copenhagen time).", ""]
-    keep = [r for r in new_rows if r.get("_repeat") != "exact"]
-    dupes = [r for r in new_rows if r.get("_repeat") == "exact"]
+    keep = [r for r in new_rows if r.get("_repeat") not in EXCLUDED]
+    dupes = [r for r in new_rows if r.get("_repeat") in EXCLUDED]
     if keep:
         out += [f"### {len(keep)} new Netcompany notice(s)", "",
                 "Copy the block below and paste it into Excel (columns: "
@@ -531,8 +561,9 @@ def build_alert(new_rows: list[dict], broken: str | None) -> str:
             out.append("| " + " | ".join(cells) + f" | [{r['_id']}]({r['Link']}) |")
         out.append("")
     if dupes:
-        out += ["### Republished awards (left out of the paste block)", "",
-                "Same procedure, same contract number and same value as a notice already seen:", ""]
+        out += ["### Updates and republications (left out of the paste block)", "",
+                "New versions of, or identical copies of, notices already in the sheet, "
+                "with no change in value or vendors:", ""]
         for r in dupes:
             out.append(f"- [{r['_id']}]({r['Link']}): {r['Customers']} · {r['Contract']} · {r['Note']}")
         out.append("")
@@ -662,7 +693,7 @@ def main() -> int:
         is_new = pid not in seen
         in_since = bool(args.since) and n.get("publication-date", "")[:10] >= args.since.isoformat()
         if old is None or pid in outdated:
-            row = to_row(n, rates, None, state["fingerprints"], kind)
+            row = to_row(n, rates, None, state["fingerprints"], kind, state["rows"])
             row = carry_translation(row, old)
             state["rows"][pid] = row
         row = state["rows"][pid]
@@ -697,9 +728,9 @@ def main() -> int:
         print("Nothing new.")
         return 0
 
-    n_keep = sum(1 for r in new_rows if r.get("_repeat") != "exact")
+    n_keep = sum(1 for r in new_rows if r.get("_repeat") not in EXCLUDED)
     title = (f"Netcompany: {n_keep} new TED notice(s)" if n_keep
-             else f"Netcompany: {len(new_rows)} republished award(s), nothing new to add")
+             else f"Netcompany: {len(new_rows)} updated/republished notice(s), nothing new to add")
     body = build_alert(new_rows, None)
     print("\n" + title + "\n\n" + body)
     if args.dry_run:

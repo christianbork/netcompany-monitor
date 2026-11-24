@@ -318,7 +318,7 @@ def test_exact_republication_is_separated():
     assert first["_repeat"] == "" and again["_repeat"] == "exact"
     assert again["Note"] == "Republished, same contract as 430658-2025"
     body = monitor.build_alert([again], None)
-    assert "```" not in body and "Republished awards" in body
+    assert "```" not in body and "Updates and republications" in body
 
 
 def test_same_procedure_new_contract_is_only_flagged():
@@ -338,8 +338,8 @@ def test_republished_rows_go_to_second_sheet(tmp_path):
             monitor.to_row(dict(AADE, **{"publication-number": "841278-2025"}), RATES, NO_TR, fps)]
     monitor.write_xlsx(rows, tmp_path / "x.xlsx")
     wb = load_workbook(tmp_path / "x.xlsx")
-    assert wb.sheetnames == ["Netcompany wins", "Republished (excluded)"]
-    assert wb["Netcompany wins"].max_row == 2 and wb["Republished (excluded)"].max_row == 2
+    assert wb.sheetnames == ["Netcompany wins", "Updates & republished"]
+    assert wb["Netcompany wins"].max_row == 2 and wb["Updates & republished"].max_row == 2
 
 
 def test_extension_counts_contractors():
@@ -361,3 +361,52 @@ def test_extra_signing_dates_not_treated_as_exact():
     later = dict(AADE, **{"publication-number": "586113-2026",
                           "contract-conclusion-date": ["2026-07-24+02:00", "2026-08-13+02:00"]})
     assert monitor.to_row(later, RATES, NO_TR, fps)["_repeat"] == "possible"
+
+
+TEE = {  # real chain: 432522-2026 -> 500651 -> 608973 -> 622541 -> 764865-2026
+    "publication-number": "622541-2026",
+    "publication-date": "2026-09-09+01:00",
+    "buyer-country": ["GRC"],
+    "buyer-name": {"ell": ["ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ"]},
+    "title-proc": {"ell": "Εντοπισμός αυθαίρετης δόμησης"},
+    "winner-name": {"ell": ["NETCOMPANY S.A.", "ΟΤΕ", "BRIGHT"]},
+    "organisation-name-tenderer": {"ell": ["NETCOMPANY S.A.", "ΟΤΕ", "BRIGHT"]},
+    "tendering-party-leader": [True, False, False],
+    "total-value": 93022265.8,
+    "total-value-cur": ["EUR"],
+    "procedure-identifier": "199df707",
+    "contract-identifier": ["46326/31-08-2026"],
+}
+
+
+def _chain(**changes):
+    fps, known = {}, {}
+    first = monitor.to_row(TEE, RATES, NO_TR, fps, "award", known)
+    known[first["_id"]] = first
+    nxt = dict(TEE, **{"publication-number": "764865-2026", "publication-date": "2026-11-04+01:00",
+                       "contract-identifier": ["Αρ. πρωτ. 56872"],
+                       "change-notice-version-identifier": "622541-2026"}, **changes)
+    return monitor.to_row(nxt, RATES, NO_TR, fps, "award", known)
+
+
+def test_change_notice_without_material_change_is_excluded():
+    row = _chain()
+    assert row["_repeat"] == "update"
+    assert row["Note"] == "Updated version of 622541-2026, no change in value or vendors"
+    assert "```" not in monitor.build_alert([row], None)
+
+
+def test_change_notice_with_new_value_or_vendors_stays_in():
+    row = _chain(**{"total-value": 100000000})
+    assert row["_repeat"] == ""
+    assert row["Note"] == "Three vendors (Net the lead) - update of 622541-2026, value changed from 694 DKKm"
+    row = _chain(**{"winner-name": {"ell": ["NETCOMPANY S.A.", "ΟΤΕ"]}})
+    assert row["Note"].endswith("update of 622541-2026, vendors changed")
+    assert "```" in monitor.build_alert([row], None)
+
+
+def test_change_of_unknown_notice_stays_in():
+    # real case 432522-2026 changes 452616-2025, which never listed Netcompany as a winner
+    row = monitor.to_row(dict(TEE, **{"change-notice-version-identifier": "452616-2025"}),
+                         RATES, NO_TR, {}, "award", {})
+    assert row["_repeat"] == "" and row["Note"] == "Three vendors (Net the lead) - update of 452616-2025"

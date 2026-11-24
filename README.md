@@ -34,15 +34,23 @@ It runs on GitHub Actions, so it needs no PC, server or local Python.
        counting the contractors on the modified contract. If Netcompany isn't among
        them, the note says `Net not listed as contractor, check`.
      - `Direct award pre-announcement` for voluntary ex-ante transparency (VEAT) notices.
-     - Repeats are handled in two ways:
+     - Updates and repeats:
+       - `Updated version of …, no change in value or vendors`: TED's own change
+         notices ("This notice changes the previous version …") where the previous
+         version is already in the sheet and nothing material changed. Left out of the
+         paste block.
+       - `update of …, value changed from … DKKm` / `vendors changed`: a change notice
+         that does change something. Kept in.
+       - `Update of …`: a change notice whose earlier version didn't list Netcompany
+         (e.g. Netcompany was only added now). Kept in.
        - `Republished, same contract as …`: same procedure, contract number,
-         same signing dates, winners and value as an earlier notice (the Greek tax
-         authority does this a lot).
-         These are left out of the paste block and kept on a separate
-         "Republished (excluded)" sheet.
-       - `possible repeat of …`: same buyer or procedure and same value, but a
-         different contract number. This can be a new call-off or extra lots, so these
-         stay in for you to judge.
+         signing dates, winners and value as an earlier notice, without a change-notice
+         link. Left out of the paste block.
+       - `possible repeat of …`: same buyer or procedure and same value but a
+         different contract number. Can be a new call-off or extra lots, so these stay
+         in for you to judge.
+       Everything left out of the paste block is kept on the spreadsheet's second
+       sheet, "Updates & republished".
 3. Anything not seen before opens a **GitHub issue** (GitHub emails you, and it
    shows up in the GitHub app). The issue has a block of tab-separated rows you
    can copy and paste straight into Excel, plus a readable table. You can also
@@ -51,7 +59,7 @@ It runs on GitHub Actions, so it needs no PC, server or local Python.
    structured field, so they are found by searching the notice text for
    "Netcompany". Check that Netcompany is actually the supplier.
 5. Every notice found so far is kept in `data/netcompany_wins.xlsx`, newest first,
-   with exact republications on a second sheet.
+   with updates and republications on a second sheet.
 6. The first run only records what's already on TED (all of it goes into the
    spreadsheet) and opens no issue.
 
