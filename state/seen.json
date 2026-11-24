@@ -126,7 +126,7 @@
   "b|πανεπιστήμιο πατρών|217800|EUR": "157865-2025",
   "b|πανεπιστήμιο πατρών|266773|EUR": "57870-2026",
   "b|τεχνικο επιμελητηριο ελλαδας|63000097|EUR": "452616-2025",
-  "b|τεχνικο επιμελητηριο ελλαδας|93022266|EUR": "432522-2026",
+  "b|τεχνικο επιμελητηριο ελλαδας|93022266|EUR": "452616-2025",
   "b|τμήμα υπηρεσιών πληροφορικής|250050|EUR": "54336-2024",
   "p|0069591e-098b-4b97-85cb-dc93d90aa2b8|130000000|EUR": "173831-2026",
   "p|01d8cf40-19d5-4ac0-b397-54e8bb62d342|2762658|EUR": "608365-2024",
@@ -143,7 +143,7 @@
   "p|1504660c-5517-488a-bb90-ae7686e19493|52939772|EUR": "812802-2025",
   "p|1569efb1-47bd-4f8b-bfe8-c07798e8a50e|27000000|EUR": "511509-2025",
   "p|199df707-6e17-406b-b4ba-433f6a75f4a1|63000097|EUR": "452616-2025",
-  "p|199df707-6e17-406b-b4ba-433f6a75f4a1|93022266|EUR": "432522-2026",
+  "p|199df707-6e17-406b-b4ba-433f6a75f4a1|93022266|EUR": "452616-2025",
   "p|1a52bc22-d5b2-40df-b37b-26d609dc67d6|17957500|EUR": "478198-2026",
   "p|1a52bc22-d5b2-40df-b37b-26d609dc67d6|34798088|EUR": "430337-2026",
   "p|1a52bc22-d5b2-40df-b37b-26d609dc67d6|5266250|EUR": "430614-2026",
@@ -263,12 +263,12 @@
   "x|14f81692-5810-4f8c-9706-d34bc5646fc6|Anskaffelse av fagsystem - Netcompany|2025-10-31|1|19000000|NOK": "730196-2025",
   "x|1504660c-5517-488a-bb90-ae7686e19493|2089|2022-12-20|4|52939772|EUR": "812802-2025",
   "x|1569efb1-47bd-4f8b-bfe8-c07798e8a50e|Framework Agreement 1/Framework Agreement 2|2025-07-09,2025-07-23|4|27000000|EUR": "511509-2025",
-  "x|199df707-6e17-406b-b4ba-433f6a75f4a1|13767/12-03-2026|2026-03-12|3|93022266|EUR": "432522-2026",
+  "x|199df707-6e17-406b-b4ba-433f6a75f4a1|13767/12-03-2026|2026-03-12|3|93022266|EUR": "452616-2025",
   "x|199df707-6e17-406b-b4ba-433f6a75f4a1|30782/07-07-2025|2025-07-07|3|63000097|EUR": "452616-2025",
-  "x|199df707-6e17-406b-b4ba-433f6a75f4a1|36250/30-06-2026|2026-06-30|3|93022266|EUR": "500651-2026",
-  "x|199df707-6e17-406b-b4ba-433f6a75f4a1|42653/31-07-2026|2026-07-31|3|93022266|EUR": "608973-2026",
-  "x|199df707-6e17-406b-b4ba-433f6a75f4a1|46326/31-08-2026|2026-08-31|3|93022266|EUR": "622541-2026",
-  "x|199df707-6e17-406b-b4ba-433f6a75f4a1|Αρ. πρωτ. 56872|2026-10-30|3|93022266|EUR": "764865-2026",
+  "x|199df707-6e17-406b-b4ba-433f6a75f4a1|36250/30-06-2026|2026-06-30|3|93022266|EUR": "432522-2026",
+  "x|199df707-6e17-406b-b4ba-433f6a75f4a1|42653/31-07-2026|2026-07-31|3|93022266|EUR": "500651-2026",
+  "x|199df707-6e17-406b-b4ba-433f6a75f4a1|46326/31-08-2026|2026-08-31|3|93022266|EUR": "608973-2026",
+  "x|199df707-6e17-406b-b4ba-433f6a75f4a1|Αρ. πρωτ. 56872|2026-10-30|3|93022266|EUR": "622541-2026",
   "x|1a52bc22-d5b2-40df-b37b-26d609dc67d6|2026.0046/2026.0047/2026.0048|2026-03-24|9|5266250|EUR": "430614-2026",
   "x|1a52bc22-d5b2-40df-b37b-26d609dc67d6|2026.0049/2026.0050/2026.0051|2026-06-18|9|17957500|EUR": "478198-2026",
   "x|1a52bc22-d5b2-40df-b37b-26d609dc67d6|2026.0052/2026.0053/2026.0054|2026-05-22|9|34798088|EUR": "430337-2026",
@@ -385,6 +385,7 @@
    "Note": "",
    "Original date": "2024February",
    "Size (DKKm)": 130,
+   "_cur": "DKK",
    "_id": "100805-2024",
    "_kind": "award",
    "_langs": {
@@ -399,7 +400,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 130000000,
+   "_winners": "netcompanyas"
   },
   "116542-2024": {
    "Contract": "Avinor AS - K-191525/K-191526 - Framework agreement - TEK consultant, strategic partner and consultancy broker. - framework agreement",
@@ -409,6 +412,7 @@
    "Note": "Two vendors",
    "Original date": "2024February",
    "Size (DKKm)": 836,
+   "_cur": "NOK",
    "_id": "116542-2024",
    "_kind": "award",
    "_langs": {
@@ -423,7 +427,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 1200000000,
+   "_winners": "eworknorgeas|netcompanyas"
   },
   "11988-2025": {
    "Contract": "EEAS ICT Projects, Support and Operations Services (EIPSOS 2) - framework agreement",
@@ -433,6 +439,7 @@
    "Note": "4 vendors",
    "Original date": "2025January",
    "Size (DKKm)": 1085,
+   "_cur": "EUR",
    "_id": "11988-2025",
    "_kind": "award",
    "_langs": {
@@ -447,7 +454,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 145220000,
+   "_winners": "cosmoteglobalsolutions|fujitsutechnologysolutions|netcompanyintrasoft|netcompanyintrasoftsa"
   },
   "120474-2026": {
    "Contract": "Joint implementation of a national sector facility for Registration, Enrollment and Subscription (AII) for education. - framework agreement",
@@ -457,6 +466,7 @@
    "Note": "",
    "Original date": "2026February",
    "Size (DKKm)": 277,
+   "_cur": "EUR",
    "_id": "120474-2026",
    "_kind": "award",
    "_langs": {
@@ -471,7 +481,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 37000000,
+   "_winners": "netcompany"
   },
   "128087-2026": {
    "Contract": "Support to EFSA’s communication activities - framework agreement",
@@ -481,6 +493,7 @@
    "Note": "6 vendors (Net the lead)",
    "Original date": "2026February",
    "Size (DKKm)": 187,
+   "_cur": "EUR",
    "_id": "128087-2026",
    "_kind": "award",
    "_langs": {
@@ -495,7 +508,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 25000000,
+   "_winners": "blossomsrl|esnsa|icfnextsa|netcompanysa|sopexa|tipikcommunicationagencysa"
   },
   "128577-2026": {
    "Contract": "31166457 Dubocalc software",
@@ -505,6 +520,7 @@
    "Note": "Extension",
    "Original date": "2026February",
    "Size (DKKm)": 22,
+   "_cur": "EUR",
    "_id": "128577-2026",
    "_kind": "modif",
    "_langs": {
@@ -519,7 +535,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 2968601,
+   "_winners": ""
   },
   "130732-2026": {
    "Contract": "Tender for the implementation, operation, maintenance, support and further development of a case management system (Case Portal)",
@@ -529,6 +547,7 @@
    "Note": "",
    "Original date": "2026February",
    "Size (DKKm)": 152,
+   "_cur": "DKK",
    "_id": "130732-2026",
    "_kind": "award",
    "_langs": {
@@ -543,7 +562,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 151967745,
+   "_winners": "netcompanyas"
   },
   "134218-2022": {
    "Contract": "Belgium-Brussels: External Service Provision in Time and Means for Development, Consultancy and Support in the Field of Information Systems (DIGIT-TM)",
@@ -553,6 +574,7 @@
    "Note": "Extension",
    "Original date": "2022March",
    "Size (DKKm)": "",
+   "_cur": "",
    "_id": "134218-2022",
    "_kind": "modif",
    "_langs": {
@@ -567,7 +589,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": null,
+   "_winners": ""
   },
   "134224-2022": {
    "Contract": "Belgium-Brussels: External Service Provision in Time and Means for Development, Consultancy and Support in the Field of Information Systems (DIGIT-TM)",
@@ -577,6 +601,7 @@
    "Note": "Extension",
    "Original date": "2022March",
    "Size (DKKm)": "",
+   "_cur": "",
    "_id": "134224-2022",
    "_kind": "modif",
    "_langs": {
@@ -591,7 +616,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": null,
+   "_winners": ""
   },
   "134895-2026": {
    "Contract": "31166457 Dubocalc software",
@@ -601,6 +628,7 @@
    "Note": "Extension",
    "Original date": "2026February",
    "Size (DKKm)": 23,
+   "_cur": "EUR",
    "_id": "134895-2026",
    "_kind": "modif",
    "_langs": {
@@ -615,7 +643,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 3016117,
+   "_winners": ""
   },
   "138681-2026": {
    "Contract": "31166457 Dubocalc software",
@@ -625,6 +655,7 @@
    "Note": "Extension",
    "Original date": "2026February",
    "Size (DKKm)": 24,
+   "_cur": "EUR",
    "_id": "138681-2026",
    "_kind": "modif",
    "_langs": {
@@ -639,7 +670,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 3194302,
+   "_winners": ""
   },
   "142801-2026": {
    "Contract": "Contract for the provision of operation, support, maintenance and further development of the Interdisciplinary Subject System (TFS) in the City of Copenhagen",
@@ -649,6 +682,7 @@
    "Note": "",
    "Original date": "2026March",
    "Size (DKKm)": 22,
+   "_cur": "DKK",
    "_id": "142801-2026",
    "_kind": "award",
    "_langs": {
@@ -663,7 +697,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 21988600,
+   "_winners": "netcompanyas"
   },
   "143176-2025": {
    "Contract": "Event Management and Related Communication Services - framework agreement",
@@ -673,6 +709,7 @@
    "Note": "8 vendors",
    "Original date": "2025March",
    "Size (DKKm)": 1256,
+   "_cur": "EUR",
    "_id": "143176-2025",
    "_kind": "award",
    "_langs": {
@@ -687,7 +724,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 168000000,
+   "_winners": "actionglobalcommunicationsltd|cecoforma|cronoseuropa|gleventslive|gopacom|icfnext|netcompanyintrasoftsa|wmhproject"
   },
   "144045-2024": {
    "Contract": "Provision of External Consultancy Services (EXTRA-NG) - framework agreement",
@@ -697,6 +736,7 @@
    "Note": "20 vendors",
    "Original date": "2024March",
    "Size (DKKm)": 566,
+   "_cur": "EUR",
    "_id": "144045-2024",
    "_kind": "award",
    "_langs": {
@@ -711,7 +751,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 75669478,
+   "_winners": "almavivadebelgiquesa|braytonglobalsrl|cegekagroepnv|cosmoteglobalsolutionsnv|cronosinternationalsa|engineeringingegneriainformaticaspa|finconsspa|leonardosocietaperazioni|netcompanyintrasoftsa|networkresearchbelgiumsa|nortalas|nttdatabelgiquesrl|seidorconsultingsl|sercobelgiumsa|thaleriasa|unisysbelgiumsa|unisystemsinformationtechnologysystemscommercialsinglemembersocieteanonyme|unisystemsluxembourgsarl|vasseuservices|westpolebelgiumsa"
   },
   "145943-2026": {
    "Contract": "CFT-1772 - Data & Analytics Platform Strategy, Implementation and Support Services - framework agreement",
@@ -721,6 +763,7 @@
    "Note": "14 vendors (Net the lead)",
    "Original date": "2026March",
    "Size (DKKm)": 262,
+   "_cur": "EUR",
    "_id": "145943-2026",
    "_kind": "award",
    "_langs": {
@@ -735,7 +778,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 35000000,
+   "_winners": "arhsgroup|bmatix|consulting|cosmotegs|cronoseuropa|deloittetaxconsulting|engineeringinternationalbelgiumsa|luxoftpolandspzoo|netcompanyintrasoftsa|nttdatabelgique|orangebusinessluxembourgsa|qualcoinformationsystemssinglemembersocieteanonyme|sword|talanluxembourgsarl"
   },
   "146685-2025": {
    "Contract": "Software development for the new screening process for the IND",
@@ -745,6 +790,7 @@
    "Note": "",
    "Original date": "2025March",
    "Size (DKKm)": 56,
+   "_cur": "EUR",
    "_id": "146685-2025",
    "_kind": "award",
    "_langs": {
@@ -759,7 +805,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 7500000,
+   "_winners": "netcompanynetherlandsbv"
   },
   "146941-2026": {
    "Contract": "31166457 Dubocalc software",
@@ -769,6 +817,7 @@
    "Note": "Extension",
    "Original date": "2026March",
    "Size (DKKm)": 25,
+   "_cur": "EUR",
    "_id": "146941-2026",
    "_kind": "modif",
    "_langs": {
@@ -783,7 +832,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 3336850,
+   "_winners": ""
   },
   "148859-2025": {
    "Contract": "\"Provision of software development/modification services, support for the productive operation and maintenance of information systems and migration of data and applications to the existing Information Systems and online services of EOPYY\"",
@@ -793,6 +844,7 @@
    "Note": "",
    "Original date": "2025March",
    "Size (DKKm)": 51,
+   "_cur": "EUR",
    "_id": "148859-2025",
    "_kind": "award",
    "_langs": {
@@ -807,7 +859,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 6799932,
+   "_winners": "netcompanyintrasoftunisystems"
   },
   "149250-2025": {
    "Contract": "2023-1003870_Munich Airport_CHIMP – Collaboration & Insights Airport Management Platform",
@@ -817,6 +871,7 @@
    "Note": "",
    "Original date": "2025March",
    "Size (DKKm)": "",
+   "_cur": "",
    "_id": "149250-2025",
    "_kind": "award",
    "_langs": {
@@ -831,7 +886,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": null,
+   "_winners": "netcompany"
   },
   "150334-2022": {
    "Contract": "Denmark-Hillerød: Custom software development services",
@@ -841,6 +898,7 @@
    "Note": "Extension",
    "Original date": "2022March",
    "Size (DKKm)": "",
+   "_cur": "",
    "_id": "150334-2022",
    "_kind": "modif",
    "_langs": {
@@ -855,7 +913,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": null,
+   "_winners": ""
   },
   "150447-2024": {
    "Contract": "Framework Agreement byte: Digital Products - framework agreement",
@@ -865,6 +925,7 @@
    "Note": "Three vendors",
    "Original date": "2024March",
    "Size (DKKm)": "",
+   "_cur": "",
    "_id": "150447-2024",
    "_kind": "award",
    "_langs": {
@@ -879,7 +940,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": null,
+   "_winners": "intivegmbh|netcompanyas|replydeutschlandse"
   },
   "157865-2025": {
    "Contract": "Provision of Maintenance Services for the Unified System of Academic Administration Services of the University of Patras",
@@ -889,6 +952,7 @@
    "Note": "",
    "Original date": "2025March",
    "Size (DKKm)": 2,
+   "_cur": "EUR",
    "_id": "157865-2025",
    "_kind": "award",
    "_langs": {
@@ -903,7 +967,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 217800,
+   "_winners": "netcompanyintrasoftsa"
   },
   "162659-2025": {
    "Contract": "Public tender for a Contract for the development, operation, maintenance, support and further development of a new NemKonto system",
@@ -913,6 +979,7 @@
    "Note": "",
    "Original date": "2025March",
    "Size (DKKm)": 283,
+   "_cur": "DKK",
    "_id": "162659-2025",
    "_kind": "award",
    "_langs": {
@@ -927,7 +994,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 283495888,
+   "_winners": "netcompanyas"
   },
   "163354-2019": {
    "Contract": "Denmark-Randbøl: Document creation, drawing, imaging, scheduling and productivity software development services",
@@ -937,6 +1006,7 @@
    "Note": "Extension",
    "Original date": "2019April",
    "Size (DKKm)": "",
+   "_cur": "",
    "_id": "163354-2019",
    "_kind": "modif",
    "_langs": {
@@ -951,7 +1021,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": null,
+   "_winners": ""
   },
   "169959-2026": {
    "Contract": "CFT-1773 - IT Consultancy Services for Project Management, Business Analysis and Testing (Arrow) - framework agreement",
@@ -961,6 +1033,7 @@
    "Note": "26 vendors",
    "Original date": "2026March",
    "Size (DKKm)": 1196,
+   "_cur": "EUR",
    "_id": "169959-2026",
    "_kind": "award",
    "_langs": {
@@ -975,7 +1048,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 160000000,
+   "_winners": "almavivadebelgiquesa|bip|coc|computertaskgroupitsolutionssa|cosmotegs|cronoseuropa|deloittetaxconsulting|engineeringinternationalbelgiumsa|evidenluxembourgsa|finconsbe|kpmgtaxandadvisorysàrl|minsait|netcompanyintrasoftsa|nrb|nttdatabelgique|qualcoinformationsystemssinglemembersocieteanonyme|satiscosa|sogetiluxembourgsa|sword|talanluxembourgsarl|thaleria|unisysbelgium|unisystemsluxembourgsarl|vasseu|wavestonesa|westpolebelgium"
   },
   "170903-2024": {
    "Contract": "Digitization of Data Files of the Ministry of Justice, OPS TA Code 5150259 - framework agreement",
@@ -985,6 +1060,7 @@
    "Note": "14 vendors",
    "Original date": "2024March",
    "Size (DKKm)": 586,
+   "_cur": "EUR",
    "_id": "170903-2024",
    "_kind": "award",
    "_langs": {
@@ -999,7 +1075,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 78349773,
+   "_winners": "cosmosbusinesssystemsσυστηματαπληροφορικηςκαιτηλεπικοινωνιωνανωνυμηεμπορικηκαιβιομηχανικηεταιρεια|informλυκοςελλαςαε|intrakatανωνυμηεταιρειατεχνικωνκαιενεργειακωνεργων|masterκέντροκατάρτισηςκαισυμβουλευτικήςανωνυμοςεταιρεια|netcompanyintrasoftsaελληνικουποκαταστημα|novatelecommunicationsmediaμονοπροσωπηαε|profileανωνυμοςεμπορικηκαιβιομηχανικηεταιρειαπληροφορικης|qualcoμονοπρόσωπηaνώνυμηεταιρείασυστημάτωνπληροφορικής|unisystemsσυστήματαπληροφορικήςμονοπρόσωπηανώνυμηεμπορικήεταιρία|vodafoneπαναφονανωνυμηελληνικηεταιριατηλεπικοινωνιων|αρχειοθηκηανωνυμηεταιρειαlogisticskaiδιαχειρισηςαρχειων|γκλομπιτελεμπορίαανάπτυξητηλεπικοινωνιακώνσυστημάτωνανώνυμηεταιρεία|μυτιληναιοςτεχνικωνκατασκευωνατεμονοπροσωπηανωνυμηεταιρεια|οργανισμοςτηλεπικοινωνιωντηςελλαδοςανωνυμηεταιρεια"
   },
   "173799-2026": {
    "Contract": "Procurement of development and management of digital services in Oslo municipality, 2nd publication - framework agreement",
@@ -1009,6 +1087,7 @@
    "Note": "",
    "Original date": "2026March",
    "Size (DKKm)": 251,
+   "_cur": "NOK",
    "_id": "173799-2026",
    "_kind": "award",
    "_langs": {
@@ -1023,7 +1102,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 360000000,
+   "_winners": "netcompanynorwayas"
   },
   "173831-2026": {
    "Contract": "CFT-1764 - IT CONSULTANCY FOR CONTENT MANAGEMENT - framework agreement",
@@ -1033,6 +1114,7 @@
    "Note": "19 vendors",
    "Original date": "2026March",
    "Size (DKKm)": 972,
+   "_cur": "EUR",
    "_id": "173831-2026",
    "_kind": "award",
    "_langs": {
@@ -1047,7 +1129,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 130000000,
+   "_winners": "agilepartner|arhsgroup|computertaskgroupitsolutionssa|contrasteeuropesa|cronoseuropa|delawareconsulting|deloittetaxconsulting|eddainternationalsa|eddaluxembourg|fts|neofactoluxembourg|netcompanysa|nttdatabelgique|sogetiluxembourgsa|sword|talanluxembourgsarl|unisysbelgium|unisystemsluxembourgsarl|wavestonesa"
   },
   "184460-2024": {
    "Contract": "IT operations",
@@ -1057,6 +1141,7 @@
    "Note": "Three vendors",
    "Original date": "2024March",
    "Size (DKKm)": 69,
+   "_cur": "DKK",
    "_id": "184460-2024",
    "_kind": "award",
    "_langs": {
@@ -1071,7 +1156,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 69485759,
+   "_winners": "motusas|netcompanyas|progressiveas"
   },
   "187894-2024": {
    "Contract": "Digitization of Public Health System Records, IS No. 5174874 - framework agreement",
@@ -1081,6 +1168,7 @@
    "Note": "13 vendors",
    "Original date": "2024March",
    "Size (DKKm)": 710,
+   "_cur": "EUR",
    "_id": "187894-2024",
    "_kind": "award",
    "_langs": {
@@ -1095,7 +1183,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 95000000,
+   "_winners": "cosmosbusinesssystemsσυστηματαπληροφορικηςκαιτηλεπικοινωνιωνανωνυμηεμπορικηκαιβιομηχανικηεταιρεια|informλυκοςελλαςαε|intrakatανωνυμηεταιρειατεχνικωνκαιενεργειακωνεργων|netcompanyintrasoftsaελληνικόυποκατάστημα|novatelecommunicationsmediaμονοπροσωπηαε|profileανωνυμοςεμπορικηκαιβιομηχανικηεταιρειαπληροφορικης|qualcoμονοπρόσωπηaνώνυμηεταιρείασυστημάτωνπληροφορικής|unisystemsσυστήματαπληροφορικήςμονοπρόσωπηανώνυμηεμπορικήεταιρία|vodafoneπαναφονανωνυμηελληνικηεταιριατηλεπικοινωνιων|αρχειοθηκηανωνυμηεταιρειαlogisticskaiδιαχειρισηςαρχειων|κοινοπραξιαγκλομπιτελεμπορίαανάπτυξητηλεπικοινωνιακώνσυστημάτωνανώνυμηεταιρείαmasterκέντροκατάρτισηςκαισυμβουλευτικήςανωνυμοςεταιρεια_ψηφιοποιησηυγειας|μυτιληναιοςτεχνικωνκατασκευωνατεμονοπροσωπηανωνυμηεταιρεια|οργανισμοςτηλεπικοινωνιωντηςελλαδοςανωνυμηεταιρεια"
   },
   "198941-2024": {
    "Contract": "Tender for a framework agreement for an operational support system - framework agreement",
@@ -1105,6 +1195,7 @@
    "Note": "",
    "Original date": "2024April",
    "Size (DKKm)": 3,
+   "_cur": "DKK",
    "_id": "198941-2024",
    "_kind": "award",
    "_langs": {
@@ -1119,7 +1210,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 2600000,
+   "_winners": "netcompanyas"
   },
   "203837-2021": {
    "Contract": "Denmark-Copenhagen: Custom software development services",
@@ -1129,6 +1222,7 @@
    "Note": "Extension",
    "Original date": "2021April",
    "Size (DKKm)": "",
+   "_cur": "",
    "_id": "203837-2021",
    "_kind": "modif",
    "_langs": {
@@ -1143,7 +1237,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": null,
+   "_winners": ""
   },
   "213613-2022": {
    "Contract": "Greece-Athens: IT services: consulting, software development, Internet and support",
@@ -1153,6 +1249,7 @@
    "Note": "Extension",
    "Original date": "2022April",
    "Size (DKKm)": "",
+   "_cur": "",
    "_id": "213613-2022",
    "_kind": "modif",
    "_langs": {
@@ -1167,7 +1264,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": null,
+   "_winners": ""
   },
   "214583-2026": {
    "Contract": "Multiple Framework Contract for the Provision of the Services for Designing, Implementing, Managing, Operating and Supporting Information Systems under Time and Means Conditions (DESOPS) - framework agreement",
@@ -1177,6 +1276,7 @@
    "Note": "30 vendors",
    "Original date": "2026March",
    "Size (DKKm)": 1394,
+   "_cur": "EUR",
    "_id": "214583-2026",
    "_kind": "award",
    "_langs": {
@@ -1191,7 +1291,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 186500000,
+   "_winners": "altenpolska|arhsgroup|aricomasystemsas|assecopol|atospolskasa|avengapolandspzoo|ayesa|ayesaibermatica|braytonglobalsrl|cosmotegs|cronoseuropa|eng|engineeringinternationalbelgiumsa|fabrity|finconsspa|fujitsutechnologysolutions|leonardobelgiumsa|netcompanyintrasoftsa|nrb|nttdatabelgique|qinshiftczechiasro|qualcosa|seidorconsultingsl|sword|thaleria|thewhiteteamconsulting|twenty8|unisystemsinformationtechnologysystemscommercialsmsa|unisystemsluxembourgsarl|vasseu"
   },
   "21819-2025": {
    "Contract": "2023-1003856_Munich Airport_Apps@MUC",
@@ -1201,6 +1303,7 @@
    "Note": "Two vendors",
    "Original date": "2025January",
    "Size (DKKm)": "",
+   "_cur": "",
    "_id": "21819-2025",
    "_kind": "award",
    "_langs": {
@@ -1215,7 +1318,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": null,
+   "_winners": "lufthansaindustrysolutionsasgmbh|netcompany"
   },
   "218832-2025": {
    "Contract": "Tender for a framework agreement for consultancy services for STIL's data warehouse and other data systems - framework agreement",
@@ -1225,6 +1330,7 @@
    "Note": "",
    "Original date": "2025April",
    "Size (DKKm)": 80,
+   "_cur": "DKK",
    "_id": "218832-2025",
    "_kind": "award",
    "_langs": {
@@ -1239,7 +1345,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 80000000,
+   "_winners": "netcompanyas"
   },
   "222122-2024": {
    "Contract": "Luxembourg-Luxembourg: Provision of External Staff and Services for Maintenance, Support, Development and Implementation of Packages and Specific Information Systems at the EIB Group",
@@ -1249,6 +1357,7 @@
    "Note": "Extension",
    "Original date": "2024April",
    "Size (DKKm)": "",
+   "_cur": "",
    "_id": "222122-2024",
    "_kind": "modif",
    "_langs": {
@@ -1263,7 +1372,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": null,
+   "_winners": ""
   },
   "227556-2025": {
    "Contract": "PROVISION OF SERVICES FOR THE QUALITATIVE RECORDING OF WASTEWATER AND DETECTION OF POTENTIAL SOURCES OF POLLUTION IN SELECTED AREAS OF THE SEWERAGE NETWORK THROUGH CONTINUOUS MONITORING AND SAMPLING IN THE NETWORK FROM",
@@ -1273,6 +1384,7 @@
    "Note": "Two vendors (Net the lead)",
    "Original date": "2025April",
    "Size (DKKm)": 53,
+   "_cur": "EUR",
    "_id": "227556-2025",
    "_kind": "award",
    "_langs": {
@@ -1287,7 +1399,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 7153650,
+   "_winners": "netcompanyintrasoftsa|tecservicesικε"
   },
   "233714-2025": {
    "Contract": "Notice of contract award: Contract for the provision of operation, maintenance and further development, etc., of the Family Benefits System",
@@ -1297,6 +1411,7 @@
    "Note": "",
    "Original date": "2025April",
    "Size (DKKm)": 198,
+   "_cur": "DKK",
    "_id": "233714-2025",
    "_kind": "award",
    "_langs": {
@@ -1311,7 +1426,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 197860202,
+   "_winners": "netcompanyas"
   },
   "234500-2025": {
    "Contract": "VWS CDP Medicine Registration & Evaluation System (MRES)",
@@ -1321,6 +1438,7 @@
    "Note": "",
    "Original date": "2025April",
    "Size (DKKm)": 135,
+   "_cur": "EUR",
    "_id": "234500-2025",
    "_kind": "award",
    "_langs": {
@@ -1335,7 +1453,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 18000000,
+   "_winners": "netcompanynetherlandsbv"
   },
   "248525-2026": {
    "Contract": "Competition No 1 under Dynamic Purchasing System LISA/2025/DPS/0008 - framework agreement",
@@ -1345,6 +1465,7 @@
    "Note": "8 vendors (Net the lead)",
    "Original date": "2026April",
    "Size (DKKm)": 695,
+   "_cur": "EUR",
    "_id": "248525-2026",
    "_kind": "award",
    "_langs": {
@@ -1359,7 +1480,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 93000000,
+   "_winners": "accenturenv|arhsdevelopmentssa|europeandynamicsluxembourgsa|europeandynamicssa|netcompanysa|soprasteriabelgiumsanv|swordservicesgreecesa|thaleriasa"
   },
   "258138-2022": {
    "Contract": "Norway-Oslo: Custom software development services",
@@ -1369,6 +1492,7 @@
    "Note": "Direct award pre-announcement",
    "Original date": "2022May",
    "Size (DKKm)": 1,
+   "_cur": "NOK",
    "_id": "258138-2022",
    "_kind": "veat",
    "_langs": {
@@ -1383,7 +1507,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 1500000,
+   "_winners": ""
   },
   "261017-2025": {
    "Contract": "02.14 IT Consultants (DIS)",
@@ -1393,6 +1519,7 @@
    "Note": "21 vendors",
    "Original date": "2025April",
    "Size (DKKm)": 126,
+   "_cur": "DKK",
    "_id": "261017-2025",
    "_kind": "award",
    "_langs": {
@@ -1407,16 +1534,19 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 125705996,
+   "_winners": "accenture|anotherconsultingfirmps|apentoaps|danofficeitaps|deloittestatsautoriseretrevisionspartnerselskab|devoteamas|ebridgeconsultinggmbh|emagineconsultingas|epicoitas|geoinfoas|implementconsultinggroupps|insidoaps|kejserconsult|magnusenergybv|mayconsultingps|mininghouse|netcompanyas|nttdatabusinesssolutions|systradanmarkas|unititas|xtelligentdataaps"
   },
   "261630-2025": {
    "Contract": "\"Provision of software development/modification services, support for the productive operation and maintenance of information systems and migration of data and applications to the existing Information Systems and online services of EOPYY\"",
    "Country": "Greece",
    "Customers": "NATIONAL ORGANIZATION FOR THE PROVISION OF HEALTH SERVICES",
    "Link": "https://ted.europa.eu/en/notice/-/detail/261630-2025",
-   "Note": "Republished, same contract as 148859-2025",
+   "Note": "Updated version of 148859-2025, no change in value or vendors",
    "Original date": "2025April",
    "Size (DKKm)": 51,
+   "_cur": "EUR",
    "_id": "261630-2025",
    "_kind": "award",
    "_langs": {
@@ -1428,10 +1558,12 @@
     "Customers": "ΕΘΝΙΚΟΣ ΟΡΓΑΝΙΣΜΟΣ ΠΑΡΟΧΗΣ ΥΠΗΡΕΣΙΩΝ ΥΓΕΙΑΣ (ΕΟΠΥΥ)"
    },
    "_pub": "2025-04-23",
-   "_repeat": "exact",
+   "_repeat": "update",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 6799932,
+   "_winners": "netcompanyintrasoftunisystems"
   },
   "262902-2025": {
    "Contract": "\"1. Renewal of the Database Services (DBAAS) provided and 2. Provision of services for the supply and installation of IT infrastructure (servers, storage, networking, System SW, Backup SW) on-premise as a Service (IAAS)\"",
@@ -1441,6 +1573,7 @@
    "Note": "",
    "Original date": "2025April",
    "Size (DKKm)": 71,
+   "_cur": "EUR",
    "_id": "262902-2025",
    "_kind": "award",
    "_langs": {
@@ -1455,7 +1588,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 9538949,
+   "_winners": "netcompanyintrasoftunisystems"
   },
   "264328-2024": {
    "Contract": "\"Design and Implementation of a new Electronic Public Procurement System to support a full Public Procurement cycle\" with OPS TA Code 5158515",
@@ -1465,6 +1600,7 @@
    "Note": "4 vendors (Net the lead)",
    "Original date": "2024May",
    "Size (DKKm)": 46,
+   "_cur": "EUR",
    "_id": "264328-2024",
    "_kind": "award",
    "_langs": {
@@ -1479,7 +1615,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 6100000,
+   "_winners": "deloittebusinesssolutionsανώνυμηεταιρίασυμβούλωνεπιχειρήσεων|netcompanyintrasoftsaελληνικόυποκατάστημα|qualityreliabilityεφαρμογεςυψηληςτεχνολογιαςανωνυμηβιομηχανικηκαιεμπορικηεταιρεια|singularlogicανωνυμηεταιρειαπληροφοριακωνσυστηματωνκαιεφαρμογωνπληροφορικης"
   },
   "27226-2026": {
    "Contract": "Provision of services in support of communications activities - framework agreement",
@@ -1489,6 +1627,7 @@
    "Note": "Three vendors",
    "Original date": "2026January",
    "Size (DKKm)": 4,
+   "_cur": "EUR",
    "_id": "27226-2026",
    "_kind": "award",
    "_langs": {
@@ -1503,7 +1642,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 600000,
+   "_winners": "formatoverdelda|netcompanysa|siaprkvadrats"
   },
   "275325-2024": {
    "Contract": "Tender for Framework Agreement for IT Consulting Services - framework agreement",
@@ -1513,6 +1654,7 @@
    "Note": "4 vendors",
    "Original date": "2024May",
    "Size (DKKm)": 40,
+   "_cur": "DKK",
    "_id": "275325-2024",
    "_kind": "award",
    "_langs": {
@@ -1527,7 +1669,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 40000000,
+   "_winners": "deloittestatsautoriseretrevisionspartnerselskab|miracleas|netcompanyas|solitaas"
   },
   "294230-2024": {
    "Contract": "Standard software",
@@ -1537,6 +1681,7 @@
    "Note": "77 vendors",
    "Original date": "2024May",
    "Size (DKKm)": 1358,
+   "_cur": "DKK",
    "_id": "294230-2024",
    "_kind": "award",
    "_langs": {
@@ -1551,7 +1696,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 1358386833,
+   "_winners": "7nas|aetyaps|anturaas|askcody|ateaas|bizzdesignbv|bluewhaleaps|businessmannas|cabanaaps|cbrainas|cgidanmarkas|cludoaps|comm2igas|conectoas|consciadanmarkas|crayonas|damanps|daniasoftwareas|dbvisionas|deloittestatsautoriseretrevisionspartnerselskab|devoteamas|diplomasafeaps|dubexas|dxctechnologydanmarkas|econtaconsultinggroupps|ecoonlineaps|fellowminddenmarkas|flowitas|formpipesoftwareas|fujitsuas|geoinfoas|globeteamas|imgplay|iqviasolutionsdenmarkas|itagilaps|klartboardaps|kmdas|komplexitas|kostnergroupaps|krusoas|lifaas|miracle42as|miracleas|monsalta|netcompanyas|nttdatabusinesssolutions|nuudayastdcerhvervnetdesign|omnidocsas|opiniosec|orangecyberdefensedenmarkas|pentiaas|peytzcoas|proactsystemsas|promon|pronestoraps|rambøllmanagementconsultingas|relateitas|riskdecisionslimited|sapdanmarkas|sasinstituteas|schlumbergerdanmarkaps|signaturgruppenas|softwareimprovementgroupnordicsaps|softwareone|soprasteriaas|stretchqonnectaps|tietodenmarkas|topdeskdanmarkas|trapezegroupeuropeas|triforkpublicas|usertribeas|vismaconsultingas|vismalocalgovernmentas|vismaplandiscas|vismatimemsystem|voxogo|wizkidsas"
   },
   "305677-2025": {
    "Contract": "Provision of software development/modification services, and/or data transfer of 1,500 man-hours, to the existing Integrated Information System and to the online services of e-EFKA.",
@@ -1561,6 +1708,7 @@
    "Note": "Two vendors (Net the lead)",
    "Original date": "2025May",
    "Size (DKKm)": 57,
+   "_cur": "EUR",
    "_id": "305677-2025",
    "_kind": "award",
    "_langs": {
@@ -1575,16 +1723,19 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 7567800,
+   "_winners": "netcompanyintrasoftsa|pricewaterhousecoopersbusinesssolutionsανωνυμηεταιρειαπαροχηςεπιχειρηματικωνκαιλογιστικωνυπηρεσιων"
   },
   "307679-2024": {
    "Contract": "AWARD OF CONTRACT FOR THE IMPLEMENTATION OF A SYSTEM FOR THE UTILIZATION OF DATA RECEIVED FROM THE INPUT/OUTPUT SYSTEMS",
    "Country": "Greece",
    "Customers": "Independent Authority for Public Revenue (IAPR)",
    "Link": "https://ted.europa.eu/en/notice/-/detail/307679-2024",
-   "Note": "Two vendors",
+   "Note": "Two vendors - update of 679812-2022",
    "Original date": "2024May",
    "Size (DKKm)": 7,
+   "_cur": "EUR",
    "_id": "307679-2024",
    "_kind": "award",
    "_langs": {
@@ -1599,7 +1750,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 995315,
+   "_winners": "netcompanyintrasoftsa|pricewaterhousecoopersbusinesssolutionsανωνυμηεταιρειαπαροχηςεπιχειρηματικωνκαιλογιστικωνυπηρεσιων"
   },
   "310973-2025": {
    "Contract": "Framework agreement consultancy services, general IT assistance. - framework agreement",
@@ -1609,6 +1762,7 @@
    "Note": "8 vendors",
    "Original date": "2025May",
    "Size (DKKm)": 557,
+   "_cur": "NOK",
    "_id": "310973-2025",
    "_kind": "award",
    "_langs": {
@@ -1623,7 +1777,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 800000000,
+   "_winners": "bekkconsultingas|bouvetnorgeas|computasas|experisas|knowitas|konsas|netcompany|soprasteriaas"
   },
   "316614-2022": {
    "Contract": "Denmark-Frederiksberg: IT services: consulting, software development, Internet and support",
@@ -1633,6 +1789,7 @@
    "Note": "Extension",
    "Original date": "2022June",
    "Size (DKKm)": "",
+   "_cur": "",
    "_id": "316614-2022",
    "_kind": "modif",
    "_langs": {
@@ -1647,16 +1804,19 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": null,
+   "_winners": ""
   },
   "31766-2026": {
    "Contract": "\"DEVELOPMENT OF A NEW UNIFIED INTEGRATED TAX INFORMATION SYSTEM FOR THE INDEPENDENT AUTHORITY FOR PUBLIC REVENUE (IAPR)\"",
    "Country": "Greece",
    "Customers": "INDEPENDENT AUTHORITY FOR PUBLIC REVENUE",
    "Link": "https://ted.europa.eu/en/notice/-/detail/31766-2026",
-   "Note": "Republished, same contract as 794950-2024",
+   "Note": "Three vendors (Net the lead) - update of 794950-2024, vendors changed",
    "Original date": "2026January",
    "Size (DKKm)": 519,
+   "_cur": "EUR",
    "_id": "31766-2026",
    "_kind": "award",
    "_langs": {
@@ -1668,10 +1828,12 @@
     "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ"
    },
    "_pub": "2026-01-16",
-   "_repeat": "exact",
+   "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 69501233,
+   "_winners": "netcompanysa|pricewaterhousecoopersbusinesssolutionsαε|unisystemsmae"
   },
   "332582-2025": {
    "Contract": "Tender for a contract for the supply and operation of the Rent Register System, the supply of the Master Data System and the Electronic Document and Records Management System (EDRMS), as well as the maintenance and further development of all three systems",
@@ -1681,6 +1843,7 @@
    "Note": "",
    "Original date": "2025May",
    "Size (DKKm)": 11,
+   "_cur": "DKK",
    "_id": "332582-2025",
    "_kind": "award",
    "_langs": {
@@ -1695,7 +1858,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 11239284,
+   "_winners": "netcompanyas"
   },
   "34301-2025": {
    "Contract": "Hosting and management of MboVoorzieningen",
@@ -1705,6 +1870,7 @@
    "Note": "",
    "Original date": "2025January",
    "Size (DKKm)": 0.0,
+   "_cur": "EUR",
    "_id": "34301-2025",
    "_kind": "award",
    "_langs": {
@@ -1719,7 +1885,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 1,
+   "_winners": "netcompanynetherlandsbv"
   },
   "348748-2025": {
    "Contract": "IT consulting (2025) - framework agreement",
@@ -1729,6 +1897,7 @@
    "Note": "21 vendors",
    "Original date": "2025May",
    "Size (DKKm)": 2347,
+   "_cur": "DKK",
    "_id": "348748-2025",
    "_kind": "award",
    "_langs": {
@@ -1743,7 +1912,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 2347000000,
+   "_winners": "a2as|accenture|capgemini|deloittestatsautoriseretrevisionspartnerselskab|devoteamas|emagineas|epicoitas|eygodkendtrevisionspartnerselskab|globeteamas|implementconsultinggroupps|jhschultzinformationas|netcompanyas|optimumitas|paconsultinggroup|pricewaterhousecoopersstatsautoriseretrevisionspartnerselskab|soprasteriaas|triforkas|trustworksas|twodayas|venzoas|wingmensolutionsaps"
   },
   "349254-2025": {
    "Contract": "IT Consultants (2025) - framework agreement",
@@ -1753,6 +1924,7 @@
    "Note": "27 vendors",
    "Original date": "2025May",
    "Size (DKKm)": 4193,
+   "_cur": "DKK",
    "_id": "349254-2025",
    "_kind": "award",
    "_langs": {
@@ -1767,16 +1939,19 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 4193000000,
+   "_winners": "7nas|accenture|ateaas|changegroupaps|cn3as|dbaconsult|deloittestatsautoriseretrevisionspartnerselskab|devoteamas|edoraas|elevateit|emagineas|epicoitas|fellowminddenmarkas|globeteamas|immeops|jhschultzinformationas|kmd|knowledgecubeas|netcompanyas|rightpeoplegroup|septimaps|solitaas|soprasteriaas|trustworksas|twodaydanmarkas|venzoas|wingmensolutionsaps"
   },
   "349402-2026": {
    "Contract": "\"Digital Human Resources and Payroll Management System of the Independent Authority for Public Revenue (IAPR)\"",
    "Country": "Greece",
    "Customers": "INDEPENDENT AUTHORITY FOR PUBLIC REVENUE",
    "Link": "https://ted.europa.eu/en/notice/-/detail/349402-2026",
-   "Note": "Republished, same contract as 430658-2025",
+   "Note": "Updated version of 841278-2025, no change in value or vendors",
    "Original date": "2026May",
    "Size (DKKm)": 8,
+   "_cur": "EUR",
    "_id": "349402-2026",
    "_kind": "award",
    "_langs": {
@@ -1788,10 +1963,12 @@
     "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ"
    },
    "_pub": "2026-05-21",
-   "_repeat": "exact",
+   "_repeat": "update",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 1023100,
+   "_winners": "netcompanysa"
   },
   "353249-2024": {
    "Contract": "Professional system for the child welfare service",
@@ -1801,6 +1978,7 @@
    "Note": "",
    "Original date": "2024June",
    "Size (DKKm)": 10,
+   "_cur": "NOK",
    "_id": "353249-2024",
    "_kind": "award",
    "_langs": {
@@ -1815,7 +1993,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 14000000,
+   "_winners": "netcompany"
   },
   "354593-2026": {
    "Contract": "High-level advice and consultancy services (HACS) - framework agreement",
@@ -1825,6 +2005,7 @@
    "Note": "59 vendors",
    "Original date": "2026May",
    "Size (DKKm)": 1819,
+   "_cur": "EUR",
    "_id": "354593-2026",
    "_kind": "award",
    "_langs": {
@@ -1839,7 +2020,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 243317267,
+   "_winners": "accenturesa|almaviva|altenbelgium|altia|arhsgroup|aricomasystems|axians|ayesa|bearingpointfrancesas|bip|capgeminibelgium|carsa|cgi|cosmotegs|cronoseuropa|delawareconsulting|deloitte|eddainternationalsa|engineeringinternationalbelgiumsa|eraneos|eraneosanalyticsnetherlandsbv|eraneosgermanygmbh|eraneosiberia|finconsspa|fujitsutechnologysolutions|gartnerbelgiumbvba|grantthorntonbusinesssolutionssa|grantthorntoncorporatefinanceltd|ibmbelgium|idcitaliasrl|kpmg|kpmgadvisory|lipani|maternagmbh|minsait|netcompanysa|novaictsa|nrb|nttdatabelgique|ntu|oesianetworks|planetprovisionofconsultancyservices|ppmigroupuab|priorityqualityconsultantssa|pwcenterpriseadvisory|quentotechnologies|reply|solitaoy|soprasteriabelgium|specialistcomputercentressl|swordservicesgreeceaeparochisipiresionpliroforikis|thaleria|thebostonconsultinggroup|tremendsoftwareconsultingsrl|twenty8|vasseu|visionaryanalytic|wavestonesa|westpolebelgium"
   },
   "366404-2022": {
    "Contract": "Luxembourg-Luxembourg: AO 10659 - CORDIS",
@@ -1849,6 +2032,7 @@
    "Note": "Extension",
    "Original date": "2022July",
    "Size (DKKm)": "",
+   "_cur": "",
    "_id": "366404-2022",
    "_kind": "modif",
    "_langs": {
@@ -1863,7 +2047,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": null,
+   "_winners": ""
   },
   "366406-2022": {
    "Contract": "Luxembourg-Luxembourg: AO 10659 - CORDIS",
@@ -1873,6 +2059,7 @@
    "Note": "Extension",
    "Original date": "2022July",
    "Size (DKKm)": "",
+   "_cur": "",
    "_id": "366406-2022",
    "_kind": "modif",
    "_langs": {
@@ -1887,7 +2074,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": null,
+   "_winners": ""
   },
   "366408-2022": {
    "Contract": "Luxembourg-Luxembourg: AO 10659 - CORDIS",
@@ -1897,6 +2086,7 @@
    "Note": "Extension",
    "Original date": "2022July",
    "Size (DKKm)": "",
+   "_cur": "",
    "_id": "366408-2022",
    "_kind": "modif",
    "_langs": {
@@ -1911,7 +2101,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": null,
+   "_winners": ""
   },
   "369369-2024": {
    "Contract": "IT solution for cash management - framework agreement",
@@ -1921,6 +2113,7 @@
    "Note": "",
    "Original date": "2024June",
    "Size (DKKm)": 24,
+   "_cur": "SEK",
    "_id": "369369-2024",
    "_kind": "award",
    "_langs": {
@@ -1935,7 +2128,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 36305910,
+   "_winners": "netcompanyas"
   },
   "37183-2026": {
    "Contract": "EC-DIGIT/2024/OP/0019 MAIA - framework agreement",
@@ -1945,6 +2140,7 @@
    "Note": "42 vendors",
    "Original date": "2026January",
    "Size (DKKm)": 2170,
+   "_cur": "EUR",
    "_id": "37183-2026",
    "_kind": "award",
    "_langs": {
@@ -1959,7 +2155,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 290371157,
+   "_winners": "accenturesa|almavivatheitalianinnovationcompanyspa|altenbelgiumsrl|altiaconsultoressa|arhsdevelopmentssa|aricomasystems|atechadvancedsolutionssa|atosbelgium|axianseudigitalsolutionssa|capgeminitechnologyservices|cegekagroep|cgibelgiumnv|cosmoteglobalsolutions|cronoseuropa|deloitteconsultingadvisorybv|eddainternationalsa|engineeringinternationalbelgiumsa|enterpriseservicesbelgium|ernstkaigiangkmonoprosopianonymietairiaparochissymvouleftikonypiresionernstyoungsinglememberlimitedcompanyfortheprovisionofconsultingservices|europeandynamicsadvancedinformationtechnologyandtelecommunicationsystemssa|europeandynamicsluxembourgsa|finconsbe|fujitsutechnologysolutions|hiberusitdevelopmentservicessl|indrasolucionestecnologíasdelainformación|internationalbusinessmachinesofbelgium|leonardosocietaperazioni|netcompanyintrasoftsa|networkresearchbelgiumsa|nttdatabelgique|pricewaterhousecooperseuserviceseesv|qualcomonoprosopianonymietaireiasystimatonpliroforikis|seidorconsultingsl|soprasteriabelgium|swordservicesgreeceaeparochisipiresionpliroforikis|thaleria|tremendsoftwareconsultingsrl|twenty8|unisysbelgium|unisystemsluxembourgsarl|vasseuservices|westpolebelgium"
   },
   "37387-2021": {
    "Contract": "Denmark-Copenhagen: IT services: consulting, software development, Internet and support",
@@ -1969,6 +2167,7 @@
    "Note": "Direct award pre-announcement",
    "Original date": "2021January",
    "Size (DKKm)": 10,
+   "_cur": "DKK",
    "_id": "37387-2021",
    "_kind": "veat",
    "_langs": {
@@ -1983,7 +2182,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 10000000,
+   "_winners": ""
   },
   "380471-2025": {
    "Contract": "Tender for a contract for the procurement, implementation and maintenance of a New Driver's License Register",
@@ -1993,6 +2194,7 @@
    "Note": "",
    "Original date": "2025June",
    "Size (DKKm)": 57,
+   "_cur": "DKK",
    "_id": "380471-2025",
    "_kind": "award",
    "_langs": {
@@ -2007,7 +2209,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 56689200,
+   "_winners": "netcompanyas"
   },
   "387041-2025": {
    "Contract": "Framework agreement IT consultancy services 2025 - 2029 - framework agreement",
@@ -2017,6 +2221,7 @@
    "Note": "6 vendors",
    "Original date": "2025June",
    "Size (DKKm)": 627,
+   "_cur": "NOK",
    "_id": "387041-2025",
    "_kind": "award",
    "_langs": {
@@ -2031,7 +2236,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 900000000,
+   "_winners": "bekkconsultingas|capgemininorgeashovedenhet|computasas|experisas|netcompanynorwayas|netlightas"
   },
   "389389-2024": {
    "Contract": "Provision of Maintenance Services for the Unified Academic Administration Services System of the University of Patras",
@@ -2041,6 +2248,7 @@
    "Note": "",
    "Original date": "2024July",
    "Size (DKKm)": 1,
+   "_cur": "EUR",
    "_id": "389389-2024",
    "_kind": "award",
    "_langs": {
@@ -2055,7 +2263,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 170000,
+   "_winners": "netcompanyintrasoftsa"
   },
   "39239-2026": {
    "Contract": "Tender for Framework Agreements for the Development and Maintenance of Applications (TUK Framework Agreement and BIS Framework Agreement) - framework agreement",
@@ -2065,6 +2275,7 @@
    "Note": "Two vendors",
    "Original date": "2026January",
    "Size (DKKm)": 365,
+   "_cur": "DKK",
    "_id": "39239-2026",
    "_kind": "award",
    "_langs": {
@@ -2079,7 +2290,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 365000000,
+   "_winners": "netcompanyas|nnitas"
   },
   "393141-2026": {
    "Contract": "EUSPA-OP-25-25 EUSPA Communication Services - framework agreement",
@@ -2089,6 +2302,7 @@
    "Note": "7 vendors",
    "Original date": "2026June",
    "Size (DKKm)": 47,
+   "_cur": "EUR",
    "_id": "393141-2026",
    "_kind": "award",
    "_langs": {
@@ -2103,7 +2317,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 6300000,
+   "_winners": "3uraunipessoallda|beefbrotherssro|cotecointernacional|eworxsa|gc|netcompanysa|noesissro"
   },
   "396254-2026": {
    "Contract": "Helpdesk for users of electronic services and other products of the Publications Office of the European Union - framework agreement",
@@ -2113,6 +2329,7 @@
    "Note": "Three vendors",
    "Original date": "2026June",
    "Size (DKKm)": 11,
+   "_cur": "EUR",
    "_id": "396254-2026",
    "_kind": "award",
    "_langs": {
@@ -2127,7 +2344,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 1507800,
+   "_winners": "haliansarl|infeurope|netcompanysa"
   },
   "401729-2025": {
    "Contract": "Provision of software development services related to the Publications Office Information Technology (‘IT’) Systems - framework agreement",
@@ -2137,6 +2356,7 @@
    "Note": "8 vendors (Net the lead)",
    "Original date": "2025June",
    "Size (DKKm)": 202,
+   "_cur": "EUR",
    "_id": "401729-2025",
    "_kind": "award",
    "_langs": {
@@ -2151,7 +2371,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 27000000,
+   "_winners": "arhsdevelopmentssa|cognizonebv|europeandynamicsluxembourgsa|europeandynamicssa|knowledgesa|netcompanyintrasoftsa|novainformationandcommunicationtechnologiessa|nttdatabelgiquesrl"
   },
   "404671-2025": {
    "Contract": "Notice of International Open Electronic Tender with the award criterion being the most economically advantageous tender based on the best value for money and with the subject being the provision of maintenance services for equipment, system software and application software of the NIS-AAMS for a period of three (3) years (+1 year as an option).",
@@ -2161,6 +2383,7 @@
    "Note": "",
    "Original date": "2025June",
    "Size (DKKm)": 17,
+   "_cur": "EUR",
    "_id": "404671-2025",
    "_kind": "award",
    "_langs": {
@@ -2175,7 +2398,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 2332900,
+   "_winners": "netcompanysaελληνικόυποκατάστημα"
   },
   "426081-2026": {
    "Contract": "Software development for the new screening process for the IND",
@@ -2185,6 +2410,7 @@
    "Note": "Extension",
    "Original date": "2026June",
    "Size (DKKm)": 82,
+   "_cur": "EUR",
    "_id": "426081-2026",
    "_kind": "modif",
    "_langs": {
@@ -2199,7 +2425,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 11000000,
+   "_winners": ""
   },
   "426217-2024": {
    "Contract": "CUS-116-2022 - Change Request to extend the Risk Management for MTCA ESKORT Systems for the Automated Export Systems (AES)",
@@ -2209,6 +2437,7 @@
    "Note": "Direct award pre-announcement",
    "Original date": "2024July",
    "Size (DKKm)": 1,
+   "_cur": "EUR",
    "_id": "426217-2024",
    "_kind": "veat",
    "_langs": {
@@ -2223,7 +2452,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 193000,
+   "_winners": ""
   },
   "427263-2024": {
    "Contract": "Tender for the Danish Business Authority's IT Framework Agreement 2024–2028 (1) - framework agreement",
@@ -2233,6 +2464,7 @@
    "Note": "13 vendors",
    "Original date": "2024July",
    "Size (DKKm)": 1142,
+   "_cur": "DKK",
    "_id": "427263-2024",
    "_kind": "award",
    "_langs": {
@@ -2247,7 +2479,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 1142000000,
+   "_winners": "accentureas|alexandrainstituttetas|cgidanmarkas|deloittestatsautoriseretrevisionspartnerselskab|epicoitas|globeteamas|institutforcyberriskaps|itm8improsecas|jakaladenmarkaps|lbeinformatik|netcompanyas|nineas|triforkas"
   },
   "430337-2026": {
    "Contract": "IT services for standardisation, statistical production and dissemination - framework agreement",
@@ -2257,6 +2491,7 @@
    "Note": "9 vendors",
    "Original date": "2026June",
    "Size (DKKm)": 260,
+   "_cur": "EUR",
    "_id": "430337-2026",
    "_kind": "award",
    "_langs": {
@@ -2271,7 +2506,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 34798088,
+   "_winners": "arhsgroup|engineeringinternationalbelgiumsa|netcompanysa|nrb|qualcoinformationsystemssinglemembersocieteanonyme|quentotechnologies|sogetiluxembourgsa|sword|swordservicesgreeceaeparochisipiresionpliroforikis"
   },
   "430614-2026": {
    "Contract": "IT services for standardisation, statistical production and dissemination - framework agreement",
@@ -2281,6 +2518,7 @@
    "Note": "9 vendors",
    "Original date": "2026June",
    "Size (DKKm)": 39,
+   "_cur": "EUR",
    "_id": "430614-2026",
    "_kind": "award",
    "_langs": {
@@ -2295,7 +2533,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 5266250,
+   "_winners": "arhsgroup|engineeringinternationalbelgiumsa|netcompanysa|nrb|qualcoinformationsystemssinglemembersocieteanonyme|quentotechnologies|sogetiluxembourgsa|sword|swordservicesgreeceaeparochisipiresionpliroforikis"
   },
   "430658-2025": {
    "Contract": "\"Digital Human Resources and Payroll Management System of the Independent Authority for Public Revenue (IAPR)\"",
@@ -2305,6 +2545,7 @@
    "Note": "",
    "Original date": "2025July",
    "Size (DKKm)": 8,
+   "_cur": "EUR",
    "_id": "430658-2025",
    "_kind": "award",
    "_langs": {
@@ -2319,16 +2560,19 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 1023100,
+   "_winners": "netcompanysa"
   },
   "432522-2026": {
    "Contract": "Detection of illegal construction using modern technological means",
    "Country": "Greece",
    "Customers": "TECHNICAL CHAMBER OF GREECE (TEE)",
    "Link": "https://ted.europa.eu/en/notice/-/detail/432522-2026",
-   "Note": "Three vendors (Net the lead)",
+   "Note": "Three vendors (Net the lead) - update of 452616-2025, value changed from 471 DKKm",
    "Original date": "2026June",
    "Size (DKKm)": 695,
+   "_cur": "EUR",
    "_id": "432522-2026",
    "_kind": "award",
    "_langs": {
@@ -2343,7 +2587,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 93022266,
+   "_winners": "brightbusinesssolutionανωνυμηεταιρειαμεδιακριτικότίτλοbrightbusinesssolutionαe|netcompanysaελληνικόυποκατάστημα|οργανισμοςτηλεπικοινωνιωντηςελλαδοςαεμεδιακριτικότίτλοοτεαεήοτεήcosmote"
   },
   "43458-2025": {
    "Contract": "\"Horizontal digital transformation interventions in supervised entities of the Ministry of Health\"",
@@ -2353,6 +2599,7 @@
    "Note": "Two vendors",
    "Original date": "2025January",
    "Size (DKKm)": 19,
+   "_cur": "EUR",
    "_id": "43458-2025",
    "_kind": "award",
    "_langs": {
@@ -2367,7 +2614,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 2490394,
+   "_winners": "iknowhow|netcompanyintrasoft"
   },
   "436312-2025": {
    "Contract": "Tender for a contract for the operation, maintenance and further development of Lex Dania production, retsinformation.dk, lovtidende.dk and statstidende.dk",
@@ -2377,6 +2626,7 @@
    "Note": "",
    "Original date": "2025July",
    "Size (DKKm)": 137,
+   "_cur": "DKK",
    "_id": "436312-2025",
    "_kind": "award",
    "_langs": {
@@ -2391,7 +2641,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 137470720,
+   "_winners": "netcompanyas"
   },
   "438955-2026": {
    "Contract": "HADEA/2023/OP/0005 Service Contract to Design, Develop, Deliver and Maintain of HERA’s Advanced Technology for Health INtelligence and Action IT System (ATHINA)",
@@ -2401,6 +2653,7 @@
    "Note": "5 vendors - extension",
    "Original date": "2026June",
    "Size (DKKm)": 130,
+   "_cur": "EUR",
    "_id": "438955-2026",
    "_kind": "modif",
    "_langs": {
@@ -2415,7 +2668,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 17396782,
+   "_winners": ""
   },
   "448695-2025": {
    "Contract": "Provisioning and Maintenance Support of End Users, Digital Workplace, IT Infrastructure and Operations Services. - framework agreement",
@@ -2425,6 +2680,7 @@
    "Note": "8 vendors (Net the lead)",
    "Original date": "2025July",
    "Size (DKKm)": 523,
+   "_cur": "EUR",
    "_id": "448695-2025",
    "_kind": "award",
    "_langs": {
@@ -2439,7 +2695,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 70000000,
+   "_winners": "aricomasystemssrl|deloitteconsultingadvisorybvsrl|fujitsutechnologysolutionsnv|fujitsutechnologysolutionssa|hiberusitdevelopmentservicesslu|inetumespañasa|inetumtechportugalsa|netcompanyintrasoftsa"
   },
   "452188-2016": {
    "Contract": "Denmark-Holstebro: Miscellaneous software package and computer systems",
@@ -2449,6 +2707,7 @@
    "Note": "Direct award pre-announcement",
    "Original date": "2016December",
    "Size (DKKm)": 3,
+   "_cur": "DKK",
    "_id": "452188-2016",
    "_kind": "veat",
    "_langs": {
@@ -2463,7 +2722,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 3215000,
+   "_winners": ""
   },
   "452616-2025": {
    "Contract": "Detection of illegal construction using modern technological means",
@@ -2473,6 +2734,7 @@
    "Note": "Three vendors (Net the lead)",
    "Original date": "2025July",
    "Size (DKKm)": 471,
+   "_cur": "EUR",
    "_id": "452616-2025",
    "_kind": "award",
    "_langs": {
@@ -2487,7 +2749,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 63000097,
+   "_winners": "brightbusinesssolutionανωνυμηεταιρειαμεδιακριτικότίτλοbrightbusinesssolutionαe|netcompanysaελληνικόυποκατάστημα|οργανισμοςτηλεπικοινωνιωντηςελλαδοςαεμεδιακριτικότίτλοοτεαεήοτεήcosmote"
   },
   "452934-2025": {
    "Contract": "Standard software",
@@ -2497,6 +2761,7 @@
    "Note": "41 vendors",
    "Original date": "2025July",
    "Size (DKKm)": 1797,
+   "_cur": "DKK",
    "_id": "452934-2025",
    "_kind": "award",
    "_langs": {
@@ -2511,7 +2776,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 1796789682,
+   "_winners": "aetyaps|alfasoftab|ateaas|carelinkitdigitalisering|coliboas|comm2igas|crayonas|danofficeitaps|dcrsolutionsas|dealroomcobv|deloittestatsautoriseretrevisionspartnerselskab|devoteamdatadrivenaps|dustinas|dxctechnologydanmarkas|energidataas|facilitynetaps|fortesnordicasprojectflowas|geoinfoas|incaresystemsas|kmdas|komplexitas|merkledanmarkas|netcompanyas|netsdenmarkas|noblyas|ntias|nttdatabusinesssolutions|nuudayastdcerhvervnetdesign|opiniosec|orbitonlineas|pdcas|pingalaas|roimadenmarkas|scansolutionsaps|signaturgruppen|siteimproveas|sksapplikationserviceaps|structas|tietoevrydenmarkas|vismatimemsystem|wingmensolutionsas"
   },
   "453112-2026": {
    "Contract": "Maintenance and further development as well as operation of borger.dk - framework agreement",
@@ -2521,6 +2788,7 @@
    "Note": "",
    "Original date": "2026July",
    "Size (DKKm)": 185,
+   "_cur": "DKK",
    "_id": "453112-2026",
    "_kind": "award",
    "_langs": {
@@ -2535,7 +2803,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 185000000,
+   "_winners": "netcompanyas"
   },
   "455121-2025": {
    "Contract": "Negotiated procedure for the increase of ceiling of framework contract EPPO/2021/88 - framework agreement",
@@ -2545,6 +2815,7 @@
    "Note": "6 vendors",
    "Original date": "2025July",
    "Size (DKKm)": 56,
+   "_cur": "EUR",
    "_id": "455121-2025",
    "_kind": "award",
    "_langs": {
@@ -2559,7 +2830,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 7500000,
+   "_winners": "ahrsdevelopmentssa|arhscubesa|netcompanysa|networkresearchbelgiumnrb|unisystemsinformationtechnologysystems|unisystemsluxembourgsarl"
   },
   "463422-2026": {
    "Contract": "Provision of promotional products and services",
@@ -2569,6 +2842,7 @@
    "Note": "",
    "Original date": "2026July",
    "Size (DKKm)": 7,
+   "_cur": "EUR",
    "_id": "463422-2026",
    "_kind": "award",
    "_langs": {
@@ -2583,7 +2857,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 1000000,
+   "_winners": "netcompanyintrasoftsa"
   },
   "466443-2025": {
    "Contract": "DIGIT-TM II Lot 2 and 3 Ceiling increase - framework agreement",
@@ -2593,6 +2869,7 @@
    "Note": "42 vendors",
    "Original date": "2025July",
    "Size (DKKm)": 5180,
+   "_cur": "EUR",
    "_id": "466443-2025",
    "_kind": "award",
    "_langs": {
@@ -2607,7 +2884,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 693018670,
+   "_winners": "accenturesanv|almavivadebelgiquesa|amarisisd|arhsdevelopmentssa|avanadebelgiumsprlbvba|bechtlenv|braytonglobalsrl|capgeminibelgiumnv|cegekagroepnv|cgibelgiumnv|cgiluxembourgsa|computertaskgroupitsolutionssa|cosmoteglobalsolutionsnv|cronoseuropaluxembourgsa|davidsonconsulting|eddaluxembourg|engineeringinternationalbelgiumsa|europeandynamicsadvancedinformationtechnologyandtelecommunicationssystemssa|europeandynamicsluxembourgsa|evidenbelgiumnv|finconsspa|fujitsutechnologysolutionsnv|ibminternationalbusinessmachinesbelgiumbvsrl|maltcommunity|netcompanysa|networkresearchbelgiumnrbsa|nttdatabelgiquesrl|seidorsa|sercobelgiumsa|sogetiluxembourgsa|soprasteriabelgium|swordtechnologiessa|talanluxembourgsarl|thaleriasa|tremendsoftwareconsultingsrl|twenty8|twenty8luxembourg|unisysbelgium|unisystemsluxembourgsarl|vasseuservicessa|wavestone|westpolebelgiumnv"
   },
   "469885-2022": {
    "Contract": "Greece-Rio Patron: Computer training services",
@@ -2617,6 +2896,7 @@
    "Note": "Extension",
    "Original date": "2022August",
    "Size (DKKm)": "",
+   "_cur": "",
    "_id": "469885-2022",
    "_kind": "modif",
    "_langs": {
@@ -2631,7 +2911,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": null,
+   "_winners": ""
   },
   "478198-2026": {
    "Contract": "IT services for standardisation, statistical production and dissemination - framework agreement",
@@ -2641,6 +2923,7 @@
    "Note": "9 vendors (Net the lead)",
    "Original date": "2026July",
    "Size (DKKm)": 134,
+   "_cur": "EUR",
    "_id": "478198-2026",
    "_kind": "award",
    "_langs": {
@@ -2655,7 +2938,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 17957500,
+   "_winners": "altersolutionsengineering|arhsgroup|dukat|netcompanysa|rinfoutsourcingsolutionssrl|sogetiluxembourgsa|sword|swordservicesgreeceaeparochisipiresionpliroforikis|tremendsoftwareconsultingsrl"
   },
   "482824-2025": {
    "Contract": "Services for the development of a Ukrainian national transit system compatible with NCTS Phase 6",
@@ -2665,6 +2950,7 @@
    "Note": "",
    "Original date": "2025July",
    "Size (DKKm)": 9,
+   "_cur": "EUR",
    "_id": "482824-2025",
    "_kind": "award",
    "_langs": {
@@ -2679,7 +2965,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 1160000,
+   "_winners": "netcompanysa"
   },
   "486646-2025": {
    "Contract": "Services for the development of a Ukrainian national transit system compatible with NCTS Phase 6",
@@ -2689,6 +2977,7 @@
    "Note": "Extension",
    "Original date": "2025July",
    "Size (DKKm)": 10,
+   "_cur": "EUR",
    "_id": "486646-2025",
    "_kind": "modif",
    "_langs": {
@@ -2703,7 +2992,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 1300000,
+   "_winners": ""
   },
   "496977-2026": {
    "Contract": "ITUSS21 - User Support in Information Technologies",
@@ -2713,6 +3004,7 @@
    "Note": "13 vendors - extension",
    "Original date": "2026July",
    "Size (DKKm)": 21,
+   "_cur": "EUR",
    "_id": "496977-2026",
    "_kind": "modif",
    "_langs": {
@@ -2727,7 +3019,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 2745005,
+   "_winners": ""
   },
   "499583-2025": {
    "Contract": "Support for the Unified Information System for Operational Functions of Health Units of the National Health System (NHS) - framework agreement",
@@ -2737,6 +3031,7 @@
    "Note": "Three vendors (Net the lead)",
    "Original date": "2025July",
    "Size (DKKm)": 83,
+   "_cur": "EUR",
    "_id": "499583-2025",
    "_kind": "award",
    "_langs": {
@@ -2751,16 +3046,19 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 11067184,
+   "_winners": "ccs|iknowhealth|netcompanysa"
   },
   "500651-2026": {
    "Contract": "Detection of illegal construction using modern technological means",
    "Country": "Greece",
    "Customers": "TECHNICAL CHAMBER OF GREECE (TEE)",
    "Link": "https://ted.europa.eu/en/notice/-/detail/500651-2026",
-   "Note": "Three vendors (Net the lead) - possible repeat of 432522-2026",
+   "Note": "Updated version of 432522-2026, no change in value or vendors",
    "Original date": "2026July",
    "Size (DKKm)": 695,
+   "_cur": "EUR",
    "_id": "500651-2026",
    "_kind": "award",
    "_langs": {
@@ -2772,10 +3070,12 @@
     "Customers": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ"
    },
    "_pub": "2026-07-20",
-   "_repeat": "possible",
+   "_repeat": "update",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 93022266,
+   "_winners": "brightbusinesssolutionανωνυμηεταιρειαμεδιακριτικότίτλοbrightbusinesssolutionαe|netcompanysaελληνικόυποκατάστημα|οργανισμοςτηλεπικοινωνιωντηςελλαδοςαεμεδιακριτικότίτλοοτεαεήοτεήcosmote"
   },
   "503389-2024": {
    "Contract": "Framework Agreement for IT Development Services - framework agreement",
@@ -2785,6 +3085,7 @@
    "Note": "6 vendors",
    "Original date": "2024August",
    "Size (DKKm)": 2100,
+   "_cur": "DKK",
    "_id": "503389-2024",
    "_kind": "award",
    "_langs": {
@@ -2799,7 +3100,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 2100000000,
+   "_winners": "capgeminidanmarkas|deloittestatsautoriseretrevisionspartnerselskab|epicoitas|netcompanyas|triforkas|twodayas"
   },
   "503529-2024": {
    "Contract": "Specialized IT Consultancy Services II - framework agreement",
@@ -2809,6 +3112,7 @@
    "Note": "5 vendors",
    "Original date": "2024August",
    "Size (DKKm)": 75,
+   "_cur": "EUR",
    "_id": "503529-2024",
    "_kind": "award",
    "_langs": {
@@ -2823,7 +3127,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 10000000,
+   "_winners": "braytonglobalsrl|cronoseuropa|netcompanyintrasoftsa|nttdatabelgique|seidorconsultingsl"
   },
   "504876-2024": {
    "Contract": "Standard software",
@@ -2833,6 +3139,7 @@
    "Note": "48 vendors",
    "Original date": "2024August",
    "Size (DKKm)": 3618,
+   "_cur": "DKK",
    "_id": "504876-2024",
    "_kind": "award",
    "_langs": {
@@ -2847,7 +3154,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 3617507930,
+   "_winners": "accentureas|aetyaps|ateaas|bentleysystemsscandinavia|bitwareaps|capmon|cbrainas|comm2igas|consciadanmarkas|crayonas|csis|danofficeitaps|dataexpertaps|dubexas|dustinas|econtaconsultinggroupps|egdanmarkas|elbekvejrupas|exploranceinc|gavdias|img_play|kmdas|komplexitas|kvalitetsit|miracleas|mnemonicas|netcompanyas|novicell|nttdatabusinesssolutions|nuudayastdcerhvervnetdesign|omilonas|opiniosec|pricewaterhousecoopersstatsautoriseretrevisionspartnerselskab|proactsystemsas|qbitaps|queueitaps|rambøllmanagementconsultingas|rapidisaps|sasinstituteas|secureitaps|sksapplikationserviceaps|smartrpa|swecodanmarkas|tietoevrydenmarkas|topdeskdanmarkas|veridataaps|vismatimemsystem|wingmensolutionsas"
   },
   "511509-2025": {
    "Contract": "Audiovisual Communications & Multi-channel Campaigns - framework agreement",
@@ -2857,6 +3166,7 @@
    "Note": "4 vendors (Net the lead)",
    "Original date": "2025August",
    "Size (DKKm)": 202,
+   "_cur": "EUR",
    "_id": "511509-2025",
    "_kind": "award",
    "_langs": {
@@ -2871,7 +3181,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 27000000,
+   "_winners": "365sherpasgmbh|netcompanysa|scholzfriendsberlingmbh|zumgoldenenhirschenholdinggmbh"
   },
   "513756-2026": {
    "Contract": "Product integration, customization, design, maintenance, evaluation and quality control services - framework agreement",
@@ -2881,6 +3193,7 @@
    "Note": "13 vendors",
    "Original date": "2026July",
    "Size (DKKm)": 862,
+   "_cur": "EUR",
    "_id": "513756-2026",
    "_kind": "award",
    "_langs": {
@@ -2895,7 +3208,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 115378000,
+   "_winners": "aricomasystems|aricomasystemsas|cosmotegs|cruxsoft|cstadvisory|hellenictelecommunicationsorganizationsa|netcompanysa|novaictsa|nttdatabelgique|pwceuservices|serco|sword|tremendsoftwareconsultingsrl"
   },
   "517487-2024": {
    "Contract": "Mixed Multiple Framework Contract for Digital Communication Services and Social Media (DCOMM1)",
@@ -2905,6 +3220,7 @@
    "Note": "7 vendors - extension",
    "Original date": "2024August",
    "Size (DKKm)": 1009,
+   "_cur": "EUR",
    "_id": "517487-2024",
    "_kind": "modif",
    "_langs": {
@@ -2919,7 +3235,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 135000000,
+   "_winners": ""
   },
   "519678-2025": {
    "Contract": "Notice of Amendment to the Contract for the Development, Operation, Maintenance and Further Development of an IT System for the Administration of Social Pensions",
@@ -2929,6 +3247,7 @@
    "Note": "Extension",
    "Original date": "2025August",
    "Size (DKKm)": 621,
+   "_cur": "DKK",
    "_id": "519678-2025",
    "_kind": "modif",
    "_langs": {
@@ -2943,7 +3262,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 620771941,
+   "_winners": ""
   },
   "533962-2025": {
    "Contract": "Managed services for the operation of the Publications Office Information Systems - framework agreement",
@@ -2953,6 +3274,7 @@
    "Note": "4 vendors (Net the lead)",
    "Original date": "2025August",
    "Size (DKKm)": 79,
+   "_cur": "EUR",
    "_id": "533962-2025",
    "_kind": "award",
    "_langs": {
@@ -2967,7 +3289,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 10600000,
+   "_winners": "haliansàrl|infeuropesa|netcompanysa|nttdatabelgiquesrl"
   },
   "535917-2022": {
    "Contract": "Netherlands-The Hague: IT services: consulting, software development, Internet and support",
@@ -2977,6 +3301,7 @@
    "Note": "Direct award pre-announcement",
    "Original date": "2022September",
    "Size (DKKm)": 2,
+   "_cur": "EUR",
    "_id": "535917-2022",
    "_kind": "veat",
    "_langs": {
@@ -2991,7 +3316,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 250000,
+   "_winners": ""
   },
   "54336-2024": {
    "Contract": "TYP2023/042/D/A - Negotiated Procedure Tender for the Upgrade and Support of the Electronic Tax Return Submission System (Taxisnet) of the Tax Department",
@@ -3001,6 +3328,7 @@
    "Note": "",
    "Original date": "2024January",
    "Size (DKKm)": 2,
+   "_cur": "EUR",
    "_id": "54336-2024",
    "_kind": "award",
    "_langs": {
@@ -3015,7 +3343,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 250050,
+   "_winners": "netcompanyintrasoftsa"
   },
   "543522-2024": {
    "Contract": "Mixed Multiple Framework Contract for Digital Communication Services and Social Media (DCOMM1)",
@@ -3025,6 +3355,7 @@
    "Note": "12 vendors - extension",
    "Original date": "2024September",
    "Size (DKKm)": 1545,
+   "_cur": "EUR",
    "_id": "543522-2024",
    "_kind": "modif",
    "_langs": {
@@ -3039,7 +3370,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 206740000,
+   "_winners": ""
   },
   "545219-2026": {
    "Contract": "Open call for tenders for external service provision in time & means in the field of digital solution lifecycle management (DIGIT-TM III) - framework agreement",
@@ -3049,6 +3382,7 @@
    "Note": "76 vendors",
    "Original date": "2026August",
    "Size (DKKm)": 29686,
+   "_cur": "EUR",
    "_id": "545219-2026",
    "_kind": "award",
    "_langs": {
@@ -3063,7 +3397,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 3971638879,
+   "_winners": "accenturesa|ae|almavivadebelgiquesa|altenbelgium|altiaconsultoressa|altiaeuropeanservicesbv|amarisisd|arcadiasit|arhsdevelopmentsbelgiumnv|aricomasystems|atechadvancedsolutionssa|atosbelgium|bechtle|businessintegrationpartnersspa|capgeminibelgium|cegekagroep|cgibelgiumnv|cgiluxembourgsa|charlesoakescosarl|cosmoteglobalsolutions|cronoseuropa|deloitteconsultingadvisorybv|dukatorbsl|easinv|eddainternationalsa|engineeringinternationalbelgiumsa|europeandynamicsadvancedinformationtechnologyandtelecommunicationsystemssa|europeandynamicsluxembourgsa|evidenluxembourgsa|finconsbe|finconsspa|fujitsutechnologysolutions|fujitsutechnologysolutionsluxembourgsa|haliansarl|indrasolucionestecnologiasdelainformacionsl|kyndrylbelgiumbv|kyndryldeutschlandgmbh|kyndrylespaña|kyndrylireland|kyndrylitaliaspa|kyndrylluxembourgsàrl|kyndrylnederlandbv|leonardobelgiumsa|maltcommunity|nederlandscentrumvoorinterimmanagementbv|netcompanysa|networkresearchbelgiumsa|nttdatabelgique|phoenixdevelopmentssa|pikselsrl|pricewaterhousecooperstaxandadvisory|proximusluxembourgsa|quentotechnologiesmonoprosopianonymietaireia|randstaddigitalbelgiumnv|replyspa|seidorconsultingsl|sercobelgium|sercoitaliaspa|softservepolandspzoo|sogetiluxembourgsa|soprasteriabelgium|swordtechnologiessa|talanbelgium|talanluxembourgsarl|tataconsultancyservicesbelgium|tataconsultancyservicesluxembourgsa|tataconsultancyservicesnetherlandsbv|thaleria|tremendsoftwareconsultingsrl|twenty8|twenty8luxembourgsa|unisysbelgium|unisystemsluxembourgsarl|vasseuservices|wemanityreply|westpolebelgium"
   },
   "550946-2026": {
    "Contract": "SPOC, IT RUN and IT Development, Managed and Corporate Services - framework agreement",
@@ -3073,6 +3409,7 @@
    "Note": "15 vendors",
    "Original date": "2026August",
    "Size (DKKm)": 284,
+   "_cur": "EUR",
    "_id": "550946-2026",
    "_kind": "award",
    "_langs": {
@@ -3087,7 +3424,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 38000000,
+   "_winners": "cancomgmbh|cancomonlinebvba|cosmotegs|ecosferaservizisrl|eng|engdhub|engineeringinternationalbelgiumsa|enterpriseservicesitaliasrl|evidenluxembourgsa|gloveictsrl|mapsspa|netcompanysa|netservicespa|quentotechnologiesmonoprosopianonymietaireia|serco"
   },
   "551551-2020": {
    "Contract": "Denmark-Viborg: IT services: consulting, software development, Internet and support",
@@ -3097,6 +3436,7 @@
    "Note": "Extension",
    "Original date": "2020November",
    "Size (DKKm)": "",
+   "_cur": "",
    "_id": "551551-2020",
    "_kind": "modif",
    "_langs": {
@@ -3111,7 +3451,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": null,
+   "_winners": ""
   },
   "555981-2024": {
    "Contract": "Professional system for the child protection service",
@@ -3121,6 +3463,7 @@
    "Note": "",
    "Original date": "2024September",
    "Size (DKKm)": 13,
+   "_cur": "NOK",
    "_id": "555981-2024",
    "_kind": "award",
    "_langs": {
@@ -3135,7 +3478,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 18977000,
+   "_winners": "netcompany"
   },
   "562411-2026": {
    "Contract": "Provision of graphic design services including static infographics and other design-related services - framework agreement",
@@ -3145,6 +3490,7 @@
    "Note": "Three vendors",
    "Original date": "2026August",
    "Size (DKKm)": 3,
+   "_cur": "EUR",
    "_id": "562411-2026",
    "_kind": "award",
    "_langs": {
@@ -3159,7 +3505,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 400000,
+   "_winners": "netcompanysa|quickdata|umbaubv"
   },
   "564909-2025": {
    "Contract": "Framework Agreement for the Further Development and Maintenance of the Danish Central Building Register (DCAB) 2025 - framework agreement",
@@ -3169,6 +3517,7 @@
    "Note": "",
    "Original date": "2025August",
    "Size (DKKm)": 24,
+   "_cur": "DKK",
    "_id": "564909-2025",
    "_kind": "award",
    "_langs": {
@@ -3183,7 +3532,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 24000000,
+   "_winners": "netcompanyas"
   },
   "566498-2019": {
    "Contract": "Denmark-Skive: IT services: consulting, software development, Internet and support",
@@ -3193,6 +3544,7 @@
    "Note": "Direct award pre-announcement",
    "Original date": "2019November",
    "Size (DKKm)": 30,
+   "_cur": "DKK",
    "_id": "566498-2019",
    "_kind": "veat",
    "_langs": {
@@ -3207,7 +3559,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 30341605,
+   "_winners": ""
   },
   "578698-2024": {
    "Contract": "Framework agreement for consulting and analysis, development, support and maintenance of a selected IT system portfolio - framework agreement",
@@ -3217,6 +3571,7 @@
    "Note": "",
    "Original date": "2024September",
    "Size (DKKm)": 129,
+   "_cur": "DKK",
    "_id": "578698-2024",
    "_kind": "award",
    "_langs": {
@@ -3231,7 +3586,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 128878000,
+   "_winners": "netcompanyas"
   },
   "57870-2026": {
    "Contract": "Provision of Maintenance Services for the Unified Academic Administration Services System of the University of Patras SAP for the period 01/01/2026 - 31/12/2026",
@@ -3241,6 +3598,7 @@
    "Note": "",
    "Original date": "2026January",
    "Size (DKKm)": 2,
+   "_cur": "EUR",
    "_id": "57870-2026",
    "_kind": "award",
    "_langs": {
@@ -3255,7 +3613,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 266773,
+   "_winners": "netcompanysaελληνικόυποκατάστημα"
   },
   "580050-2025": {
    "Contract": "Communication Services – Video production, printed & electronic publications and promotional corporate items - framework agreement",
@@ -3265,6 +3625,7 @@
    "Note": "Two vendors",
    "Original date": "2025September",
    "Size (DKKm)": 13,
+   "_cur": "EUR",
    "_id": "580050-2025",
    "_kind": "award",
    "_langs": {
@@ -3279,16 +3640,19 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 1800000,
+   "_winners": "netcompanyintrasoftsa|tipikcommunicationagencysa"
   },
   "586113-2026": {
    "Contract": "SPOC, IT RUN and IT Development, Managed and Corporate Services - framework agreement",
    "Country": "Italy",
    "Customers": "European Food Safety Authority",
    "Link": "https://ted.europa.eu/en/notice/-/detail/586113-2026",
-   "Note": "15 vendors - possible repeat of 550946-2026",
+   "Note": "15 vendors - update of 78d27798-97b6-4715-93d1-8b691eaf40a0-01 - possible repeat of 550946-2026",
    "Original date": "2026August",
    "Size (DKKm)": 284,
+   "_cur": "EUR",
    "_id": "586113-2026",
    "_kind": "award",
    "_langs": {
@@ -3303,7 +3667,9 @@
    "_repeat": "possible",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 38000000,
+   "_winners": "cancomgmbh|cancomonlinebvba|cosmotegs|ecosferaservizisrl|eng|engdhub|engineeringinternationalbelgiumsa|enterpriseservicesitaliasrl|evidenluxembourgsa|gloveictsrl|mapsspa|netcompanysa|netservicespa|quentotechnologiesmonoprosopianonymietaireia|serco"
   },
   "586759-2020": {
    "Contract": "Norway-Trondheim: Data network management services",
@@ -3313,6 +3679,7 @@
    "Note": "Direct award pre-announcement",
    "Original date": "2020December",
    "Size (DKKm)": 1,
+   "_cur": "NOK",
    "_id": "586759-2020",
    "_kind": "veat",
    "_langs": {
@@ -3327,16 +3694,19 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 2000000,
+   "_winners": ""
   },
   "588982-2026": {
    "Contract": "\"DEVELOPMENT OF A NEW UNIFIED INTEGRATED TAX INFORMATION SYSTEM FOR THE INDEPENDENT AUTHORITY FOR PUBLIC REVENUE (IAPR)\"",
    "Country": "Greece",
    "Customers": "INDEPENDENT AUTHORITY FOR PUBLIC REVENUE",
    "Link": "https://ted.europa.eu/en/notice/-/detail/588982-2026",
-   "Note": "Republished, same contract as 794950-2024",
+   "Note": "Updated version of 31766-2026, no change in value or vendors",
    "Original date": "2026August",
    "Size (DKKm)": 519,
+   "_cur": "EUR",
    "_id": "588982-2026",
    "_kind": "award",
    "_langs": {
@@ -3348,10 +3718,12 @@
     "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ"
    },
    "_pub": "2026-08-26",
-   "_repeat": "exact",
+   "_repeat": "update",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 69501233,
+   "_winners": "netcompanysa|pricewaterhousecoopersbusinesssolutionsαε|unisystemsmae"
   },
   "59252-2026": {
    "Contract": "Tender for Framework Agreements for Consultancy Services (LOD Framework Agreement and OPA Framework Agreement) - framework agreement",
@@ -3361,6 +3733,7 @@
    "Note": "Two vendors",
    "Original date": "2026January",
    "Size (DKKm)": 220,
+   "_cur": "DKK",
    "_id": "59252-2026",
    "_kind": "award",
    "_langs": {
@@ -3375,7 +3748,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 220000000,
+   "_winners": "netcompanyas|nineas"
   },
   "59588-2025": {
    "Contract": "223024 Child Protection System Gjøvik, Søndre Land, Nordre Land and Østre Toten municipalities.",
@@ -3385,6 +3760,7 @@
    "Note": "",
    "Original date": "2025January",
    "Size (DKKm)": 0.8,
+   "_cur": "NOK",
    "_id": "59588-2025",
    "_kind": "award",
    "_langs": {
@@ -3399,7 +3775,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 1200000,
+   "_winners": "netcompanynorwayas"
   },
   "599640-2026": {
    "Contract": "FRAMEWORK AGREEMENT FOR CONSULTANCY SERVICES - framework agreement",
@@ -3409,6 +3787,7 @@
    "Note": "62 vendors",
    "Original date": "2026August",
    "Size (DKKm)": 432,
+   "_cur": "SEK",
    "_id": "599640-2026",
    "_kind": "award",
    "_langs": {
@@ -3423,7 +3802,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 650000000,
+   "_winners": "2mnordicitconsultingab|afrydigitalsolutionsab|agiosystemochkompetensiskandinavienab|aqileaab|b3consultinggroupab|brejnconsultingab|caggroupab|centigoab|cgisverigeab|combitechab|considlinköpingab|cordialab|deloitteab|dewireconsultantsab|dizparcumeåab|emagineconsultingab|excedonetworksab|frontitsundsvallab|gdmkonsultab|governoab|helseplanconsultinggroupab|hiqinternationalab|humanitstockholmab|incubitab|ipsolutionsab|knowitaktiebolagpubl|kraftsamrekryteringampbemanningab|kvadratholdingab|masarinconsultinggroupab|milsvidaab|netcompanyas|nethousesverigeab|netlerconsultingab|netnordicswedenab|norconsultsverigeab|omegapointstockholmab|onevinnab|preciofishboneab|pro4uab|proampproab|professionalsnordstockholmab|påisverigeab|qestitab|randstadswedengroupab|redpilllinproab|roteconsultingab|sigmatechnologyitinfraab|softhousenordicab|softronicab|sogetisverigeab|swecosverigeab|sylogsverigeab|syscraftab|tech|thestellarcollectiveab|timepeoplegroup|valconab|viatikonsultaktiebolag|xameraab|xlentaktiebolag|xlentsundsvallab|öhrlingspricewaterhousecoopersab"
   },
   "601963-2026": {
    "Contract": "Competition 02 - framework agreement",
@@ -3433,6 +3814,7 @@
    "Note": "10 vendors",
    "Original date": "2026September",
    "Size (DKKm)": 553,
+   "_cur": "EUR",
    "_id": "601963-2026",
    "_kind": "award",
    "_langs": {
@@ -3447,7 +3829,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 74000000,
+   "_winners": "deloitteconsultingadvisorybv|deloitteconsultingslu|europeandynamicsluxembourgsa|europeandynamicssa|netcompanyintrasoftsa|solitaoy|soprasteriabelgiumsanv|swordservicesgreecesa|unisystemsinformationtechnologysystemscommercialsinglemembersocieteanonyme|unisystemsluxembourgsàrllu"
   },
   "602844-2026": {
    "Contract": "\"Provision of software development/modification services, support for production operation and maintenance of information systems and migration of data and applications, to the existing Information Systems and to the online services of EOPYY\"",
@@ -3457,6 +3841,7 @@
    "Note": "Extension",
    "Original date": "2026September",
    "Size (DKKm)": 51,
+   "_cur": "EUR",
    "_id": "602844-2026",
    "_kind": "modif",
    "_langs": {
@@ -3471,16 +3856,19 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 6799932,
+   "_winners": ""
   },
   "606065-2026": {
    "Contract": "\"DEVELOPMENT OF A NEW UNIFIED INTEGRATED TAX INFORMATION SYSTEM FOR THE INDEPENDENT AUTHORITY FOR PUBLIC REVENUE (IAPR)\"",
    "Country": "Greece",
    "Customers": "INDEPENDENT AUTHORITY FOR PUBLIC REVENUE",
    "Link": "https://ted.europa.eu/en/notice/-/detail/606065-2026",
-   "Note": "Republished, same contract as 794950-2024",
+   "Note": "Updated version of 588982-2026, no change in value or vendors",
    "Original date": "2026September",
    "Size (DKKm)": 519,
+   "_cur": "EUR",
    "_id": "606065-2026",
    "_kind": "award",
    "_langs": {
@@ -3492,10 +3880,12 @@
     "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ"
    },
    "_pub": "2026-09-03",
-   "_repeat": "exact",
+   "_repeat": "update",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 69501233,
+   "_winners": "netcompanysa|pricewaterhousecoopersbusinesssolutionsαε|unisystemsmae"
   },
   "608365-2024": {
    "Contract": "Maintenance of projects_National Criminal Records & Integrated Information System for the Management of Personal Data of Offenders",
@@ -3505,6 +3895,7 @@
    "Note": "",
    "Original date": "2024October",
    "Size (DKKm)": 21,
+   "_cur": "EUR",
    "_id": "608365-2024",
    "_kind": "award",
    "_langs": {
@@ -3519,7 +3910,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 2762658,
+   "_winners": "ένωσηεταιρειώνnetcompanyintrasoftsaελληνικουποκαταστημαunisystemsσυστήματαπληροφορικήςμονοπρόσωπηανώνυμηεμπορικήεταιρία"
   },
   "608477-2026": {
    "Contract": "\"Procurement of Database Equipment related to Zero Data Loss Recovery Appliance (ZDLRA)\"",
@@ -3529,6 +3922,7 @@
    "Note": "",
    "Original date": "2026September",
    "Size (DKKm)": 11,
+   "_cur": "EUR",
    "_id": "608477-2026",
    "_kind": "award",
    "_langs": {
@@ -3543,16 +3937,19 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 1485000,
+   "_winners": "netcompanysaελληνικόυποκατάστημα"
   },
   "608973-2026": {
    "Contract": "Detection of illegal construction using modern technological means",
    "Country": "Greece",
    "Customers": "TECHNICAL CHAMBER OF GREECE (TEE)",
    "Link": "https://ted.europa.eu/en/notice/-/detail/608973-2026",
-   "Note": "Three vendors (Net the lead) - possible repeat of 432522-2026",
+   "Note": "Updated version of 500651-2026, no change in value or vendors",
    "Original date": "2026September",
    "Size (DKKm)": 695,
+   "_cur": "EUR",
    "_id": "608973-2026",
    "_kind": "award",
    "_langs": {
@@ -3564,10 +3961,12 @@
     "Customers": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ"
    },
    "_pub": "2026-09-03",
-   "_repeat": "possible",
+   "_repeat": "update",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 93022266,
+   "_winners": "brightbusinesssolutionανωνυμηεταιρειαμεδιακριτικότίτλοbrightbusinesssolutionαe|netcompanysaελληνικόυποκατάστημα|οργανισμοςτηλεπικοινωνιωντηςελλαδοςαεμεδιακριτικότίτλοοτεαεήοτεήcosmote"
   },
   "613049-2025": {
    "Contract": "Primary process system 3RO",
@@ -3577,6 +3976,7 @@
    "Note": "",
    "Original date": "2025September",
    "Size (DKKm)": 232,
+   "_cur": "EUR",
    "_id": "613049-2025",
    "_kind": "award",
    "_langs": {
@@ -3591,16 +3991,19 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 31000000,
+   "_winners": "netcompanynetherlandsbv"
   },
   "614340-2026": {
    "Contract": "\"Digital Human Resources and Payroll Management System of the Independent Authority for Public Revenue (IAPR)\"",
    "Country": "Greece",
    "Customers": "INDEPENDENT AUTHORITY FOR PUBLIC REVENUE",
    "Link": "https://ted.europa.eu/en/notice/-/detail/614340-2026",
-   "Note": "Republished, same contract as 430658-2025",
+   "Note": "Updated version of 349402-2026, no change in value or vendors",
    "Original date": "2026September",
    "Size (DKKm)": 8,
+   "_cur": "EUR",
    "_id": "614340-2026",
    "_kind": "award",
    "_langs": {
@@ -3612,19 +4015,22 @@
     "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ"
    },
    "_pub": "2026-09-07",
-   "_repeat": "exact",
+   "_repeat": "update",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 1023100,
+   "_winners": "netcompanysa"
   },
   "617339-2025": {
    "Contract": "Implementation of the Single Reporting Platform - framework agreement",
    "Country": "Greece",
    "Customers": "European Union Agency for Cybersecurity (ENISA)",
    "Link": "https://ted.europa.eu/en/notice/-/detail/617339-2025",
-   "Note": "6 vendors",
+   "Note": "6 vendors - update of 607194-2025",
    "Original date": "2025September",
    "Size (DKKm)": 82,
+   "_cur": "EUR",
    "_id": "617339-2025",
    "_kind": "award",
    "_langs": {
@@ -3639,16 +4045,19 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 11000000,
+   "_winners": "europeandynamicsadvancedinformationtechnologyandtelecommunicationsystemssa|europeandynamicsluxembourgsa|luxembourghouseofcybersecurity|netcompanysa|unisystemsluxembourgsarl|wavestonesa"
   },
   "622541-2026": {
    "Contract": "Detection of illegal construction using modern technological means",
    "Country": "Greece",
    "Customers": "TECHNICAL CHAMBER OF GREECE (TEE)",
    "Link": "https://ted.europa.eu/en/notice/-/detail/622541-2026",
-   "Note": "Three vendors (Net the lead) - possible repeat of 432522-2026",
+   "Note": "Updated version of 608973-2026, no change in value or vendors",
    "Original date": "2026September",
    "Size (DKKm)": 695,
+   "_cur": "EUR",
    "_id": "622541-2026",
    "_kind": "award",
    "_langs": {
@@ -3660,10 +4069,12 @@
     "Customers": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ"
    },
    "_pub": "2026-09-09",
-   "_repeat": "possible",
+   "_repeat": "update",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 93022266,
+   "_winners": "brightbusinesssolutionανωνυμηεταιρειαμεδιακριτικότίτλοbrightbusinesssolutionαe|netcompanysaελληνικόυποκατάστημα|οργανισμοςτηλεπικοινωνιωντηςελλαδοςαεμεδιακριτικότίτλοοτεαεήοτεήcosmote"
   },
   "631340-2026": {
    "Contract": "ESIDIS PUBLIC WORKS: Operation, development, expansion services, etc.",
@@ -3673,6 +4084,7 @@
    "Note": "Extension",
    "Original date": "2026September",
    "Size (DKKm)": 3,
+   "_cur": "EUR",
    "_id": "631340-2026",
    "_kind": "modif",
    "_langs": {
@@ -3687,7 +4099,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 439000,
+   "_winners": ""
   },
   "639880-2025": {
    "Contract": "Ceiling increase: Service facility in support of the Global Approach in R&I - framework agreement",
@@ -3697,6 +4111,7 @@
    "Note": "14 vendors - extension",
    "Original date": "2025October",
    "Size (DKKm)": "",
+   "_cur": "",
    "_id": "639880-2025",
    "_kind": "modif",
    "_langs": {
@@ -3711,7 +4126,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": null,
+   "_winners": ""
   },
   "645179-2025": {
    "Contract": "ROVK BZ EA – Application Services P1–P2 2025 - framework agreement",
@@ -3721,6 +4138,7 @@
    "Note": "Three vendors",
    "Original date": "2025October",
    "Size (DKKm)": 1525,
+   "_cur": "EUR",
    "_id": "645179-2025",
    "_kind": "award",
    "_langs": {
@@ -3735,7 +4153,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 204000000,
+   "_winners": "capgemininederlandbvoverall|finalist|netcompanynetherlandsbv"
   },
   "650605-2024": {
    "Contract": "SaaS export control and sanctions service",
@@ -3745,6 +4165,7 @@
    "Note": "",
    "Original date": "2024October",
    "Size (DKKm)": 24,
+   "_cur": "NOK",
    "_id": "650605-2024",
    "_kind": "award",
    "_langs": {
@@ -3759,7 +4180,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 33888373,
+   "_winners": "netcompany"
   },
   "652841-2025": {
    "Contract": "Administrative management of the Human Resources HR Excellence in Research process - framework agreement",
@@ -3769,6 +4192,7 @@
    "Note": "Two vendors",
    "Original date": "2025October",
    "Size (DKKm)": 52,
+   "_cur": "EUR",
    "_id": "652841-2025",
    "_kind": "award",
    "_langs": {
@@ -3783,7 +4207,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 7000000,
+   "_winners": "netcompanyintrasoftsa|ppmigroup"
   },
   "658216-2026": {
    "Contract": "Intention notice - maintenance of an IT system.",
@@ -3793,6 +4219,7 @@
    "Note": "Direct award pre-announcement",
    "Original date": "2026September",
    "Size (DKKm)": "",
+   "_cur": "",
    "_id": "658216-2026",
    "_kind": "veat",
    "_langs": {
@@ -3807,7 +4234,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": null,
+   "_winners": ""
   },
   "670345-2026": {
    "Contract": "Graphic design and layout services for Cedefop publications and communication activities - framework agreement",
@@ -3817,6 +4246,7 @@
    "Note": "",
    "Original date": "2026September",
    "Size (DKKm)": 2,
+   "_cur": "EUR",
    "_id": "670345-2026",
    "_kind": "award",
    "_langs": {
@@ -3831,7 +4261,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 244000,
+   "_winners": "netcompanysa"
   },
   "680770-2023": {
    "Contract": "Denmark-Aarhus: IT services: consulting, software development, Internet and support",
@@ -3841,6 +4273,7 @@
    "Note": "Extension",
    "Original date": "2023November",
    "Size (DKKm)": "",
+   "_cur": "",
    "_id": "680770-2023",
    "_kind": "modif",
    "_langs": {
@@ -3855,7 +4288,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": null,
+   "_winners": ""
   },
   "681926-2024": {
    "Contract": "Standard software",
@@ -3865,6 +4300,7 @@
    "Note": "81 vendors",
    "Original date": "2024November",
    "Size (DKKm)": 1606,
+   "_cur": "DKK",
    "_id": "681926-2024",
    "_kind": "award",
    "_langs": {
@@ -3879,7 +4315,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 1605806936,
+   "_winners": "7nas|aetyaps|aevenas|anturaas|ateaas|bitwareaps|bizzdesignbv|bliksunddenmarkas|bureauvandijkelectronicpublishingaps|capmon|capturias|carelinkitdigitalisering|cleverchoiceaps|cloudworksaps|codeexas|coliboas|comm2igas|consciadanmarkas|cookieinformationas|crayonas|dalux|danofficeitaps|dbvisionas|devoteamas|devoteamdatadrivenaps|dubexas|dustinas|dxctechnologydanmarkas|dynamsoftcorporation|econtaconsultinggroupps|egdanmarkas|egissas|epicalswedenab|fellowminddenmarkas|gavdias|geoinfoas|globeteamas|graviteetopcoltd|itm8imiracle42as|kmdas|knowitsolutionsdanmarkas|knowitsolutionsmiracleas|komplexitas|kvalitetsit|melatechaps|monsalta|myrupnyhaugeaps|mysupply|netcompanyas|nntvaps|northgrcas|nttdatabusinesssolutions|nuudayastdcerhvervnetdesign|omnidocsas|opengammalimited|opiniosec|orangecyberdefensedenmarkas|orbitonlineas|peytzcoas|pricewaterhousecoopersstatsautoriseretrevisionspartnerselskab|progressiveas|sasinstituteas|schultz|securedeviceas|septimaps|signaturgruppen|siteimproveas|sksapplikationserviceaps|smartrpa|softwareone|staunstender|stretchqonnectaps|supwizaps|systematicas|tetonaiaps|tixlyaps|visionwillowas|vismalocalgovernmentas|vismatimemsystem|wingmensolutionsas|witricsas"
   },
   "683774-2023": {
    "Contract": "Denmark-Aarhus: IT services: consulting, software development, Internet and support",
@@ -3889,6 +4327,7 @@
    "Note": "Direct award pre-announcement",
    "Original date": "2023November",
    "Size (DKKm)": 35,
+   "_cur": "DKK",
    "_id": "683774-2023",
    "_kind": "veat",
    "_langs": {
@@ -3903,7 +4342,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 35000000,
+   "_winners": ""
   },
   "687100-2024": {
    "Contract": "Tender with negotiation of a framework agreement for IT services in the form of development, operation, maintenance and support of SBSYS ESDH - framework agreement",
@@ -3913,6 +4354,7 @@
    "Note": "",
    "Original date": "2024November",
    "Size (DKKm)": 61,
+   "_cur": "DKK",
    "_id": "687100-2024",
    "_kind": "award",
    "_langs": {
@@ -3927,7 +4369,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 61135574,
+   "_winners": "netcompanyas"
   },
   "70350-2026": {
    "Contract": "Upgrade and expansion of ICT infrastructure in the Justice sector, OPS Code 5162212",
@@ -3937,6 +4381,7 @@
    "Note": "4 vendors (Net the lead) - extension",
    "Original date": "2026January",
    "Size (DKKm)": 417,
+   "_cur": "EUR",
    "_id": "70350-2026",
    "_kind": "modif",
    "_langs": {
@@ -3951,7 +4396,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 55731861,
+   "_winners": ""
   },
   "704276-2024": {
    "Contract": "Public procurement for the acquisition of a Tax Administration Platform (TAP) license, installation and configuration of TAP components, and implementation of e-services and tax administration processes in TAP",
@@ -3961,6 +4408,7 @@
    "Note": "",
    "Original date": "2024November",
    "Size (DKKm)": 128,
+   "_cur": "EUR",
    "_id": "704276-2024",
    "_kind": "award",
    "_langs": {
@@ -3975,7 +4423,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 17121500,
+   "_winners": "netcompanyintrasoftsa"
   },
   "705712-2023": {
    "Contract": "Greece-Rio Patron: Industrial and technical training services",
@@ -3985,6 +4435,7 @@
    "Note": "Extension",
    "Original date": "2023November",
    "Size (DKKm)": "",
+   "_cur": "",
    "_id": "705712-2023",
    "_kind": "modif",
    "_langs": {
@@ -3999,16 +4450,19 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": null,
+   "_winners": ""
   },
   "708393-2026": {
    "Contract": "IMPLEMENTATION OF CHANGES TO THE INFORMATION SYSTEMS OF THE INDEPENDENT AUTHORITY FOR PUBLIC REVENUE (IAPR) (C.R.2)",
    "Country": "Greece",
    "Customers": "Independent Authority for Public Revenue (IAPR)",
    "Link": "https://ted.europa.eu/en/notice/-/detail/708393-2026",
-   "Note": "Republished, same contract as 871014-2025",
+   "Note": "Updated version of 871014-2025, no change in value or vendors",
    "Original date": "2026October",
    "Size (DKKm)": 48,
+   "_cur": "EUR",
    "_id": "708393-2026",
    "_kind": "award",
    "_langs": {
@@ -4020,10 +4474,12 @@
     "Customers": "Ανεξάρτητη Αρχή Δημοσίων Εσόδων (Α.Α.Δ.Ε.)"
    },
    "_pub": "2026-10-14",
-   "_repeat": "exact",
+   "_repeat": "update",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 6399000,
+   "_winners": "netcompanysa|unisystemsσυστήματαπληροφορικήςμονοπρόσωπηανώνυμηεμπορικήεταιρεία"
   },
   "721788-2024": {
    "Contract": "Provision of IT Software Development, Maintenance and Requirement Analysis Services - framework agreement",
@@ -4033,6 +4489,7 @@
    "Note": "16 vendors",
    "Original date": "2024November",
    "Size (DKKm)": 582,
+   "_cur": "EUR",
    "_id": "721788-2024",
    "_kind": "award",
    "_langs": {
@@ -4047,7 +4504,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 77840000,
+   "_winners": "almavivadebelgiquesa|altensolucionesproductosauditoriaeingenieriasau|altiaconsultoressa|aplicacionesytratamientosdesistemassa|axianseuiidigitalconsultingsa|bilbomáticasa|braytonglobalsrl|hiberusitdevelopmentservicesslu|indrasolucionestecnologiasdelainformacionsl|netcompanyintrasoftsa|nttdatabelgiquesrl|nttdataspainslu|seidorconsultingsl|swordservicesgreecesa|thelaudetechnologycompanysl|unisysslu"
   },
   "725014-2024": {
    "Contract": "Stakeholders engagement and community management - framework agreement",
@@ -4057,6 +4516,7 @@
    "Note": "Two vendors",
    "Original date": "2024November",
    "Size (DKKm)": 60,
+   "_cur": "EUR",
    "_id": "725014-2024",
    "_kind": "award",
    "_langs": {
@@ -4071,7 +4531,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 8000000,
+   "_winners": "netcompanyintrasoftsa|nttdatabelgique"
   },
   "72792-2026": {
    "Contract": "ITOMS25 - ICT INFRASTRUCTURE AND HOSTING SERVICES - framework agreement",
@@ -4081,6 +4543,7 @@
    "Note": "10 vendors",
    "Original date": "2026February",
    "Size (DKKm)": 318,
+   "_cur": "EUR",
    "_id": "72792-2026",
    "_kind": "award",
    "_langs": {
@@ -4095,7 +4558,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 42488000,
+   "_winners": "cosmotegs|deloittetaxconsulting|engineeringinternationalbelgiumsa|evidenluxembourgsa|leonardo|netcompanysa|nrb|pwceuservices|sogetiluxembourgsa|unisystemsluxembourgsarl"
   },
   "730196-2025": {
    "Contract": "Procurement of a new case management system",
@@ -4105,6 +4570,7 @@
    "Note": "",
    "Original date": "2025November",
    "Size (DKKm)": 13,
+   "_cur": "NOK",
    "_id": "730196-2025",
    "_kind": "award",
    "_langs": {
@@ -4119,7 +4585,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 19000000,
+   "_winners": "netcompanynorwayas"
   },
   "740910-2024": {
    "Contract": "Framework Contract for Digital Communication Services and Social Media  - framework agreement",
@@ -4129,6 +4597,7 @@
    "Note": "8 vendors",
    "Original date": "2024December",
    "Size (DKKm)": 1794,
+   "_cur": "EUR",
    "_id": "740910-2024",
    "_kind": "award",
    "_langs": {
@@ -4143,7 +4612,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 240000000,
+   "_winners": "cronoseuropa|europeanservicenetworksa|gopacom|icfnextsa|netcompanyintrasoftsa|nttdatabelgique|randstaddigitalbelgiumnv|tipikcommunicationagencysa"
   },
   "741840-2024": {
    "Contract": "Professional system, the Child Protection Service.",
@@ -4153,6 +4624,7 @@
    "Note": "",
    "Original date": "2024December",
    "Size (DKKm)": 2,
+   "_cur": "NOK",
    "_id": "741840-2024",
    "_kind": "award",
    "_langs": {
@@ -4167,16 +4639,19 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 2618794,
+   "_winners": "netcompanynorwayas"
   },
   "742152-2024": {
    "Contract": "AWARD OF CONTRACT FOR THE IMPLEMENTATION OF A SYSTEM FOR THE UTILIZATION OF DATA RECEIVED FROM THE INPUT/OUTPUT SYSTEMS",
    "Country": "Greece",
    "Customers": "Independent Authority for Public Revenue (IAPR)",
    "Link": "https://ted.europa.eu/en/notice/-/detail/742152-2024",
-   "Note": "Republished, same contract as 307679-2024",
+   "Note": "Updated version of 307679-2024, no change in value or vendors",
    "Original date": "2024December",
    "Size (DKKm)": 7,
+   "_cur": "EUR",
    "_id": "742152-2024",
    "_kind": "award",
    "_langs": {
@@ -4188,10 +4663,12 @@
     "Customers": "Ανεξάρτητη Αρχή Δημοσίων Εσόδων (Α.Α.Δ.Ε.)"
    },
    "_pub": "2024-12-05",
-   "_repeat": "exact",
+   "_repeat": "update",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 995315,
+   "_winners": "netcompanyintrasoftsa|pricewaterhousecoopersbusinesssolutionsανωνυμηεταιρειαπαροχηςεπιχειρηματικωνκαιλογιστικωνυπηρεσιων"
   },
   "742519-2023": {
    "Contract": "TYP2023/042/D/A - Negotiated Procedure Tender for the Upgrade and Support of the Electronic Tax Return Submission System (Taxisnet) of the Tax Department",
@@ -4201,6 +4678,7 @@
    "Note": "Direct award pre-announcement",
    "Original date": "2023December",
    "Size (DKKm)": 2,
+   "_cur": "EUR",
    "_id": "742519-2023",
    "_kind": "veat",
    "_langs": {
@@ -4215,7 +4693,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 250050,
+   "_winners": ""
   },
   "749910-2026": {
    "Contract": "Tender for a contract for a New Client Solution",
@@ -4225,6 +4705,7 @@
    "Note": "",
    "Original date": "2026October",
    "Size (DKKm)": 148,
+   "_cur": "DKK",
    "_id": "749910-2026",
    "_kind": "award",
    "_langs": {
@@ -4239,7 +4720,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 148000000,
+   "_winners": "netcompanyas"
   },
   "752660-2024": {
    "Contract": "Additional agreement: M-Files interaction and documentation management.",
@@ -4249,6 +4732,7 @@
    "Note": "Direct award pre-announcement",
    "Original date": "2024December",
    "Size (DKKm)": "",
+   "_cur": "",
    "_id": "752660-2024",
    "_kind": "veat",
    "_langs": {
@@ -4263,7 +4747,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": null,
+   "_winners": ""
   },
   "753444-2026": {
    "Contract": "Maintenance and development services (ICT)",
@@ -4273,6 +4759,7 @@
    "Note": "",
    "Original date": "2026October",
    "Size (DKKm)": 125,
+   "_cur": "NOK",
    "_id": "753444-2026",
    "_kind": "award",
    "_langs": {
@@ -4287,16 +4774,19 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 180000000,
+   "_winners": "netcompany"
   },
   "755674-2026": {
    "Contract": "\"Digital Human Resources and Payroll Management System of the Independent Authority for Public Revenue (IAPR)\"",
    "Country": "Greece",
    "Customers": "INDEPENDENT AUTHORITY FOR PUBLIC REVENUE",
    "Link": "https://ted.europa.eu/en/notice/-/detail/755674-2026",
-   "Note": "Republished, same contract as 430658-2025",
+   "Note": "Updated version of 614340-2026, no change in value or vendors",
    "Original date": "2026October",
    "Size (DKKm)": 8,
+   "_cur": "EUR",
    "_id": "755674-2026",
    "_kind": "award",
    "_langs": {
@@ -4308,10 +4798,12 @@
     "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ"
    },
    "_pub": "2026-10-30",
-   "_repeat": "exact",
+   "_repeat": "update",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 1023100,
+   "_winners": "netcompanysa"
   },
   "76456-2026": {
    "Contract": "Provision of services for development and consultancy on information systems under Time and Means conditions - framework agreement",
@@ -4321,6 +4813,7 @@
    "Note": "30 vendors",
    "Original date": "2026February",
    "Size (DKKm)": 561,
+   "_cur": "EUR",
    "_id": "76456-2026",
    "_kind": "award",
    "_langs": {
@@ -4335,16 +4828,19 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 75000000,
+   "_winners": "altenpolskaspzoo|arhsdevelopmentshellassinglemembersa|arhsdevelopmentssa|aricomasystemssrl|assecopolandsa|atospolandspzoo|britenetspzoo|cegekagroepnv|cosmoteglobalsolutionsnv|cronoseuropanv|engineeringingegneriainformaticaspa|engineeringinternationalbelgiumsa|fabritysa|fujitsutechnologysolutionsnvsa|fujitsutechnologysolutionsspzoo|netcompanyas|netcompanysa|networkresearchbelgiumsa|nttdatabelgiquesrl|pwceuserviceseesv|pwcitservicesspzoo|qinshiftczechiasro|seidorconsultingsl|sercobelgiumsa|swordservicesgreecesa|tremendsoftwareconsultingsrl|unisystemsinformationtechnologysystemscommercialsinglemembersa|unisystemsluxembourgsarl|vasseuservicessa|westpolebelgiumnv"
   },
   "764865-2026": {
    "Contract": "Detection of illegal construction using modern technological means",
    "Country": "Greece",
    "Customers": "TECHNICAL CHAMBER OF GREECE (TEE)",
    "Link": "https://ted.europa.eu/en/notice/-/detail/764865-2026",
-   "Note": "Three vendors (Net the lead) - possible repeat of 432522-2026",
+   "Note": "Updated version of 622541-2026, no change in value or vendors",
    "Original date": "2026November",
    "Size (DKKm)": 695,
+   "_cur": "EUR",
    "_id": "764865-2026",
    "_kind": "award",
    "_langs": {
@@ -4356,10 +4852,12 @@
     "Customers": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ"
    },
    "_pub": "2026-11-04",
-   "_repeat": "possible",
+   "_repeat": "update",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 93022266,
+   "_winners": "brightbusinesssolutionανωνυμηεταιρειαμεδιακριτικότίτλοbrightbusinesssolutionαe|netcompanysaελληνικόυποκατάστημα|οργανισμοςτηλεπικοινωνιωντηςελλαδοςαεμεδιακριτικότίτλοοτεαεήοτεήcosmote"
   },
   "766738-2025": {
    "Contract": "Provision of support, maintenance and development of traffic information tools",
@@ -4369,6 +4867,7 @@
    "Note": "",
    "Original date": "2025November",
    "Size (DKKm)": 9,
+   "_cur": "DKK",
    "_id": "766738-2025",
    "_kind": "award",
    "_langs": {
@@ -4383,7 +4882,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 9302300,
+   "_winners": "netcompanyas"
   },
   "772761-2026": {
    "Contract": "Provision of External Services for Software Development, Implementation and Maintenance for all Current and Future IT Capabilities to Enable the Long-term Strategic Portfolio Roadmap of the Agency - framework agreement",
@@ -4393,6 +4894,7 @@
    "Note": "14 vendors - extension",
    "Original date": "2026November",
    "Size (DKKm)": 1390,
+   "_cur": "EUR",
    "_id": "772761-2026",
    "_kind": "modif",
    "_langs": {
@@ -4407,7 +4909,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 186000000,
+   "_winners": ""
   },
   "774758-2025": {
    "Contract": "Single Employment and Insurance Data Flow – SEPE Information System Overhaul",
@@ -4417,6 +4921,7 @@
    "Note": "Extension",
    "Original date": "2025November",
    "Size (DKKm)": 116,
+   "_cur": "EUR",
    "_id": "774758-2025",
    "_kind": "modif",
    "_langs": {
@@ -4431,7 +4936,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 15500000,
+   "_winners": ""
   },
   "784912-2023": {
    "Contract": "Operation, maintenance, further development and optimization of the AROSia Application",
@@ -4441,6 +4948,7 @@
    "Note": "",
    "Original date": "2023December",
    "Size (DKKm)": 26,
+   "_cur": "DKK",
    "_id": "784912-2023",
    "_kind": "award",
    "_langs": {
@@ -4455,7 +4963,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 26229600,
+   "_winners": "netcompanyas"
   },
   "785610-2024": {
    "Contract": "Mixed Multiple Framework Contract for Thematic Communication Services - framework agreement",
@@ -4465,6 +4975,7 @@
    "Note": "6 vendors",
    "Original date": "2024December",
    "Size (DKKm)": 1345,
+   "_cur": "EUR",
    "_id": "785610-2024",
    "_kind": "award",
    "_langs": {
@@ -4479,7 +4990,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 180000000,
+   "_winners": "cronoseuropa|ecoryseuropeeeiggeie|europeanservicenetworksa|icfnextsa|netcompanyintrasoftsa|nttdatabelgique"
   },
   "794950-2024": {
    "Contract": "\"DEVELOPMENT OF A NEW UNIFIED INTEGRATED TAX INFORMATION SYSTEM FOR THE INDEPENDENT AUTHORITY FOR PUBLIC REVENUE (IAPR)\"",
@@ -4489,6 +5002,7 @@
    "Note": "Three vendors (Net the lead)",
    "Original date": "2024December",
    "Size (DKKm)": 519,
+   "_cur": "EUR",
    "_id": "794950-2024",
    "_kind": "award",
    "_langs": {
@@ -4503,7 +5017,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 69501233,
+   "_winners": "netcompanyintrasoftsa|pricewaterhousecoopersbusinesssolutionsαε|unisystemsmae"
   },
   "799939-2026": {
    "Contract": "National Transit System (hereinafter referred to as \"NTS\") Upgrade (Phase III) and NTS Maintenance and Support Services",
@@ -4513,6 +5029,7 @@
    "Note": "",
    "Original date": "2026November",
    "Size (DKKm)": 11,
+   "_cur": "EUR",
    "_id": "799939-2026",
    "_kind": "award",
    "_langs": {
@@ -4527,7 +5044,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 1420191,
+   "_winners": "netcompanysa"
   },
   "800290-2024": {
    "Contract": "Development of Economic Operator Registration and Identification (EORI) and Uniform User Management & Digital Signature (UUM&DS) systems",
@@ -4537,6 +5056,7 @@
    "Note": "Two vendors (Net the lead)",
    "Original date": "2024December",
    "Size (DKKm)": 14,
+   "_cur": "EUR",
    "_id": "800290-2024",
    "_kind": "award",
    "_langs": {
@@ -4551,7 +5071,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 1900000,
+   "_winners": "netcompanyintrasoft|zzisvetovanjeininzeniringproizvodnjainprodajaprogramskeopremedoo"
   },
   "807050-2025": {
    "Contract": "Standard software",
@@ -4561,6 +5083,7 @@
    "Note": "66 vendors",
    "Original date": "2025December",
    "Size (DKKm)": 1799,
+   "_cur": "DKK",
    "_id": "807050-2025",
    "_kind": "award",
    "_langs": {
@@ -4575,16 +5098,19 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 1799349017,
+   "_winners": "2bmas|aetyaps|alfasoftab|alirodocsaps|anturaas|aonassessmentdenmark|ateaas|aworkas|bluewhaleaps|casebycase|cgidanmarkas|cleverchoiceaps|comm2igas|consciadanmarkas|crayonas|danofficeitaps|dataexpertaps|dbvisionas|delegate|deloittestatsautoriseretrevisionspartnerselskab|devoteamdatadrivenaps|dubexas|dustinas|dvelopag|egdanmarkas|falckdanmarkas|ffw|firstaedaps|gartnerdanmarkaps|ihmas|incaresystemsas|inveridsoftwarebv|itm8as|kmdas|komplexitas|konicaminoltabusinesssolutionsdenmarkas|melatechaps|merkledanmarkas|netcompanyas|nuudayastdcerhvervnetdesign|oivahealth|omnidocsas|opiniosec|orangecyberdefensedenmarkas|ordlabaps|psecure|puzzelas|rambøllmanagementconsultingas|sasinstituteas|softwareone|stretchadderaaps|stretchqonnectaps|tetonaiaps|tixlyaps|triforkas|trintechuklimited|truecommercedenmarkapstidligerehighjumpsoftware|trustzoneas|twodaydanmarkas|uniwiseaps|valconas|veridataaps|visionpeopleconsultingas|wingmensolutionsas|wiredrelationsaps|worldishab"
   },
   "812802-2025": {
    "Contract": "Upgrade and expansion of ICT infrastructure in the Justice sector, OPS Code 5162212",
    "Country": "Greece",
    "Customers": "INFORMATION SOCIETY S.A. (IS S.A.)",
    "Link": "https://ted.europa.eu/en/notice/-/detail/812802-2025",
-   "Note": "4 vendors (Net the lead)",
+   "Note": "4 vendors (Net the lead) - update of 730655-2022",
    "Original date": "2025December",
    "Size (DKKm)": 396,
+   "_cur": "EUR",
    "_id": "812802-2025",
    "_kind": "award",
    "_langs": {
@@ -4599,16 +5125,19 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 52939772,
+   "_winners": "cosmoscomputersaebe|netcompanysa|qualityreliabilitysa|unisystemsμαε"
   },
   "841278-2025": {
    "Contract": "\"Digital Human Resources and Payroll Management System of the Independent Authority for Public Revenue (IAPR)\"",
    "Country": "Greece",
    "Customers": "INDEPENDENT AUTHORITY FOR PUBLIC REVENUE",
    "Link": "https://ted.europa.eu/en/notice/-/detail/841278-2025",
-   "Note": "Republished, same contract as 430658-2025",
+   "Note": "Updated version of 430658-2025, no change in value or vendors",
    "Original date": "2025December",
    "Size (DKKm)": 8,
+   "_cur": "EUR",
    "_id": "841278-2025",
    "_kind": "award",
    "_langs": {
@@ -4620,10 +5149,12 @@
     "Customers": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ"
    },
    "_pub": "2025-12-18",
-   "_repeat": "exact",
+   "_repeat": "update",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 1023100,
+   "_winners": "netcompanysa"
   },
   "843522-2025": {
    "Contract": "Amendment to the term of the Service Level Agreement (SLA) associated with the Studielink Framework Agreement",
@@ -4633,6 +5164,7 @@
    "Note": "",
    "Original date": "2025December",
    "Size (DKKm)": 190,
+   "_cur": "EUR",
    "_id": "843522-2025",
    "_kind": "award",
    "_langs": {
@@ -4647,7 +5179,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 25400000,
+   "_winners": "netcompanynetherlandsbv"
   },
   "84429-2025": {
    "Contract": "\"Improving the Digital Readiness of Hospitals - Upgrading Hospital Information Systems & Infrastructure\" - framework agreement",
@@ -4657,6 +5191,7 @@
    "Note": "Two vendors (Net the lead)",
    "Original date": "2025February",
    "Size (DKKm)": 333,
+   "_cur": "EUR",
    "_id": "84429-2025",
    "_kind": "award",
    "_langs": {
@@ -4671,16 +5206,19 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 44500000,
+   "_winners": "computerteam|netcompanyintrasoft"
   },
   "871014-2025": {
    "Contract": "IMPLEMENTATION OF CHANGES TO THE INFORMATION SYSTEMS OF THE INDEPENDENT AUTHORITY FOR PUBLIC REVENUE (IAPR) (C.R.2)",
    "Country": "Greece",
    "Customers": "Independent Authority for Public Revenue (IAPR)",
    "Link": "https://ted.europa.eu/en/notice/-/detail/871014-2025",
-   "Note": "Two vendors (Net the lead)",
+   "Note": "Two vendors (Net the lead) - update of 715804-2022",
    "Original date": "2025December",
    "Size (DKKm)": 48,
+   "_cur": "EUR",
    "_id": "871014-2025",
    "_kind": "award",
    "_langs": {
@@ -4695,7 +5233,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 6399000,
+   "_winners": "netcompanysa|unisystemsσυστήματαπληροφορικήςμονοπρόσωπηανώνυμηεμπορικήεταιρεία"
   },
   "90832-2022": {
    "Contract": "Denmark-Charlottenlund: Software programming and consultancy services",
@@ -4705,6 +5245,7 @@
    "Note": "Direct award pre-announcement",
    "Original date": "2022February",
    "Size (DKKm)": 27,
+   "_cur": "DKK",
    "_id": "90832-2022",
    "_kind": "veat",
    "_langs": {
@@ -4719,7 +5260,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 27402284,
+   "_winners": ""
   },
   "92566-2026": {
    "Contract": "FWC for audio-visual media production support - framework agreement",
@@ -4729,6 +5272,7 @@
    "Note": "9 vendors",
    "Original date": "2026February",
    "Size (DKKm)": 17,
+   "_cur": "EUR",
    "_id": "92566-2026",
    "_kind": "award",
    "_langs": {
@@ -4743,7 +5287,9 @@
    "_repeat": "",
    "_suffix": " - framework agreement",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 2300000,
+   "_winners": "esnsa|f8studiomonoprosopiepe|factstory|funworktomaszczenicki|ins|netcompanyintrasoftsa|neverestwarsaw|playcolorsmedia|translavicbv"
   },
   "92683-2025": {
    "Contract": "Notice of contract award: Contract for the supply of an IT system for the administration of student debt",
@@ -4753,6 +5299,7 @@
    "Note": "",
    "Original date": "2025February",
    "Size (DKKm)": 193,
+   "_cur": "DKK",
    "_id": "92683-2025",
    "_kind": "award",
    "_langs": {
@@ -4767,7 +5314,9 @@
    "_repeat": "",
    "_suffix": "",
    "_translated": true,
-   "_v": 5
+   "_v": 6,
+   "_value": 193201477,
+   "_winners": "netcompanyas"
   }
  },
  "seen": [
