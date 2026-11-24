@@ -410,3 +410,15 @@ def test_change_of_unknown_notice_stays_in():
     row = monitor.to_row(dict(TEE, **{"change-notice-version-identifier": "452616-2025"}),
                          RATES, NO_TR, {}, "award", {})
     assert row["_repeat"] == "" and row["Note"] == "Three vendors (Net the lead) - update of 452616-2025"
+
+
+def test_netcompany_rename_is_not_a_vendor_change():
+    # real case: 794950-2024 lists NETCOMPANY-INTRASOFT SA, its update 31766-2026 NETCOMPANY SA
+    row = _chain(**{"winner-name": {"ell": ["NETCOMPANY-INTRASOFT SA", "ΟΤΕ", "BRIGHT"]}})
+    assert row["_repeat"] == "update"
+
+
+def test_internal_change_ids_are_ignored():
+    row = monitor.to_row(dict(TEE, **{"change-notice-version-identifier": "78d27798-97b6-4715-93d1-8b691eaf40a0-01"}),
+                         RATES, NO_TR, {}, "award", {})
+    assert "78d27798" not in row["Note"]

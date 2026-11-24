@@ -318,7 +318,7 @@ def clean_name(name: str) -> str:
 
 NUMBER_WORDS = {2: "Two", 3: "Three"}
 EXCLUDED = {"exact", "update"}   # left out of the paste block, on the second sheet
-FORMAT_VERSION = 6   # bump when row formatting changes; older rows are rebuilt once
+FORMAT_VERSION = 7   # bump when row formatting changes; older rows are rebuilt once
 
 
 def _one_language(field) -> list[str]:
@@ -417,9 +417,13 @@ def to_row(n: dict, rates: dict, translate, fingerprints: dict | None = None,
             if not listed:
                 notes.append("Net not listed as contractor, check")
 
-    winners_key = "|".join(sorted({_norm(w) for w in _one_language(n.get("winner-name"))}))
+    # All Netcompany entities count as one (Netcompany-Intrasoft was renamed Netcompany S.A.).
+    winners_key = "|".join(sorted({"netcompany" if is_netcompany(w) else _norm(w)
+                                   for w in _one_language(n.get("winner-name"))}))
     repeat = ""
     prev_id = str(n.get("change-notice-version-identifier") or "")
+    if not re.fullmatch(r"\d+-\d{4}", prev_id):
+        prev_id = ""      # internal eForms id rather than a TED publication number
     prev = (known or {}).get(prev_id)
     if prev_id and prev is not None:
         # A change notice: TED's "This notice changes the previous version X".
