@@ -187,3 +187,21 @@ def test_legacy_rows_rebuilt_and_retranslated(tmp_path, monkeypatch):
     row = json.loads((tmp_path / "seen.json").read_text())["rows"]["749910-2026"]
     assert row["_translated"] and row["Customers"].startswith("DANMARKS")
     assert not (tmp_path / "alert.md").exists()               # not reported as new
+
+
+def test_translator_falls_back_between_services(monkeypatch):
+    monkeypatch.setattr(monitor.Translator, "PAUSE", 0)
+    t = monitor.Translator(enabled=True)
+    def boom(text, src):
+        raise RuntimeError("429 too many requests")
+    t.backends = [("A", boom), ("B", lambda text, src: f"EN[{src}]:{text}")]
+    assert t("Udbud", "dan") == ("EN[da]:Udbud", True)
+    assert [n for n, _ in t.backends] == ["B"]            # failing service dropped
+    t.backends = [("A", boom)]
+    assert t("Noget andet", "dan") == ("Noget andet", False)
+    assert not t.active
+
+
+def test_disabled_translator_marks_done():
+    t = monitor.Translator(enabled=False)
+    assert t("Udbud", "dan") == ("Udbud", True)

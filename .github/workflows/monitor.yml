@@ -41,6 +41,8 @@ jobs:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+          MYMEMORY_EMAIL: ${{ secrets.MYMEMORY_EMAIL }}
           SINCE: ${{ github.event.inputs.since }}
         run: |
           if [ -n "$SINCE" ]; then python monitor.py --since "$SINCE"; else python monitor.py; fi

@@ -200,48 +200,99 @@ def strip_title_prefix(eng_title: str) -> str:
     return parts[-1] if len(parts) >= 3 else eng_title
 
 
+# TED's ISO 639-2 language codes -> two-letter codes the translation services expect.
+LANG2 = {"bul": "bg", "ces": "cs", "dan": "da", "deu": "de", "ell": "el", "eng": "en",
+         "spa": "es", "est": "et", "fin": "fi", "fra": "fr", "gle": "ga", "hrv": "hr",
+         "hun": "hu", "ita": "it", "lit": "lt", "lav": "lv", "mlt": "mt", "nld": "nl",
+         "pol": "pl", "por": "pt", "ron": "ro", "slk": "sk", "slv": "sl", "swe": "sv",
+         "nor": "no", "nob": "nb", "nno": "nn", "isl": "is"}
+
+
 class Translator:
-    """Optional machine translation into English, throttled to stay under Google's
-    free-tier limits. Returns (text, ok); ok=False means "retry on a later run"."""
+    """Optional machine translation into English.
+
+    Tries, in order: DeepL (if the DEEPL_API_KEY secret is set; free tier is
+    500k characters/month), MyMemory (free, no sign-up; set MYMEMORY_EMAIL to
+    raise its daily limit to 50k characters), then Google. A service that errors
+    is skipped for the rest of the run. Returns (text, ok); ok=False means
+    "leave the original and retry on a later run"."""
 
     PAUSE = 0.6        # seconds between requests
-    MAX_PER_RUN = 150  # leave the rest for the next run
+    MAX_PER_RUN = 300  # leave the rest for the next run
 
     def __init__(self, enabled: bool):
         self.cache: dict[str, str] = {}
-        self.tr = None
         self.calls = 0
-        self.blocked = False
-        if enabled:
-            try:
-                from deep_translator import GoogleTranslator
-                self.tr = GoogleTranslator(source="auto", target="en")
-            except ImportError:
-                print("deep-translator not installed; keeping original-language text.")
+        self.backends: list = []
+        self.enabled = enabled
+        if not enabled:
+            return
+        if os.environ.get("DEEPL_API_KEY"):
+            self.backends.append(("DeepL", self._deepl))
+        self.backends.append(("MyMemory", self._mymemory))
+        self.backends.append(("Google", self._google))
 
     @property
     def active(self) -> bool:
-        return self.tr is not None and not self.blocked and self.calls < self.MAX_PER_RUN
+        return bool(self.backends) and self.calls < self.MAX_PER_RUN
 
     def __call__(self, text: str, lang: str) -> tuple[str, bool]:
-        if not text or lang in ("eng", "") or self.tr is None:
+        if not text or lang in ("eng", "") or not self.enabled:
             return text, True
         if text in self.cache:
             return self.cache[text], True
         if not self.active:
             return text, False
-        for attempt in range(3):
-            time.sleep(self.PAUSE * (1 + 10 * attempt))
+        src = LANG2.get(lang, "auto")
+        while self.backends:
+            name, fn = self.backends[0]
+            time.sleep(self.PAUSE)
             self.calls += 1
             try:
-                out = (self.tr.translate(text[:4500]) or text).strip()
+                out = (fn(text[:1500], src) or "").strip()
+                if not out:
+                    raise ValueError("empty response")
                 self.cache[text] = out
                 return out, True
             except Exception as exc:  # noqa: BLE001
-                print(f"  translation attempt {attempt + 1} failed: {str(exc)[:80]}")
-        print("  translation unavailable; remaining rows will be retried next run")
-        self.blocked = True
+                print(f"  {name} translation failed ({str(exc)[:90]}); trying next service")
+                self.backends.pop(0)
+        print("  no translation service available; untranslated rows will be retried next run")
         return text, False
+
+    @staticmethod
+    def _deepl(text: str, src: str) -> str:
+        key = os.environ["DEEPL_API_KEY"]
+        host = "api-free.deepl.com" if key.endswith(":fx") else "api.deepl.com"
+        data = {"text": text, "target_lang": "EN-GB"}
+        if src != "auto":
+            data["source_lang"] = src.upper()[:2]
+        r = requests.post(f"https://{host}/v2/translate", data=data,
+                          headers={"Authorization": f"DeepL-Auth-Key {key}"}, timeout=30)
+        r.raise_for_status()
+        return r.json()["translations"][0]["text"]
+
+    @staticmethod
+    def _mymemory(text: str, src: str) -> str:
+        if src == "auto":
+            raise ValueError("MyMemory needs a source language")
+        params = {"q": text[:480], "langpair": f"{src}|en"}
+        if os.environ.get("MYMEMORY_EMAIL"):
+            params["de"] = os.environ["MYMEMORY_EMAIL"]
+        r = requests.get("https://api.mymemory.translated.net/get", params=params, timeout=30)
+        r.raise_for_status()
+        j = r.json()
+        if str(j.get("responseStatus")) != "200":
+            raise ValueError(f"{j.get('responseStatus')}: {str(j.get('responseDetails'))[:80]}")
+        out = j["responseData"]["translatedText"]
+        if "MYMEMORY WARNING" in out.upper():
+            raise ValueError(out[:80])
+        return out
+
+    @staticmethod
+    def _google(text: str, src: str) -> str:
+        from deep_translator import GoogleTranslator
+        return GoogleTranslator(source="auto", target="en").translate(text)
 
 
 def is_netcompany(name: str) -> bool:
@@ -305,7 +356,7 @@ def to_row(n: dict, rates: dict, translate, fingerprints: dict | None = None) ->
         # originals kept so a failed translation can be retried on a later run
         "_orig": {"Customers": buyer, "Contract": title, "Note": "; ".join(notes)},
         "_langs": {"Customers": buyer_lang, "Contract": title_lang,
-                   "Note": "auto" if NON_LATIN.search("; ".join(notes)) else "eng"},
+                   "Note": (buyer_lang or "auto") if NON_LATIN.search("; ".join(notes)) else "eng"},
         "_translated": False,
     }
     return apply_translation(row, translate)

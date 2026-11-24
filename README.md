@@ -20,9 +20,9 @@ It runs on GitHub Actions, so it needs no PC, server or local Python.
    - **Country**: the buyer's country.
    - **Customers / Contract**: buyer name and procurement title. When the notice
      isn't in English these are machine-translated, so check them against the notice.
-     Translation is throttled to stay within Google's free limits, so after a big
-     backlog some rows can stay in the original language for a run or two; each
-     run retries them.
+     It uses free services (MyMemory, no sign-up needed), so after a big backlog some
+     rows can stay in the original language for a run or two; each run retries them.
+     For better translations, add a free DeepL key (see below).
    - **Size (DKKm)**: the notice's total awarded value at today's ECB rate. Whole
      numbers from 1 DKKm, one decimal below that.
    - **Note**: filled in automatically when something needs a second look:
@@ -60,6 +60,15 @@ Repo → Settings → Secrets and variables → Actions → *New repository secr
 | `EMAIL_USER` | a Gmail address to send from |
 | `EMAIL_PASS` | a Gmail **app password** for that account |
 | `EMAIL_TO` | where alerts go (separate several with commas) |
+
+## Optional: better or faster translation
+
+Add these as repository secrets, the same way as the email ones:
+
+| Secret | Value |
+|---|---|
+| `DEEPL_API_KEY` | free DeepL API key (sign up at deepl.com/pro-api, "DeepL API Free", 500k characters/month). Best quality; used first when set. |
+| `MYMEMORY_EMAIL` | any email address; raises MyMemory's free limit from 5k to 50k characters/day |
 
 ## Local use (optional)
 
