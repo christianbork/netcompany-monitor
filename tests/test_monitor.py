@@ -98,15 +98,29 @@ def test_possible_repeat_flagged():
 def test_framework_and_vendor_counts():
     fw = dict(PRISONS, **{
         "framework-agreement-lot": ["fa-wo-rc", "none"],
+        "winner-name": {"dan": ["Netcompany A/S", "KMD A/S", "Netcompany A/S"]},
         "organisation-name-tenderer": {"dan": ["Netcompany A/S", "KMD A/S", "Netcompany A/S"]},
         "tendering-party-leader": [True, True, True],      # separate bids, no consortium
     })
     row = monitor.to_row(fw, RATES, NO_TR)
     assert row["Contract"] == "Udbud af kontrakt om Ny Klientløsning - framework agreement"
     assert row["Note"] == "Two vendors"                     # duplicates (lots) counted once
-    five = dict(fw, **{"organisation-name-tenderer": {"dan": ["Netcompany", "A", "B", "C", "D"]},
+    five = dict(fw, **{"winner-name": {"dan": ["Netcompany", "A", "B", "C", "D"]},
+                       "organisation-name-tenderer": {"dan": ["Netcompany", "A", "B", "C", "D"]},
                        "tendering-party-leader": [False, True, False, False, False]})
     assert monitor.to_row(five, RATES, NO_TR)["Note"] == "5 vendors"   # Net not the lead
+
+
+def test_losing_bidders_are_not_vendors():
+    # Real case 749910-2026: one winner, but other bidders appear among the tenderers.
+    row = dict(PRISONS, **{"organisation-name-tenderer": {"dan": ["Netcompany A/S", "KMD A/S"]},
+                           "tendering-party-leader": [True, True]})
+    assert monitor.to_row(row, RATES, NO_TR)["Note"] == ""
+    lost_partner = dict(GREEK_JOINT, **{
+        "winner-name": {"ell": ["NETCOMPANY", "ΟΤΕ"]},
+        "organisation-name-tenderer": {"ell": ["NETCOMPANY", "ΟΤΕ", "LOSER", "LOSER PARTNER"]},
+        "tendering-party-leader": [True, False, True, False]})
+    assert monitor.to_row(lost_partner, RATES, NO_TR)["Note"] == "Two vendors (Net the lead)"
 
 
 def test_translation_keeps_framework_suffix():

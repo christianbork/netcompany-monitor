@@ -316,21 +316,40 @@ def clean_name(name: str) -> str:
 
 
 NUMBER_WORDS = {2: "Two", 3: "Three"}
-FORMAT_VERSION = 2   # bump when row formatting changes; older rows are rebuilt once
+FORMAT_VERSION = 3   # bump when row formatting changes; older rows are rebuilt once
+
+
+def _one_language(field) -> list[str]:
+    """Names from a multilingual field, taking one language only (otherwise the
+    same company in two languages would count twice)."""
+    if isinstance(field, dict) and field:
+        field = field[next(iter(field))]
+    if isinstance(field, str):
+        field = [field]
+    return [clean_name(x) for x in (field or [])]
+
+
+def _norm(name: str) -> str:
+    return re.sub(r"[^\w]", "", name.lower())
 
 
 def vendor_info(n: dict) -> tuple[int, bool]:
-    """(number of distinct winning vendors, Netcompany leads a consortium)."""
-    names = n.get("organisation-name-tenderer") or n.get("winner-name") or {}
-    # Use one language only, otherwise translations of the same name count twice.
-    first = names[next(iter(names))] if isinstance(names, dict) and names else names
-    first = first if isinstance(first, list) else [first] if first else []
-    norm = [re.sub(r"[^a-z0-9]", "", clean_name(x).lower()) for x in first]
-    vendors = len(set(norm)) or len(set(_texts(n.get("winner-name"))))
+    """(number of distinct winning vendors, Netcompany leads the winning consortium).
+
+    Vendors are counted from `winner-name`. `organisation-name-tenderer` also lists
+    losing bidders, so it's only used, with the aligned `tendering-party-leader`
+    flags, to see who leads: Netcompany is "the lead" when it is flagged leader and
+    another *winner* is flagged as a non-leading consortium member."""
+    winners = _one_language(n.get("winner-name"))
+    win_keys = {_norm(w) for w in winners}
+    vendors = len(win_keys)
+    tenderers = _one_language(n.get("organisation-name-tenderer"))
     leaders = n.get("tendering-party-leader") or []
     net_lead = False
-    if len(leaders) == len(first) and any(l is False for l in leaders):
-        net_lead = any(l is True and is_netcompany(name) for l, name in zip(leaders, first))
+    if vendors > 1 and len(leaders) == len(tenderers):
+        flags = [(name, flag) for name, flag in zip(tenderers, leaders) if _norm(name) in win_keys]
+        net_lead = (any(flag is True and is_netcompany(nm) for nm, flag in flags)
+                    and any(flag is False and not is_netcompany(nm) for nm, flag in flags))
     return vendors, net_lead
 
 
