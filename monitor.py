@@ -201,11 +201,17 @@ def strip_title_prefix(eng_title: str) -> str:
 
 
 class Translator:
-    """Optional machine translation of buyer names/titles into English."""
+    """Optional machine translation into English, throttled to stay under Google's
+    free-tier limits. Returns (text, ok); ok=False means "retry on a later run"."""
+
+    PAUSE = 0.6        # seconds between requests
+    MAX_PER_RUN = 150  # leave the rest for the next run
 
     def __init__(self, enabled: bool):
         self.cache: dict[str, str] = {}
         self.tr = None
+        self.calls = 0
+        self.blocked = False
         if enabled:
             try:
                 from deep_translator import GoogleTranslator
@@ -213,16 +219,29 @@ class Translator:
             except ImportError:
                 print("deep-translator not installed; keeping original-language text.")
 
-    def __call__(self, text: str, lang: str) -> str:
+    @property
+    def active(self) -> bool:
+        return self.tr is not None and not self.blocked and self.calls < self.MAX_PER_RUN
+
+    def __call__(self, text: str, lang: str) -> tuple[str, bool]:
         if not text or lang in ("eng", "") or self.tr is None:
-            return text
-        if text not in self.cache:
+            return text, True
+        if text in self.cache:
+            return self.cache[text], True
+        if not self.active:
+            return text, False
+        for attempt in range(3):
+            time.sleep(self.PAUSE * (1 + 10 * attempt))
+            self.calls += 1
             try:
-                self.cache[text] = (self.tr.translate(text[:4500]) or text).strip()
+                out = (self.tr.translate(text[:4500]) or text).strip()
+                self.cache[text] = out
+                return out, True
             except Exception as exc:  # noqa: BLE001
-                print(f"  translation failed ({exc}); keeping original")
-                self.cache[text] = text
-        return self.cache[text]
+                print(f"  translation attempt {attempt + 1} failed: {str(exc)[:80]}")
+        print("  translation unavailable; remaining rows will be retried next run")
+        self.blocked = True
+        return text, False
 
 
 def is_netcompany(name: str) -> bool:
@@ -248,7 +267,7 @@ def to_row(n: dict, rates: dict, translate, fingerprints: dict | None = None) ->
     winners = list(dict.fromkeys(clean_name(w) for w in _texts(n.get("winner-name"))))
     others = [w for w in winners if not is_netcompany(w)]
     if others:
-        shown = ", ".join(others[:3]) + (f" +{len(others) - 3} more" if len(others) > 3 else "")
+        shown = ", ".join(_short(o) for o in others[:3]) + (f" +{len(others) - 3} more" if len(others) > 3 else "")
         notes.append(f"Shared award with {shown} - size is total notice value")
 
     if value is None:
@@ -273,17 +292,44 @@ def to_row(n: dict, rates: dict, translate, fingerprints: dict | None = None) ->
         else:
             fingerprints.setdefault(fp, pub_no)
 
-    return {
+    row = {
         "Original date": month_label(pub_date) if pub_date else "",
         "Country": country_name(_first(n.get("buyer-country")) or ""),
-        "Customers": translate(buyer, buyer_lang),
-        "Contract": translate(title, title_lang),
+        "Customers": buyer,
+        "Contract": title,
         "Size (DKKm)": size_dkkm(value, cur, rates),
         "Note": "; ".join(notes),
         "Link": NOTICE_URL.format(pub_no),
         "_id": pub_no,
         "_pub": pub_date,
+        # originals kept so a failed translation can be retried on a later run
+        "_orig": {"Customers": buyer, "Contract": title, "Note": "; ".join(notes)},
+        "_langs": {"Customers": buyer_lang, "Contract": title_lang,
+                   "Note": "auto" if NON_LATIN.search("; ".join(notes)) else "eng"},
+        "_translated": False,
     }
+    return apply_translation(row, translate)
+
+
+NON_LATIN = re.compile(r"[\u0370-\u03ff\u0400-\u04ff]")   # Greek, Cyrillic
+
+
+def _short(name: str, n: int = 45) -> str:
+    return name if len(name) <= n else name[: n - 1].rstrip() + "…"
+
+
+def apply_translation(row: dict, translate) -> dict:
+    """Fill Customers/Contract/Note with English where possible. Marks the row
+    `_translated` only once every field has been handled, so failures retry later."""
+    if translate is None:
+        return row
+    ok_all = True
+    for field in ("Customers", "Contract", "Note"):
+        text, ok = translate(row["_orig"][field], row["_langs"].get(field, "eng"))
+        row[field] = text
+        ok_all &= ok
+    row["_translated"] = ok_all
+    return row
 
 
 def tsv_line(row: dict) -> str:
@@ -410,8 +456,11 @@ def main() -> int:
     seen = set(state["seen"])
 
     session = requests.Session()
+    # Rows saved by an older version lack the original text needed to (re)translate
+    # them; fetch the full history once to rebuild those.
+    legacy = {pid for pid, r in state["rows"].items() if "_orig" not in r}
     lookback = None
-    if not first_run:
+    if not first_run and not legacy:
         lookback = date.today() - timedelta(days=LOOKBACK_DAYS)
         if args.since and args.since < lookback:
             lookback = args.since
@@ -444,6 +493,8 @@ def main() -> int:
         pid = n["publication-number"]
         is_new = pid not in seen
         in_since = args.since and n.get("publication-date", "")[:10] >= args.since.isoformat()
+        if pid in legacy:
+            state["rows"][pid] = to_row(n, rates, None, state["fingerprints"])
         if not is_new and not in_since:
             continue
         row = state["rows"].get(pid) if not is_new else None
@@ -454,6 +505,16 @@ def main() -> int:
             new_rows.append(row)
         seen.add(pid)
     new_rows.sort(key=lambda r: (r["_pub"], r["_id"]), reverse=True)
+
+    # Retry translation for rows where it failed earlier (newest first).
+    pending = [r for r in state["rows"].values() if not r.get("_translated", True)]
+    for r in sorted(pending, key=lambda r: r["_pub"], reverse=True):
+        if not translate.active:
+            break
+        apply_translation(r, translate)
+    left = sum(1 for r in state["rows"].values() if not r.get("_translated", True))
+    if left:
+        print(f"{left} row(s) still awaiting translation; will retry next run.")
 
     mods = []
     seen_mods = set(state.setdefault("seen_mods", []))

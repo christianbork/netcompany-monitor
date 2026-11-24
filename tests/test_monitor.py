@@ -134,3 +134,56 @@ def test_end_to_end_first_run_then_new(tmp_path, monkeypatch):
     alert = (tmp_path / "alert.md").read_text()
     assert "1 new Netcompany contract win" in alert and "749910-2026" in alert
     assert "670345-2026" not in alert
+
+
+class FakeTranslator:
+    """Fails the first `fail` calls, then 'translates' by upper-casing."""
+
+    def __init__(self, fail=0):
+        self.fail, self.calls = fail, 0
+        self.active = True
+
+    def __call__(self, text, lang):
+        if not text or lang in ("eng", ""):
+            return text, True
+        self.calls += 1
+        if self.calls <= self.fail:
+            return text, False
+        return text.upper(), True
+
+
+def test_failed_translation_is_retried_later():
+    row = monitor.to_row(PRISONS, RATES, FakeTranslator(fail=99))
+    assert row["_translated"] is False
+    assert row["Customers"] == "Danmarks Fængsler v. Styrelsen for Danmarks Fængsler"
+    monitor.apply_translation(row, FakeTranslator())
+    assert row["_translated"] is True
+    assert row["Customers"] == "DANMARKS FÆNGSLER V. STYRELSEN FOR DANMARKS FÆNGSLER"
+    assert row["Size (DKKm)"] == 148
+
+
+def test_english_notice_needs_no_translation():
+    t = FakeTranslator(fail=99)
+    row = monitor.to_row(CEDEFOP, RATES, t)
+    assert row["_translated"] is True and t.calls == 0
+
+
+def test_legacy_rows_rebuilt_and_retranslated(tmp_path, monkeypatch):
+    monkeypatch.setattr(monitor, "STATE_FILE", tmp_path / "seen.json")
+    monkeypatch.setattr(monitor, "XLSX_FILE", tmp_path / "wins.xlsx")
+    monkeypatch.setattr(monitor, "ALERT_FILE", tmp_path / "alert.md")
+    monkeypatch.setattr(monitor, "fetch_dkk_rates", lambda s: RATES)
+    monkeypatch.setattr(monitor, "Translator", lambda enabled: FakeTranslator())
+    monkeypatch.delenv("GITHUB_EVENT_NAME", raising=False)
+    legacy_row = {c: "old" for c in monitor.COLUMNS} | {"_id": "749910-2026", "_pub": "2026-10-29"}
+    (tmp_path / "seen.json").write_text(json.dumps(
+        {"seen": ["749910-2026"], "rows": {"749910-2026": legacy_row}, "fingerprints": {}, "failures": 0}))
+    calls = []
+    monkeypatch.setattr(monitor, "search",
+                        lambda s, q, since=None: calls.append(since) or ([PRISONS] if "winner" in q else []))
+    monkeypatch.setattr("sys.argv", ["monitor.py"])
+    monitor.main()
+    assert calls[0] is None                                   # full history fetched once
+    row = json.loads((tmp_path / "seen.json").read_text())["rows"]["749910-2026"]
+    assert row["_translated"] and row["Customers"].startswith("DANMARKS")
+    assert not (tmp_path / "alert.md").exists()               # not reported as new

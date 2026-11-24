@@ -20,6 +20,9 @@ It runs on GitHub Actions, so it needs no PC, server or local Python.
    - **Country**: the buyer's country.
    - **Customers / Contract**: buyer name and procurement title. When the notice
      isn't in English these are machine-translated, so check them against the notice.
+     Translation is throttled to stay within Google's free limits, so after a big
+     backlog some rows can stay in the original language for a run or two; each
+     run retries them.
    - **Size (DKKm)**: the notice's total awarded value at today's ECB rate. Whole
      numbers from 1 DKKm, one decimal below that.
    - **Note**: filled in automatically when something needs a second look:
