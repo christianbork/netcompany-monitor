@@ -352,3 +352,12 @@ def test_extension_counts_contractors():
     assert monitor.to_row(solo, RATES, NO_TR, kind="modif")["Note"] == "Extension"
     other = dict(solo, **{"organisation-name-tenderer": {"eng": ["Someone Else Ltd"]}})
     assert monitor.to_row(other, RATES, NO_TR, kind="modif")["Note"] == "Extension - Net not listed as contractor, check"
+
+
+def test_extra_signing_dates_not_treated_as_exact():
+    # real case: EFSA 550946-2026 then 586113-2026 with the same contracts but more signing dates
+    fps = {}
+    monitor.to_row(dict(AADE, **{"contract-conclusion-date": ["2026-07-24+02:00"]}), RATES, NO_TR, fps)
+    later = dict(AADE, **{"publication-number": "586113-2026",
+                          "contract-conclusion-date": ["2026-07-24+02:00", "2026-08-13+02:00"]})
+    assert monitor.to_row(later, RATES, NO_TR, fps)["_repeat"] == "possible"

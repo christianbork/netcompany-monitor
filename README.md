@@ -35,8 +35,9 @@ It runs on GitHub Actions, so it needs no PC, server or local Python.
        them, the note says `Net not listed as contractor, check`.
      - `Direct award pre-announcement` for voluntary ex-ante transparency (VEAT) notices.
      - Repeats are handled in two ways:
-       - `Republished, same contract as …`: same procedure, same contract number and
-         same value as an earlier notice (the Greek tax authority does this a lot).
+       - `Republished, same contract as …`: same procedure, contract number,
+         same signing dates, winners and value as an earlier notice (the Greek tax
+         authority does this a lot).
          These are left out of the paste block and kept on a separate
          "Republished (excluded)" sheet.
        - `possible repeat of …`: same buyer or procedure and same value, but a

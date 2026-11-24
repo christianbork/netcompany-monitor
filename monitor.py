@@ -317,7 +317,7 @@ def clean_name(name: str) -> str:
 
 
 NUMBER_WORDS = {2: "Two", 3: "Three"}
-FORMAT_VERSION = 4   # bump when row formatting changes; older rows are rebuilt once
+FORMAT_VERSION = 5   # bump when row formatting changes; older rows are rebuilt once
 
 
 def _one_language(field) -> list[str]:
@@ -368,15 +368,18 @@ def vendor_note(count: int, net_lead: bool) -> str:
 def repeat_keys(n: dict, buyer: str, value: float, cur: str) -> tuple[str, list[str]]:
     """Keys for spotting the same award published more than once.
 
-    exact: same procedure, same contract number(s) and same value. Some buyers
+    exact: same procedure, contract number(s), signing date(s), winners and value. Some buyers
     (notably the Greek tax authority) republish an identical award several times;
     these are left out of the paste block.
     loose: same procedure and value, or same buyer and value. Often a repeat, but
     can be a new call-off or extra lots, so these stay in and are flagged."""
     proc = str(n.get("procedure-identifier") or "")
     contracts = sorted({str(c).strip() for c in (n.get("contract-identifier") or []) if str(c).strip()})
+    signed = sorted({str(d)[:10] for d in (n.get("contract-conclusion-date") or [])})
+    winners = sorted({_norm(w) for w in _one_language(n.get("winner-name"))})
     v = f"{round(value)}|{cur}"
-    exact = f"x|{proc}|{'/'.join(contracts)}|{v}" if proc and contracts else ""
+    exact = (f"x|{proc}|{'/'.join(contracts)}|{','.join(signed)}|{len(winners)}|{v}"
+             if proc and contracts else "")
     loose = [f"b|{buyer.lower()}|{v}"] + ([f"p|{proc}|{v}"] if proc else [])
     return exact, loose
 
