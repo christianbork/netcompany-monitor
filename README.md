@@ -18,25 +18,28 @@ It runs on GitHub Actions, so it needs no PC, server or local Python.
 2. Each notice is formatted like the manual sheet:
    - **Original date**: TED publication month, e.g. `2026September`.
    - **Country**: the buyer's country.
-   - **Customers / Contract**: buyer name and procurement title. When the notice
-     isn't in English these are machine-translated, so check them against the notice.
-     It uses free services (MyMemory, no sign-up needed), so after a big backlog some
-     rows can stay in the original language for a run or two; each run retries them.
-     For better translations, add a free DeepL key (see below).
+   - **Customers / Contract**: buyer name and procurement title, with
+     " - framework agreement" added when TED marks any lot as a framework. When the
+     notice isn't in English these are machine-translated, so check them against the
+     notice. Free services are used (MyMemory, no sign-up needed), so after a big
+     backlog some rows can stay in the original language for a run or two; each run
+     retries them. For better translations, add a free DeepL key (see below).
    - **Size (DKKm)**: the notice's total awarded value at today's ECB rate. Whole
-     numbers from 1 DKKm, one decimal below that.
-   - **Note**: filled in automatically when something needs a second look:
-     - *Shared award with …*: other companies also won (a consortium or other lots),
-       so the size is the whole notice, not Netcompany's share.
-     - *Contract signed … (published late)*: signed more than 120 days before TED published it.
-     - *Possible repeat of …*: same buyer and value as an earlier notice.
-     - *No value published*.
+     numbers from 1 DKKm, one decimal below that. With several vendors this is the
+     whole notice, not Netcompany's share.
+   - **Note**, in the sheet's style:
+     - `Two vendors`, `Three vendors`, `4 vendors`… when several companies won,
+       plus `(Net the lead)` when Netcompany leads the winning consortium.
+     - `Extension` (or `Two vendors - extension`) for contract modification notices.
+     - `Direct award pre-announcement` for voluntary ex-ante transparency (VEAT) notices.
+     - `possible repeat of …` when the buyer and value match an earlier notice.
 3. Anything not seen before opens a **GitHub issue** (GitHub emails you, and it
    shows up in the GitHub app). The issue has a block of tab-separated rows you
    can copy and paste straight into Excel, plus a readable table. You can also
    have it sent by email (see below).
-4. Contract *modification* notices that mention Netcompany are listed separately
-   in the issue, because they don't have structured winner or value fields.
+4. Extensions and direct-award pre-announcements don't name the supplier in a
+   structured field, so they are found by searching the notice text for
+   "Netcompany". Check that Netcompany is actually the supplier.
 5. Every win found so far is kept in `data/netcompany_wins.xlsx`, newest first.
 6. The first run only records what's already on TED (all of it goes into the
    spreadsheet) and opens no issue.

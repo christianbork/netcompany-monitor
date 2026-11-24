@@ -41,6 +41,9 @@ GREEK_JOINT = {
     "buyer-name": {"ell": ["ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ"]},
     "title-proc": {"ell": "Εντοπισμός αυθαίρετης δόμησης με σύγχρονα τεχνολογικά μέσα"},
     "winner-name": {"ell": ["«NETCOMPANY S.A. Ελληνικό Υποκατάστημα»", "«ΟΤΕ Α.Ε.»", "«BRIGHT BUSINESS SOLUTION Α.E.»"]},
+    "organisation-name-tenderer": {"ell": ["«NETCOMPANY S.A. Ελληνικό Υποκατάστημα»", "«ΟΤΕ Α.Ε.»", "«BRIGHT BUSINESS SOLUTION Α.E.»"]},
+    "tendering-party-leader": [True, False, False],
+    "framework-agreement-lot": ["none"],
     "total-value": 93022265.8,
     "total-value-cur": ["EUR"],
     "contract-conclusion-date": ["2026-10-30+02:00"],
@@ -77,37 +80,68 @@ def test_dkk_value_and_original_language():
     assert row["Contract"] == "Udbud af kontrakt om Ny Klientløsning"
 
 
-def test_joint_award_is_flagged():
+def test_joint_award_note_matches_sheet_style():
     row = monitor.to_row(GREEK_JOINT, RATES, NO_TR)
-    assert "Shared award with" in row["Note"]
-    assert "NETCOMPANY" not in row["Note"]
+    assert row["Note"] == "Three vendors (Net the lead)"
     assert row["Size (DKKm)"] == round(93022265.8 * 7.46 / 1e6)
-
-
-def test_late_signing_flagged():
-    assert "Contract signed 2022-12-15" in monitor.to_row(LATE, RATES, NO_TR)["Note"]
+    assert not row["Contract"].endswith("framework agreement")
 
 
 def test_possible_repeat_flagged():
     fps = {}
     monitor.to_row(GREEK_JOINT, RATES, NO_TR, fps)
     again = dict(GREEK_JOINT, **{"publication-number": "999999-2026"})
-    assert "Possible repeat of 764865-2026" in monitor.to_row(again, RATES, NO_TR, fps)["Note"]
+    assert monitor.to_row(again, RATES, NO_TR, fps)["Note"] == \
+        "Three vendors (Net the lead) - possible repeat of 764865-2026"
+
+
+def test_framework_and_vendor_counts():
+    fw = dict(PRISONS, **{
+        "framework-agreement-lot": ["fa-wo-rc", "none"],
+        "organisation-name-tenderer": {"dan": ["Netcompany A/S", "KMD A/S", "Netcompany A/S"]},
+        "tendering-party-leader": [True, True, True],      # separate bids, no consortium
+    })
+    row = monitor.to_row(fw, RATES, NO_TR)
+    assert row["Contract"] == "Udbud af kontrakt om Ny Klientløsning - framework agreement"
+    assert row["Note"] == "Two vendors"                     # duplicates (lots) counted once
+    five = dict(fw, **{"organisation-name-tenderer": {"dan": ["Netcompany", "A", "B", "C", "D"]},
+                       "tendering-party-leader": [False, True, False, False, False]})
+    assert monitor.to_row(five, RATES, NO_TR)["Note"] == "5 vendors"   # Net not the lead
+
+
+def test_translation_keeps_framework_suffix():
+    fw = dict(PRISONS, **{"framework-agreement-lot": ["fa-w-rc"]})
+    row = monitor.to_row(fw, RATES, FakeTranslator())
+    assert row["Contract"] == "UDBUD AF KONTRAKT OM NY KLIENTLØSNING - framework agreement"
+
+
+def test_modification_and_veat_rows():
+    mod = {k: v for k, v in PRISONS.items() if k != "winner-name"}
+    assert monitor.to_row(mod, RATES, NO_TR, kind="modif")["Note"] == "Extension"
+    assert monitor.to_row(GREEK_JOINT, RATES, NO_TR, kind="modif")["Note"] == \
+        "Three vendors (Net the lead) - extension"
+    assert monitor.to_row(mod, RATES, NO_TR, kind="veat")["Note"] == "Direct award pre-announcement"
+
+
+def test_carry_translation_reuses_finished_work():
+    old = monitor.to_row(PRISONS, RATES, FakeTranslator())
+    fw = dict(PRISONS, **{"framework-agreement-lot": ["fa-wo-rc"]})
+    new = monitor.carry_translation(monitor.to_row(fw, RATES, None), old)
+    assert new["_translated"] and new["Contract"] == "UDBUD AF KONTRAKT OM NY KLIENTLØSNING - framework agreement"
 
 
 def test_small_values_keep_a_decimal_and_missing_values_noted():
     small = dict(CEDEFOP, **{"total-value": 30000})
     assert monitor.to_row(small, RATES, NO_TR)["Size (DKKm)"] == 0.2
     none = {k: v for k, v in CEDEFOP.items() if k not in ("total-value", "result-value-lot")}
-    row = monitor.to_row(none, RATES, NO_TR)
-    assert row["Size (DKKm)"] == "" and "No value published" in row["Note"]
+    assert monitor.to_row(none, RATES, NO_TR)["Size (DKKm)"] == ""
 
 
 def test_tsv_and_alert(tmp_path):
     rows = [monitor.to_row(CEDEFOP, RATES, NO_TR)]
     line = monitor.tsv_line(rows[0])
     assert line.split("\t")[0] == "2026September" and len(line.split("\t")) == 7
-    body = monitor.build_alert(rows, [], None)
+    body = monitor.build_alert(rows, None)
     assert "```" in body and line in body
     monitor.write_xlsx(rows, tmp_path / "x.xlsx")
     assert (tmp_path / "x.xlsx").stat().st_size > 0
@@ -122,7 +156,7 @@ def test_end_to_end_first_run_then_new(tmp_path, monkeypatch):
     monkeypatch.delenv("GITHUB_EVENT_NAME", raising=False)
     feed = {"wins": [CEDEFOP, LATE], "mods": []}
     monkeypatch.setattr(monitor, "search",
-                        lambda s, q, since=None: list(feed["wins" if "winner" in q else "mods"]))
+                        lambda s, q, since=None: list(feed["wins" if "winner" in q else "mods"]) if "veat" not in q else [])
     monkeypatch.setattr("sys.argv", ["monitor.py"])
 
     monitor.main()                                   # baseline: no alert
@@ -132,7 +166,7 @@ def test_end_to_end_first_run_then_new(tmp_path, monkeypatch):
     feed["wins"].append(PRISONS)
     monitor.main()                                   # one new win
     alert = (tmp_path / "alert.md").read_text()
-    assert "1 new Netcompany contract win" in alert and "749910-2026" in alert
+    assert "1 new Netcompany notice" in alert and "749910-2026" in alert
     assert "670345-2026" not in alert
 
 
@@ -177,7 +211,8 @@ def test_legacy_rows_rebuilt_and_retranslated(tmp_path, monkeypatch):
     monkeypatch.delenv("GITHUB_EVENT_NAME", raising=False)
     legacy_row = {c: "old" for c in monitor.COLUMNS} | {"_id": "749910-2026", "_pub": "2026-10-29"}
     (tmp_path / "seen.json").write_text(json.dumps(
-        {"seen": ["749910-2026"], "rows": {"749910-2026": legacy_row}, "fingerprints": {}, "failures": 0}))
+        {"seen": ["749910-2026"], "rows": {"749910-2026": legacy_row}, "fingerprints": {}, "failures": 0,
+         "baselined": ["award"]}))
     calls = []
     monkeypatch.setattr(monitor, "search",
                         lambda s, q, since=None: calls.append(since) or ([PRISONS] if "winner" in q else []))
@@ -221,3 +256,28 @@ def test_skip_keeps_service_and_greek_is_detected(monkeypatch):
     assert t("??", "xxx") == ("??", False)                   # unknown lang skipped...
     assert [n for n, _ in t.backends] == ["P"]               # ...but service kept
     assert t("ΟΤΕ Α.Ε.", "xxx") == ("ok", True) and seen[-1] == "el"
+
+
+def test_new_kinds_baselined_silently_then_alert(tmp_path, monkeypatch):
+    monkeypatch.setattr(monitor, "STATE_FILE", tmp_path / "seen.json")
+    monkeypatch.setattr(monitor, "XLSX_FILE", tmp_path / "wins.xlsx")
+    monkeypatch.setattr(monitor, "ALERT_FILE", tmp_path / "alert.md")
+    monkeypatch.setattr(monitor, "fetch_dkk_rates", lambda s: RATES)
+    monkeypatch.setenv("TRANSLATE", "0")
+    monkeypatch.delenv("GITHUB_EVENT_NAME", raising=False)
+    monkeypatch.setattr("sys.argv", ["monitor.py"])
+    old_mod = dict(PRISONS, **{"publication-number": "100-2025", "publication-date": "2025-01-01+01:00"})
+    feed = {"award": [CEDEFOP], "modif": [old_mod], "veat": []}
+    monkeypatch.setattr(monitor, "search", lambda s, q, since=None: list(
+        feed["veat" if "veat" in q else "modif" if "modif" in q else "award"]))
+    (tmp_path / "seen.json").write_text(json.dumps({"seen": ["670345-2026"], "rows": {}, "baselined": ["award"]}))
+
+    monitor.main()                                   # modif/veat history recorded, no alert
+    assert not (tmp_path / "alert.md").exists()
+    state = json.loads((tmp_path / "seen.json").read_text())
+    assert state["rows"]["100-2025"]["Note"] == "Extension"
+
+    feed["veat"].append(dict(LATE, **{"publication-number": "200-2026"}))
+    monitor.main()
+    alert = (tmp_path / "alert.md").read_text()
+    assert "Direct award pre-announcement" in alert and "100-2025" not in alert

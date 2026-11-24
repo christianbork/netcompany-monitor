@@ -44,13 +44,16 @@ NOTICE_URL = "https://ted.europa.eu/en/notice/-/detail/{}"
 # Award notices with Netcompany (incl. Netcompany-Intrasoft, Netcompany Norway, the
 # Greek branch...) among the winners. Matches every spelling seen on TED so far.
 WINS_QUERY = 'winner-name~"netcompany"'
-# Contract modifications only mention Netcompany in free text; listed separately.
+# Contract modifications and direct-award pre-announcements (VEAT) don't carry
+# structured winner fields, so they are found by free-text search.
 MODS_QUERY = 'FT~"netcompany" AND notice-type=can-modif'
+VEAT_QUERY = 'FT~"netcompany" AND notice-type=veat'
 
 FIELDS = [
     "publication-number", "publication-date", "notice-type", "buyer-name", "buyer-country",
     "notice-title", "title-proc", "winner-name", "total-value", "total-value-cur",
     "result-value-lot", "result-value-cur-lot", "contract-conclusion-date",
+    "framework-agreement-lot", "organisation-name-tenderer", "tendering-party-leader",
 ]
 
 COLUMNS = ["Original date", "Country", "Customers", "Contract", "Size (DKKm)", "Note", "Link"]
@@ -58,7 +61,6 @@ COLUMNS = ["Original date", "Country", "Customers", "Contract", "Size (DKKm)", "
 TZ = ZoneInfo("Europe/Copenhagen")
 RUN_HOURS = {8}
 LOOKBACK_DAYS = 45            # daily runs only page through recent notices
-LATE_SIGNING_DAYS = 120       # flag contracts signed this long before publication
 FAILURES_BEFORE_ALERT = 2
 EUR_DKK_FALLBACK = 7.46       # DKK is pegged to EUR; used if the ECB feed is unreachable
 
@@ -313,7 +315,40 @@ def clean_name(name: str) -> str:
     return re.sub(r"[«»\"]", "", name).strip()
 
 
-def to_row(n: dict, rates: dict, translate, fingerprints: dict | None = None) -> dict:
+NUMBER_WORDS = {2: "Two", 3: "Three"}
+FORMAT_VERSION = 2   # bump when row formatting changes; older rows are rebuilt once
+
+
+def vendor_info(n: dict) -> tuple[int, bool]:
+    """(number of distinct winning vendors, Netcompany leads a consortium)."""
+    names = n.get("organisation-name-tenderer") or n.get("winner-name") or {}
+    # Use one language only, otherwise translations of the same name count twice.
+    first = names[next(iter(names))] if isinstance(names, dict) and names else names
+    first = first if isinstance(first, list) else [first] if first else []
+    norm = [re.sub(r"[^a-z0-9]", "", clean_name(x).lower()) for x in first]
+    vendors = len(set(norm)) or len(set(_texts(n.get("winner-name"))))
+    leaders = n.get("tendering-party-leader") or []
+    net_lead = False
+    if len(leaders) == len(first) and any(l is False for l in leaders):
+        net_lead = any(l is True and is_netcompany(name) for l, name in zip(leaders, first))
+    return vendors, net_lead
+
+
+def vendor_note(count: int, net_lead: bool) -> str:
+    if count < 2:
+        return ""
+    note = f"{NUMBER_WORDS.get(count, count)} vendors"
+    return note + (" (Net the lead)" if net_lead else "")
+
+
+def is_framework(n: dict) -> bool:
+    return any(str(x).startswith("fa-") for x in (n.get("framework-agreement-lot") or []))
+
+
+def to_row(n: dict, rates: dict, translate, fingerprints: dict | None = None,
+           kind: str = "award") -> dict:
+    """kind: "award" (contract award notice), "modif" (contract modification) or
+    "veat" (voluntary ex-ante transparency notice = direct award pre-announcement)."""
     pub_no = n["publication-number"]
     pub_date = n.get("publication-date", "")[:10]
 
@@ -324,32 +359,20 @@ def to_row(n: dict, rates: dict, translate, fingerprints: dict | None = None) ->
 
     value, cur = notice_value(n)
     notes = []
+    if kind == "veat":
+        notes.append("Direct award pre-announcement")
+    else:
+        v = vendor_note(*vendor_info(n))
+        if v:
+            notes.append(v)
+        if kind == "modif":
+            notes.append("extension" if notes else "Extension")
 
-    winners = list(dict.fromkeys(clean_name(w) for w in _texts(n.get("winner-name"))))
-    others = [w for w in winners if not is_netcompany(w)]
-    if others:
-        shown = ", ".join(_short(o) for o in others[:3]) + (f" +{len(others) - 3} more" if len(others) > 3 else "")
-        notes.append(f"Shared award with {shown} - size is total notice value")
-
-    if value is None:
-        notes.append("No value published")
-    elif cur and cur not in rates:
-        notes.append(f"Value {value:,.0f} {cur} (no FX rate)")
-
-    signed = (_first(n.get("contract-conclusion-date")) or "")[:10]
-    if signed and pub_date:
-        try:
-            gap = (date.fromisoformat(pub_date) - date.fromisoformat(signed)).days
-            if gap > LATE_SIGNING_DAYS:
-                notes.append(f"Contract signed {signed} (published late)")
-        except ValueError:
-            pass
-
-    if fingerprints is not None and value is not None:
+    if kind == "award" and fingerprints is not None and value is not None:
         fp = f"{buyer.lower()}|{round(value)}|{cur}"
         earlier = fingerprints.get(fp)
         if earlier and earlier != pub_no:
-            notes.append(f"Possible repeat of {earlier}")
+            notes.append(f"possible repeat of {earlier}" if notes else f"Possible repeat of {earlier}")
         else:
             fingerprints.setdefault(fp, pub_no)
 
@@ -359,20 +382,32 @@ def to_row(n: dict, rates: dict, translate, fingerprints: dict | None = None) ->
         "Customers": buyer,
         "Contract": title,
         "Size (DKKm)": size_dkkm(value, cur, rates),
-        "Note": "; ".join(notes),
+        "Note": " - ".join(notes),
         "Link": NOTICE_URL.format(pub_no),
         "_id": pub_no,
         "_pub": pub_date,
+        "_kind": kind,
+        "_v": FORMAT_VERSION,
+        "_suffix": " - framework agreement" if is_framework(n) else "",
         # originals kept so a failed translation can be retried on a later run
-        "_orig": {"Customers": buyer, "Contract": title, "Note": "; ".join(notes)},
-        "_langs": {"Customers": buyer_lang, "Contract": title_lang,
-                   "Note": (buyer_lang or "auto") if NON_LATIN.search("; ".join(notes)) else "eng"},
+        "_orig": {"Customers": buyer, "Contract": title},
+        "_langs": {"Customers": buyer_lang, "Contract": title_lang},
         "_translated": False,
     }
+    row["Contract"] = title + row["_suffix"]
     return apply_translation(row, translate)
 
 
-NON_LATIN = re.compile(r"[\u0370-\u03ff\u0400-\u04ff]")   # Greek, Cyrillic
+def carry_translation(new: dict, old: dict | None) -> dict:
+    """Reuse an older row's finished translation when the source text is unchanged."""
+    if old and old.get("_translated") and old.get("_orig", {}).get("Customers") == new["_orig"]["Customers"]:
+        old_contract = old["Contract"][: len(old["Contract"]) - len(old.get("_suffix", ""))] \
+            if old.get("_suffix") else old["Contract"]
+        if old.get("_orig", {}).get("Contract") == new["_orig"]["Contract"]:
+            new["Customers"] = old["Customers"]
+            new["Contract"] = old_contract + new["_suffix"]
+            new["_translated"] = True
+    return new
 
 
 def _short(name: str, n: int = 45) -> str:
@@ -380,14 +415,14 @@ def _short(name: str, n: int = 45) -> str:
 
 
 def apply_translation(row: dict, translate) -> dict:
-    """Fill Customers/Contract/Note with English where possible. Marks the row
-    `_translated` only once every field has been handled, so failures retry later."""
+    """Fill Customers/Contract with English where possible. Marks the row
+    `_translated` only once both are handled, so failures retry later."""
     if translate is None:
         return row
     ok_all = True
-    for field in ("Customers", "Contract", "Note"):
+    for field in ("Customers", "Contract"):
         text, ok = translate(row["_orig"][field], row["_langs"].get(field, "eng"))
-        row[field] = text
+        row[field] = text + (row.get("_suffix", "") if field == "Contract" else "")
         ok_all &= ok
     row["_translated"] = ok_all
     return row
@@ -423,11 +458,11 @@ def write_xlsx(rows: list[dict], path: Path = XLSX_FILE) -> None:
     wb.save(path)
 
 
-def build_alert(new_rows: list[dict], mods: list[dict], broken: str | None) -> str:
+def build_alert(new_rows: list[dict], broken: str | None) -> str:
     now = datetime.now(TZ).strftime("%d %b %Y %H:%M")
     out = [f"Checked {now} (Copenhagen time).", ""]
     if new_rows:
-        out += [f"### {len(new_rows)} new Netcompany contract win(s)", "",
+        out += [f"### {len(new_rows)} new Netcompany notice(s)", "",
                 "Copy the block below and paste it into Excel (columns: "
                 + " | ".join(COLUMNS) + "):", "", "```"]
         out += [tsv_line(r) for r in new_rows]
@@ -437,16 +472,12 @@ def build_alert(new_rows: list[dict], mods: list[dict], broken: str | None) -> s
             cells = [str(r[c]).replace("|", "/") for c in COLUMNS[:-1]]
             out.append("| " + " | ".join(cells) + f" | [{r['_id']}]({r['Link']}) |")
         out.append("")
-    if mods:
-        out += ["### Contract modifications mentioning Netcompany (check manually)", ""]
-        for m in mods:
-            out.append(f"- {m['Original date']} · {m['Country']} · {m['Customers']} · "
-                       f"{m['Contract']} · [{m['_id']}]({m['Link']})")
-        out.append("")
     if broken:
         out += ["### TED search failing", "", f"Failed {FAILURES_BEFORE_ALERT} runs in a row: {broken}", ""]
-    out.append("Size = notice value converted at today's ECB rate. Customer/contract names "
-               "not published in English are machine-translated; check the notice.")
+    out.append("Size = notice value converted at today's ECB rate (the whole notice, not "
+               "Netcompany's share). Names not published in English are machine-translated. "
+               "Extensions and direct-award pre-announcements are found by text search, so check "
+               "Netcompany is the supplier.")
     return "\n".join(out)
 
 
@@ -514,22 +545,28 @@ def main() -> int:
     state.setdefault("rows", {})          # publication-number -> formatted row (for the xlsx)
     state.setdefault("fingerprints", {})
     state.setdefault("failures", 0)
-    seen = set(state["seen"])
+    seen = set(state["seen"]) | set(state.pop("seen_mods", []))
+    # Notice kinds whose existing history has been recorded. A kind seen for the
+    # first time is baselined silently, like the very first run.
+    baselined = set(state.setdefault("baselined", ["award"] if not first_run else []))
 
     session = requests.Session()
-    # Rows saved by an older version lack the original text needed to (re)translate
-    # them; fetch the full history once to rebuild those.
-    legacy = {pid for pid, r in state["rows"].items() if "_orig" not in r}
+    # Rows written by an older version of the formatting are rebuilt once from a
+    # full fetch of TED (finished translations are carried over).
+    outdated = {pid for pid, r in state["rows"].items() if r.get("_v", 0) < FORMAT_VERSION}
+    full = first_run or bool(outdated) or bool({"award", "modif", "veat"} - baselined)
     lookback = None
-    if not first_run and not legacy:
+    if not full:
         lookback = date.today() - timedelta(days=LOOKBACK_DAYS)
         if args.since and args.since < lookback:
             lookback = args.since
 
-    print(f"Searching TED: {WINS_QUERY} (since {lookback or 'the beginning'})")
+    found: dict[str, list] = {}
+    print(f"Searching TED (since {lookback or 'the beginning'})")
     try:
-        notices = search(session, WINS_QUERY, lookback)
-        mod_notices = search(session, MODS_QUERY, date.today() - timedelta(days=LOOKBACK_DAYS))
+        for kind, query in (("award", WINS_QUERY), ("modif", MODS_QUERY), ("veat", VEAT_QUERY)):
+            found[kind] = search(session, query, lookback)
+            print(f"  {kind}: {len(found[kind])} notices")
     except RuntimeError as exc:
         state["failures"] += 1
         print(f"FAILED ({state['failures']} in a row): {exc}")
@@ -537,37 +574,40 @@ def main() -> int:
         if not args.dry_run:
             save_state(state)
             if broken:
-                body = build_alert([], [], broken)
+                body = build_alert([], broken)
                 ALERT_FILE.write_text(body, encoding="utf-8")
                 write_github_output(alert="true", title="Netcompany monitor: TED search failing")
         return 0
     state["failures"] = 0
-    print(f"  {len(notices)} award notices, {len(mod_notices)} recent modification notices")
 
     rates = fetch_dkk_rates(session)
     translate = Translator(enabled=not args.no_translate and os.environ.get("TRANSLATE", "1") != "0")
+    if outdated:
+        state["fingerprints"] = {}       # rebuilt in date order below
 
+    items = [(kind, n) for kind, ns in found.items() for n in ns]
     # Oldest first so "possible repeat" points back at the earlier notice.
-    notices.sort(key=lambda n: (n.get("publication-date", ""), n["publication-number"]))
-    new_rows = []
-    for n in notices:
+    items.sort(key=lambda kn: (kn[1].get("publication-date", ""), kn[1]["publication-number"]))
+    new_rows, done = [], set()
+    for kind, n in items:
         pid = n["publication-number"]
-        is_new = pid not in seen
-        in_since = args.since and n.get("publication-date", "")[:10] >= args.since.isoformat()
-        if pid in legacy:
-            state["rows"][pid] = to_row(n, rates, None, state["fingerprints"])
-        if not is_new and not in_since:
+        if pid in done:                  # same notice matched by two queries
             continue
-        row = state["rows"].get(pid) if not is_new else None
-        if row is None:
-            row = to_row(n, rates, translate, state["fingerprints"])
+        done.add(pid)
+        old = state["rows"].get(pid)
+        is_new = pid not in seen
+        in_since = bool(args.since) and n.get("publication-date", "")[:10] >= args.since.isoformat()
+        if old is None or pid in outdated:
+            row = to_row(n, rates, None, state["fingerprints"], kind)
+            row = carry_translation(row, old)
             state["rows"][pid] = row
-        if (is_new and not first_run) or in_since:
+        row = state["rows"][pid]
+        if (is_new and kind in baselined) or in_since:
             new_rows.append(row)
         seen.add(pid)
     new_rows.sort(key=lambda r: (r["_pub"], r["_id"]), reverse=True)
 
-    # Retry translation for rows where it failed earlier (newest first).
+    # Translate new rows and retry rows where translation failed earlier (newest first).
     pending = [r for r in state["rows"].values() if not r.get("_translated", True)]
     for r in sorted(pending, key=lambda r: r["_pub"], reverse=True):
         if not translate.active:
@@ -577,32 +617,24 @@ def main() -> int:
     if left:
         print(f"{left} row(s) still awaiting translation; will retry next run.")
 
-    mods = []
-    seen_mods = set(state.setdefault("seen_mods", []))
-    for n in mod_notices:
-        pid = n["publication-number"]
-        if pid not in seen_mods:
-            if not first_run:
-                mods.append(to_row(n, rates, translate))
-            seen_mods.add(pid)
-    state["seen_mods"] = sorted(seen_mods)
+    newly_baselined = {"award", "modif", "veat"} - baselined
+    if newly_baselined:
+        print(f"Recorded existing {', '.join(sorted(newly_baselined))} notices as the baseline, no alert.")
+    state["baselined"] = sorted(baselined | newly_baselined)
     state["seen"] = sorted(seen)
-
     if first_run:
         state["baseline"] = datetime.now(TZ).isoformat(timespec="minutes")
-        print(f"First run: recorded {len(seen)} existing wins as the baseline (all in {XLSX_FILE.name}), no alert.")
 
     if not args.dry_run:
         save_state(state)
         write_xlsx(list(state["rows"].values()), XLSX_FILE)
 
-    if not (new_rows or mods):
+    if not new_rows:
         print("Nothing new.")
         return 0
 
-    title = (f"Netcompany: {len(new_rows)} new contract win(s)" if new_rows
-             else "Netcompany: new contract modification notice(s)")
-    body = build_alert(new_rows, mods, None)
+    title = f"Netcompany: {len(new_rows)} new TED notice(s)"
+    body = build_alert(new_rows, None)
     print("\n" + title + "\n\n" + body)
     if args.dry_run:
         return 0
