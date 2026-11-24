@@ -205,3 +205,19 @@ def test_translator_falls_back_between_services(monkeypatch):
 def test_disabled_translator_marks_done():
     t = monitor.Translator(enabled=False)
     assert t("Udbud", "dan") == ("Udbud", True)
+
+
+def test_skip_keeps_service_and_greek_is_detected(monkeypatch):
+    monkeypatch.setattr(monitor.Translator, "PAUSE", 0)
+    t = monitor.Translator(enabled=True)
+    seen = []
+    def picky(text, src):
+        seen.append(src)
+        if src == "auto":
+            raise monitor._SkipText()
+        return "ok"
+    t.backends = [("P", picky)]
+    assert t("Some text", "") == ("Some text", True)       # no lang, English-ish: untouched
+    assert t("??", "xxx") == ("??", False)                   # unknown lang skipped...
+    assert [n for n, _ in t.backends] == ["P"]               # ...but service kept
+    assert t("ΟΤΕ Α.Ε.", "xxx") == ("ok", True) and seen[-1] == "el"

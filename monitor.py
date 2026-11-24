@@ -208,6 +208,10 @@ LANG2 = {"bul": "bg", "ces": "cs", "dan": "da", "deu": "de", "ell": "el", "eng":
          "nor": "no", "nob": "nb", "nno": "nn", "isl": "is"}
 
 
+class _SkipText(Exception):
+    """This service can't handle this particular text; try the next one, keep the service."""
+
+
 class Translator:
     """Optional machine translation into English.
 
@@ -244,20 +248,26 @@ class Translator:
         if not self.active:
             return text, False
         src = LANG2.get(lang, "auto")
-        while self.backends:
-            name, fn = self.backends[0]
-            time.sleep(self.PAUSE)
-            self.calls += 1
+        if src == "auto" and re.search(r"[\u0370-\u03ff]", text):
+            src = "el"
+        i = 0
+        while i < len(self.backends):
+            name, fn = self.backends[i]
             try:
+                time.sleep(self.PAUSE)
+                self.calls += 1
                 out = (fn(text[:1500], src) or "").strip()
                 if not out:
                     raise ValueError("empty response")
                 self.cache[text] = out
                 return out, True
+            except _SkipText:
+                i += 1
             except Exception as exc:  # noqa: BLE001
-                print(f"  {name} translation failed ({str(exc)[:90]}); trying next service")
-                self.backends.pop(0)
-        print("  no translation service available; untranslated rows will be retried next run")
+                print(f"  {name} translation failed ({str(exc)[:90]}); dropping it for this run")
+                self.backends.pop(i)
+        if not self.backends:
+            print("  no translation service available; untranslated rows will be retried next run")
         return text, False
 
     @staticmethod
@@ -275,7 +285,7 @@ class Translator:
     @staticmethod
     def _mymemory(text: str, src: str) -> str:
         if src == "auto":
-            raise ValueError("MyMemory needs a source language")
+            raise _SkipText()
         params = {"q": text[:480], "langpair": f"{src}|en"}
         if os.environ.get("MYMEMORY_EMAIL"):
             params["de"] = os.environ["MYMEMORY_EMAIL"]
